@@ -40,4 +40,7 @@ tools/build.sh
 tools/build.sh --server
 ```
 
-Os mods pertencem aos seus autores. Este repositório só guarda a lista de mods, as configs e os scripts. Nenhum jar de mod é versionado.
+## Licença
+
+[MIT](LICENSE) para o conteúdo deste repositório: quests, scripts, configs e ferramentas.
+Os mods pertencem aos seus autores e seguem as licenças deles. O repositório só guarda a lista de mods, e nenhum jar de mod é versionado.
