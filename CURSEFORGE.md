@@ -47,6 +47,7 @@ Create, Mekanism, Applied Energistics 2, Ars Nouveau, Mystical Agriculture, Apot
 **A balanced world**
 - A single ore generator: Mekanism's duplicate veins are turned off and ATO (All the Ores) handles everything.
 - Smaller, more numerous veins: you find ore everywhere, but you won't mine a whole chunk of osmium in one go.
+- **Almost Unified**: one item per metal. No more two kinds of zinc or tin that don't stack.
 
 **Made for playing together**
 - **Simple Voice Chat**: proximity voice chat.
@@ -154,6 +155,7 @@ Create, Mekanism, Applied Energistics 2, Ars Nouveau, Mystical Agriculture, Apot
 **Mundo equilibrado**
 - Um único gerador de minérios: as veias duplicadas do Mekanism foram desligadas e o ATO (All the Ores) cuida de tudo.
 - Veias menores e mais numerosas: você encontra minério em todo canto, mas não minera um chunk inteiro de osmium numa tacada só.
+- **Almost Unified**: um item só por metal. Nada de dois tipos de zinco ou estanho que não empilham.
 
 **Feito para jogar junto**
 - **Simple Voice Chat**: chat de voz por proximidade.

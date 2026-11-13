@@ -1,6 +1,14 @@
 # Changelog — Bubie Pack
 
 ## 0.1.9 (2026-11-13)
+### Unificação
+- Adicionado: Almost Unified 1.4.2. Lingotes, pós, pepitas, placas, bastões, engrenagens, blocos e minérios do mesmo metal
+  agora saem sempre do mesmo mod (76 tags). Antes, zinco e latão vinham do ATO ou do Create, alumínio do ATO ou do XyCraft,
+  e os itens não empilhavam entre si.
+  Prioridade (`config/almostunified/unification/materials.json`): minecraft → alltheores → create → mekanism → xycraft_world.
+  O ATO já gera todos os minérios do pack, então quase tudo vira item do ATO. O yellorium do Extreme Reactors vira urânio do ATO,
+  que os reatores aceitam como combustível (`c:ingots/uranium`).
+  Os itens duplicados somem do EMI. Os que você já tem continuam funcionando nas receitas.
 ### Desempenho
 - Distâncias padrão para PC modesto: renderização 8 e simulação 6 (o vanilla usa 12 e 12).
   Vêm do Default Options 21.1.8 (BlayTheNinth; o Balm já estava no pack), que só cria o `options.txt` na primeira abertura.
