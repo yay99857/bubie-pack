@@ -25,6 +25,7 @@ Baixe o pack pelo **CurseForge App**. Para servidor, use o **Server Pack** da ab
 | `server/` | Scripts de inicialização do servidor e a lista de mods só de cliente |
 | `tools/gen_quests.py` | Gera as quests do FTB Quests e os textos em pt_br e en_us |
 | `tools/build.sh` | Gera os zips em `dist/` |
+| `.github/workflows/release.yml` | Publica no CurseForge e no GitHub quando a versão muda |
 
 ## Gerar os zips
 
@@ -39,6 +40,19 @@ tools/build.sh
 # Pack + server pack (baixa os mods do CurseForge)
 tools/build.sh --server
 ```
+
+## Publicar uma versão
+
+O workflow `.github/workflows/release.yml` publica sozinho quando a versão do `pack/manifest.json` muda:
+
+1. Escreva a seção `## <versão>` no `CHANGELOG.md`. Para o CurseForge em inglês, crie `release-notes/<versão>.md`.
+2. Mude `"version"` no `pack/manifest.json`.
+3. `git push`.
+
+Ele gera os dois zips, envia o pack ao CurseForge (com o server pack como arquivo adicional) e cria a tag e o GitHub Release.
+Precisa do secret `CURSEFORGE_TOKEN`. A variável `CF_RELEASE_TYPE` (`alpha`, `beta` ou `release`) define o tipo; o padrão é `beta`.
+
+Ao adicionar um mod, `tools/build.sh --server` atualiza `pack/mod-files.json` (nome de cada arquivo). Faça commit desse arquivo junto.
 
 ## Licença
 

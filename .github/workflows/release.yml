@@ -1,0 +1,82 @@
+name: Release
+
+# Publica uma versão nova quando pack/manifest.json muda de versão.
+# Gera o pack e o server pack, envia para o CurseForge e cria o GitHub Release.
+
+on:
+  push:
+    branches: [main]
+    paths:
+      - pack/manifest.json
+  workflow_dispatch:
+    inputs:
+      skip_curseforge:
+        description: Não enviar para o CurseForge (só GitHub Release)
+        type: boolean
+        default: false
+
+concurrency:
+  group: release
+  cancel-in-progress: false
+
+permissions:
+  contents: write
+
+env:
+  CF_PROJECT_ID: ${{ vars.CF_PROJECT_ID || '1801989' }}
+  CF_RELEASE_TYPE: ${{ vars.CF_RELEASE_TYPE || 'beta' }}
+
+jobs:
+  release:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Ler versão
+        id: ver
+        run: |
+          VER=$(python3 -c "import json;print(json.load(open('pack/manifest.json'))['version'])")
+          echo "version=$VER" >> "$GITHUB_OUTPUT"
+          if git ls-remote --exit-code --tags origin "refs/tags/v$VER" >/dev/null; then
+            echo "A tag v$VER já existe: nada para publicar."
+            echo "exists=true" >> "$GITHUB_OUTPUT"
+          else
+            echo "exists=false" >> "$GITHUB_OUTPUT"
+          fi
+
+      - name: Notas da versão
+        if: steps.ver.outputs.exists == 'false'
+        run: python3 tools/release_notes.py "${{ steps.ver.outputs.version }}" > notes.md && cat notes.md
+
+      - name: Gerar pack e server pack
+        if: steps.ver.outputs.exists == 'false'
+        run: tools/build.sh --server
+
+      - name: Enviar para o CurseForge
+        if: steps.ver.outputs.exists == 'false' && !inputs.skip_curseforge
+        env:
+          CF_TOKEN: ${{ secrets.CURSEFORGE_TOKEN }}
+          VER: ${{ steps.ver.outputs.version }}
+        run: |
+          if [ -z "$CF_TOKEN" ]; then echo "::error::Falta o secret CURSEFORGE_TOKEN"; exit 1; fi
+          URL="https://minecraft.curseforge.com/api/projects/$CF_PROJECT_ID/upload-file"
+          jq -n --rawfile cl notes.md --arg dn "Bubie Pack $VER" --arg rt "$CF_RELEASE_TYPE" \
+            '{changelog:$cl, changelogType:"markdown", displayName:$dn, releaseType:$rt, gameVersionNames:["1.21.1","NeoForge"]}' > meta.json
+          MAIN=$(curl --fail-with-body -sS --max-time 1800 -H "X-Api-Token: $CF_TOKEN" \
+            -F "metadata=<meta.json;type=application/json" -F "file=@dist/BubiePack-$VER.zip" "$URL")
+          echo "Pack: $MAIN"
+          MAIN_ID=$(echo "$MAIN" | jq -r .id)
+          jq -n --rawfile cl notes.md --arg dn "Bubie Pack $VER Server" --arg rt "$CF_RELEASE_TYPE" --argjson p "$MAIN_ID" \
+            '{changelog:$cl, changelogType:"markdown", displayName:$dn, releaseType:$rt, parentFileID:$p}' > meta-server.json
+          SERVER=$(curl --fail-with-body -sS --max-time 3600 -H "X-Api-Token: $CF_TOKEN" \
+            -F "metadata=<meta-server.json;type=application/json" -F "file=@dist/BubiePack-$VER-server.zip" "$URL")
+          echo "Server pack: $SERVER"
+
+      - name: GitHub Release
+        if: steps.ver.outputs.exists == 'false'
+        env:
+          GH_TOKEN: ${{ github.token }}
+          VER: ${{ steps.ver.outputs.version }}
+        run: |
+          gh release create "v$VER" --target "$GITHUB_SHA" --title "Bubie Pack $VER" --notes-file notes.md \
+            "dist/BubiePack-$VER.zip" "dist/BubiePack-$VER-server.zip"
