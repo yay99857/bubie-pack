@@ -1,5 +1,6 @@
 {
 	chapter.13222E168B7DF251.title: "&bBem-vindo ao Bubie Pack"
+	chapter.1B1607BDB6AAC0CE.title: "&3Replication"
 	chapter.1F16640FEC7CF3F0.title: "&eEnergia: o Começo"
 	chapter.242C1BB43F17F851.title: "&9Armazenamento"
 	chapter.246DB48BA1B8F6A5.title: "&dMekanism: Minérios em Dobro"
@@ -60,12 +61,16 @@
 	quest.201109993506AF6B.title: "Processadores"
 	quest.20FBCC4BD6FC3A56.quest_desc: ["O &eDigital Miner&r minera só os minérios que você filtrar, num raio grande, sem cavar o mapa. Gasta bastante energia."]
 	quest.20FBCC4BD6FC3A56.title: "Digital Miner"
+	quest.21850F3FE186FF95.quest_desc: ["O &eminério de replica&r fica no deepslate. Os lingotes de replica são a base de todas as máquinas do mod."]
+	quest.21850F3FE186FF95.title: "Replica"
 	quest.21E8A2282FF4DEE6.quest_desc: ["Os &eTier Installers&r transformam uma máquina comum numa Factory, que processa vários itens ao mesmo tempo, sem quebrar nada."]
 	quest.21E8A2282FF4DEE6.title: "Tier Installers"
 	quest.227FD052DA952DC0.quest_desc: ["Novos &eglifos&r (peças de feitiço) são feitos na &eScribe's Table&r. Comece pelos básicos: Projectile, Touch, Break e Harm."]
 	quest.227FD052DA952DC0.title: "Mesa do escriba"
 	quest.23E2CB5D9315B1D5.quest_desc: ["Abra o mapa do &eFTB Chunks&r (a tecla está em Opções → Controles) e clique em &aClaimed Chunks&r.", "Clique e arraste para proteger chunks. &eShift + clique&r mantém o chunk carregado, para as máquinas continuarem rodando quando você estiver longe."]
 	quest.23E2CB5D9315B1D5.title: "Proteger a base"
+	quest.2464857614460767.quest_desc: ["A &eIdentification Chamber&r estuda um item e grava o padrão dele num &eMemory Chip&r.", "Coloque os chips num &eChip Storage&r ligado à rede."]
+	quest.2464857614460767.title: "Pesquisar itens"
 	quest.251D0388AA912FF0.quest_desc: ["Os painéis solares funcionam sozinhos durante o dia. Bom complemento, mas de noite não geram nada.", "O &eSolar Panel (Starter)&r do Powah é o mais barato; o &eSolar Generator&r do Mekanism rende um pouco mais."]
 	quest.251D0388AA912FF0.title: "Energia solar"
 	quest.26C5493D51EFD40D.quest_desc: ["A carcaça de aço é a base de quase todas as máquinas do Mekanism."]
@@ -88,6 +93,8 @@
 	quest.2DE8ADEBEAADB02A.title: "Livro de aprendiz"
 	quest.30A419C152F7CB19.quest_desc: ["O &eMillstone&r mói itens. Um &eEncased Fan&r soprando através de água &elava&r itens; através de lava, &efunde&r; através de fogo de alma, &eassombra&r."]
 	quest.30A419C152F7CB19.title: "Moer e lavar"
+	quest.334DC277D2680224.quest_desc: ["Os &eMatter Network Pipes&r ligam as máquinas do Replication numa rede só, que também leva energia."]
+	quest.334DC277D2680224.title: "Rede de matéria"
 	quest.3457838A848F2CC7.quest_desc: ["No &ePattern Encoding Terminal&r você grava receitas em &eBlank Patterns&r. Use o EMI para preencher a receita com um clique."]
 	quest.3457838A848F2CC7.title: "Padrões"
 	quest.34892D6C1C6DAFE3.quest_desc: ["As &esource gems&r saem de ametista na &eImbuement Chamber&r e também dos geodos do GeOre Nouveau."]
@@ -98,6 +105,10 @@
 	quest.36057E15D36413C6.title: "Mais espaço"
 	quest.382C587A7165A102.quest_desc: ["A mochila do &eSophisticated Backpacks&r guarda bastante coisa e aceita upgrades (coletar itens, autoalimentação, filtros...)."]
 	quest.382C587A7165A102.title: "Mochila"
+	quest.384715E2B6E97EC4.quest_desc: ["Peça qualquer item pesquisado no &eReplication Terminal&r: o &eReplicator&r gasta matéria e energia para fabricar a cópia.", "Mais Replicators na rede = mais cópias ao mesmo tempo."]
+	quest.384715E2B6E97EC4.title: "Replicar"
+	quest.3931CD0F6C698406.quest_desc: ["O &eDisintegrator&r desmancha itens em &ematéria&r (terra, metal, orgânica, preciosa...). Guarde a matéria em &eMatter Tanks&r.", "Jogue nele o que sobra: pedra, terra, mob drops."]
+	quest.3931CD0F6C698406.title: "Matéria"
 	quest.3A31F520128A4250.quest_desc: ["O mínimo: &eME Drive&r + &eTerminal&r + &eEnergy Acceptor&r ligados por cabos, e uma célula de 1k no drive.", "Sem Controller, a rede aceita até 8 dispositivos: mais que suficiente para começar."]
 	quest.3A31F520128A4250.title: "&aSua primeira rede ME"
 	quest.3AEF3FB0E9F18305.quest_desc: ["Misture cobre e zinco num &eBasin&r com um &eMechanical Mixer&r em cima e um &eBlaze Burner&r embaixo.", "O Blaze Burner vazio é carregado clicando num blaze com ele."]

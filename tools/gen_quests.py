@@ -514,6 +514,35 @@ q(c, 'familiares', 10, 2.5, ('Ajudantes', 'Helpers'),
   ['The &eStarbuncle&r carries items between chests; the &eWixie&r crafts items and potions for you. Use their charms to summon them.'],
   [I('ars_nouveau:starbuncle_charm')], deps=['aparato'])
 
+# ================= Replication =================
+c = chapter('replication', '&3Replication', '&3Replication', 'replication:replicator', 10)
+q(c, 'replica', 0, 0, ('Replica', 'Replica'),
+  ['O &eminério de replica&r fica no deepslate. Os lingotes de replica são a base de todas as máquinas do mod.'],
+  ['&eReplica ore&r is found in the deepslate layer. Replica ingots are the base of every machine in the mod.'],
+  [I('replication:replica_ingot', 16)], deps=['energia/inicio'], shape='pentagon', size=1.5, xp=25)
+q(c, 'disintegrator', 2.5, -1.5, ('Matéria', 'Matter'),
+  ['O &eDisintegrator&r desmancha itens em &ematéria&r (terra, metal, orgânica, preciosa...). Guarde a matéria em &eMatter Tanks&r.',
+   'Jogue nele o que sobra: pedra, terra, mob drops.'],
+  ['The &eDisintegrator&r breaks items down into &ematter&r (earth, metallic, organic, precious...). Store it in &eMatter Tanks&r.',
+   'Feed it your leftovers: stone, dirt, mob drops.'],
+  [I('replication:disintegrator'), I('replication:matter_tank')], deps=['replica'], xp=25)
+q(c, 'rede', 2.5, 1.5, ('Rede de matéria', 'Matter network'),
+  ['Os &eMatter Network Pipes&r ligam as máquinas do Replication numa rede só, que também leva energia.'],
+  ['&eMatter Network Pipes&r join the Replication machines into one network, which also carries power.'],
+  [I('replication:matter_network_pipe', 16)], deps=['replica'])
+q(c, 'pesquisa', 5, 0, ('Pesquisar itens', 'Researching items'),
+  ['A &eIdentification Chamber&r estuda um item e grava o padrão dele num &eMemory Chip&r.',
+   'Coloque os chips num &eChip Storage&r ligado à rede.'],
+  ['The &eIdentification Chamber&r studies an item and records its pattern on a &eMemory Chip&r.',
+   'Put the chips in a &eChip Storage&r connected to the network.'],
+  [I('replication:identification_chamber'), I('replication:memory_chip'), I('replication:chip_storage')], deps=['disintegrator', 'rede'], xp=50)
+q(c, 'replicar', 7.5, 0, ('Replicar', 'Replicate'),
+  ['Peça qualquer item pesquisado no &eReplication Terminal&r: o &eReplicator&r gasta matéria e energia para fabricar a cópia.',
+   'Mais Replicators na rede = mais cópias ao mesmo tempo.'],
+  ['Request any researched item from the &eReplication Terminal&r: the &eReplicator&r spends matter and power to build the copy.',
+   'More Replicators on the network = more copies at once.'],
+  [I('replication:replication_terminal'), I('replication:replicator')], deps=['pesquisa'], xp=100, size=1.5, shape='hexagon')
+
 # ================= write =================
 qd = os.path.join(OUT, 'quests'); os.makedirs(os.path.join(qd, 'chapters'), exist_ok=True)
 os.makedirs(os.path.join(qd, 'lang'), exist_ok=True)

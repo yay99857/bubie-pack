@@ -1,5 +1,11 @@
 # Changelog — Bubie Pack
 
+## 0.1.8 (2026-11-13)
+- Adicionado: Replication 1.2.7 (Buuz135). Desintegra itens em matéria, pesquisa padrões e replica qualquer item com receita. Depende do Titanium, que já estava no pack.
+  O minério de replica (deepslate, veia 10, 5 por chunk) já fica na faixa das veias do ATO; nada foi ajustado.
+- Novo capítulo de quests: Replication (5 quests, 100 no total).
+- Ícone do pack no zip (`profileImage/bubie-pack.png`).
+
 ## 0.1.7 (2026-11-13)
 ### Quests
 - 95 quests em 10 capítulos (eram 49 em 5). Novos: AE2: Autocrafting, Mekanism: Avançado, Create: Automação, Mystical Agriculture e Ars Nouveau.

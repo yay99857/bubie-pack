@@ -11,6 +11,7 @@ Create, Mekanism, Applied Energistics 2, Ars Nouveau, Mystical Agriculture, Apot
 ### ⚙️ Tecnologia e automação
 - **Create** com Copycats+, Design n' Decor, Dragons Plus e **Crafts & Additions** (energia do Create ↔ FE)
 - **Mekanism** (Generators e Tools), **Powah!**, **Extreme Reactors**, **Ender IO**
+- **Replication**: desintegre itens em matéria, pesquise e replique o que quiser
 - **Industrial Foregoing**, **Actually Additions**, **XyCraft**, **RFTools**, **Just Dire Things**
 - Logística com **Pipez**, **LaserIO**, **Modular Routers** e a família **Integrated Dynamics**
 
@@ -62,13 +63,13 @@ Create, Mekanism, Applied Energistics 2, Ars Nouveau, Mystical Agriculture, Apot
 
 ## Quests
 
-**95 quests em 10 capítulos**, em português e inglês (o idioma segue o do jogo). Elas são opcionais: servem de guia, nenhum mod fica travado.
+**100 quests em 11 capítulos**, em português e inglês (o idioma segue o do jogo). Elas são opcionais: servem de guia, nenhum mod fica travado.
 
 - **Bem-vindo** e **Primeiros Passos**: comandos, times, chat de voz, waystones, mochila e Create.
 - **Energia: o Começo**: qual gerador fazer primeiro (Furnator, roda d'água + Alternator, Thermo Generator), baterias, cabos e Flux Networks.
 - **Mekanism**: minérios em dobro, depois 3x, 4x e 5x, jetpack a hidrogênio e Digital Miner.
 - **Armazenamento** e **AE2: Autocrafting**: das gavetas até a primeira rede ME, Crafting CPU, padrões e terminal sem fio.
-- **Create: Automação**, **Mystical Agriculture** e **Ars Nouveau**.
+- **Create: Automação**, **Mystical Agriculture**, **Ars Nouveau** e **Replication**.
 
 ---
 
