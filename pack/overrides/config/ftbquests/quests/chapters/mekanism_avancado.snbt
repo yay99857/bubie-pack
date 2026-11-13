@@ -1,0 +1,89 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "mekanism_avancado"
+	group: ""
+	icon: { id: "mekanism:chemical_injection_chamber" }
+	id: "340A000BEF9E934D"
+	order_index: 6
+	quest_links: [ ]
+	quests: [
+		{
+			dependencies: ["26C5493D51EFD40D"]
+			id: "7041EDECA7C22314"
+			rewards: [{ id: "3651A75D96F8728A", type: "xp", xp: 25 }]
+			shape: "pentagon"
+			size: 1.5d
+			tasks: [{ count: 4L, id: "48D5403D9ACF61C6", item: { count: 1, id: "mekanism:advanced_control_circuit" }, type: "item" }]
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["7041EDECA7C22314"]
+			id: "63186178CF030461"
+			rewards: [{ id: "769B6A1AE2A4AF3C", type: "xp", xp: 10 }]
+			tasks: [{ id: "5AE65E132110E115", item: { count: 1, id: "mekanism:upgrade_speed" }, type: "item" }, { id: "2F89D9D1EFC992A7", item: { count: 1, id: "mekanism:upgrade_energy" }, type: "item" }]
+			x: 2.5d
+			y: -2.0d
+		}
+		{
+			dependencies: ["7041EDECA7C22314"]
+			id: "21E8A2282FF4DEE6"
+			rewards: [{ id: "43E5BAD82B580230", type: "xp", xp: 10 }]
+			tasks: [{ id: "21A8E94264A08BE8", item: { count: 1, id: "mekanism:basic_tier_installer" }, type: "item" }]
+			x: 2.5d
+			y: 2.0d
+		}
+		{
+			dependencies: ["7041EDECA7C22314"]
+			id: "183F691BD3A16BF7"
+			rewards: [{ id: "311BCE9F0DE5703D", type: "xp", xp: 25 }]
+			tasks: [{ id: "26DBF62631C0F863", item: { count: 1, id: "mekanism:electrolytic_separator" }, type: "item" }]
+			x: 5.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["183F691BD3A16BF7"]
+			id: "5E40C8421E074CE5"
+			rewards: [{ id: "1FF0276E564180FF", type: "xp", xp: 25 }]
+			tasks: [{ id: "501AAB3F0ED0191D", item: { count: 1, id: "mekanism:jetpack" }, type: "item" }, { id: "145B11A645067189", item: { count: 1, id: "mekanism:basic_chemical_tank" }, type: "item" }]
+			x: 7.5d
+			y: -2.0d
+		}
+		{
+			dependencies: ["183F691BD3A16BF7"]
+			id: "5470183DC0646A6A"
+			rewards: [{ id: "5BC28273E778FE71", type: "xp", xp: 10 }]
+			tasks: [{ id: "2FD5228E2A20E4DF", item: { count: 1, id: "mekanismgenerators:gas_burning_generator" }, type: "item" }]
+			x: 7.5d
+			y: 2.0d
+		}
+		{
+			dependencies: ["183F691BD3A16BF7"]
+			id: "499E4FB045BF927D"
+			rewards: [{ id: "3A76F6F58A743068", type: "xp", xp: 50 }]
+			size: 1.3d
+			tasks: [{ id: "6E9D241B93AF57CC", item: { count: 1, id: "mekanism:chemical_injection_chamber" }, type: "item" }, { id: "3DE2DD29EFC1DCC0", item: { count: 1, id: "mekanism:chemical_infuser" }, type: "item" }]
+			x: 10.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["499E4FB045BF927D"]
+			id: "4C1841346F9E484A"
+			rewards: [{ id: "543AB4F9B2C6BE74", type: "xp", xp: 100 }]
+			shape: "hexagon"
+			size: 1.3d
+			tasks: [{ id: "4A0C8E38E5712AFD", item: { count: 1, id: "mekanism:chemical_dissolution_chamber" }, type: "item" }, { id: "115EAC8D3305B3F4", item: { count: 1, id: "mekanism:chemical_washer" }, type: "item" }, { id: "18E07C2029834B05", item: { count: 1, id: "mekanism:chemical_crystallizer" }, type: "item" }]
+			x: 12.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["63186178CF030461"]
+			id: "20FBCC4BD6FC3A56"
+			rewards: [{ id: "129E3EF6B36049BB", type: "xp", xp: 50 }]
+			tasks: [{ id: "12843568BB3D2A96", item: { count: 1, id: "mekanism:digital_miner" }, type: "item" }]
+			x: 10.0d
+			y: -2.5d
+		}
+	]
+}

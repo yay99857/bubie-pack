@@ -1,0 +1,11 @@
+# Mods removidos do server pack (só cliente). Prefixo do nome do jar.
+sodium-
+iris-
+ImmediatelyFast-
+entityculling-
+Controlling-
+Searchables-
+MouseTweaks-
+ExtremeSoundMuffler-
+better-advanced-tooltips-
+enchdesc-

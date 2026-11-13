@@ -1,0 +1,126 @@
+#Shared balance profile. Per-enchantment switches and the PvP opt-in remain independent.
+#Allowed Values: VANILLA_PLUS, RELAXED, ADVENTURE, HARDCORE
+preset = "VANILLA_PLUS"
+
+[enchantments]
+	#Enable the Vampirism enchantment's effects.
+	vampirismEnabled = true
+	#Enable the Executioner enchantment's effects.
+	executionerEnabled = true
+	#Enable the Frostbite enchantment's effects.
+	frostbiteEnabled = true
+	#Enable the Momentum enchantment's effects.
+	momentumEnabled = true
+	#Enable the Reaper enchantment's effects.
+	reaperEnabled = true
+	#Enable the Cleaving Edge enchantment's effects.
+	cleaving_edgeEnabled = true
+	#Enable the Stagger enchantment's effects.
+	staggerEnabled = true
+	#Enable the Retaliation enchantment's effects.
+	retaliationEnabled = true
+	#Enable the Precision enchantment's effects.
+	precisionEnabled = true
+	#Enable the Hunter's Mark enchantment's effects.
+	hunters_markEnabled = true
+	#Enable the Ricochet enchantment's effects.
+	ricochetEnabled = true
+	#Enable the Longshot enchantment's effects.
+	longshotEnabled = true
+	#Enable the Frostshot enchantment's effects.
+	frostshotEnabled = true
+	#Enable the Pinning enchantment's effects.
+	pinningEnabled = true
+	#Enable the Salvage enchantment's effects.
+	salvageEnabled = true
+	#Enable the Quickdraw enchantment's effects.
+	quickdrawEnabled = true
+	#Enable the Steady Aim enchantment's effects.
+	steady_aimEnabled = true
+	#Enable the Last Stand enchantment's effects.
+	last_standEnabled = true
+	#Enable the Second Wind enchantment's effects.
+	second_windEnabled = true
+	#Enable the Molten Skin enchantment's effects.
+	molten_skinEnabled = true
+	#Enable the Frostguard enchantment's effects.
+	frostguardEnabled = true
+	#Enable the Cushioning enchantment's effects.
+	cushioningEnabled = true
+	#Enable the Steadfast enchantment's effects.
+	steadfastEnabled = true
+	#Enable the Vitality enchantment's effects.
+	vitalityEnabled = true
+	#Enable the Recovery enchantment's effects.
+	recoveryEnabled = true
+	#Enable the Featherstep enchantment's effects.
+	featherstepEnabled = true
+	#Enable the Surefooted enchantment's effects.
+	surefootedEnabled = true
+	#Enable the Vein Miner enchantment's effects.
+	vein_minerEnabled = true
+	#Enable the Auto Smelt enchantment's effects.
+	auto_smeltEnabled = true
+	#Enable the Magnetism enchantment's effects.
+	magnetismEnabled = true
+	#Enable the Replenish enchantment's effects.
+	replenishEnabled = true
+	#Enable the Excavator enchantment's effects.
+	excavatorEnabled = true
+	#Enable the Lumberjack enchantment's effects.
+	lumberjackEnabled = true
+	#Enable the Delicate Touch enchantment's effects.
+	delicate_touchEnabled = true
+	#Enable the Bountiful Harvest enchantment's effects.
+	bountiful_harvestEnabled = true
+	#Enable the Sifting enchantment's effects.
+	siftingEnabled = true
+	#Enable the Endurance enchantment's effects.
+	enduranceEnabled = true
+	#Enable the Trailblazer enchantment's effects.
+	trailblazerEnabled = true
+	#Enable the Wall Grip enchantment's effects.
+	wall_gripEnabled = true
+	#Enable the Deep Lungs enchantment's effects.
+	deep_lungsEnabled = true
+	#Enable the Nightwalker enchantment's effects.
+	nightwalkerEnabled = true
+	#Enable the Glider enchantment's effects.
+	gliderEnabled = true
+	#Enable the Soft Landing enchantment's effects.
+	soft_landingEnabled = true
+	#Enable the Deepwater Bait enchantment's effects.
+	deepwater_baitEnabled = true
+	#Enable the Treasure Seeker enchantment's effects.
+	treasure_seekerEnabled = true
+	#Enable the Firm Line enchantment's effects.
+	firm_lineEnabled = true
+	#Enable the Guarding enchantment's effects.
+	guardingEnabled = true
+	#Enable the Counterguard enchantment's effects.
+	counterguardEnabled = true
+	#Enable the Undertow enchantment's effects.
+	undertowEnabled = true
+
+[effects]
+	#Global effect scale; each mechanic still enforces its own safety cap.
+	# Default: 1.0
+	# Range: 0.0 ~ 2.0
+	strength = 1.0
+	#Base chance for chance-based effects; each effect applies its own level scaling.
+	# Default: 0.12
+	# Range: 0.0 ~ 1.0
+	chance = 0.12
+	# Default: 100
+	# Range: 1 ~ 72000
+	cooldownTicks = 100
+	# Default: 6
+	# Range: 1 ~ 16
+	entitySearchRadius = 6
+	# Default: 64
+	# Range: 1 ~ 128
+	connectedBlockCap = 64
+	#Require sneaking to activate Lumberjack; disabling this makes log harvesting automatic.
+	lumberjackRequiresSneaking = true
+	#Allow player-versus-player effects.
+	enablePvP = false
