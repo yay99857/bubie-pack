@@ -11,7 +11,7 @@
   "manifestType": "minecraftModpack",
   "manifestVersion": 1,
   "name": "Bubie Pack",
-  "version": "0.1.9",
+  "version": "0.1.10",
   "author": "Moão",
   "overrides": "overrides",
   "files": [
@@ -1140,6 +1140,12 @@
     {
       "projectID": 633823,
       "fileID": 8127603,
+      "required": true,
+      "isLocked": false
+    },
+    {
+      "projectID": 261924,
+      "fileID": 8969759,
       "required": true,
       "isLocked": false
     }

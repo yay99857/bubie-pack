@@ -1,5 +1,11 @@
 # Changelog — Bubie Pack
 
+## 0.1.10 (2026-11-13)
+### Agricultura
+- Adicionado: Farming for Blockheads 21.1.14 (BlayTheNinth; usa o Balm que já estava no pack).
+  Traz o Mercado (troca esmeraldas por sementes, mudas e animais), a Caixa de Envio, aspersores, cocho de alimentação,
+  fertilizantes e o Chicken Nest. Combina com o Cooking for Blockheads, que já estava no pack.
+
 ## 0.1.9 (2026-11-13)
 ### Unificação
 - Adicionado: Almost Unified 1.4.2. Lingotes, pós, pepitas, placas, bastões, engrenagens, blocos e minérios do mesmo metal

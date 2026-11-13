@@ -38,7 +38,7 @@ Create, Mekanism, Applied Energistics 2, Ars Nouveau, Mystical Agriculture, Apot
 - **Building Gadgets**, **Mining Gadgets**, Construction Sticks
 
 ### 🍳 Everyday life
-- **Farmer's Delight**, **Cooking for Blockheads**, **Aquaculture 2**, Easy Villagers, AppleSkin
+- **Farmer's Delight**, **Cooking for Blockheads**, **Farming for Blockheads**, **Aquaculture 2**, Easy Villagers, AppleSkin
 
 ---
 
@@ -146,7 +146,7 @@ Create, Mekanism, Applied Energistics 2, Ars Nouveau, Mystical Agriculture, Apot
 - **Building Gadgets**, **Mining Gadgets**, Construction Sticks
 
 ### 🍳 Vida no mundo
-- **Farmer's Delight**, **Cooking for Blockheads**, **Aquaculture 2**, Easy Villagers, AppleSkin
+- **Farmer's Delight**, **Cooking for Blockheads**, **Farming for Blockheads**, **Aquaculture 2**, Easy Villagers, AppleSkin
 
 ---
 
