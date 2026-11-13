@@ -60,7 +60,9 @@ with ThreadPoolExecutor(8) as pool:
     list(pool.map(download, jobs))
 
 for d in ('config', 'defaultconfigs', 'kubejs'):
-    shutil.copytree(os.path.join(ROOT, 'pack', 'overrides', d), os.path.join(OUT, d))
+    # config/defaultoptions só serve ao Default Options, que é mod de cliente.
+    shutil.copytree(os.path.join(ROOT, 'pack', 'overrides', d), os.path.join(OUT, d),
+                    ignore=shutil.ignore_patterns('defaultoptions') if d == 'config' else None)
 for n in ('start.sh', 'start.bat', 'user_jvm_args.txt', 'LEIA-ME_README.txt'):
     shutil.copy2(os.path.join(ROOT, 'server', n), os.path.join(OUT, n))
 os.chmod(os.path.join(OUT, 'start.sh'), 0o755)

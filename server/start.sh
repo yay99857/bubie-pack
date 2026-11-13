@@ -9,4 +9,8 @@ if [ ! -f "libraries/net/neoforged/neoforge/$NEO/unix_args.txt" ]; then
   java -jar neoforge-installer.jar --installServer
   rm -f neoforge-installer.jar neoforge-installer.jar.log run.sh run.bat
 fi
+# Distâncias para PC modesto, só na primeira vez (não mexe num server.properties existente).
+if [ ! -f server.properties ]; then
+  printf 'view-distance=8\nsimulation-distance=6\n' > server.properties
+fi
 exec java @user_jvm_args.txt @libraries/net/neoforged/neoforge/$NEO/unix_args.txt nogui "$@"

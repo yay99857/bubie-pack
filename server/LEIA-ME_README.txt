@@ -10,6 +10,9 @@ PORTUGUÊS
 4. Memória: edite user_jvm_args.txt (padrão 8 GB).
 5. Chat de voz (Simple Voice Chat): libere a porta UDP 24454.
 6. Pré-gere o mapa antes de abrir: /chunky radius 3000 e depois /chunky start
+7. Na primeira execução o script cria o server.properties com view-distance=8
+   e simulation-distance=6 (bom para PC modesto). Em máquina forte, aumente
+   no server.properties. Um server.properties existente não é alterado.
 
 Este pacote não tem os mods que só rodam no cliente (Sodium, Iris,
 ImmediatelyFast, Entity Culling, Controlling, Searchables, Mouse Tweaks,
@@ -25,6 +28,9 @@ ENGLISH
 4. Memory: edit user_jvm_args.txt (default 8 GB).
 5. Voice chat (Simple Voice Chat): open UDP port 24454.
 6. Pre-generate the map before opening: /chunky radius 3000 then /chunky start
+7. On the first run the script creates server.properties with view-distance=8
+   and simulation-distance=6 (good for modest PCs). Raise them in
+   server.properties on a strong machine. An existing server.properties is left as is.
 
 Client-only mods are not included (Sodium, Iris, ImmediatelyFast, Entity
 Culling, Controlling, Searchables, Mouse Tweaks, Extreme Sound Muffler,

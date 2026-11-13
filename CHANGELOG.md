@@ -1,5 +1,23 @@
 # Changelog — Bubie Pack
 
+## 0.1.9 (2026-11-13)
+### Desempenho
+- Distâncias padrão para PC modesto: renderização 8 e simulação 6 (o vanilla usa 12 e 12).
+  Vêm do Default Options 21.1.8 (BlayTheNinth; o Balm já estava no pack), que só cria o `options.txt` na primeira abertura.
+  Quem já jogou mantém o que configurou: ajuste em *Opções → Vídeo*.
+- Servidor: `start.sh`/`start.bat` criam o `server.properties` com `view-distance=8` e `simulation-distance=6` se ele ainda não existir.
+  O Default Options não vai no server pack (só cliente).
+### Correções
+- Shift + clique em carvão/charcoal com a fornalha aberta agora vai para o slot de combustível.
+  O Extreme Reactors tinha receitas de fornalha carvão → grafite, e o vanilla manda para a entrada tudo o que tem receita.
+  Essas 3 receitas de fornalha foram desligadas (`kubejs/data/bigreactors/recipe/smelting/`); o grafite continua saindo no **alto-forno**.
+### Configurações do jogador
+- As preferências pessoais não são mais sobrescritas a cada atualização: vídeo do Sodium, shader do Iris, minimapa e mapa do Xaero
+  e config de cliente do FTB Chunks foram para `config/defaultoptions/extra/` e só são criadas se ainda não existirem.
+  As configs que o pack precisa (Xaero `common.cfg`, categorias do radar, Entity Culling) continuam em `overrides`.
+- Removidos `sodium-fingerprint.json` (hashes da máquina de quem montou o pack) e `xaeropatreon.txt` (vazio). Os mods recriam os dois.
+- O server pack não leva mais a pasta `config/defaultoptions`.
+
 ## 0.1.8 (2026-11-13)
 - Adicionado: Replication 1.2.7 (Buuz135). Desintegra itens em matéria, pesquisa padrões e replica qualquer item com receita. Depende do Titanium, que já estava no pack.
   O minério de replica (deepslate, veia 10, 5 por chunk) já fica na faixa das veias do ATO; nada foi ajustado.

@@ -8,5 +8,10 @@ if not exist "libraries\net\neoforged\neoforge\%NEO%\win_args.txt" (
   java -jar neoforge-installer.jar --installServer
   del /q neoforge-installer.jar neoforge-installer.jar.log run.sh run.bat 2>nul
 )
+rem Distancias para PC modesto, so na primeira vez (nao mexe num server.properties existente).
+if not exist server.properties (
+  >server.properties echo view-distance=8
+  >>server.properties echo simulation-distance=6
+)
 java @user_jvm_args.txt @libraries/net/neoforged/neoforge/%NEO%/win_args.txt nogui %*
 pause
