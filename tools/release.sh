@@ -9,6 +9,7 @@ SKIP_CF=false
 [ "${1:-}" = "--skip-curseforge" ] && SKIP_CF=true
 CF_PROJECT_ID=${CF_PROJECT_ID:-1801989}
 CF_RELEASE_TYPE=${CF_RELEASE_TYPE:-beta}
+# IDs do CurseForge: 11779 = Minecraft 1.21.1, 10150 = NeoForge (GET /api/game/versions)
 VER=$(python3 -c "import json;print(json.load(open('pack/manifest.json'))['version'])")
 
 if git ls-remote --exit-code --tags origin "refs/tags/v$VER" >/dev/null; then
@@ -27,7 +28,7 @@ tools/build.sh --server
 
 if [ -n "${DRY_RUN:-}" ]; then
   jq -n --rawfile cl dist/notes.md --arg dn "Bubie Pack $VER" --arg rt "$CF_RELEASE_TYPE" \
-    '{changelog:$cl, changelogType:"markdown", displayName:$dn, releaseType:$rt, gameVersionNames:["1.21.1","NeoForge"]}'
+    '{changelog:$cl, changelogType:"markdown", displayName:$dn, releaseType:$rt, gameVersions:[11779,10150]}'
   ls -la "dist/BubiePack-$VER.zip" "dist/BubiePack-$VER-server.zip"
   echo "DRY_RUN: nada foi enviado."; exit 0
 fi
@@ -38,7 +39,7 @@ if [ "$SKIP_CF" = false ]; then
   [ -n "$TOKEN" ] || { echo "Falta o token do CurseForge (CURSEFORGE_TOKEN)."; exit 1; }
   URL="https://minecraft.curseforge.com/api/projects/$CF_PROJECT_ID/upload-file"
   jq -n --rawfile cl dist/notes.md --arg dn "Bubie Pack $VER" --arg rt "$CF_RELEASE_TYPE" \
-    '{changelog:$cl, changelogType:"markdown", displayName:$dn, releaseType:$rt, gameVersionNames:["1.21.1","NeoForge"]}' > dist/meta.json
+    '{changelog:$cl, changelogType:"markdown", displayName:$dn, releaseType:$rt, gameVersions:[11779,10150]}' > dist/meta.json
   MAIN=$(curl --fail-with-body -sS --max-time 1800 -H "X-Api-Token: $TOKEN" \
     -F "metadata=<dist/meta.json;type=application/json" -F "file=@dist/BubiePack-$VER.zip" "$URL")
   echo "CurseForge pack: $MAIN"
