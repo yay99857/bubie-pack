@@ -4,7 +4,7 @@
 
 *🇧🇷 Versão em português mais abaixo.*
 
-Create, Mekanism, Applied Energistics 2, Ars Nouveau, Mystical Agriculture, Apotheosis and 180+ more mods, tuned to work well together: no duplicate ores, integrations between the power and storage systems, bigger villages, and a pack light enough to run on a modest PC.
+Create, Mekanism, Applied Energistics 2, Ars Nouveau, Mystical Agriculture, Apotheosis and 200+ more mods, tuned to work well together: no duplicate ores, integrations between the power and storage systems, bigger villages, and a pack light enough to run on a modest PC.
 
 ---
 
@@ -18,10 +18,11 @@ Create, Mekanism, Applied Energistics 2, Ars Nouveau, Mystical Agriculture, Apot
 
 ### 📦 Storage
 - **Applied Energistics 2** with AdvancedAE, ExtendedAE, Wireless Terminals and **Applied Mekanistics** (Mekanism chemicals inside the ME network)
-- **Sophisticated Storage** and **Sophisticated Backpacks**, **Functional Storage**, **DimStorage**
+- AE2 extras: **MEGA Cells** (bigger cells and crafting storage, bulk cells), **ME Requester** (keeps items in stock), **AE2: Crafting Tree**, **AE2 Network Analyser** and **Applied Flux** (store FE in ME cells)
+- **Sophisticated Storage** and **Sophisticated Backpacks** (with Create integration, plus storage minecarts and boats), **Functional Storage**, **DimStorage**
 
 ### ✨ Magic and progression
-- **Ars Nouveau** (with **GeOre Nouveau**: geodes that give source gems)
+- **Ars Nouveau**, with **Ars Énergistique** (Source in the ME network) and **Ars Creo** (Create compat)
 - Full **Apotheosis**: affixes, gems, enchanting and spawners
 - **Mystical Agriculture** + Agradditions, **Botany Pots**, **Productive Bees**
 - **Hostile Neural Networks** for mob farming without killing mobs
@@ -46,22 +47,28 @@ Create, Mekanism, Applied Energistics 2, Ars Nouveau, Mystical Agriculture, Apot
 **A balanced world**
 - A single ore generator: Mekanism's duplicate veins are turned off and ATO (All the Ores) handles everything.
 - Smaller, more numerous veins: you find ore everywhere, but you won't mine a whole chunk of osmium in one go.
-- GeOre geodes only for coal, copper, iron and quartz. Diamond, emerald, gold, lapis, redstone and ancient debris still have to be mined.
+- **GeOre** geodes for every vanilla ore, as in ATM11 (coal, copper, iron, gold, diamond, emerald, lapis, redstone, quartz and ancient debris). No dowsing rods: you find them by exploring.
 - **Almost Unified**: one item per metal. No more two kinds of zinc or tin that don't stack.
 
 **Made for playing together**
 - **Simple Voice Chat**: proximity voice chat.
 - **FTB Teams, Chunks and Essentials**: teams, claim protection, chunk loading and `/home`.
 - **Corail Tombstone**: your items are kept safe in a grave when you die.
+- **Simple Backups**: automatic world backups every 2 hours (keeps the last 10).
+- **No Chat Reports** and **Crash Assistant** (shows what crashed and which mod caused it, so friends can send you the log).
 
 **Light and fast**
 - Sodium, Lithium, ModernFix, FerriteCore, ImmediatelyFast, Entity Culling and Clumps.
+- **All The Leaks** (memory leak fixes), **Get It Together, Drops!** (dropped items merge, fewer entities), **Fast Workbench**, NetherPortalFix and Model Gap Fix.
 - **Iris** with **Complementary Shaders – Reimagined** included. Turn it on in *Options → Video Settings → Shader Packs*.
 - **Chunky** to pre-generate the server map.
 - Defaults tuned for modest PCs: render distance **8** and simulation distance **6** on first launch (via Default Options, so your own settings are never overwritten on updates).
 
 **A comfortable interface**
 - **EMI** for recipes (with JEI integrations working), **Jade**, Mouse Tweaks, Inventory Essentials, Pick Up Notifier and TrashSlot.
+- **Crafting Tweaks**, **Toast Control** (no more pop-up spam), **KeybindsPurger** (clears key conflicts) and **Clean Swing** (hit through tall grass).
+- More in JEI/EMI: **JEI Stuff** (mob and chest loot, villager trades, bartering, fishing, plant drops and fluid interactions), **Just Enough Mekanism Multiblocks**, **Just Enough Professions** and **Just Enough Breeding**.
+- **Just Zoom**: zoom key and a better spyglass.
 
 ---
 
@@ -112,7 +119,7 @@ Found a bug or crash? Leave a comment with the log (`latest.log` or the crash re
 
 **Kitchen-sink de tecnologia e magia para NeoForge 1.21.1, feito para jogar com os amigos.**
 
-Create, Mekanism, Applied Energistics 2, Ars Nouveau, Mystical Agriculture, Apotheosis e mais de 180 mods, ajustados para funcionar bem juntos: menos minério duplicado, integrações entre os sistemas de energia e armazenamento, vilas maiores e um pack leve o bastante para rodar em PC modesto.
+Create, Mekanism, Applied Energistics 2, Ars Nouveau, Mystical Agriculture, Apotheosis e mais de 200 mods, ajustados para funcionar bem juntos: menos minério duplicado, integrações entre os sistemas de energia e armazenamento, vilas maiores e um pack leve o bastante para rodar em PC modesto.
 
 ---
 
@@ -126,10 +133,11 @@ Create, Mekanism, Applied Energistics 2, Ars Nouveau, Mystical Agriculture, Apot
 
 ### 📦 Armazenamento
 - **Applied Energistics 2** com AdvancedAE, ExtendedAE, Wireless Terminals e **Applied Mekanistics** (químicos do Mekanism dentro da rede ME)
-- **Sophisticated Storage** e **Sophisticated Backpacks**, **Functional Storage**, **DimStorage**
+- Extras do AE2: **MEGA Cells** (células e crafting storage maiores, bulk cells), **ME Requester** (mantém itens em estoque), **AE2: Crafting Tree**, **AE2 Network Analyser** e **Applied Flux** (guarda FE em células ME)
+- **Sophisticated Storage** e **Sophisticated Backpacks** (com integração ao Create, mais carrinhos e barcos com baú), **Functional Storage**, **DimStorage**
 
 ### ✨ Magia e progressão
-- **Ars Nouveau** (com **GeOre Nouveau**: geodos que dão source gem)
+- **Ars Nouveau**, com **Ars Énergistique** (Source na rede ME) e **Ars Creo** (compatibilidade com o Create)
 - **Apotheosis** completo: afixos, gemas, encantamentos e spawners
 - **Mystical Agriculture** + Agradditions, **Botany Pots**, **Productive Bees**
 - **Hostile Neural Networks** para farm de mobs sem matar mobs
@@ -154,22 +162,28 @@ Create, Mekanism, Applied Energistics 2, Ars Nouveau, Mystical Agriculture, Apot
 **Mundo equilibrado**
 - Um único gerador de minérios: as veias duplicadas do Mekanism foram desligadas e o ATO (All the Ores) cuida de tudo.
 - Veias menores e mais numerosas: você encontra minério em todo canto, mas não minera um chunk inteiro de osmium numa tacada só.
-- Geodos do GeOre só de carvão, cobre, ferro e quartzo. Diamante, esmeralda, ouro, lapis, redstone e ancient debris continuam saindo da mineração.
+- Geodos do **GeOre** de todos os minérios vanilla, como no ATM11 (carvão, cobre, ferro, ouro, diamante, esmeralda, lapis, redstone, quartzo e ancient debris). Sem varinhas de rastrear: você acha explorando.
 - **Almost Unified**: um item só por metal. Nada de dois tipos de zinco ou estanho que não empilham.
 
 **Feito para jogar junto**
 - **Simple Voice Chat**: chat de voz por proximidade.
 - **FTB Teams, Chunks e Essentials**: times, proteção de área, chunks carregados e `/home`.
 - **Corail Tombstone**: seus itens ficam guardados num túmulo quando você morre.
+- **Simple Backups**: backup automático do mundo a cada 2 horas (guarda os 10 últimos).
+- **No Chat Reports** e **Crash Assistant** (mostra o que crashou e qual mod causou, para os amigos mandarem o log).
 
 **Leve e rápido**
 - Sodium, Lithium, ModernFix, FerriteCore, ImmediatelyFast, Entity Culling e Clumps.
+- **All The Leaks** (corrige vazamentos de memória), **Get It Together, Drops!** (itens no chão se juntam, menos entidades), **Fast Workbench**, NetherPortalFix e Model Gap Fix.
 - **Iris** com **Complementary Shaders – Reimagined** já incluído. Ative em *Opções → Vídeo → Pacotes de Shader*.
 - **Chunky** para pré-gerar o mapa do servidor.
 - Padrões pensados para PC modesto: distância de renderização **8** e de simulação **6** na primeira abertura (pelo Default Options, então suas configurações nunca são sobrescritas nas atualizações).
 
 **Interface confortável**
 - **EMI** para receitas (com as integrações do JEI funcionando), **Jade**, Mouse Tweaks, Inventory Essentials, Pick Up Notifier e TrashSlot.
+- **Crafting Tweaks**, **Toast Control** (sem spam de pop-ups), **KeybindsPurger** (limpa conflitos de teclas) e **Clean Swing** (bate através do mato alto).
+- Mais no JEI/EMI: **JEI Stuff** (loot de mobs e baús, trocas de aldeão, escambo com piglins, pesca, drops de plantas e interações de fluidos), **Just Enough Mekanism Multiblocks**, **Just Enough Professions** e **Just Enough Breeding**.
+- **Just Zoom**: tecla de zoom e uma luneta melhor.
 
 ---
 

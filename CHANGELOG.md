@@ -1,5 +1,29 @@
 # Changelog — Bubie Pack
 
+## 0.1.13 (2026-11-14)
+GeOre igual ao do ATM11 e 28 mods leves trazidos do ATM10: correções, conforto e integrações entre os mods que já estavam aqui.
+Nenhum traz dimensão, minério ou máquina grande nova. Os geodos novos só aparecem em chunks novos: para ter todos, **comece um mundo novo**.
+### GeOre
+- Os geodos voltam a aparecer para todos os minérios vanilla, como no ATM11: carvão, cobre, ferro, ouro, diamante,
+  esmeralda, lapis, redstone, quartzo (Overworld e Nether) e ancient debris. É a config padrão do GeOre, a mesma que o ATM11 usa.
+### Removido
+- GeOre Nouveau. O ATM11 não tem: os Dowsing Rods achavam os geodos fácil demais e o GeOre Golem fazia o farm sozinho.
+  Agora você acha geodo explorando. Os itens do GeOre Nouveau que já existiam no mundo somem.
+### Adicionado (versões iguais às do ATM10)
+- **Servidor e amigos:** Simple Backups (backup do mundo a cada 2 horas, guarda os 10 últimos, até 25 GB, na pasta `simplebackups`),
+  No Chat Reports e Crash Assistant (mostra o que crashou e qual mod causou).
+- **Desempenho e correções:** All The Leaks (vazamentos de memória), Get It Together, Drops! (itens no chão se juntam),
+  Fast Workbench, NetherPortalFix e Model Gap Fix.
+- **Interface:** Crafting Tweaks, Toast Control, KeybindsPurger, Clean Swing e Just Zoom (com o Konkrete, que ele exige).
+- **JEI/EMI:** JEI Stuff (loot de mobs e baús, trocas de aldeão, escambo, pesca, drops de plantas e interações de fluidos),
+  Just Enough Mekanism Multiblocks, Just Enough Professions e Just Enough Breeding.
+- **AE2:** MEGA Cells, ME Requester, AE2: Crafting Tree, AE2 Network Analyser e Applied Flux (FE em células ME).
+- **Ars Nouveau:** Ars Énergistique (Source na rede ME) e Ars Creo (compatibilidade com o Create).
+- **Sophisticated:** Sophisticated Backpacks Create Integration, Sophisticated Storage Create Integration e Sophisticated Storage In Motion
+  (carrinhos e barcos com baú).
+- Toast Control, KeybindsPurger, Model Gap Fix e Crash Assistant são só de cliente e não vão no server pack.
+- Removido da lista de mods (`pack/modlist.html`) o Replication, que tinha ficado lá depois da 0.1.11.
+
 ## 0.1.11 (2026-11-14)
 Menos recurso infinito: minerar, processar e automatizar voltam a valer a pena. **Comece um mundo novo** com esta versão.
 ### Removido

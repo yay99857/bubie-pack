@@ -484,8 +484,8 @@ q(c, 'feitico', 2.5, -2, ('Seu primeiro feitiço', 'Your first spell'),
    'Open the book, build &eProjectile + Break&r and you have a ranged pickaxe.'],
   [C], deps=['livro'])
 q(c, 'source', 2.5, 2, ('Source gems', 'Source gems'),
-  ['As &esource gems&r saem de ametista na &eImbuement Chamber&r e também dos geodos do GeOre Nouveau.'],
-  ['&eSource gems&r come from amethyst in the &eImbuement Chamber&r and from GeOre Nouveau geodes.'],
+  ['As &esource gems&r saem de ametista na &eImbuement Chamber&r.'],
+  ['&eSource gems&r come from amethyst in the &eImbuement Chamber&r.'],
   [I('ars_nouveau:source_gem', 8)], deps=['livro'])
 q(c, 'jarro', 5, 2, ('Gerando source', 'Making source'),
   ['A &eSource&r é a energia da magia. Guarde num &eSource Jar&r.',

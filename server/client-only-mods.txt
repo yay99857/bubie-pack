@@ -10,3 +10,7 @@ ExtremeSoundMuffler-
 better-advanced-tooltips-
 enchdesc-
 defaultoptions-
+ToastControl-
+KeybindsPurger-
+modelfix-
+CrashAssistant-

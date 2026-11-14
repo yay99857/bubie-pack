@@ -11,7 +11,7 @@
   "manifestType": "minecraftModpack",
   "manifestVersion": 1,
   "name": "Bubie Pack",
-  "version": "0.1.11",
+  "version": "0.1.13",
   "author": "Moão",
   "overrides": "overrides",
   "files": [
@@ -1084,12 +1084,6 @@
       "isLocked": false
     },
     {
-      "projectID": 667803,
-      "fileID": 7966736,
-      "required": true,
-      "isLocked": false
-    },
-    {
       "projectID": 623908,
       "fileID": 9435193,
       "required": true,
@@ -1140,6 +1134,174 @@
     {
       "projectID": 261924,
       "fileID": 8969759,
+      "required": true,
+      "isLocked": false
+    },
+    {
+      "projectID": 583228,
+      "fileID": 7965880,
+      "required": true,
+      "isLocked": false
+    },
+    {
+      "projectID": 1091339,
+      "fileID": 9360134,
+      "required": true,
+      "isLocked": false
+    },
+    {
+      "projectID": 411045,
+      "fileID": 6775278,
+      "required": true,
+      "isLocked": false
+    },
+    {
+      "projectID": 288885,
+      "fileID": 6751534,
+      "required": true,
+      "isLocked": false
+    },
+    {
+      "projectID": 241160,
+      "fileID": 5623547,
+      "required": true,
+      "isLocked": false
+    },
+    {
+      "projectID": 676136,
+      "fileID": 5591286,
+      "required": true,
+      "isLocked": false
+    },
+    {
+      "projectID": 271740,
+      "fileID": 6751464,
+      "required": true,
+      "isLocked": false
+    },
+    {
+      "projectID": 233071,
+      "fileID": 8697050,
+      "required": true,
+      "isLocked": false
+    },
+    {
+      "projectID": 1099143,
+      "fileID": 7733186,
+      "required": true,
+      "isLocked": false
+    },
+    {
+      "projectID": 915308,
+      "fileID": 8746293,
+      "required": true,
+      "isLocked": false
+    },
+    {
+      "projectID": 634062,
+      "fileID": 5885735,
+      "required": true,
+      "isLocked": false
+    },
+    {
+      "projectID": 1154099,
+      "fileID": 8636685,
+      "required": true,
+      "isLocked": false
+    },
+    {
+      "projectID": 961856,
+      "fileID": 7622554,
+      "required": true,
+      "isLocked": false
+    },
+    {
+      "projectID": 1086241,
+      "fileID": 7182163,
+      "required": true,
+      "isLocked": false
+    },
+    {
+      "projectID": 688367,
+      "fileID": 8787722,
+      "required": true,
+      "isLocked": false
+    },
+    {
+      "projectID": 965012,
+      "fileID": 9288549,
+      "required": true,
+      "isLocked": false
+    },
+    {
+      "projectID": 905641,
+      "fileID": 6203425,
+      "required": true,
+      "isLocked": false
+    },
+    {
+      "projectID": 575698,
+      "fileID": 8139067,
+      "required": true,
+      "isLocked": false
+    },
+    {
+      "projectID": 1238567,
+      "fileID": 9151543,
+      "required": true,
+      "isLocked": false
+    },
+    {
+      "projectID": 1226755,
+      "fileID": 9151604,
+      "required": true,
+      "isLocked": false
+    },
+    {
+      "projectID": 1166930,
+      "fileID": 9385688,
+      "required": true,
+      "isLocked": false
+    },
+    {
+      "projectID": 898746,
+      "fileID": 9068212,
+      "required": true,
+      "isLocked": false
+    },
+    {
+      "projectID": 417645,
+      "fileID": 7966681,
+      "required": true,
+      "isLocked": false
+    },
+    {
+      "projectID": 899386,
+      "fileID": 9037421,
+      "required": true,
+      "isLocked": false
+    },
+    {
+      "projectID": 622112,
+      "fileID": 7952621,
+      "required": true,
+      "isLocked": false
+    },
+    {
+      "projectID": 561885,
+      "fileID": 9325459,
+      "required": true,
+      "isLocked": false
+    },
+    {
+      "projectID": 410295,
+      "fileID": 5453385,
+      "required": true,
+      "isLocked": false
+    },
+    {
+      "projectID": 978621,
+      "fileID": 9260762,
       "required": true,
       "isLocked": false
     }

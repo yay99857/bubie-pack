@@ -90,7 +90,7 @@
 	quest.30A419C152F7CB19.title: "Milling and washing"
 	quest.3457838A848F2CC7.quest_desc: ["In the &ePattern Encoding Terminal&r you write recipes onto &eBlank Patterns&r. Use EMI to fill in the recipe with one click."]
 	quest.3457838A848F2CC7.title: "Patterns"
-	quest.34892D6C1C6DAFE3.quest_desc: ["&eSource gems&r come from amethyst in the &eImbuement Chamber&r and from GeOre Nouveau geodes."]
+	quest.34892D6C1C6DAFE3.quest_desc: ["&eSource gems&r come from amethyst in the &eImbuement Chamber&r."]
 	quest.34892D6C1C6DAFE3.title: "Source gems"
 	quest.354B18086A2D7B82.quest_desc: ["&eFunctional Storage&r drawers hold huge amounts of a single item. Great for ores and blocks."]
 	quest.354B18086A2D7B82.title: "Drawers"
