@@ -1,5 +1,27 @@
 # Changelog — Bubie Pack
 
+## 0.5.0 (2026-11-14)
+Salto de versão: o pack está perto da 1.0. Esta versão junta 37 mods do ATM10, entre eles os YUNG's, que redesenham as estruturas vanilla.
+**Comece um mundo novo**: as estruturas novas só aparecem em chunks novos.
+### Adicionado (versões iguais às do ATM10)
+- **Estruturas:** YUNG's Better Mineshafts, Dungeons, Strongholds, Nether Fortresses, Desert Temples, Jungle Temples, Ocean Monuments,
+  Witch Huts e End Island (com o YUNG's API). Substituem as estruturas vanilla, sem criar estruturas novas.
+- **Mobs:** Creeper Overhaul e Enderman Overhaul (variantes que combinam com o bioma; usam o Resourceful Config).
+- **Create:** Create: Enchantment Industry (experiência líquida, encantamento e cópia de livros automáticos).
+- **Decoração:** Amendments, o complemento do Supplementaries (poções no caldeirão, tapete em escadas, lanternas que balançam e mais).
+- **Servidor:** Better Compatibility Checker. A lista de servidores mostra se a versão do pack é a mesma do servidor.
+  O `tools/build.sh` grava a versão do `manifest.json` em `config/bcc-common.json` a cada build.
+- **AE2:** Polymorphic Energistics (escolhe entre receitas em conflito nos terminais de craft e de padrões).
+- **Desempenho:** AI Improvements (IA de mobs mais leve) e Sodium Extra (contador de FPS, liga/desliga partículas, animações, neblina e mais).
+- **Shaders:** Euphoria Patches (opções extras para a Complementary incluída) e Iris Search (busca nas configurações do shader).
+- **Conforto:** Inventory Tweaks ReFoxed (teclas para organizar o inventário e baús), Tool Belt, Akashic Tome (todos os livros-guia num só),
+  Fuel Goes Here, Accelerated Decay (folhas caem rápido), Comforts (saco de dormir e rede) e Cosmetic Armor Reworked.
+- **Interface:** Not Enough Animations, Better Advancements, Colorful Hearts, Overloaded Armor Bar, More Overlays (nível de luz e bordas de chunk),
+  Smithing Template Viewer, Rebind Narrator e Bad Wither No Cookie (sem o som do wither e do dragão no mundo todo).
+- **Tecnologia:** Energy Meter (mede o fluxo de energia).
+- Só de cliente, fora do server pack: Sodium Extra, Euphoria Patches, Iris Search, Not Enough Animations, Better Advancements,
+  Colorful Hearts, Overloaded Armor Bar, More Overlays, Rebind Narrator e Bad Wither No Cookie.
+
 ## 0.1.13 (2026-11-14)
 GeOre igual ao do ATM11 e 28 mods leves trazidos do ATM10: correções, conforto e integrações entre os mods que já estavam aqui.
 Nenhum traz dimensão, minério ou máquina grande nova. Os geodos novos só aparecem em chunks novos: para ter todos, **comece um mundo novo**.

@@ -11,14 +11,14 @@ Create, Mekanism, Applied Energistics 2, Ars Nouveau, Mystical Agriculture, Apot
 ## What's in the pack
 
 ### ⚙️ Tech and automation
-- **Create** with Copycats+, Design n' Decor, Dragons Plus and **Crafts & Additions** (Create power ↔ FE)
-- **Mekanism** (Generators and Tools), **Powah!**, **Extreme Reactors**, **Ender IO**
+- **Create** with Copycats+, Design n' Decor, Dragons Plus, **Crafts & Additions** (Create power ↔ FE) and **Create: Enchantment Industry** (liquid experience and automatic enchanting)
+- **Mekanism** (Generators and Tools), **Powah!**, **Extreme Reactors**, **Ender IO**, **Energy Meter**
 - **Industrial Foregoing**, **Actually Additions**, **XyCraft**, **RFTools**, **Just Dire Things**
 - Logistics with **Pipez**, **LaserIO**, **Modular Routers** and the **Integrated Dynamics** family
 
 ### 📦 Storage
 - **Applied Energistics 2** with AdvancedAE, ExtendedAE, Wireless Terminals and **Applied Mekanistics** (Mekanism chemicals inside the ME network)
-- AE2 extras: **MEGA Cells** (bigger cells and crafting storage, bulk cells), **ME Requester** (keeps items in stock), **AE2: Crafting Tree**, **AE2 Network Analyser** and **Applied Flux** (store FE in ME cells)
+- AE2 extras: **MEGA Cells** (bigger cells and crafting storage, bulk cells), **Polymorphic Energistics** (pick between conflicting recipes in the crafting and pattern terminals), **ME Requester** (keeps items in stock), **AE2: Crafting Tree**, **AE2 Network Analyser** and **Applied Flux** (store FE in ME cells)
 - **Sophisticated Storage** and **Sophisticated Backpacks** (with Create integration, plus storage minecarts and boats), **Functional Storage**, **DimStorage**
 
 ### ✨ Magic and progression
@@ -30,11 +30,13 @@ Create, Mekanism, Applied Energistics 2, Ars Nouveau, Mystical Agriculture, Apot
 
 ### 🗺️ Exploration
 - **ChoiceTheorem's Overhauled Village**: bigger villages that differ in every biome, about 1.5x more common
+- **YUNG's Better** Mineshafts, Dungeons, Strongholds, Nether Fortresses, Desert and Jungle Temples, Ocean Monuments, Witch Huts and End Island: the vanilla structures, fully redesigned
 - **The Bumblezone**, **Dungeon Crawl**, Moog's structures (MVS and MES), **Lootr** (separate loot for each player)
+- **Creeper Overhaul** and **Enderman Overhaul**: creepers and endermen that match their biome
 - **Waystones**, **Explorer's Compass**, **Nature's Compass**, Xaero's Minimap and World Map
 
 ### 🏠 Building and decoration
-- **Chipped**, **Rechiseled**, **FramedBlocks**, **Supplementaries**, Macaw's Fences and Walls, Factory Blocks
+- **Chipped**, **Rechiseled**, **FramedBlocks**, **Supplementaries** + **Amendments**, Macaw's Fences and Walls, Factory Blocks
 - **Building Gadgets**, **Mining Gadgets**, Construction Sticks
 
 ### 🍳 Everyday life
@@ -52,14 +54,18 @@ Create, Mekanism, Applied Energistics 2, Ars Nouveau, Mystical Agriculture, Apot
 
 **Made for playing together**
 - **Simple Voice Chat**: proximity voice chat.
+- **Comforts** (sleeping bags and hammocks that don't move your spawn) and **Cosmetic Armor Reworked** (show the look you want over your real armor).
 - **FTB Teams, Chunks and Essentials**: teams, claim protection, chunk loading and `/home`.
 - **Corail Tombstone**: your items are kept safe in a grave when you die.
+- **Better Compatibility Checker**: the server list shows whether your pack version matches the server's.
 - **Simple Backups**: automatic world backups every 2 hours (keeps the last 10).
 - **No Chat Reports** and **Crash Assistant** (shows what crashed and which mod caused it, so friends can send you the log).
 
 **Light and fast**
 - Sodium, Lithium, ModernFix, FerriteCore, ImmediatelyFast, Entity Culling and Clumps.
 - **All The Leaks** (memory leak fixes), **Get It Together, Drops!** (dropped items merge, fewer entities), **Fast Workbench**, NetherPortalFix and Model Gap Fix.
+- **AI Improvements** (lighter mob AI) and **Sodium Extra** (FPS counter, toggles for particles, animations, fog and more).
+- **Euphoria Patches**: extra options for the included Complementary shaders, plus **Iris Search** to find shader settings.
 - **Iris** with **Complementary Shaders – Reimagined** included. Turn it on in *Options → Video Settings → Shader Packs*.
 - **Chunky** to pre-generate the server map.
 - Defaults tuned for modest PCs: render distance **8** and simulation distance **6** on first launch (via Default Options, so your own settings are never overwritten on updates).
@@ -69,6 +75,8 @@ Create, Mekanism, Applied Energistics 2, Ars Nouveau, Mystical Agriculture, Apot
 - **Crafting Tweaks**, **Toast Control** (no more pop-up spam), **KeybindsPurger** (clears key conflicts) and **Clean Swing** (hit through tall grass).
 - More in JEI/EMI: **JEI Stuff** (mob and chest loot, villager trades, bartering, fishing, plant drops and fluid interactions), **Just Enough Mekanism Multiblocks**, **Just Enough Professions** and **Just Enough Breeding**.
 - **Just Zoom**: zoom key and a better spyglass.
+- **Inventory Tweaks ReFoxed** (sort keys), **Tool Belt**, **Akashic Tome** (every guide book in one), **Fuel Goes Here** and **Accelerated Decay** (leaves fall fast).
+- **Not Enough Animations**, **Better Advancements**, **Colorful Hearts** and **Overloaded Armor Bar** (one tidy row for extra hearts and armor), **More Overlays** (light level and chunk borders), **Smithing Template Viewer**, **Rebind Narrator** and **Bad Wither No Cookie** (no world-wide wither and dragon sounds).
 
 ---
 
@@ -126,14 +134,14 @@ Create, Mekanism, Applied Energistics 2, Ars Nouveau, Mystical Agriculture, Apot
 ## O que tem no pack
 
 ### ⚙️ Tecnologia e automação
-- **Create** com Copycats+, Design n' Decor, Dragons Plus e **Crafts & Additions** (energia do Create ↔ FE)
-- **Mekanism** (Generators e Tools), **Powah!**, **Extreme Reactors**, **Ender IO**
+- **Create** com Copycats+, Design n' Decor, Dragons Plus, **Crafts & Additions** (energia do Create ↔ FE) e **Create: Enchantment Industry** (experiência líquida e encantamento automático)
+- **Mekanism** (Generators e Tools), **Powah!**, **Extreme Reactors**, **Ender IO**, **Energy Meter**
 - **Industrial Foregoing**, **Actually Additions**, **XyCraft**, **RFTools**, **Just Dire Things**
 - Logística com **Pipez**, **LaserIO**, **Modular Routers** e a família **Integrated Dynamics**
 
 ### 📦 Armazenamento
 - **Applied Energistics 2** com AdvancedAE, ExtendedAE, Wireless Terminals e **Applied Mekanistics** (químicos do Mekanism dentro da rede ME)
-- Extras do AE2: **MEGA Cells** (células e crafting storage maiores, bulk cells), **ME Requester** (mantém itens em estoque), **AE2: Crafting Tree**, **AE2 Network Analyser** e **Applied Flux** (guarda FE em células ME)
+- Extras do AE2: **MEGA Cells** (células e crafting storage maiores, bulk cells), **Polymorphic Energistics** (escolhe entre receitas em conflito nos terminais de craft e de padrões), **ME Requester** (mantém itens em estoque), **AE2: Crafting Tree**, **AE2 Network Analyser** e **Applied Flux** (guarda FE em células ME)
 - **Sophisticated Storage** e **Sophisticated Backpacks** (com integração ao Create, mais carrinhos e barcos com baú), **Functional Storage**, **DimStorage**
 
 ### ✨ Magia e progressão
@@ -145,11 +153,13 @@ Create, Mekanism, Applied Energistics 2, Ars Nouveau, Mystical Agriculture, Apot
 
 ### 🗺️ Exploração
 - **ChoiceTheorem's Overhauled Village**: vilas maiores e diferentes em cada bioma, e cerca de 1,5x mais frequentes
+- **YUNG's Better** Mineshafts, Dungeons, Strongholds, Nether Fortresses, Desert e Jungle Temples, Ocean Monuments, Witch Huts e End Island: as estruturas vanilla redesenhadas
 - **The Bumblezone**, **Dungeon Crawl**, estruturas do Moog (MVS e MES), **Lootr** (loot separado para cada jogador)
+- **Creeper Overhaul** e **Enderman Overhaul**: creepers e endermen que combinam com o bioma
 - **Waystones**, **Explorer's Compass**, **Nature's Compass**, Xaero's Minimap e World Map
 
 ### 🏠 Construção e decoração
-- **Chipped**, **Rechiseled**, **FramedBlocks**, **Supplementaries**, Macaw's Fences and Walls, Factory Blocks
+- **Chipped**, **Rechiseled**, **FramedBlocks**, **Supplementaries** + **Amendments**, Macaw's Fences and Walls, Factory Blocks
 - **Building Gadgets**, **Mining Gadgets**, Construction Sticks
 
 ### 🍳 Vida no mundo
@@ -167,14 +177,18 @@ Create, Mekanism, Applied Energistics 2, Ars Nouveau, Mystical Agriculture, Apot
 
 **Feito para jogar junto**
 - **Simple Voice Chat**: chat de voz por proximidade.
+- **Comforts** (saco de dormir e rede que não mudam o seu spawn) e **Cosmetic Armor Reworked** (mostre a aparência que quiser por cima da armadura de verdade).
 - **FTB Teams, Chunks e Essentials**: times, proteção de área, chunks carregados e `/home`.
 - **Corail Tombstone**: seus itens ficam guardados num túmulo quando você morre.
+- **Better Compatibility Checker**: a lista de servidores mostra se a versão do seu pack é a mesma do servidor.
 - **Simple Backups**: backup automático do mundo a cada 2 horas (guarda os 10 últimos).
 - **No Chat Reports** e **Crash Assistant** (mostra o que crashou e qual mod causou, para os amigos mandarem o log).
 
 **Leve e rápido**
 - Sodium, Lithium, ModernFix, FerriteCore, ImmediatelyFast, Entity Culling e Clumps.
 - **All The Leaks** (corrige vazamentos de memória), **Get It Together, Drops!** (itens no chão se juntam, menos entidades), **Fast Workbench**, NetherPortalFix e Model Gap Fix.
+- **AI Improvements** (IA de mobs mais leve) e **Sodium Extra** (contador de FPS, liga/desliga partículas, animações, neblina e mais).
+- **Euphoria Patches**: opções extras para os shaders Complementary incluídos, mais o **Iris Search** para achar as configurações do shader.
 - **Iris** com **Complementary Shaders – Reimagined** já incluído. Ative em *Opções → Vídeo → Pacotes de Shader*.
 - **Chunky** para pré-gerar o mapa do servidor.
 - Padrões pensados para PC modesto: distância de renderização **8** e de simulação **6** na primeira abertura (pelo Default Options, então suas configurações nunca são sobrescritas nas atualizações).
@@ -184,6 +198,8 @@ Create, Mekanism, Applied Energistics 2, Ars Nouveau, Mystical Agriculture, Apot
 - **Crafting Tweaks**, **Toast Control** (sem spam de pop-ups), **KeybindsPurger** (limpa conflitos de teclas) e **Clean Swing** (bate através do mato alto).
 - Mais no JEI/EMI: **JEI Stuff** (loot de mobs e baús, trocas de aldeão, escambo com piglins, pesca, drops de plantas e interações de fluidos), **Just Enough Mekanism Multiblocks**, **Just Enough Professions** e **Just Enough Breeding**.
 - **Just Zoom**: tecla de zoom e uma luneta melhor.
+- **Inventory Tweaks ReFoxed** (teclas para organizar), **Tool Belt**, **Akashic Tome** (todos os livros-guia num só), **Fuel Goes Here** e **Accelerated Decay** (folhas caem rápido).
+- **Not Enough Animations**, **Better Advancements**, **Colorful Hearts** e **Overloaded Armor Bar** (corações e armadura extras numa fileira só), **More Overlays** (nível de luz e bordas de chunk), **Smithing Template Viewer**, **Rebind Narrator** e **Bad Wither No Cookie** (sem o som do wither e do dragão no mundo todo).
 
 ---
 

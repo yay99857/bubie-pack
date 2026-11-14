@@ -14,3 +14,13 @@ ToastControl-
 KeybindsPurger-
 modelfix-
 CrashAssistant-
+BetterAdvancements-
+colorfulhearts-
+moreoverlays-
+sodium-extra-
+notenoughanimations-
+EuphoriaPatcher-
+IrisSearch-
+rebind_narrator-
+overloadedarmorbar-
+bwncr-
