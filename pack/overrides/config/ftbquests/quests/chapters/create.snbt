@@ -11,7 +11,7 @@
 		{
 			dependencies: ["19BAB846C53AAF69"]
 			id: "5BF42C92DA85DDA8"
-			rewards: [{ id: "2FB3812176F1E4D0", type: "xp", xp: 25 }]
+			rewards: [{ id: "2FB3812176F1E4D0", type: "xp", xp: 25 }, { id: "3DABF9168FE041A8", item: { count: 8, id: "create:shaft" }, type: "item" }]
 			shape: "pentagon"
 			size: 1.5d
 			tasks: [{ count: 8L, id: "643EC65BBEE58956", item: { count: 1, id: "create:cogwheel" }, type: "item" }, { count: 2L, id: "7976B37BFC78495A", item: { count: 1, id: "create:large_cogwheel" }, type: "item" }, { id: "3104466A104E5D87", item: { count: 1, id: "create:goggles" }, type: "item" }]
@@ -21,7 +21,7 @@
 		{
 			dependencies: ["5BF42C92DA85DDA8"]
 			id: "6043210E440C2AC6"
-			rewards: [{ id: "52B4E5FC2DF80C6C", type: "xp", xp: 10 }]
+			rewards: [{ id: "52B4E5FC2DF80C6C", type: "xp", xp: 10 }, { id: "30D5BBEE45CB0E26", item: { count: 4, id: "create:belt_connector" }, type: "item" }]
 			tasks: [{ count: 4L, id: "1606E6DD62FB8A87", item: { count: 1, id: "create:belt_connector" }, type: "item" }, { id: "1E67D6FC771F9ADA", item: { count: 1, id: "create:depot" }, type: "item" }]
 			x: 2.5d
 			y: -2.0d
@@ -45,7 +45,7 @@
 		{
 			dependencies: ["6043210E440C2AC6"]
 			id: "3AEF3FB0E9F18305"
-			rewards: [{ id: "65E2F111BA4B49CD", type: "xp", xp: 50 }]
+			rewards: [{ id: "65E2F111BA4B49CD", type: "xp", xp: 50 }, { id: "3E8AA9858CC5B669", item: { count: 2, id: "create:electron_tube" }, type: "item" }]
 			tasks: [{ id: "25FF1C4FABFBA79C", item: { count: 1, id: "create:mechanical_mixer" }, type: "item" }, { id: "11E45960AC11B72B", item: { count: 1, id: "create:basin" }, type: "item" }, { id: "6A93FD6396F5F1F5", item: { count: 1, id: "create:blaze_burner" }, type: "item" }, { count: 16L, icon: { id: "create:brass_ingot" }, id: "3DE8B9C4A03E607D", item: { components: { "ftbfiltersystem:filter": "ftbfiltersystem:item_tag(c:ingots/brass)" }, count: 1, id: "ftbfiltersystem:smart_filter" }, type: "item" }]
 			x: 5.0d
 			y: -2.0d

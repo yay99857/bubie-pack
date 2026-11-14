@@ -1,5 +1,14 @@
 # Changelog — Bubie Pack
 
+## 0.5.1 (2026-11-14)
+Recompensas nas quests. Dá para continuar no mundo da 0.5.0: o progresso das quests é mantido.
+### Quests
+- 34 quests passam a dar, além do XP, um item pequeno que ajuda no próximo passo, sem pular etapas.
+  Exemplos: Pickup Upgrade na quest da mochila, 2 Warp Scrolls na das waystones, 2 Energy Tablets na do Energy Cube,
+  8 Silicon na do Inscriber, 8 Blank Patterns na dos padrões, 4 Source Gems na do livro de feitiços.
+  Coisas baratas (pasta dielétrica, cabos, gavetas, esteiras, padrões) vêm em cópia; máquinas nunca.
+  Agora são 36 quests com item; as outras 59 continuam só com XP.
+
 ## 0.5.0 (2026-11-14)
 Salto de versão: o pack está perto da 1.0. Esta versão junta 37 mods do ATM10, entre eles os YUNG's, que redesenham as estruturas vanilla.
 **Comece um mundo novo**: as estruturas novas só aparecem em chunks novos.

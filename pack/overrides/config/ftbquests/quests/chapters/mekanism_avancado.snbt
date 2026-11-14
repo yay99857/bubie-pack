@@ -21,7 +21,7 @@
 		{
 			dependencies: ["7041EDECA7C22314"]
 			id: "63186178CF030461"
-			rewards: [{ id: "769B6A1AE2A4AF3C", type: "xp", xp: 10 }]
+			rewards: [{ id: "769B6A1AE2A4AF3C", type: "xp", xp: 10 }, { id: "57DD76B9B6B0BCEA", item: { count: 4, id: "mekanism:alloy_infused" }, type: "item" }]
 			tasks: [{ id: "5AE65E132110E115", item: { count: 1, id: "mekanism:upgrade_speed" }, type: "item" }, { id: "2F89D9D1EFC992A7", item: { count: 1, id: "mekanism:upgrade_energy" }, type: "item" }]
 			x: 2.5d
 			y: -2.0d

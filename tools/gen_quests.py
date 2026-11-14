@@ -82,25 +82,25 @@ c = chapter('primeiros_passos', '&aPrimeiros Passos', '&aFirst Steps', 'minecraf
 q(c, 'ferro', 0, 0, ('Ferro, o começo de tudo', 'Iron, where it all begins'),
   ['Quase tudo no começo pede ferro. Os minérios do pack vêm em veias pequenas e espalhadas: explore cavernas e o deepslate.'],
   ['Almost everything early on needs iron. Ores in this pack come in small, spread-out veins: explore caves and the deepslate layer.'],
-  [T('c:ingots/iron', 16, 'minecraft:iron_ingot')], shape='pentagon', size=1.5, xp=25)
+  [T('c:ingots/iron', 16, 'minecraft:iron_ingot')], shape='pentagon', size=1.5, xp=25, items=[('minecraft:bucket', 1)])
 q(c, 'fornalha', 2, -1.5, ('Fornalha melhor', 'A better furnace'),
   ['As fornalhas do &eIron Furnaces&r são mais rápidas e gastam menos combustível. Dá para melhorar depois sem quebrar.'],
   ['&eIron Furnaces&r are faster and use less fuel. You can upgrade them later without breaking them.'],
-  [I('ironfurnaces:iron_furnace')], deps=['ferro'])
+  [I('ironfurnaces:iron_furnace')], deps=['ferro'], items=[('minecraft:coal', 16)])
 q(c, 'mochila', 2, 1.5, ('Mochila', 'Backpack'),
   ['A mochila do &eSophisticated Backpacks&r guarda bastante coisa e aceita upgrades (coletar itens, autoalimentação, filtros...).'],
   ['The &eSophisticated Backpacks&r backpack holds a lot and takes upgrades (pickup, auto-feeding, filters...).'],
-  [I('sophisticatedbackpacks:backpack')], deps=['ferro'])
+  [I('sophisticatedbackpacks:backpack')], deps=['ferro'], items=[('sophisticatedbackpacks:pickup_upgrade', 1)])
 q(c, 'waystone', -2, -1.5, ('Waystones', 'Waystones'),
   ['Ative toda waystone que encontrar nas vilas. Depois dá para viajar entre elas.',
    'Fazer a sua própria waystone na base é uma das melhores coisas do começo.'],
   ['Activate every waystone you find in villages. You can then travel between them.',
    'Making your own waystone at your base is one of the best early-game moves.'],
-  [I('waystones:waystone')], deps=['ferro'], xp=25)
+  [I('waystones:waystone')], deps=['ferro'], xp=25, items=[('waystones:warp_scroll', 2)])
 q(c, 'comida', -2, 1.5, ('Comida de verdade', 'Real food'),
   ["O &eFarmer's Delight&r tem refeições que alimentam muito mais. Comece pela panela."],
   ["&eFarmer's Delight&r meals are far more filling. Start with the cooking pot."],
-  [I('farmersdelight:cooking_pot')], deps=['ferro'])
+  [I('farmersdelight:cooking_pot')], deps=['ferro'], items=[('farmersdelight:tomato_seeds', 4), ('farmersdelight:cabbage_seeds', 4)])
 q(c, 'megatocha', -4, 0, ('Base sem mobs', 'A mob-free base'),
   ['A &eMega Torch&r impede que monstros nasçam num raio grande. Coloque uma no meio da base.'],
   ['The &eMega Torch&r stops monsters from spawning in a large radius. Put one in the middle of your base.'],
@@ -110,15 +110,15 @@ q(c, 'andesite', 4, 0, ('Create: liga de andesito', 'Create: andesite alloy'),
    'Ela também é o caminho para energia sem combustível no capítulo de Energia.'],
   ['Andesite alloy is the foundation of &eCreate&r: shafts, cogs, presses.',
    'It is also the path to fuel-free power in the Power chapter.'],
-  [I('create:andesite_alloy', 16)], deps=['fornalha'], xp=25)
+  [I('create:andesite_alloy', 16)], deps=['fornalha'], xp=25, items=[('create:cogwheel', 4)])
 q(c, 'prensa', 6, 0, ('Prensa mecânica', 'Mechanical press'),
   ["Com uma roda d'água girando, a prensa transforma lingotes em chapas automaticamente."],
   ['With a water wheel turning it, the press turns ingots into plates automatically.'],
-  [I('create:mechanical_press')], deps=['andesite'])
+  [I('create:mechanical_press')], deps=['andesite'], items=[('create:andesite_casing', 4)])
 q(c, 'baú', 0, 3, ('Organizando os baús', 'Organizing your chests'),
   ['Os baús do &eSophisticated Storage&r aceitam upgrades de tamanho e de automação. Comece por um baú de madeira e melhore com o tempo.'],
   ['&eSophisticated Storage&r chests take size and automation upgrades. Start with a wooden one and upgrade it over time.'],
-  [I('sophisticatedstorage:chest')], deps=['mochila'])
+  [I('sophisticatedstorage:chest')], deps=['mochila'], items=[('sophisticatedstorage:stack_upgrade_tier_1', 1)])
 
 # ================= Energia =================
 c = chapter('energia', '&eEnergia: o Começo', '&ePower: Getting Started', 'powah:furnator_starter', 2)
@@ -139,7 +139,7 @@ q(c, 'inicio', 0, 0, ('Energia: por onde começar?', 'Power: where to start?'),
 q(c, 'paste', -2.5, -2, ('Pasta dielétrica', 'Dielectric paste'),
   ['Quase tudo do &ePowah&r começa com pasta dielétrica (carvão + argila + lava).'],
   ['Almost everything in &ePowah&r starts with dielectric paste (coal + clay + lava).'],
-  [I('powah:dielectric_paste', 8)], deps=['inicio'])
+  [I('powah:dielectric_paste', 8)], deps=['inicio'], items=[('powah:dielectric_paste', 8)])
 q(c, 'furnator', -5, -2, rec('Furnator', 'Furnator'),
   ['Gerador do Powah que queima combustível. Simples e barato.', 'Coloque carvão e ligue um cabo ou uma bateria do lado.'],
   ['Powah generator that burns fuel. Simple and cheap.', 'Add coal and connect a cable or a battery next to it.'],
@@ -147,7 +147,7 @@ q(c, 'furnator', -5, -2, rec('Furnator', 'Furnator'),
 q(c, 'stirling', -5, 0, ('Alternativa: Stirling Generator', 'Alternative: Stirling Generator'),
   ['O gerador do &eEnder IO&r também queima combustível. Use se já estiver fazendo máquinas do Ender IO.'],
   ['The &eEnder IO&r generator also burns fuel. Use it if you are already building Ender IO machines.'],
-  [I('enderio:stirling_generator')], deps=['inicio'])
+  [I('enderio:stirling_generator')], deps=['inicio'], items=[('minecraft:coal_block', 2)])
 q(c, 'roda', 2.5, -2, ("Roda d'água", 'Water wheel'),
   ['Coloque a roda na água corrente: ela gira para sempre. Mais rodas = mais força (stress).'],
   ['Place the wheel in flowing water: it spins forever. More wheels = more stress capacity.'],
@@ -173,7 +173,7 @@ q(c, 'thermo', -2.5, -4, ('Thermo Generator', 'Thermo Generator'),
    'Rende bem mais que o Furnator e não gasta combustível: é o melhor gerador do começo ao meio do jogo.'],
   ['Place it on top of a heat source (lava, magma) and feed it water.',
    'It makes far more than the Furnator and needs no fuel: the best generator from early to mid game.'],
-  [I('powah:thermo_generator_starter')], deps=['paste'], xp=50)
+  [I('powah:thermo_generator_starter')], deps=['paste'], xp=50, items=[('minecraft:magma_block', 2)])
 q(c, 'bateria', 0, 2.5, rec('Bateria', 'Battery'),
   ['A &eEnergy Cell (Starter)&r guarda a energia que sobra. Ponha entre o gerador e as máquinas.'],
   ['The &eEnergy Cell (Starter)&r stores spare energy. Put it between your generators and machines.'],
@@ -181,21 +181,21 @@ q(c, 'bateria', 0, 2.5, rec('Bateria', 'Battery'),
 q(c, 'cubo', 2.5, 2.5, ('Energy Cube', 'Energy Cube'),
   ['O cubo de energia do &eMekanism&r guarda mais e pode carregar itens. Precisa de aço (veja o capítulo do Mekanism).'],
   ['The &eMekanism&r Energy Cube stores more and can charge items. It needs steel (see the Mekanism chapter).'],
-  [I('mekanism:basic_energy_cube')], deps=['bateria', 'processamento/casing'])
+  [I('mekanism:basic_energy_cube')], deps=['bateria', 'processamento/casing'], items=[('mekanism:energy_tablet', 2)])
 q(c, 'cabos', -2.5, 2.5, ('Cabos', 'Cables'),
   ['O &eEnergy Pipe&r do Pipez é barato e transporta bastante. Use a chave (Pipe Wrench) para escolher os lados que puxam ou empurram.',
    'O &eUniversal Cable&r do Mekanism é a alternativa.'],
   ["Pipez's &eEnergy Pipe&r is cheap and moves a lot. Use the Pipe Wrench to choose which sides pull or push.",
    "Mekanism's &eUniversal Cable&r is the alternative."],
-  [I('pipez:energy_pipe', 16)], deps=['inicio'])
+  [I('pipez:energy_pipe', 16)], deps=['inicio'], items=[('pipez:energy_pipe', 16)])
 q(c, 'orb', 0, 5, ('Energizing Orb', 'Energizing Orb'),
   ['O Orb, com &eEnergizing Rods&r em volta, &eenergiza&r itens. É assim que se avança de nível no Powah.'],
   ['The Orb, surrounded by &eEnergizing Rods&r, &eenergizes&r items. This is how you tier up in Powah.'],
-  [I('powah:energizing_orb'), I('powah:energizing_rod_starter', 2)], deps=['bateria'], xp=25)
+  [I('powah:energizing_orb'), I('powah:energizing_rod_starter', 2)], deps=['bateria'], xp=25, items=[('powah:energizing_rod_starter', 1)])
 q(c, 'aco', 2.5, 5, ('Aço energizado', 'Energized steel'),
   ['Ferro + ouro no Orb = &eaço energizado&r, o material do nível Basic do Powah.'],
   ['Iron + gold in the Orb = &eenergized steel&r, the material for the Basic tier of Powah.'],
-  [I('powah:steel_energized', 8)], deps=['orb'])
+  [I('powah:steel_energized', 8)], deps=['orb'], items=[('powah:steel_energized', 4)])
 q(c, 'bateria2', 5, 5, ('Bateria maior', 'A bigger battery'),
   ['Com aço energizado dá para fazer a &eEnergy Cell (Basic)&r, que guarda bem mais.'],
   ['Energized steel unlocks the &eEnergy Cell (Basic)&r, which stores much more.'],
@@ -207,18 +207,18 @@ q(c, 'flux', -2.5, 5, ('Flux Networks', 'Flux Networks'),
   ['Moves energy wirelessly from &eFlux Plugs&r (input) to &eFlux Points&r (output), even across dimensions.',
    'Flux dust comes from redstone crushed between bedrock and obsidian: check EMI for how.', '',
    '&cIn Bubie Pack&r, the Flux Controller wireless charging &cdoes not charge jetpacks or the MekaSuit&r. Bring spare energy on long trips!'],
-  [I('fluxnetworks:flux_plug'), I('fluxnetworks:flux_point')], deps=['cabos'], xp=50)
+  [I('fluxnetworks:flux_plug'), I('fluxnetworks:flux_point')], deps=['cabos'], xp=50, items=[('fluxnetworks:flux_dust', 8)])
 
 # ================= Mekanism: processamento =================
 c = chapter('processamento', '&dMekanism: Minérios em Dobro', '&dMekanism: Double Your Ores', 'mekanism:enrichment_chamber', 3)
 q(c, 'osmio', 0, 0, ('Ósmio', 'Osmium'),
   ['O ósmio é o metal principal do &eMekanism&r. Ele aparece no deepslate (minério do ATO).', 'Qualquer lingote de ósmio serve.'],
   ['Osmium is the core metal of &eMekanism&r. It is found in the deepslate layer (ATO ore).', 'Any osmium ingot counts.'],
-  [T('c:ingots/osmium', 16, 'mekanism:ingot_osmium')], shape='pentagon', size=1.5, xp=25)
+  [T('c:ingots/osmium', 16, 'mekanism:ingot_osmium')], shape='pentagon', size=1.5, xp=25, items=[('minecraft:redstone', 16)])
 q(c, 'infuser', 2.5, 0, ('Metallurgic Infuser', 'Metallurgic Infuser'),
   ['A primeira máquina do Mekanism: mistura metais com carvão, redstone e outros. Precisa de energia.'],
   ['The first Mekanism machine: infuses metals with coal, redstone and more. It needs power.'],
-  [I('mekanism:metallurgic_infuser')], deps=['osmio', 'energia/inicio'], xp=25)
+  [I('mekanism:metallurgic_infuser')], deps=['osmio', 'energia/inicio'], xp=25, items=[('mekanism:enriched_redstone', 8)])
 q(c, 'aco', 5, -1.5, ('Aço', 'Steel'),
   ['Ferro + carvão no Infuser = &eaço&r. Você vai precisar de muito.'],
   ['Iron + coal in the Infuser = &esteel&r. You will need a lot of it.'],
@@ -226,7 +226,7 @@ q(c, 'aco', 5, -1.5, ('Aço', 'Steel'),
 q(c, 'circuito', 5, 1.5, ('Circuito básico', 'Basic circuit'),
   ['Ósmio + redstone no Infuser = liga infundida; com ela, faça os circuitos básicos.'],
   ['Osmium + redstone in the Infuser = infused alloy; use it to make basic circuits.'],
-  [I('mekanism:basic_control_circuit', 4)], deps=['infuser'])
+  [I('mekanism:basic_control_circuit', 4)], deps=['infuser'], items=[('mekanism:basic_control_circuit', 2)])
 q(c, 'casing', 7.5, 0, ('Steel Casing', 'Steel Casing'),
   ['A carcaça de aço é a base de quase todas as máquinas do Mekanism.'],
   ['The steel casing is the base of almost every Mekanism machine.'],
@@ -253,7 +253,7 @@ c = chapter('armazenamento', '&9Armazenamento', '&9Storage', 'ae2:terminal', 4)
 q(c, 'gaveta', 0, 0, ('Gavetas', 'Drawers'),
   ['As gavetas do &eFunctional Storage&r guardam muitas unidades de um item só. Ótimas para minérios e blocos.'],
   ['&eFunctional Storage&r drawers hold huge amounts of a single item. Great for ores and blocks.'],
-  [I('functionalstorage:oak_1', 4)], shape='pentagon', size=1.5)
+  [I('functionalstorage:oak_1', 4)], shape='pentagon', size=1.5, items=[('functionalstorage:oak_1', 2)])
 q(c, 'controller', 2.5, 0, ('Storage Controller', 'Storage Controller'),
   ['Junta todas as gavetas encostadas: você coloca e tira itens de todas pelo controlador.'],
   ['Links all touching drawers: insert and extract from all of them through the controller.'],
@@ -261,7 +261,7 @@ q(c, 'controller', 2.5, 0, ('Storage Controller', 'Storage Controller'),
 q(c, 'meteoro', 0, 3, ('Applied Energistics 2', 'Applied Energistics 2'),
   ['O &eAE2&r guarda tudo digitalmente. Para começar, ache um meteorito com a bússola: dentro dele estão as prensas do Inscriber.'],
   ['&eAE2&r stores everything digitally. To start, find a meteorite with the compass: the Inscriber presses are inside.'],
-  [I('ae2:meteorite_compass')], deps=['gaveta'])
+  [I('ae2:meteorite_compass')], deps=['gaveta'], items=[('ae2:certus_quartz_crystal', 8)])
 q(c, 'prensas', 2.5, 3, ('As prensas', 'The presses'),
   ['Pegue as 4 prensas no meteorito: lógica, cálculo, engenharia e silício.'],
   ['Collect the 4 presses from the meteorite: logic, calculation, engineering and silicon.'],
@@ -270,18 +270,18 @@ q(c, 'prensas', 2.5, 3, ('As prensas', 'The presses'),
 q(c, 'inscriber', 5, 3, ('Inscriber e Charger', 'Inscriber and Charger'),
   ['O Inscriber usa as prensas para fazer os processadores. O Charger carrega o quartzo de certus.'],
   ['The Inscriber uses the presses to make processors. The Charger charges certus quartz.'],
-  [I('ae2:inscriber'), I('ae2:charger')], deps=['prensas', 'energia/inicio'], xp=25)
+  [I('ae2:inscriber'), I('ae2:charger')], deps=['prensas', 'energia/inicio'], xp=25, items=[('ae2:silicon', 8)])
 q(c, 'processadores', 7.5, 3, ('Processadores', 'Processors'),
   ['Faça um de cada. Eles aparecem em quase todas as peças do AE2.'],
   ['Make one of each. They are used in almost every AE2 part.'],
-  [I('ae2:logic_processor'), I('ae2:calculation_processor'), I('ae2:engineering_processor')], deps=['inscriber'], xp=25)
+  [I('ae2:logic_processor'), I('ae2:calculation_processor'), I('ae2:engineering_processor')], deps=['inscriber'], xp=25, items=[('ae2:printed_silicon', 4)])
 q(c, 'rede', 10, 3, ('&aSua primeira rede ME', '&aYour first ME network'),
   ['O mínimo: &eME Drive&r + &eTerminal&r + &eEnergy Acceptor&r ligados por cabos, e uma célula de 1k no drive.',
    'Sem Controller, a rede aceita até 8 dispositivos: mais que suficiente para começar.'],
   ['The minimum: &eME Drive&r + &eTerminal&r + &eEnergy Acceptor&r joined by cables, with a 1k cell in the drive.',
    'Without a Controller the network supports up to 8 devices: plenty to get started.'],
   [I('ae2:drive'), I('ae2:terminal'), I('ae2:energy_acceptor'), I('ae2:item_storage_cell_1k')],
-  deps=['processadores'], xp=100, size=1.5, shape='hexagon')
+  deps=['processadores'], xp=100, size=1.5, shape='hexagon', items=[('ae2:cell_component_1k', 1)])
 q(c, 'quimicos', 12.5, 3, ('Químicos no AE2', 'Chemicals in AE2'),
   ['Com o &eApplied Mekanistics&r, células químicas guardam gases e químicos do Mekanism na mesma rede.'],
   ['With &eApplied Mekanistics&r, chemical cells store Mekanism gases and chemicals in the same network.'],
@@ -294,7 +294,7 @@ q(c, 'controller', 0, 0, ('ME Controller', 'ME Controller'),
    'Ele não pode encostar em outro Controller fora do mesmo bloco multibloco.'],
   ['With a &eController&r, the network is no longer limited to 8 devices: each face carries 32 channels.',
    'Controllers must not touch another Controller unless they form one multiblock.'],
-  [I('ae2:controller')], deps=['armazenamento/rede'], shape='pentagon', size=1.5, xp=50)
+  [I('ae2:controller')], deps=['armazenamento/rede'], shape='pentagon', size=1.5, xp=50, items=[('ae2:fluix_crystal', 8)])
 q(c, 'cabos', 2.5, -1.5, ('Cabos inteligentes', 'Smart cables'),
   ['O &eSmart Cable&r mostra os canais usados com luzes. O &eDense Cable&r leva 32 canais num cabo só.'],
   ['&eSmart Cables&r show used channels with lights. &eDense Cables&r carry 32 channels in one cable.'],
@@ -312,7 +312,7 @@ q(c, 'cpu', 5, 0, ('Crafting CPU', 'Crafting CPU'),
 q(c, 'padroes', 7.5, -1.5, ('Padrões', 'Patterns'),
   ['No &ePattern Encoding Terminal&r você grava receitas em &eBlank Patterns&r. Use o EMI para preencher a receita com um clique.'],
   ['In the &ePattern Encoding Terminal&r you write recipes onto &eBlank Patterns&r. Use EMI to fill in the recipe with one click.'],
-  [I('ae2:pattern_encoding_terminal'), I('ae2:blank_pattern', 8)], deps=['cpu'])
+  [I('ae2:pattern_encoding_terminal'), I('ae2:blank_pattern', 8)], deps=['cpu'], items=[('ae2:blank_pattern', 8)])
 q(c, 'assembler', 7.5, 1.5, rec('Molecular Assembler', 'Molecular Assembler'),
   ['Encoste um &ePattern Provider&r num &eMolecular Assembler&r e coloque os padrões de crafting no Provider.',
    'Agora peça qualquer item no terminal: a rede fabrica sozinha.'],
@@ -334,7 +334,7 @@ q(c, 'barramentos', 10, -1.5, ('Import, Export e Storage Bus', 'Import, Export a
 q(c, 'wireless', 12.5, 0, ('Terminal sem fio', 'Wireless terminal'),
   ['Com um &eWireless Access Point&r ligado à rede, o &eWireless Terminal&r acessa tudo de longe. Carregue-o no Charger.'],
   ['With a &eWireless Access Point&r on the network, the &eWireless Terminal&r reaches everything from afar. Charge it in the Charger.'],
-  [I('ae2:wireless_access_point'), I('ae2:wireless_terminal')], deps=['maquinas', 'barramentos'], xp=50)
+  [I('ae2:wireless_access_point'), I('ae2:wireless_terminal')], deps=['maquinas', 'barramentos'], xp=50, items=[('ae2:wireless_booster', 2)])
 
 # ================= Mekanism: avançado =================
 c = chapter('mekanism_avancado', '&dMekanism: Avançado', '&dMekanism: Advanced', 'mekanism:chemical_injection_chamber', 6)
@@ -345,7 +345,7 @@ q(c, 'circuito', 0, 0, ('Circuito avançado', 'Advanced circuit'),
 q(c, 'upgrades', 2.5, -2, ('Upgrades', 'Upgrades'),
   ['&eSpeed Upgrades&r deixam as máquinas mais rápidas; &eEnergy Upgrades&r reduzem o gasto. Coloque no slot de upgrade da máquina.'],
   ['&eSpeed Upgrades&r make machines faster; &eEnergy Upgrades&r cut their power use. Put them in the machine upgrade slot.'],
-  [I('mekanism:upgrade_speed'), I('mekanism:upgrade_energy')], deps=['circuito'])
+  [I('mekanism:upgrade_speed'), I('mekanism:upgrade_energy')], deps=['circuito'], items=[('mekanism:alloy_infused', 4)])
 q(c, 'installer', 2.5, 2, ('Tier Installers', 'Tier Installers'),
   ['Os &eTier Installers&r transformam uma máquina comum numa Factory, que processa vários itens ao mesmo tempo, sem quebrar nada.'],
   ['&eTier Installers&r turn a regular machine into a Factory that processes several items at once, without breaking it.'],
@@ -387,11 +387,11 @@ c = chapter('create', '&6Create: Automação', '&6Create: Automation', 'create:c
 q(c, 'engrenagens', 0, 0, ('Engrenagens e óculos', 'Cogs and goggles'),
   ['Engrenagens passam rotação; a engrenagem grande muda a velocidade. Os &eóculos do engenheiro&r mostram velocidade e stress.'],
   ["Cogs pass rotation along; large cogs change the speed. The &eEngineer's Goggles&r show speed and stress."],
-  [I('create:cogwheel', 8), I('create:large_cogwheel', 2), I('create:goggles')], deps=['primeiros_passos/andesite'], shape='pentagon', size=1.5, xp=25)
+  [I('create:cogwheel', 8), I('create:large_cogwheel', 2), I('create:goggles')], deps=['primeiros_passos/andesite'], shape='pentagon', size=1.5, xp=25, items=[('create:shaft', 8)])
 q(c, 'esteira', 2.5, -2, ('Esteiras e depósitos', 'Belts and depots'),
   ['A &eesteira&r leva itens entre máquinas. O &eDepot&r segura um item para a prensa ou outra máquina trabalhar.'],
   ['&eBelts&r carry items between machines. The &eDepot&r holds an item for a press or other machine to work on.'],
-  [I('create:belt_connector', 4), I('create:depot')], deps=['engrenagens'])
+  [I('create:belt_connector', 4), I('create:depot')], deps=['engrenagens'], items=[('create:belt_connector', 4)])
 q(c, 'moinho', 2.5, 2, ('Moer e lavar', 'Milling and washing'),
   ['O &eMillstone&r mói itens. Um &eEncased Fan&r soprando através de água &elava&r itens; através de lava, &efunde&r; através de fogo de alma, &eassombra&r.'],
   ['The &eMillstone&r grinds items. An &eEncased Fan&r blowing through water &ewashes&r items; through lava it &esmelts&r; through soul fire it &ehaunts&r.'],
@@ -408,7 +408,7 @@ q(c, 'latao', 5, -2, ('Latão', 'Brass'),
   ['Mix copper and zinc in a &eBasin&r with a &eMechanical Mixer&r above and a &eBlaze Burner&r below.',
    'Fill an empty Blaze Burner by clicking a blaze with it.'],
   [I('create:mechanical_mixer'), I('create:basin'), I('create:blaze_burner'), T('c:ingots/brass', 16, 'create:brass_ingot')],
-  deps=['esteira'], xp=50)
+  deps=['esteira'], xp=50, items=[('create:electron_tube', 2)])
 q(c, 'mecanismo', 7.5, -2, ('Mecanismo de precisão', 'Precision mechanism'),
   ['O &emecanismo de precisão&r é feito numa linha de montagem com deployers. Ele libera as peças de latão do Create.'],
   ['The &eprecision mechanism&r is made on a sequenced assembly line with deployers. It unlocks Create brass parts.'],
@@ -435,11 +435,11 @@ c = chapter('mystical', '&2Mystical Agriculture', '&2Mystical Agriculture', 'mys
 q(c, 'essencia', 0, 0, ('Essência de inferium', 'Inferium essence'),
   ['A &eessência de inferium&r vem do minério de inferium e às vezes cai de mobs. É a base de todo o mod.'],
   ['&eInferium essence&r comes from inferium ore and sometimes drops from mobs. It is the base of the whole mod.'],
-  [I('mysticalagriculture:inferium_essence', 32)], shape='pentagon', size=1.5, xp=25)
+  [I('mysticalagriculture:inferium_essence', 32)], shape='pentagon', size=1.5, xp=25, items=[('mysticalagriculture:inferium_essence', 16)])
 q(c, 'sementes', 2.5, -1.5, ('Sementes de inferium', 'Inferium seeds'),
   ['Plante as &esementes de inferium&r para colher mais essência. Em terra de inferium, rendem um pouco mais.'],
   ['Plant &einferium seeds&r to grow more essence. On inferium farmland they yield a bit more.'],
-  [I('mysticalagriculture:inferium_seeds'), I('mysticalagriculture:inferium_farmland', 4)], deps=['essencia'])
+  [I('mysticalagriculture:inferium_seeds'), I('mysticalagriculture:inferium_farmland', 4)], deps=['essencia'], items=[('mysticalagriculture:inferium_seeds', 1)])
 q(c, 'prosperidade', 2.5, 1.5, ('Fragmentos de prosperidade', 'Prosperity shards'),
   ['O &eminério de prosperidade&r dá fragmentos, usados em quase todas as sementes de recurso.'],
   ['&eProsperity ore&r drops shards, used in almost every resource seed.'],
@@ -476,7 +476,7 @@ c = chapter('ars', '&5Ars Nouveau', '&5Ars Nouveau', 'ars_nouveau:novice_spell_b
 q(c, 'livro', 0, 0, ('Livro de feitiços', 'Spell book'),
   ['O &eNovice Spell Book&r é o começo do Ars Nouveau. O &eWorn Notebook&r é o guia do mod: leia quando tiver dúvida.'],
   ['The &eNovice Spell Book&r is where Ars Nouveau begins. The &eWorn Notebook&r is the mod guide: read it when in doubt.'],
-  [I('ars_nouveau:novice_spell_book')], shape='pentagon', size=1.5, xp=25)
+  [I('ars_nouveau:novice_spell_book')], shape='pentagon', size=1.5, xp=25, items=[('ars_nouveau:source_gem', 4)])
 q(c, 'feitico', 2.5, -2, ('Seu primeiro feitiço', 'Your first spell'),
   ['Um feitiço é uma &eforma&r (Projectile, Touch, Self) mais &eefeitos&r (Break, Harm...).',
    'Abra o livro, monte &eProjectile + Break&r e você tem uma picareta à distância.'],

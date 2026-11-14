@@ -10,7 +10,7 @@
 	quests: [
 		{
 			id: "1B6A690704ABED89"
-			rewards: [{ id: "10EA3C5286BD01B4", type: "xp", xp: 25 }]
+			rewards: [{ id: "10EA3C5286BD01B4", type: "xp", xp: 25 }, { id: "3137BA9817A2C74B", item: { count: 16, id: "minecraft:redstone" }, type: "item" }]
 			shape: "pentagon"
 			size: 1.5d
 			tasks: [{ count: 16L, icon: { id: "mekanism:ingot_osmium" }, id: "1E1D39BAD5B3D250", item: { components: { "ftbfiltersystem:filter": "ftbfiltersystem:item_tag(c:ingots/osmium)" }, count: 1, id: "ftbfiltersystem:smart_filter" }, type: "item" }]
@@ -20,7 +20,7 @@
 		{
 			dependencies: ["1B6A690704ABED89", "3F9731AAA5BA5B34"]
 			id: "156C8D7D02C8E974"
-			rewards: [{ id: "3D3BF99CD5F432EE", type: "xp", xp: 25 }]
+			rewards: [{ id: "3D3BF99CD5F432EE", type: "xp", xp: 25 }, { id: "746ED208F63267CD", item: { count: 8, id: "mekanism:enriched_redstone" }, type: "item" }]
 			tasks: [{ id: "310FAB5151E8054C", item: { count: 1, id: "mekanism:metallurgic_infuser" }, type: "item" }]
 			x: 2.5d
 			y: 0.0d
@@ -36,7 +36,7 @@
 		{
 			dependencies: ["156C8D7D02C8E974"]
 			id: "26ECFB2F495D2777"
-			rewards: [{ id: "254D805CEA762C5F", type: "xp", xp: 10 }]
+			rewards: [{ id: "254D805CEA762C5F", type: "xp", xp: 10 }, { id: "5F86C110E9827980", item: { count: 2, id: "mekanism:basic_control_circuit" }, type: "item" }]
 			tasks: [{ count: 4L, id: "1531DADDFDBF443E", item: { count: 1, id: "mekanism:basic_control_circuit" }, type: "item" }]
 			x: 5.0d
 			y: 1.5d

@@ -10,7 +10,7 @@
 	quests: [
 		{
 			id: "1346E595987721F1"
-			rewards: [{ id: "7E3C3C97C59BD3DE", type: "xp", xp: 25 }]
+			rewards: [{ id: "7E3C3C97C59BD3DE", type: "xp", xp: 25 }, { id: "526F1ADCC4F4C64E", item: { count: 1, id: "minecraft:bucket" }, type: "item" }]
 			shape: "pentagon"
 			size: 1.5d
 			tasks: [{ count: 16L, icon: { id: "minecraft:iron_ingot" }, id: "651501E25A0C1A0A", item: { components: { "ftbfiltersystem:filter": "ftbfiltersystem:item_tag(c:ingots/iron)" }, count: 1, id: "ftbfiltersystem:smart_filter" }, type: "item" }]
@@ -20,7 +20,7 @@
 		{
 			dependencies: ["1346E595987721F1"]
 			id: "7DF066788A2A1F25"
-			rewards: [{ id: "77B8B11C046E622A", type: "xp", xp: 10 }]
+			rewards: [{ id: "77B8B11C046E622A", type: "xp", xp: 10 }, { id: "60F8C39593BC8B2E", item: { count: 16, id: "minecraft:coal" }, type: "item" }]
 			tasks: [{ id: "3D2439BB7ADD2A48", item: { count: 1, id: "ironfurnaces:iron_furnace" }, type: "item" }]
 			x: 2.0d
 			y: -1.5d
@@ -28,7 +28,7 @@
 		{
 			dependencies: ["1346E595987721F1"]
 			id: "382C587A7165A102"
-			rewards: [{ id: "34A16552F61DB534", type: "xp", xp: 10 }]
+			rewards: [{ id: "34A16552F61DB534", type: "xp", xp: 10 }, { id: "50CA187865645532", item: { count: 1, id: "sophisticatedbackpacks:pickup_upgrade" }, type: "item" }]
 			tasks: [{ id: "186E4F8D1B74FE36", item: { count: 1, id: "sophisticatedbackpacks:backpack" }, type: "item" }]
 			x: 2.0d
 			y: 1.5d
@@ -36,7 +36,7 @@
 		{
 			dependencies: ["1346E595987721F1"]
 			id: "4BAB93ADF16059DB"
-			rewards: [{ id: "17A6D3BC5142532B", type: "xp", xp: 25 }]
+			rewards: [{ id: "17A6D3BC5142532B", type: "xp", xp: 25 }, { id: "4D9918276D8F31E6", item: { count: 2, id: "waystones:warp_scroll" }, type: "item" }]
 			tasks: [{ id: "6029795C38AC5F13", item: { count: 1, id: "waystones:waystone" }, type: "item" }]
 			x: -2.0d
 			y: -1.5d
@@ -44,7 +44,7 @@
 		{
 			dependencies: ["1346E595987721F1"]
 			id: "747A87616A37CDE3"
-			rewards: [{ id: "48DC02381715C814", type: "xp", xp: 10 }]
+			rewards: [{ id: "48DC02381715C814", type: "xp", xp: 10 }, { id: "3CBB228F6A3D5658", item: { count: 4, id: "farmersdelight:tomato_seeds" }, type: "item" }, { id: "6A009DB9DCF742A7", item: { count: 4, id: "farmersdelight:cabbage_seeds" }, type: "item" }]
 			tasks: [{ id: "7FB4108C7CEF7575", item: { count: 1, id: "farmersdelight:cooking_pot" }, type: "item" }]
 			x: -2.0d
 			y: 1.5d
@@ -60,7 +60,7 @@
 		{
 			dependencies: ["7DF066788A2A1F25"]
 			id: "19BAB846C53AAF69"
-			rewards: [{ id: "76E1755006FB3FB8", type: "xp", xp: 25 }]
+			rewards: [{ id: "76E1755006FB3FB8", type: "xp", xp: 25 }, { id: "7D3F6D75F89C366C", item: { count: 4, id: "create:cogwheel" }, type: "item" }]
 			tasks: [{ count: 16L, id: "5CDA30AC196CC034", item: { count: 1, id: "create:andesite_alloy" }, type: "item" }]
 			x: 4.0d
 			y: 0.0d
@@ -68,7 +68,7 @@
 		{
 			dependencies: ["19BAB846C53AAF69"]
 			id: "1A6A4BA5FA810B28"
-			rewards: [{ id: "446F8EFA7FE1F634", type: "xp", xp: 10 }]
+			rewards: [{ id: "446F8EFA7FE1F634", type: "xp", xp: 10 }, { id: "1138B71D76AF8089", item: { count: 4, id: "create:andesite_casing" }, type: "item" }]
 			tasks: [{ id: "66CEA96BBC736284", item: { count: 1, id: "create:mechanical_press" }, type: "item" }]
 			x: 6.0d
 			y: 0.0d
@@ -76,7 +76,7 @@
 		{
 			dependencies: ["382C587A7165A102"]
 			id: "1B9A3E0DE88A25FC"
-			rewards: [{ id: "1FE1AF79971B7B9F", type: "xp", xp: 10 }]
+			rewards: [{ id: "1FE1AF79971B7B9F", type: "xp", xp: 10 }, { id: "50E18ABF633BFB5B", item: { count: 1, id: "sophisticatedstorage:stack_upgrade_tier_1" }, type: "item" }]
 			tasks: [{ id: "24D420E977B567D0", item: { count: 1, id: "sophisticatedstorage:chest" }, type: "item" }]
 			x: 0.0d
 			y: 3.0d

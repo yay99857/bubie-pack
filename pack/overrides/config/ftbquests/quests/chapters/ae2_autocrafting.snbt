@@ -11,7 +11,7 @@
 		{
 			dependencies: ["3A31F520128A4250"]
 			id: "4D95D207050A26CE"
-			rewards: [{ id: "67B1A17C30C78BDA", type: "xp", xp: 50 }]
+			rewards: [{ id: "67B1A17C30C78BDA", type: "xp", xp: 50 }, { id: "19A702DA6A81E6B7", item: { count: 8, id: "ae2:fluix_crystal" }, type: "item" }]
 			shape: "pentagon"
 			size: 1.5d
 			tasks: [{ id: "21A7F888D0DE3213", item: { count: 1, id: "ae2:controller" }, type: "item" }]
@@ -45,7 +45,7 @@
 		{
 			dependencies: ["1668F5E182CA8F52"]
 			id: "3457838A848F2CC7"
-			rewards: [{ id: "193E51A3E0D1259E", type: "xp", xp: 10 }]
+			rewards: [{ id: "193E51A3E0D1259E", type: "xp", xp: 10 }, { id: "788B53614104721E", item: { count: 8, id: "ae2:blank_pattern" }, type: "item" }]
 			tasks: [{ id: "7A4117B5B56685CC", item: { count: 1, id: "ae2:pattern_encoding_terminal" }, type: "item" }, { count: 8L, id: "2FE3E6174C5F5FE2", item: { count: 1, id: "ae2:blank_pattern" }, type: "item" }]
 			x: 7.5d
 			y: -1.5d
@@ -78,7 +78,7 @@
 		{
 			dependencies: ["3D8AC49B4698398D", "6A1458CF5765B38A"]
 			id: "4B7B69D8021B7C8E"
-			rewards: [{ id: "21B050EE0B4DBB1F", type: "xp", xp: 50 }]
+			rewards: [{ id: "21B050EE0B4DBB1F", type: "xp", xp: 50 }, { id: "52EBB4597667BE3F", item: { count: 2, id: "ae2:wireless_booster" }, type: "item" }]
 			tasks: [{ id: "650BEF01BF9C7A53", item: { count: 1, id: "ae2:wireless_access_point" }, type: "item" }, { id: "792D95758878E9D3", item: { count: 1, id: "ae2:wireless_terminal" }, type: "item" }]
 			x: 12.5d
 			y: 0.0d

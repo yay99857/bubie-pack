@@ -10,7 +10,7 @@
 	quests: [
 		{
 			id: "5AA2455B8B434FD5"
-			rewards: [{ id: "4387758AF0C35207", type: "xp", xp: 25 }]
+			rewards: [{ id: "4387758AF0C35207", type: "xp", xp: 25 }, { id: "15971523D2F89AD6", item: { count: 4, id: "ars_nouveau:source_gem" }, type: "item" }]
 			shape: "pentagon"
 			size: 1.5d
 			tasks: [{ id: "50921B79A67A15F7", item: { count: 1, id: "ars_nouveau:novice_spell_book" }, type: "item" }]
