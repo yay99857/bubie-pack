@@ -1,5 +1,16 @@
 # Changelog — Bubie Pack
 
+## 0.1.11 (2026-11-14)
+Menos recurso infinito: minerar, processar e automatizar voltam a valer a pena. **Comece um mundo novo** com esta versão.
+### Removido
+- Replication. Ele copiava qualquer item a partir de matéria e deixava as fábricas e a mineração sem sentido.
+  O Titanium continua: o Functional Storage e o Industrial Foregoing dependem dele.
+- Capítulo de quests do Replication (agora são 95 quests em 10 capítulos).
+### GeOre
+- Os geodos agora só aparecem para carvão, cobre, ferro e quartzo (Overworld e Nether).
+  Diamante, esmeralda, ouro, lapis, redstone e ancient debris não geram mais geodos (`config/geore-common.toml`).
+  Vale só para chunks novos. O GeOre Nouveau (geodos de source gem do Ars Nouveau) continua igual.
+
 ## 0.1.10 (2026-11-13)
 ### Agricultura
 - Adicionado: Farming for Blockheads 21.1.14 (BlayTheNinth; usa o Balm que já estava no pack).

@@ -1,6 +1,5 @@
 {
 	chapter.13222E168B7DF251.title: "&bWelcome to Bubie Pack"
-	chapter.1B1607BDB6AAC0CE.title: "&3Replication"
 	chapter.1F16640FEC7CF3F0.title: "&ePower: Getting Started"
 	chapter.242C1BB43F17F851.title: "&9Storage"
 	chapter.246DB48BA1B8F6A5.title: "&dMekanism: Double Your Ores"
@@ -61,16 +60,12 @@
 	quest.201109993506AF6B.title: "Processors"
 	quest.20FBCC4BD6FC3A56.quest_desc: ["The &eDigital Miner&r mines only the ores you filter for, in a large radius, without digging up the map. It uses a lot of power."]
 	quest.20FBCC4BD6FC3A56.title: "Digital Miner"
-	quest.21850F3FE186FF95.quest_desc: ["&eReplica ore&r is found in the deepslate layer. Replica ingots are the base of every machine in the mod."]
-	quest.21850F3FE186FF95.title: "Replica"
 	quest.21E8A2282FF4DEE6.quest_desc: ["&eTier Installers&r turn a regular machine into a Factory that processes several items at once, without breaking it."]
 	quest.21E8A2282FF4DEE6.title: "Tier Installers"
 	quest.227FD052DA952DC0.quest_desc: ["New &eglyphs&r (spell parts) are made at the &eScribe's Table&r. Start with the basics: Projectile, Touch, Break and Harm."]
 	quest.227FD052DA952DC0.title: "Scribe's Table"
 	quest.23E2CB5D9315B1D5.quest_desc: ["Open the &eFTB Chunks&r map (see Options → Controls for the key) and click &aClaimed Chunks&r.", "Click and drag to claim chunks. &eShift + click&r force-loads a chunk so machines keep running while you are away."]
 	quest.23E2CB5D9315B1D5.title: "Protect your base"
-	quest.2464857614460767.quest_desc: ["The &eIdentification Chamber&r studies an item and records its pattern on a &eMemory Chip&r.", "Put the chips in a &eChip Storage&r connected to the network."]
-	quest.2464857614460767.title: "Researching items"
 	quest.251D0388AA912FF0.quest_desc: ["Solar panels work on their own during the day. A good extra, but they make nothing at night.", "Powah's &eSolar Panel (Starter)&r is the cheapest; Mekanism's &eSolar Generator&r makes a bit more."]
 	quest.251D0388AA912FF0.title: "Solar power"
 	quest.26C5493D51EFD40D.quest_desc: ["The steel casing is the base of almost every Mekanism machine."]
@@ -93,8 +88,6 @@
 	quest.2DE8ADEBEAADB02A.title: "Apprentice book"
 	quest.30A419C152F7CB19.quest_desc: ["The &eMillstone&r grinds items. An &eEncased Fan&r blowing through water &ewashes&r items; through lava it &esmelts&r; through soul fire it &ehaunts&r."]
 	quest.30A419C152F7CB19.title: "Milling and washing"
-	quest.334DC277D2680224.quest_desc: ["&eMatter Network Pipes&r join the Replication machines into one network, which also carries power."]
-	quest.334DC277D2680224.title: "Matter network"
 	quest.3457838A848F2CC7.quest_desc: ["In the &ePattern Encoding Terminal&r you write recipes onto &eBlank Patterns&r. Use EMI to fill in the recipe with one click."]
 	quest.3457838A848F2CC7.title: "Patterns"
 	quest.34892D6C1C6DAFE3.quest_desc: ["&eSource gems&r come from amethyst in the &eImbuement Chamber&r and from GeOre Nouveau geodes."]
@@ -105,10 +98,6 @@
 	quest.36057E15D36413C6.title: "More space"
 	quest.382C587A7165A102.quest_desc: ["The &eSophisticated Backpacks&r backpack holds a lot and takes upgrades (pickup, auto-feeding, filters...)."]
 	quest.382C587A7165A102.title: "Backpack"
-	quest.384715E2B6E97EC4.quest_desc: ["Request any researched item from the &eReplication Terminal&r: the &eReplicator&r spends matter and power to build the copy.", "More Replicators on the network = more copies at once."]
-	quest.384715E2B6E97EC4.title: "Replicate"
-	quest.3931CD0F6C698406.quest_desc: ["The &eDisintegrator&r breaks items down into &ematter&r (earth, metallic, organic, precious...). Store it in &eMatter Tanks&r.", "Feed it your leftovers: stone, dirt, mob drops."]
-	quest.3931CD0F6C698406.title: "Matter"
 	quest.3A31F520128A4250.quest_desc: ["The minimum: &eME Drive&r + &eTerminal&r + &eEnergy Acceptor&r joined by cables, with a 1k cell in the drive.", "Without a Controller the network supports up to 8 devices: plenty to get started."]
 	quest.3A31F520128A4250.title: "&aYour first ME network"
 	quest.3AEF3FB0E9F18305.quest_desc: ["Mix copper and zinc in a &eBasin&r with a &eMechanical Mixer&r above and a &eBlaze Burner&r below.", "Fill an empty Blaze Burner by clicking a blaze with it."]

@@ -5,23 +5,23 @@
 	#Generate Copper GeOre [Default: true]
 	generateCopperGeore = true
 	#Generate Diamond GeOre [Default: true]
-	generateDiamondGeore = true
+	generateDiamondGeore = false
 	#Generate Emerald GeOre [Default: true]
-	generateEmeraldGeore = true
+	generateEmeraldGeore = false
 	#Generate Gold GeOre [Default: true]
-	generateGoldGeore = true
+	generateGoldGeore = false
 	#Generate Iron GeOre [Default: true]
 	generateIronGeore = true
 	#Generate Lapis GeOre [Default: true]
-	generateLapisGeore = true
+	generateLapisGeore = false
 	#Generate Quartz GeOre [Default: true]
 	generateQuartzGeore = true
 	#Generate Quartz GeOre in the Nether [Default: true]
 	generateQuartzInNetherGeore = true
 	#Generate Redstone GeOre [Default: true]
-	generateRedstoneGeore = true
+	generateRedstoneGeore = false
 	#Generate Budding Ancient Debris [Default: true]
-	generateBuddingAncientDebris = true
+	generateBuddingAncientDebris = false
 	#Disable piston push for budding GeOre (Overrides the vanilla behavior of breaking the block upon being pushed) [Default: false]
 	disablePistonPushForBuddingGeOre = false
 

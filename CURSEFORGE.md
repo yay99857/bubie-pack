@@ -13,7 +13,6 @@ Create, Mekanism, Applied Energistics 2, Ars Nouveau, Mystical Agriculture, Apot
 ### ⚙️ Tech and automation
 - **Create** with Copycats+, Design n' Decor, Dragons Plus and **Crafts & Additions** (Create power ↔ FE)
 - **Mekanism** (Generators and Tools), **Powah!**, **Extreme Reactors**, **Ender IO**
-- **Replication**: break items down into matter, research them and replicate whatever you want
 - **Industrial Foregoing**, **Actually Additions**, **XyCraft**, **RFTools**, **Just Dire Things**
 - Logistics with **Pipez**, **LaserIO**, **Modular Routers** and the **Integrated Dynamics** family
 
@@ -47,6 +46,7 @@ Create, Mekanism, Applied Energistics 2, Ars Nouveau, Mystical Agriculture, Apot
 **A balanced world**
 - A single ore generator: Mekanism's duplicate veins are turned off and ATO (All the Ores) handles everything.
 - Smaller, more numerous veins: you find ore everywhere, but you won't mine a whole chunk of osmium in one go.
+- GeOre geodes only for coal, copper, iron and quartz. Diamond, emerald, gold, lapis, redstone and ancient debris still have to be mined.
 - **Almost Unified**: one item per metal. No more two kinds of zinc or tin that don't stack.
 
 **Made for playing together**
@@ -67,13 +67,13 @@ Create, Mekanism, Applied Energistics 2, Ars Nouveau, Mystical Agriculture, Apot
 
 ## Quests
 
-**100 quests in 11 chapters**, in English and Portuguese (they follow your game language). They are optional: a guide, not a gate. No mod is locked behind them.
+**95 quests in 10 chapters**, in English and Portuguese (they follow your game language). They are optional: a guide, not a gate. No mod is locked behind them.
 
 - **Welcome** and **First Steps**: commands, teams, voice chat, waystones, backpacks and Create.
 - **Power: Getting Started**: which generator to build first (Furnator, water wheel + Alternator, Thermo Generator), batteries, cables and Flux Networks.
 - **Mekanism**: double ores, then 3x, 4x and 5x, the hydrogen jetpack and the Digital Miner.
 - **Storage** and **AE2: Autocrafting**: from drawers to your first ME network, Crafting CPU, patterns and the wireless terminal.
-- **Create: Automation**, **Mystical Agriculture**, **Ars Nouveau** and **Replication**.
+- **Create: Automation**, **Mystical Agriculture** and **Ars Nouveau**.
 
 ---
 
@@ -121,7 +121,6 @@ Create, Mekanism, Applied Energistics 2, Ars Nouveau, Mystical Agriculture, Apot
 ### ⚙️ Tecnologia e automação
 - **Create** com Copycats+, Design n' Decor, Dragons Plus e **Crafts & Additions** (energia do Create ↔ FE)
 - **Mekanism** (Generators e Tools), **Powah!**, **Extreme Reactors**, **Ender IO**
-- **Replication**: desintegre itens em matéria, pesquise e replique o que quiser
 - **Industrial Foregoing**, **Actually Additions**, **XyCraft**, **RFTools**, **Just Dire Things**
 - Logística com **Pipez**, **LaserIO**, **Modular Routers** e a família **Integrated Dynamics**
 
@@ -155,6 +154,7 @@ Create, Mekanism, Applied Energistics 2, Ars Nouveau, Mystical Agriculture, Apot
 **Mundo equilibrado**
 - Um único gerador de minérios: as veias duplicadas do Mekanism foram desligadas e o ATO (All the Ores) cuida de tudo.
 - Veias menores e mais numerosas: você encontra minério em todo canto, mas não minera um chunk inteiro de osmium numa tacada só.
+- Geodos do GeOre só de carvão, cobre, ferro e quartzo. Diamante, esmeralda, ouro, lapis, redstone e ancient debris continuam saindo da mineração.
 - **Almost Unified**: um item só por metal. Nada de dois tipos de zinco ou estanho que não empilham.
 
 **Feito para jogar junto**
@@ -175,13 +175,13 @@ Create, Mekanism, Applied Energistics 2, Ars Nouveau, Mystical Agriculture, Apot
 
 ## Quests
 
-**100 quests em 11 capítulos**, em português e inglês (o idioma segue o do jogo). Elas são opcionais: servem de guia, nenhum mod fica travado.
+**95 quests em 10 capítulos**, em português e inglês (o idioma segue o do jogo). Elas são opcionais: servem de guia, nenhum mod fica travado.
 
 - **Bem-vindo** e **Primeiros Passos**: comandos, times, chat de voz, waystones, mochila e Create.
 - **Energia: o Começo**: qual gerador fazer primeiro (Furnator, roda d'água + Alternator, Thermo Generator), baterias, cabos e Flux Networks.
 - **Mekanism**: minérios em dobro, depois 3x, 4x e 5x, jetpack a hidrogênio e Digital Miner.
 - **Armazenamento** e **AE2: Autocrafting**: das gavetas até a primeira rede ME, Crafting CPU, padrões e terminal sem fio.
-- **Create: Automação**, **Mystical Agriculture**, **Ars Nouveau** e **Replication**.
+- **Create: Automação**, **Mystical Agriculture** e **Ars Nouveau**.
 
 ---
 
