@@ -8,7 +8,8 @@ Modpack kitchen-sink de tecnologia e magia para **Minecraft 1.21.1 / NeoForge 21
 - Create, Mekanism, Applied Energistics 2, Ars Nouveau, Mystical Agriculture, Apotheosis e mais de 200 mods.
 - Minérios do All the Ores em veias menores, sem duplicatas do Mekanism.
 - Vilas maiores e mais frequentes (ChoiceTheorem's Overhauled Village) e estruturas vanilla redesenhadas pelos YUNG's.
-- 95 quests em português e inglês.
+- 112 quests em português e inglês.
+- Dois mods feitos para o pack: Voltaic Dynamics (tecnologia com FE) e Base Blueprint (constrói a base de uma vez).
 - Flux Networks sem carregar jetpacks à distância.
 
 O histórico de mudanças está no [CHANGELOG.md](CHANGELOG.md).

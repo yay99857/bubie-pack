@@ -120,6 +120,15 @@ q(c, 'baú', 0, 3, ('Organizando os baús', 'Organizing your chests'),
   ['&eSophisticated Storage&r chests take size and automation upgrades. Start with a wooden one and upgrade it over time.'],
   [I('sophisticatedstorage:chest')], deps=['mochila'], items=[('sophisticatedstorage:stack_upgrade_tier_1', 1)])
 
+q(c, 'planta', 0, -3, ('Planta de Base', 'Base Blueprint'),
+  ['A &ePlanta de Base&r (mesa de trabalho + 3 papéis) constrói a base de uma vez: piso redondo, quadrado, octogonal ou hexagonal,',
+   'com paredes, porta, teto ou cúpula. Clique direito no ar (ou &eN&r) para o menu; segure e mire para ver o contorno; clique num bloco para construir.',
+   'Os blocos vêm do inventário, da mochila e dos baús por perto. &eShift + clique direito no ar&r desfaz e devolve tudo.'],
+  ['The &eBase Blueprint&r (crafting table + 3 paper) builds your base at once: a round, square, octagonal or hexagonal floor,',
+   'with walls, a door, a roof or a dome. Right-click the air (or &eN&r) for the menu; hold it and aim to see the outline; click a block to build.',
+   'Blocks come from your inventory, backpack and nearby chests. &eSneak + right-click the air&r undoes it and gives everything back.'],
+  [I('baseblueprint:base_blueprint')], xp=25, items=[('minecraft:cobblestone', 64)])
+
 # ================= Energia =================
 c = chapter('energia', '&eEnergia: o Começo', '&ePower: Getting Started', 'powah:furnator_starter', 2)
 q(c, 'inicio', 0, 0, ('Energia: por onde começar?', 'Power: where to start?'),
@@ -513,6 +522,80 @@ q(c, 'familiares', 10, 2.5, ('Ajudantes', 'Helpers'),
   ['O &eStarbuncle&r carrega itens entre baús; o &eWixie&r faz crafting e poções para você. Use os amuletos (charms) para invocá-los.'],
   ['The &eStarbuncle&r carries items between chests; the &eWixie&r crafts items and potions for you. Use their charms to summon them.'],
   [I('ars_nouveau:starbuncle_charm')], deps=['aparato'])
+
+# ================= Voltaic Dynamics =================
+c = chapter('voltaic', '&bVoltaic Dynamics', '&bVoltaic Dynamics', 'voltaicdynamics:combustion_generator', 10)
+q(c, 'lingote', 0, 0, ('Lingote Voltaico', 'Voltaic Ingot'),
+  ['A &eVoltaic Dynamics&r é tecnologia compacta com FE, feita para o Bubie Pack. Tudo começa no &eLingote Voltaico&r.',
+   'Para começar sem máquina: &eferro + cobre + redstone&r na mesa dá pó voltaico; derreta na fornalha.',
+   'Depois, a Fundidora de Ligas e o Pulverizador rendem bem mais.'],
+  ['&eVoltaic Dynamics&r is compact FE tech made for Bubie Pack. Everything starts with the &eVoltaic Ingot&r.',
+   'To start without machines: &eiron + copper + redstone&r in the crafting grid makes voltaic dust; smelt it in a furnace.',
+   'Later, the Alloy Smelter and the Pulverizer give much more.'],
+  [I('voltaicdynamics:voltaic_ingot', 4)], shape='pentagon', size=1.5, xp=25, items=[('minecraft:redstone', 8)],
+  deps=['primeiros_passos/ferro'])
+q(c, 'combustao', -2.5, -2, ('Gerador a Combustão', 'Combustion Generator'),
+  ['Queima qualquer combustível de fornalha a &e40 FE/t&r: um carvão dá 32.000 FE. Para quando enche, sem desperdiçar.'],
+  ['Burns any furnace fuel at &e40 FE/t&r: one coal gives 32,000 FE. It pauses when full instead of wasting fuel.'],
+  [I('voltaicdynamics:combustion_generator')], deps=['lingote'], xp=25, items=[('minecraft:coal', 16)])
+q(c, 'termo', -5, -2, ('Gerador Termoelétrico', 'Thermoelectric Generator'),
+  ['Energia de graça com &elado quente e lado frio&r: lava, fogo ou magma de um lado; gelo, neve ou água do outro. Até 100 FE/t.',
+   'Os blocos se desgastam devagar (a lava esfria, o gelo derrete): troque de vez em quando.'],
+  ['Free power from a &ehot side and a cold side&r: lava, fire or magma on one side; ice, snow or water on the other. Up to 100 FE/t.',
+   'The blocks wear out slowly (lava cools, ice melts): replace them now and then.'],
+  [I('voltaicdynamics:thermoelectric_generator')], deps=['combustao'], xp=25, items=[('minecraft:packed_ice', 4)])
+q(c, 'fluido', -2.5, -4, ('Gerador a Fluido', 'Fluid Generator'),
+  ['Queima &elava&r (e outros combustíveis líquidos) a 80 FE/t, alimentado por canos: ninguém precisa abastecer.'],
+  ['Burns &elava&r (and other liquid fuels) at 80 FE/t, fed by pipes: nobody has to refuel it.'],
+  [I('voltaicdynamics:fluid_generator')], deps=['combustao'], xp=25)
+q(c, 'acumulador', 0, -3, ('Acumulador', 'Accumulator'),
+  ['Guarda &e1.000.000 FE&r e mantém a carga quando quebrado. Só empurra energia para máquinas e cabos, nunca para outras baterias.'],
+  ['Stores &e1,000,000 FE&r and keeps its charge when broken. It only pushes energy into machines and cables, never other batteries.'],
+  [I('voltaicdynamics:basic_accumulator')], deps=['combustao'], xp=25)
+q(c, 'cabo', 2.5, -2, ('Cabo Voltaico', 'Voltaic Cable'),
+  ['Leva energia entre geradores, acumuladores e máquinas, inclusive de outros mods (Mekanism, AE2, Powah...).'],
+  ['Carries energy between generators, accumulators and machines, other mods included (Mekanism, AE2, Powah...).'],
+  [I('voltaicdynamics:voltaic_cable', 8)], deps=['lingote'], items=[('voltaicdynamics:voltaic_cable', 8)])
+q(c, 'fornalha', 5, -2, ('Fornalha Elétrica', 'Electric Furnace'),
+  ['Derrete qualquer receita de fornalha com energia, &eduas vezes mais rápido&r. Aceita melhorias.'],
+  ['Smelts any furnace recipe on power, &etwice as fast&r. Takes upgrades.'],
+  [I('voltaicdynamics:electric_furnace')], deps=['cabo', 'galvanica'], xp=25)
+q(c, 'fundidora', 2.5, 0.5, ('Fundidora de Ligas', 'Alloy Smelter'),
+  ['Faz &eLingote Voltaico&r e &eLiga Galvânica&r direto dos lingotes ou dos pós, rendendo mais que à mão.'],
+  ['Makes &eVoltaic Ingots&r and &eGalvanic Alloy&r straight from ingots or dusts, giving more than by hand.'],
+  [I('voltaicdynamics:alloy_smelter')], deps=['cabo'], xp=25, items=[('minecraft:redstone', 8)])
+q(c, 'pulverizador', 5, 0.5, ('Pulverizador', 'Pulverizer'),
+  ['Minério de ferro, cobre ou ouro vira &e2 pós&r; minério bruto rende 1 pó e chance de outro. Derreta os pós na Fornalha Elétrica.'],
+  ['Iron, copper or gold ore becomes &e2 dusts&r; raw ore gives 1 dust and a chance of another. Smelt the dusts in the Electric Furnace.'],
+  [I('voltaicdynamics:pulverizer')], deps=['fundidora'], xp=25)
+q(c, 'galvanica', 0, 2.5, ('Liga Galvânica', 'Galvanic Alloy'),
+  ['&eLingote Voltaico + ouro + redstone&r: o material do nível avançado (Fornalha Elétrica, Acumulador Avançado).'],
+  ['&eVoltaic Ingot + gold + redstone&r: the material for the advanced tier (Electric Furnace, Advanced Accumulator).'],
+  [I('voltaicdynamics:galvanic_alloy', 4)], deps=['lingote'], items=[('minecraft:gold_ingot', 4)])
+q(c, 'melhorias', 7.5, 0.5, ('Melhorias', 'Upgrades'),
+  ['Cada máquina tem 2 espaços de melhoria: &eVelocidade&r (mais rápida, gasta mais) e &eEficiência&r (gasta menos).'],
+  ['Each machine has 2 upgrade slots: &eSpeed&r (faster, uses more) and &eEfficiency&r (uses less).'],
+  [I('voltaicdynamics:speed_upgrade'), I('voltaicdynamics:efficiency_upgrade')], deps=['pulverizador'], xp=25)
+q(c, 'acumulador2', 0, 5, ('Acumulador Avançado', 'Advanced Accumulator'),
+  ['Guarda &e8.000.000 FE&r e passa 10.000 FE/t.'],
+  ['Stores &e8,000,000 FE&r and moves 10,000 FE/t.'],
+  [I('voltaicdynamics:advanced_accumulator')], deps=['galvanica', 'acumulador'], xp=50)
+q(c, 'bolso', -2.5, 5, ('Acumulador de Bolso', 'Pocket Accumulator'),
+  ['Carrega o que você segura e veste, direto do inventário.'],
+  ['Charges what you hold and wear, straight from your inventory.'],
+  [I('voltaicdynamics:pocket_accumulator')], deps=['acumulador2'], xp=25)
+q(c, 'logistica', -2.5, 2.5, ('Cabos de Itens e Fluidos', 'Item and Fluid Cables'),
+  ['Conectores de &epuxar / entregar / desligado&r, sem itens em trânsito (sem lag). Use a &eChave Voltaica&r para configurar cada braço.'],
+  ['&ePull / deliver / off&r connectors with no items in transit (no lag). Use the &eVoltaic Wrench&r to set each arm.'],
+  [I('voltaicdynamics:item_cable', 4), I('voltaicdynamics:fluid_cable', 4)], deps=['chave'])
+q(c, 'chave', -5, 2.5, ('Chave Voltaica', 'Voltaic Wrench'),
+  ['Clique direito gira a máquina; com Shift, pega o bloco com o conteúdo dentro.'],
+  ['Right-click turns a machine; sneak to pick the block up with its contents.'],
+  [I('voltaicdynamics:voltaic_wrench')], deps=['lingote'])
+q(c, 'tanque', -5, 5, ('Tanque de Fluidos', 'Fluid Tank'),
+  ['Guarda fluido e não perde nada ao ser quebrado; o ícone mostra o quanto está cheio.'],
+  ['Stores fluid and keeps it when broken; its icon shows how full it is.'],
+  [I('voltaicdynamics:fluid_tank')], deps=['logistica'])
 
 # ================= write =================
 qd = os.path.join(OUT, 'quests'); os.makedirs(os.path.join(qd, 'chapters'), exist_ok=True)

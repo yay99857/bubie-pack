@@ -13,6 +13,7 @@ Create, Mekanism, Applied Energistics 2, Ars Nouveau, Mystical Agriculture, Apot
 ### ⚙️ Tech and automation
 - **Create** with Copycats+, Design n' Decor, Dragons Plus, **Crafts & Additions** (Create power ↔ FE) and **Create: Enchantment Industry** (liquid experience and automatic enchanting)
 - **Mekanism** (Generators and Tools), **Powah!**, **Extreme Reactors**, **Ender IO**, **Energy Meter**
+- **Voltaic Dynamics**, made for this pack: compact FE generators, machines with upgrades, accumulators and lag-free cables
 - **Industrial Foregoing**, **Actually Additions**, **XyCraft**, **RFTools**, **Just Dire Things**
 - Logistics with **Pipez**, **LaserIO**, **Modular Routers** and the **Integrated Dynamics** family
 
@@ -38,6 +39,7 @@ Create, Mekanism, Applied Energistics 2, Ars Nouveau, Mystical Agriculture, Apot
 ### 🏠 Building and decoration
 - **Chipped**, **Rechiseled**, **FramedBlocks**, **Supplementaries** + **Amendments**, Macaw's Fences and Walls, Factory Blocks
 - **Building Gadgets**, **Mining Gadgets**, Construction Sticks
+- **Base Blueprint**, made for this pack: builds your first base in one click (round, square, octagon or hexagon, with walls, door, roof or dome)
 
 ### 🍳 Everyday life
 - **Farmer's Delight**, **Cooking for Blockheads**, **Farming for Blockheads**, **Aquaculture 2**, Easy Villagers, AppleSkin
@@ -82,14 +84,14 @@ Create, Mekanism, Applied Energistics 2, Ars Nouveau, Mystical Agriculture, Apot
 
 ## Quests
 
-**95 quests in 10 chapters**, in English and Portuguese (they follow your game language). They are optional: a guide, not a gate. No mod is locked behind them.
+**112 quests in 11 chapters**, in English and Portuguese (they follow your game language). They are optional: a guide, not a gate. No mod is locked behind them.
 Every quest gives XP, and about a third also give a small item for the next step: a few cables, some silicon, an upgrade. Never a whole machine.
 
 - **Welcome** and **First Steps**: commands, teams, voice chat, waystones, backpacks and Create.
 - **Power: Getting Started**: which generator to build first (Furnator, water wheel + Alternator, Thermo Generator), batteries, cables and Flux Networks.
 - **Mekanism**: double ores, then 3x, 4x and 5x, the hydrogen jetpack and the Digital Miner.
 - **Storage** and **AE2: Autocrafting**: from drawers to your first ME network, Crafting CPU, patterns and the wireless terminal.
-- **Create: Automation**, **Mystical Agriculture** and **Ars Nouveau**.
+- **Create: Automation**, **Mystical Agriculture**, **Ars Nouveau** and **Voltaic Dynamics**.
 
 ---
 
@@ -137,6 +139,7 @@ Create, Mekanism, Applied Energistics 2, Ars Nouveau, Mystical Agriculture, Apot
 ### ⚙️ Tecnologia e automação
 - **Create** com Copycats+, Design n' Decor, Dragons Plus, **Crafts & Additions** (energia do Create ↔ FE) e **Create: Enchantment Industry** (experiência líquida e encantamento automático)
 - **Mekanism** (Generators e Tools), **Powah!**, **Extreme Reactors**, **Ender IO**, **Energy Meter**
+- **Voltaic Dynamics**, feito para o pack: geradores de FE compactos, máquinas com melhorias, acumuladores e cabos sem lag
 - **Industrial Foregoing**, **Actually Additions**, **XyCraft**, **RFTools**, **Just Dire Things**
 - Logística com **Pipez**, **LaserIO**, **Modular Routers** e a família **Integrated Dynamics**
 
@@ -162,6 +165,7 @@ Create, Mekanism, Applied Energistics 2, Ars Nouveau, Mystical Agriculture, Apot
 ### 🏠 Construção e decoração
 - **Chipped**, **Rechiseled**, **FramedBlocks**, **Supplementaries** + **Amendments**, Macaw's Fences and Walls, Factory Blocks
 - **Building Gadgets**, **Mining Gadgets**, Construction Sticks
+- **Base Blueprint**, feito para o pack: constrói a primeira base com um clique (redonda, quadrada, octogonal ou hexagonal, com paredes, porta, teto ou cúpula)
 
 ### 🍳 Vida no mundo
 - **Farmer's Delight**, **Cooking for Blockheads**, **Farming for Blockheads**, **Aquaculture 2**, Easy Villagers, AppleSkin
@@ -206,14 +210,14 @@ Create, Mekanism, Applied Energistics 2, Ars Nouveau, Mystical Agriculture, Apot
 
 ## Quests
 
-**95 quests em 10 capítulos**, em português e inglês (o idioma segue o do jogo). Elas são opcionais: servem de guia, nenhum mod fica travado.
+**112 quests em 11 capítulos**, em português e inglês (o idioma segue o do jogo). Elas são opcionais: servem de guia, nenhum mod fica travado.
 Toda quest dá XP, e cerca de um terço também dá um item pequeno para o próximo passo: alguns cabos, um pouco de silício, um upgrade. Nunca uma máquina inteira.
 
 - **Bem-vindo** e **Primeiros Passos**: comandos, times, chat de voz, waystones, mochila e Create.
 - **Energia: o Começo**: qual gerador fazer primeiro (Furnator, roda d'água + Alternator, Thermo Generator), baterias, cabos e Flux Networks.
 - **Mekanism**: minérios em dobro, depois 3x, 4x e 5x, jetpack a hidrogênio e Digital Miner.
 - **Armazenamento** e **AE2: Autocrafting**: das gavetas até a primeira rede ME, Crafting CPU, padrões e terminal sem fio.
-- **Create: Automação**, **Mystical Agriculture** e **Ars Nouveau**.
+- **Create: Automação**, **Mystical Agriculture**, **Ars Nouveau** e **Voltaic Dynamics**.
 
 ---
 

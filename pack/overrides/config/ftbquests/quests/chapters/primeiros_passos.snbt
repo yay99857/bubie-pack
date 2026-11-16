@@ -81,5 +81,12 @@
 			x: 0.0d
 			y: 3.0d
 		}
+		{
+			id: "73B62EE1080C58E6"
+			rewards: [{ id: "38BE3CC7C8A5C0E6", type: "xp", xp: 25 }, { id: "78A4243D4A3E76BB", item: { count: 64, id: "minecraft:cobblestone" }, type: "item" }]
+			tasks: [{ id: "71F094E412C9BDEA", item: { count: 1, id: "baseblueprint:base_blueprint" }, type: "item" }]
+			x: 0.0d
+			y: -3.0d
+		}
 	]
 }

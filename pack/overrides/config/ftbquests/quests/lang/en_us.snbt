@@ -8,6 +8,7 @@
 	chapter.3D3DA9CC07FFAF31.title: "&9AE2: Autocrafting"
 	chapter.4412162570FD1664.title: "&5Ars Nouveau"
 	chapter.4E036F98450D7CD0.title: "&6Create: Automation"
+	chapter.6568E61EB0324E2C.title: "&bVoltaic Dynamics"
 	chapter.6CF3D48FE0991369.title: "&2Mystical Agriculture"
 	file.0000000000000001.title: "Bubie Pack"
 	quest.1051DF3A54C380A4.quest_desc: ["The &eElectric Motor&r (Crafts & Additions) does the opposite of the Alternator: it turns FE into rotation, no wheels needed."]
@@ -20,12 +21,16 @@
 	quest.125BA7281C89648E.title: "Your first spell"
 	quest.12D3BC843DD9ABC5.quest_desc: ["With &eApplied Mekanistics&r, chemical cells store Mekanism gases and chemicals in the same network."]
 	quest.12D3BC843DD9ABC5.title: "Chemicals in AE2"
+	quest.12FA44E8F4855D49.quest_desc: ["&eVoltaic Dynamics&r is compact FE tech made for Bubie Pack. Everything starts with the &eVoltaic Ingot&r.", "To start without machines: &eiron + copper + redstone&r in the crafting grid makes voltaic dust; smelt it in a furnace.", "Later, the Alloy Smelter and the Pulverizer give much more."]
+	quest.12FA44E8F4855D49.title: "Voltaic Ingot"
 	quest.1346E595987721F1.quest_desc: ["Almost everything early on needs iron. Ores in this pack come in small, spread-out veins: explore caves and the deepslate layer."]
 	quest.1346E595987721F1.title: "Iron, where it all begins"
 	quest.137E1685FCAA8688.quest_desc: ["The &eImbuement Chamber&r uses source to transform items: source gems and the elemental &eessences&r."]
 	quest.137E1685FCAA8688.title: "Imbuement Chamber"
 	quest.142BCC4E2C02779F.quest_desc: ["&eProsperity ore&r drops shards, used in almost every resource seed."]
 	quest.142BCC4E2C02779F.title: "Prosperity shards"
+	quest.156C19716D490497.quest_desc: ["Carries energy between generators, accumulators and machines, other mods included (Mekanism, AE2, Powah...)."]
+	quest.156C19716D490497.title: "Voltaic Cable"
 	quest.156C8D7D02C8E974.quest_desc: ["The first Mekanism machine: infuses metals with coal, redstone and more. It needs power."]
 	quest.156C8D7D02C8E974.title: "Metallurgic Infuser"
 	quest.15A708F09E7ABE21.quest_desc: ["Resource seeds are made on the &eInfusion Altar&r with 8 &epedestals&r around it. Activate it with redstone."]
@@ -62,20 +67,28 @@
 	quest.20FBCC4BD6FC3A56.title: "Digital Miner"
 	quest.21E8A2282FF4DEE6.quest_desc: ["&eTier Installers&r turn a regular machine into a Factory that processes several items at once, without breaking it."]
 	quest.21E8A2282FF4DEE6.title: "Tier Installers"
+	quest.221BE67451111B3A.quest_desc: ["Each machine has 2 upgrade slots: &eSpeed&r (faster, uses more) and &eEfficiency&r (uses less)."]
+	quest.221BE67451111B3A.title: "Upgrades"
 	quest.227FD052DA952DC0.quest_desc: ["New &eglyphs&r (spell parts) are made at the &eScribe's Table&r. Start with the basics: Projectile, Touch, Break and Harm."]
 	quest.227FD052DA952DC0.title: "Scribe's Table"
 	quest.23E2CB5D9315B1D5.quest_desc: ["Open the &eFTB Chunks&r map (see Options → Controls for the key) and click &aClaimed Chunks&r.", "Click and drag to claim chunks. &eShift + click&r force-loads a chunk so machines keep running while you are away."]
 	quest.23E2CB5D9315B1D5.title: "Protect your base"
 	quest.251D0388AA912FF0.quest_desc: ["Solar panels work on their own during the day. A good extra, but they make nothing at night.", "Powah's &eSolar Panel (Starter)&r is the cheapest; Mekanism's &eSolar Generator&r makes a bit more."]
 	quest.251D0388AA912FF0.title: "Solar power"
+	quest.265BA22A1C811A9E.quest_desc: ["Burns &elava&r (and other liquid fuels) at 80 FE/t, fed by pipes: nobody has to refuel it."]
+	quest.265BA22A1C811A9E.title: "Fluid Generator"
 	quest.26C5493D51EFD40D.quest_desc: ["The steel casing is the base of almost every Mekanism machine."]
 	quest.26C5493D51EFD40D.title: "Steel Casing"
 	quest.26ECFB2F495D2777.quest_desc: ["Osmium + redstone in the Infuser = infused alloy; use it to make basic circuits."]
 	quest.26ECFB2F495D2777.title: "Basic circuit"
 	quest.275216252CEC1832.quest_desc: ["Iron + coal in the Infuser = &esteel&r. You will need a lot of it."]
 	quest.275216252CEC1832.title: "Steel"
+	quest.276D690EE1DAE18E.quest_desc: ["Stores &e1,000,000 FE&r and keeps its charge when broken. It only pushes energy into machines and cables, never other batteries."]
+	quest.276D690EE1DAE18E.title: "Accumulator"
 	quest.28A272F76CF103BE.quest_desc: ["Collect the 4 presses from the meteorite: logic, calculation, engineering and silicon."]
 	quest.28A272F76CF103BE.title: "The presses"
+	quest.28C5C27E21CC8E40.quest_desc: ["Charges what you hold and wear, straight from your inventory."]
+	quest.28C5C27E21CC8E40.title: "Pocket Accumulator"
 	quest.29CE2FF08E00A038.quest_desc: ["The &eEnchanting Apparatus&r on an &eArcane Core&r, with &epedestals&r around it, crafts the strongest magic items."]
 	quest.29CE2FF08E00A038.title: "Enchanting Apparatus"
 	quest.2B249C362A72D173.quest_desc: ["&eSimple Voice Chat&r is installed: players near you can hear you.", "Press &eV&r to open its menu and set up your microphone and volume. Push-to-talk is &eCaps Lock&r by default.", "", "&7On a dedicated server, the owner must open UDP port 24454."]
@@ -100,12 +113,16 @@
 	quest.382C587A7165A102.title: "Backpack"
 	quest.3A31F520128A4250.quest_desc: ["The minimum: &eME Drive&r + &eTerminal&r + &eEnergy Acceptor&r joined by cables, with a 1k cell in the drive.", "Without a Controller the network supports up to 8 devices: plenty to get started."]
 	quest.3A31F520128A4250.title: "&aYour first ME network"
+	quest.3A9B55D7CB53D3D6.quest_desc: ["Makes &eVoltaic Ingots&r and &eGalvanic Alloy&r straight from ingots or dusts, giving more than by hand."]
+	quest.3A9B55D7CB53D3D6.title: "Alloy Smelter"
 	quest.3AEF3FB0E9F18305.quest_desc: ["Mix copper and zinc in a &eBasin&r with a &eMechanical Mixer&r above and a &eBlaze Burner&r below.", "Fill an empty Blaze Burner by clicking a blaze with it."]
 	quest.3AEF3FB0E9F18305.title: "Brass"
 	quest.3BC06D93E6105408.quest_desc: ["Hover any item and press &eR&r to see how to make it and &eU&r to see what uses it.", "", "Right-click a recipe and pick &erecipe tree&r to see everything you still need, down to raw materials.", "Drag an item to the left column to pin it as a favorite."]
 	quest.3BC06D93E6105408.title: "Recipes: EMI"
 	quest.3C3C2AD614C7C1B0.quest_desc: ["The &eStarbuncle&r carries items between chests; the &eWixie&r crafts items and potions for you. Use their charms to summon them."]
 	quest.3C3C2AD614C7C1B0.title: "Helpers"
+	quest.3D12F03AC008E724.quest_desc: ["Right-click turns a machine; sneak to pick the block up with its contents."]
+	quest.3D12F03AC008E724.title: "Voltaic Wrench"
 	quest.3D8AC49B4698398D.quest_desc: ["&eProcessing&r patterns are for machines: the Pattern Provider pushes the ingredients into the machine next to it,", "and the output comes back into the network through an &eInterface&r or the Provider itself."]
 	quest.3D8AC49B4698398D.title: "Autocrafting with machines"
 	quest.3E1358836CD07D20.quest_desc: ["Shift + click with the Configurator to change machine input and output sides."]
@@ -120,14 +137,20 @@
 	quest.430D5635C7C17AD5.title: "&aRecommended:&r Enrichment Chamber"
 	quest.4596AD77CEC3CDE8.quest_desc: ["Create a team with &a/ftbteams party create <name>&r and invite your friends.", "The team shares quest progress and claimed chunks."]
 	quest.4596AD77CEC3CDE8.title: "Playing as a team"
+	quest.46D4CA3717AE041D.quest_desc: ["Stores fluid and keeps it when broken; its icon shows how full it is."]
+	quest.46D4CA3717AE041D.title: "Fluid Tank"
 	quest.478ED541DEA63974.quest_desc: ["The &eEnergy Cell (Starter)&r stores spare energy. Put it between your generators and machines."]
 	quest.478ED541DEA63974.title: "&aRecommended:&r Battery"
 	quest.47A2F1A8F3F82B77.quest_desc: ["&e/sethome&r and &e/home&r: one home per player.", "&e/spawn&r: back to spawn.", "&e/back&r: back to where you died or teleported from.", "&e/rtp&r: random teleport (10 minute cooldown).", "&e/tpa <player>&r: ask to teleport to a friend."]
 	quest.47A2F1A8F3F82B77.title: "Useful commands"
 	quest.489F25A7EE56F42F.quest_desc: ["Mystical Agriculture seeds work in &eBotany Pots&r: compact farms you can automate with hoppers."]
 	quest.489F25A7EE56F42F.title: "Botany Pots"
+	quest.48ABCD25B85E97C6.quest_desc: ["Smelts any furnace recipe on power, &etwice as fast&r. Takes upgrades."]
+	quest.48ABCD25B85E97C6.title: "Electric Furnace"
 	quest.499E4FB045BF927D.quest_desc: ["The &eChemical Injection Chamber&r with hydrogen chloride gets &e4 ingots&r per ore.", "Hydrogen chloride comes from the &eChemical Infuser&r (hydrogen + chlorine). Chlorine comes from brine in the Electrolytic Separator."]
 	quest.499E4FB045BF927D.title: "4x: Chemical Injection"
+	quest.4AFCAF9DC6196B4B.quest_desc: ["Stores &e8,000,000 FE&r and moves 10,000 FE/t."]
+	quest.4AFCAF9DC6196B4B.title: "Advanced Accumulator"
 	quest.4B7B69D8021B7C8E.quest_desc: ["With a &eWireless Access Point&r on the network, the &eWireless Terminal&r reaches everything from afar. Charge it in the Charger."]
 	quest.4B7B69D8021B7C8E.title: "Wireless terminal"
 	quest.4BAB93ADF16059DB.quest_desc: ["Activate every waystone you find in villages. You can then travel between them.", "Making your own waystone at your base is one of the best early-game moves."]
@@ -140,6 +163,8 @@
 	quest.4DB519F8B6D31F5A.title: "Energy Cube"
 	quest.4F133CC357D5E9F2.quest_desc: ["Energized steel unlocks the &eEnergy Cell (Basic)&r, which stores much more."]
 	quest.4F133CC357D5E9F2.title: "A bigger battery"
+	quest.50566971057157E8.quest_desc: ["Free power from a &ehot side and a cold side&r: lava, fire or magma on one side; ice, snow or water on the other. Up to 100 FE/t.", "The blocks wear out slowly (lava cools, ice melts): replace them now and then."]
+	quest.50566971057157E8.title: "Thermoelectric Generator"
 	quest.50FFADA15252DD2E.quest_desc: ["Place it on top of a heat source (lava, magma) and feed it water.", "It makes far more than the Furnator and needs no fuel: the best generator from early to mid game."]
 	quest.50FFADA15252DD2E.title: "Thermo Generator"
 	quest.538A77B7CC540B71.quest_desc: ["Moves energy wirelessly from &eFlux Plugs&r (input) to &eFlux Points&r (output), even across dimensions.", "Flux dust comes from redstone crushed between bedrock and obsidian: check EMI for how.", "", "&cIn Bubie Pack&r, the Flux Controller wireless charging &cdoes not charge jetpacks or the MekaSuit&r. Bring spare energy on long trips!"]
@@ -156,6 +181,8 @@
 	quest.5AA2455B8B434FD5.title: "Spell book"
 	quest.5BF42C92DA85DDA8.quest_desc: ["Cogs pass rotation along; large cogs change the speed. The &eEngineer's Goggles&r show speed and stress."]
 	quest.5BF42C92DA85DDA8.title: "Cogs and goggles"
+	quest.5CF42477C806789A.quest_desc: ["&ePull / deliver / off&r connectors with no items in transit (no lag). Use the &eVoltaic Wrench&r to set each arm."]
+	quest.5CF42477C806789A.title: "Item and Fluid Cables"
 	quest.5E40C8421E074CE5.quest_desc: ["Mekanism's &eJetpack&r flies on hydrogen, not energy. Fill it in a &eChemical Tank&r full of hydrogen.", "Great for the Nether, since Flux does not charge jetpacks in this pack."]
 	quest.5E40C8421E074CE5.title: "Hydrogen jetpack"
 	quest.5E617B062F0E3916.quest_desc: ["A &eMechanical Harvester&r on a moving contraption harvests crops by itself. A &eMechanical Drill&r does the same with stone."]
@@ -188,14 +215,22 @@
 	quest.70424936C6A0FA5E.title: "Tripling"
 	quest.71F3144E071A8DF4.quest_desc: ["Almost everything in &ePowah&r starts with dielectric paste (coal + clay + lava)."]
 	quest.71F3144E071A8DF4.title: "Dielectric paste"
+	quest.73B62EE1080C58E6.quest_desc: ["The &eBase Blueprint&r (crafting table + 3 paper) builds your base at once: a round, square, octagonal or hexagonal floor,", "with walls, a door, a roof or a dome. Right-click the air (or &eN&r) for the menu; hold it and aim to see the outline; click a block to build.", "Blocks come from your inventory, backpack and nearby chests. &eSneak + right-click the air&r undoes it and gives everything back."]
+	quest.73B62EE1080C58E6.title: "Base Blueprint"
+	quest.744A53A16AA14F47.quest_desc: ["Iron, copper or gold ore becomes &e2 dusts&r; raw ore gives 1 dust and a chance of another. Smelt the dusts in the Electric Furnace."]
+	quest.744A53A16AA14F47.title: "Pulverizer"
 	quest.747A87616A37CDE3.quest_desc: ["&eFarmer's Delight&r meals are far more filling. Start with the cooking pot."]
 	quest.747A87616A37CDE3.title: "Real food"
 	quest.75A2F4E2F3508394.quest_desc: ["Place the wheel in flowing water: it spins forever. More wheels = more stress capacity."]
 	quest.75A2F4E2F3508394.title: "Water wheel"
 	quest.76F6D99A51ABF4C8.quest_desc: ["&eSource&r is the energy of magic. Store it in a &eSource Jar&r.", "&eSourcelinks&r generate it: Agronomic from growing crops, Volcanic from burning fuel, Vitalic from mobs."]
 	quest.76F6D99A51ABF4C8.title: "Making source"
+	quest.78382D3A00A7E088.quest_desc: ["Burns any furnace fuel at &e40 FE/t&r: one coal gives 32,000 FE. It pauses when full instead of wasting fuel."]
+	quest.78382D3A00A7E088.title: "Combustion Generator"
 	quest.78984C7D34352AF2.quest_desc: ["The &eEnder IO&r generator also burns fuel. Use it if you are already building Ender IO machines."]
 	quest.78984C7D34352AF2.title: "Alternative: Stirling Generator"
+	quest.7994335CB2E15C30.quest_desc: ["&eVoltaic Ingot + gold + redstone&r: the material for the advanced tier (Electric Furnace, Advanced Accumulator)."]
+	quest.7994335CB2E15C30.title: "Galvanic Alloy"
 	quest.7BE658401325C6B3.quest_desc: ["A &eFluid Tank&r with Blaze Burners below becomes a boiler; a &eSteam Engine&r on it gives lots of stress. Create's big power source."]
 	quest.7BE658401325C6B3.title: "Steam engine"
 	quest.7DF066788A2A1F25.quest_desc: ["&eIron Furnaces&r are faster and use less fuel. You can upgrade them later without breaking them."]

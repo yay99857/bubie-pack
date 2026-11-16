@@ -8,6 +8,7 @@
 	chapter.3D3DA9CC07FFAF31.title: "&9AE2: Autocrafting"
 	chapter.4412162570FD1664.title: "&5Ars Nouveau"
 	chapter.4E036F98450D7CD0.title: "&6Create: Automação"
+	chapter.6568E61EB0324E2C.title: "&bVoltaic Dynamics"
 	chapter.6CF3D48FE0991369.title: "&2Mystical Agriculture"
 	file.0000000000000001.title: "Bubie Pack"
 	quest.1051DF3A54C380A4.quest_desc: ["O &eElectric Motor&r (Crafts & Additions) faz o contrário do Alternator: usa FE para gerar rotação, sem rodas."]
@@ -20,12 +21,16 @@
 	quest.125BA7281C89648E.title: "Seu primeiro feitiço"
 	quest.12D3BC843DD9ABC5.quest_desc: ["Com o &eApplied Mekanistics&r, células químicas guardam gases e químicos do Mekanism na mesma rede."]
 	quest.12D3BC843DD9ABC5.title: "Químicos no AE2"
+	quest.12FA44E8F4855D49.quest_desc: ["A &eVoltaic Dynamics&r é tecnologia compacta com FE, feita para o Bubie Pack. Tudo começa no &eLingote Voltaico&r.", "Para começar sem máquina: &eferro + cobre + redstone&r na mesa dá pó voltaico; derreta na fornalha.", "Depois, a Fundidora de Ligas e o Pulverizador rendem bem mais."]
+	quest.12FA44E8F4855D49.title: "Lingote Voltaico"
 	quest.1346E595987721F1.quest_desc: ["Quase tudo no começo pede ferro. Os minérios do pack vêm em veias pequenas e espalhadas: explore cavernas e o deepslate."]
 	quest.1346E595987721F1.title: "Ferro, o começo de tudo"
 	quest.137E1685FCAA8688.quest_desc: ["A &eImbuement Chamber&r usa source para transformar itens: source gems e as &eessências&r dos elementos."]
 	quest.137E1685FCAA8688.title: "Imbuement Chamber"
 	quest.142BCC4E2C02779F.quest_desc: ["O &eminério de prosperidade&r dá fragmentos, usados em quase todas as sementes de recurso."]
 	quest.142BCC4E2C02779F.title: "Fragmentos de prosperidade"
+	quest.156C19716D490497.quest_desc: ["Leva energia entre geradores, acumuladores e máquinas, inclusive de outros mods (Mekanism, AE2, Powah...)."]
+	quest.156C19716D490497.title: "Cabo Voltaico"
 	quest.156C8D7D02C8E974.quest_desc: ["A primeira máquina do Mekanism: mistura metais com carvão, redstone e outros. Precisa de energia."]
 	quest.156C8D7D02C8E974.title: "Metallurgic Infuser"
 	quest.15A708F09E7ABE21.quest_desc: ["As sementes de recurso são feitas no &eInfusion Altar&r com 8 &epedestais&r em volta. Ative com redstone."]
@@ -62,20 +67,28 @@
 	quest.20FBCC4BD6FC3A56.title: "Digital Miner"
 	quest.21E8A2282FF4DEE6.quest_desc: ["Os &eTier Installers&r transformam uma máquina comum numa Factory, que processa vários itens ao mesmo tempo, sem quebrar nada."]
 	quest.21E8A2282FF4DEE6.title: "Tier Installers"
+	quest.221BE67451111B3A.quest_desc: ["Cada máquina tem 2 espaços de melhoria: &eVelocidade&r (mais rápida, gasta mais) e &eEficiência&r (gasta menos)."]
+	quest.221BE67451111B3A.title: "Melhorias"
 	quest.227FD052DA952DC0.quest_desc: ["Novos &eglifos&r (peças de feitiço) são feitos na &eScribe's Table&r. Comece pelos básicos: Projectile, Touch, Break e Harm."]
 	quest.227FD052DA952DC0.title: "Mesa do escriba"
 	quest.23E2CB5D9315B1D5.quest_desc: ["Abra o mapa do &eFTB Chunks&r (a tecla está em Opções → Controles) e clique em &aClaimed Chunks&r.", "Clique e arraste para proteger chunks. &eShift + clique&r mantém o chunk carregado, para as máquinas continuarem rodando quando você estiver longe."]
 	quest.23E2CB5D9315B1D5.title: "Proteger a base"
 	quest.251D0388AA912FF0.quest_desc: ["Os painéis solares funcionam sozinhos durante o dia. Bom complemento, mas de noite não geram nada.", "O &eSolar Panel (Starter)&r do Powah é o mais barato; o &eSolar Generator&r do Mekanism rende um pouco mais."]
 	quest.251D0388AA912FF0.title: "Energia solar"
+	quest.265BA22A1C811A9E.quest_desc: ["Queima &elava&r (e outros combustíveis líquidos) a 80 FE/t, alimentado por canos: ninguém precisa abastecer."]
+	quest.265BA22A1C811A9E.title: "Gerador a Fluido"
 	quest.26C5493D51EFD40D.quest_desc: ["A carcaça de aço é a base de quase todas as máquinas do Mekanism."]
 	quest.26C5493D51EFD40D.title: "Steel Casing"
 	quest.26ECFB2F495D2777.quest_desc: ["Ósmio + redstone no Infuser = liga infundida; com ela, faça os circuitos básicos."]
 	quest.26ECFB2F495D2777.title: "Circuito básico"
 	quest.275216252CEC1832.quest_desc: ["Ferro + carvão no Infuser = &eaço&r. Você vai precisar de muito."]
 	quest.275216252CEC1832.title: "Aço"
+	quest.276D690EE1DAE18E.quest_desc: ["Guarda &e1.000.000 FE&r e mantém a carga quando quebrado. Só empurra energia para máquinas e cabos, nunca para outras baterias."]
+	quest.276D690EE1DAE18E.title: "Acumulador"
 	quest.28A272F76CF103BE.quest_desc: ["Pegue as 4 prensas no meteorito: lógica, cálculo, engenharia e silício."]
 	quest.28A272F76CF103BE.title: "As prensas"
+	quest.28C5C27E21CC8E40.quest_desc: ["Carrega o que você segura e veste, direto do inventário."]
+	quest.28C5C27E21CC8E40.title: "Acumulador de Bolso"
 	quest.29CE2FF08E00A038.quest_desc: ["O &eEnchanting Apparatus&r em cima de um &eArcane Core&r, com &epedestais&r em volta, faz os itens mágicos mais fortes."]
 	quest.29CE2FF08E00A038.title: "Enchanting Apparatus"
 	quest.2B249C362A72D173.quest_desc: ["O &eSimple Voice Chat&r está instalado: quem está perto ouve você.", "Aperte &eV&r para abrir o menu e configurar microfone e volume. Por padrão, o push-to-talk fica no &eCaps Lock&r.", "", "&7Em servidor dedicado, o dono precisa liberar a porta UDP 24454."]
@@ -100,12 +113,16 @@
 	quest.382C587A7165A102.title: "Mochila"
 	quest.3A31F520128A4250.quest_desc: ["O mínimo: &eME Drive&r + &eTerminal&r + &eEnergy Acceptor&r ligados por cabos, e uma célula de 1k no drive.", "Sem Controller, a rede aceita até 8 dispositivos: mais que suficiente para começar."]
 	quest.3A31F520128A4250.title: "&aSua primeira rede ME"
+	quest.3A9B55D7CB53D3D6.quest_desc: ["Faz &eLingote Voltaico&r e &eLiga Galvânica&r direto dos lingotes ou dos pós, rendendo mais que à mão."]
+	quest.3A9B55D7CB53D3D6.title: "Fundidora de Ligas"
 	quest.3AEF3FB0E9F18305.quest_desc: ["Misture cobre e zinco num &eBasin&r com um &eMechanical Mixer&r em cima e um &eBlaze Burner&r embaixo.", "O Blaze Burner vazio é carregado clicando num blaze com ele."]
 	quest.3AEF3FB0E9F18305.title: "Latão"
 	quest.3BC06D93E6105408.quest_desc: ["Passe o mouse em qualquer item e aperte &eR&r para ver como fazer e &eU&r para ver onde é usado.", "", "Clique com o botão direito numa receita e escolha &eárvore de receitas&r (recipe tree) para ver tudo que falta até a matéria-prima.", "Itens favoritos ficam fixados na lateral: arraste um item para a coluna da esquerda."]
 	quest.3BC06D93E6105408.title: "Ver receitas: EMI"
 	quest.3C3C2AD614C7C1B0.quest_desc: ["O &eStarbuncle&r carrega itens entre baús; o &eWixie&r faz crafting e poções para você. Use os amuletos (charms) para invocá-los."]
 	quest.3C3C2AD614C7C1B0.title: "Ajudantes"
+	quest.3D12F03AC008E724.quest_desc: ["Clique direito gira a máquina; com Shift, pega o bloco com o conteúdo dentro."]
+	quest.3D12F03AC008E724.title: "Chave Voltaica"
 	quest.3D8AC49B4698398D.quest_desc: ["Padrões de &eprocessamento&r servem para máquinas: o Pattern Provider manda os ingredientes para a máquina encostada nele", "e o resultado volta para a rede por uma &eInterface&r ou pelo próprio Provider."]
 	quest.3D8AC49B4698398D.title: "Autocrafting com máquinas"
 	quest.3E1358836CD07D20.quest_desc: ["Shift + clique com o Configurator muda os lados de entrada e saída das máquinas."]
@@ -120,14 +137,20 @@
 	quest.430D5635C7C17AD5.title: "&aRecomendado:&r Enrichment Chamber"
 	quest.4596AD77CEC3CDE8.quest_desc: ["Crie um time com &a/ftbteams party create <nome>&r e convide os amigos.", "O time compartilha o progresso das quests e as áreas protegidas."]
 	quest.4596AD77CEC3CDE8.title: "Jogando em time"
+	quest.46D4CA3717AE041D.quest_desc: ["Guarda fluido e não perde nada ao ser quebrado; o ícone mostra o quanto está cheio."]
+	quest.46D4CA3717AE041D.title: "Tanque de Fluidos"
 	quest.478ED541DEA63974.quest_desc: ["A &eEnergy Cell (Starter)&r guarda a energia que sobra. Ponha entre o gerador e as máquinas."]
 	quest.478ED541DEA63974.title: "&aRecomendado:&r Bateria"
 	quest.47A2F1A8F3F82B77.quest_desc: ["&e/sethome&r e &e/home&r: uma casa por jogador.", "&e/spawn&r: volta para o spawn.", "&e/back&r: volta para onde você morreu ou de onde teleportou.", "&e/rtp&r: teleporte aleatório (recarga de 10 minutos).", "&e/tpa <jogador>&r: pede para teleportar até um amigo."]
 	quest.47A2F1A8F3F82B77.title: "Comandos úteis"
 	quest.489F25A7EE56F42F.quest_desc: ["As sementes do Mystical Agriculture funcionam nos &eBotany Pots&r: farms compactas que dá para automatizar com funis."]
 	quest.489F25A7EE56F42F.title: "Botany Pots"
+	quest.48ABCD25B85E97C6.quest_desc: ["Derrete qualquer receita de fornalha com energia, &eduas vezes mais rápido&r. Aceita melhorias."]
+	quest.48ABCD25B85E97C6.title: "Fornalha Elétrica"
 	quest.499E4FB045BF927D.quest_desc: ["A &eChemical Injection Chamber&r com cloreto de hidrogênio tira &e4 lingotes&r por minério.", "O cloreto de hidrogênio vem do &eChemical Infuser&r (hidrogênio + cloro). O cloro sai da salmoura no Electrolytic Separator."]
 	quest.499E4FB045BF927D.title: "4x: Chemical Injection"
+	quest.4AFCAF9DC6196B4B.quest_desc: ["Guarda &e8.000.000 FE&r e passa 10.000 FE/t."]
+	quest.4AFCAF9DC6196B4B.title: "Acumulador Avançado"
 	quest.4B7B69D8021B7C8E.quest_desc: ["Com um &eWireless Access Point&r ligado à rede, o &eWireless Terminal&r acessa tudo de longe. Carregue-o no Charger."]
 	quest.4B7B69D8021B7C8E.title: "Terminal sem fio"
 	quest.4BAB93ADF16059DB.quest_desc: ["Ative toda waystone que encontrar nas vilas. Depois dá para viajar entre elas.", "Fazer a sua própria waystone na base é uma das melhores coisas do começo."]
@@ -140,6 +163,8 @@
 	quest.4DB519F8B6D31F5A.title: "Energy Cube"
 	quest.4F133CC357D5E9F2.quest_desc: ["Com aço energizado dá para fazer a &eEnergy Cell (Basic)&r, que guarda bem mais."]
 	quest.4F133CC357D5E9F2.title: "Bateria maior"
+	quest.50566971057157E8.quest_desc: ["Energia de graça com &elado quente e lado frio&r: lava, fogo ou magma de um lado; gelo, neve ou água do outro. Até 100 FE/t.", "Os blocos se desgastam devagar (a lava esfria, o gelo derrete): troque de vez em quando."]
+	quest.50566971057157E8.title: "Gerador Termoelétrico"
 	quest.50FFADA15252DD2E.quest_desc: ["Coloque-o em cima de uma fonte de calor (lava, magma) e alimente com água.", "Rende bem mais que o Furnator e não gasta combustível: é o melhor gerador do começo ao meio do jogo."]
 	quest.50FFADA15252DD2E.title: "Thermo Generator"
 	quest.538A77B7CC540B71.quest_desc: ["Leva energia sem fio entre &eFlux Plugs&r (entrada) e &eFlux Points&r (saída), até entre dimensões.", "O pó de flux sai de redstone esmagada entre bedrock e obsidiana: veja como no EMI.", "", "&cNo Bubie Pack&r, o carregamento sem fio do Flux Controller &cnão carrega jetpacks nem a MekaSuit&r. Leve energia de reserva quando for longe!"]
@@ -156,6 +181,8 @@
 	quest.5AA2455B8B434FD5.title: "Livro de feitiços"
 	quest.5BF42C92DA85DDA8.quest_desc: ["Engrenagens passam rotação; a engrenagem grande muda a velocidade. Os &eóculos do engenheiro&r mostram velocidade e stress."]
 	quest.5BF42C92DA85DDA8.title: "Engrenagens e óculos"
+	quest.5CF42477C806789A.quest_desc: ["Conectores de &epuxar / entregar / desligado&r, sem itens em trânsito (sem lag). Use a &eChave Voltaica&r para configurar cada braço."]
+	quest.5CF42477C806789A.title: "Cabos de Itens e Fluidos"
 	quest.5E40C8421E074CE5.quest_desc: ["O &eJetpack&r do Mekanism voa com hidrogênio, não com energia. Abasteça num &eChemical Tank&r cheio de hidrogênio.", "Ótimo para o Nether, já que o Flux não carrega jetpacks neste pack."]
 	quest.5E40C8421E074CE5.title: "Jetpack a hidrogênio"
 	quest.5E617B062F0E3916.quest_desc: ["Uma &eMechanical Harvester&r numa estrutura que se move colhe plantações sozinha. Uma &eMechanical Drill&r faz o mesmo com pedra."]
@@ -188,14 +215,22 @@
 	quest.70424936C6A0FA5E.title: "Triplicando"
 	quest.71F3144E071A8DF4.quest_desc: ["Quase tudo do &ePowah&r começa com pasta dielétrica (carvão + argila + lava)."]
 	quest.71F3144E071A8DF4.title: "Pasta dielétrica"
+	quest.73B62EE1080C58E6.quest_desc: ["A &ePlanta de Base&r (mesa de trabalho + 3 papéis) constrói a base de uma vez: piso redondo, quadrado, octogonal ou hexagonal,", "com paredes, porta, teto ou cúpula. Clique direito no ar (ou &eN&r) para o menu; segure e mire para ver o contorno; clique num bloco para construir.", "Os blocos vêm do inventário, da mochila e dos baús por perto. &eShift + clique direito no ar&r desfaz e devolve tudo."]
+	quest.73B62EE1080C58E6.title: "Planta de Base"
+	quest.744A53A16AA14F47.quest_desc: ["Minério de ferro, cobre ou ouro vira &e2 pós&r; minério bruto rende 1 pó e chance de outro. Derreta os pós na Fornalha Elétrica."]
+	quest.744A53A16AA14F47.title: "Pulverizador"
 	quest.747A87616A37CDE3.quest_desc: ["O &eFarmer's Delight&r tem refeições que alimentam muito mais. Comece pela panela."]
 	quest.747A87616A37CDE3.title: "Comida de verdade"
 	quest.75A2F4E2F3508394.quest_desc: ["Coloque a roda na água corrente: ela gira para sempre. Mais rodas = mais força (stress)."]
 	quest.75A2F4E2F3508394.title: "Roda d'água"
 	quest.76F6D99A51ABF4C8.quest_desc: ["A &eSource&r é a energia da magia. Guarde num &eSource Jar&r.", "Os &eSourcelinks&r geram source: o Agronomic com plantas crescendo, o Volcanic queimando combustível, o Vitalic com mobs."]
 	quest.76F6D99A51ABF4C8.title: "Gerando source"
+	quest.78382D3A00A7E088.quest_desc: ["Queima qualquer combustível de fornalha a &e40 FE/t&r: um carvão dá 32.000 FE. Para quando enche, sem desperdiçar."]
+	quest.78382D3A00A7E088.title: "Gerador a Combustão"
 	quest.78984C7D34352AF2.quest_desc: ["O gerador do &eEnder IO&r também queima combustível. Use se já estiver fazendo máquinas do Ender IO."]
 	quest.78984C7D34352AF2.title: "Alternativa: Stirling Generator"
+	quest.7994335CB2E15C30.quest_desc: ["&eLingote Voltaico + ouro + redstone&r: o material do nível avançado (Fornalha Elétrica, Acumulador Avançado)."]
+	quest.7994335CB2E15C30.title: "Liga Galvânica"
 	quest.7BE658401325C6B3.quest_desc: ["Um &eFluid Tank&r com Blaze Burners embaixo vira caldeira; o &eSteam Engine&r em cima dá muita força. É a energia forte do Create."]
 	quest.7BE658401325C6B3.title: "Motor a vapor"
 	quest.7DF066788A2A1F25.quest_desc: ["As fornalhas do &eIron Furnaces&r são mais rápidas e gastam menos combustível. Dá para melhorar depois sem quebrar."]

@@ -1,5 +1,20 @@
 # Changelog — Bubie Pack
 
+## 0.6.0 (2026-11-16)
+Dois mods feitos para o Bubie Pack. Dá para continuar no mundo da 0.5.x: o progresso das quests é mantido.
+### Adicionado
+- **Voltaic Dynamics 1.5.0:** tecnologia compacta com FE. Geradores a Combustão, Termoelétrico (calor perto de frio) e a Fluido (lava),
+  Fornalha Elétrica, Fundidora de Ligas e Pulverizador com Melhorias de Velocidade e Eficiência, Acumuladores de 1M e 8M FE,
+  Acumulador de Bolso, Cabos Voltaicos, Cabos de Itens e de Fluidos sem itens em trânsito, Tanque de Fluidos e Chave Voltaica.
+  Funciona com os cabos e máquinas do Mekanism, AE2 e Powah; o AlmostUnified unifica os pós dele com os do pack.
+- **Base Blueprint 1.1.2:** constrói a primeira base com um clique. Receita: mesa de trabalho + 3 papéis.
+  Formas redonda, quadrada, octogonal e hexagonal, paredes com porta, teto plano ou cúpula, fundação em terreno irregular,
+  material separado para piso e paredes, blocos do inventário, da mochila e dos baús por perto, e desfazer salvo com o mundo.
+### Quests
+- Capítulo novo **Voltaic Dynamics** com 16 quests, do primeiro Lingote Voltaico ao Acumulador Avançado.
+- Quest da **Planta de Base** em Primeiros Passos.
+- Agora são 112 quests em 11 capítulos.
+
 ## 0.5.1 (2026-11-14)
 Recompensas nas quests. Dá para continuar no mundo da 0.5.0: o progresso das quests é mantido.
 ### Quests

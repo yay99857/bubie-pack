@@ -1,0 +1,142 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "voltaic"
+	group: ""
+	icon: { id: "voltaicdynamics:combustion_generator" }
+	id: "6568E61EB0324E2C"
+	order_index: 10
+	quest_links: [ ]
+	quests: [
+		{
+			dependencies: ["1346E595987721F1"]
+			id: "12FA44E8F4855D49"
+			rewards: [{ id: "666B999107111627", type: "xp", xp: 25 }, { id: "46419BD1890FC7D5", item: { count: 8, id: "minecraft:redstone" }, type: "item" }]
+			shape: "pentagon"
+			size: 1.5d
+			tasks: [{ count: 4L, id: "6CEBF7D2CA96BD1E", item: { count: 1, id: "voltaicdynamics:voltaic_ingot" }, type: "item" }]
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["12FA44E8F4855D49"]
+			id: "78382D3A00A7E088"
+			rewards: [{ id: "6772501793974F4B", type: "xp", xp: 25 }, { id: "1079E217E4BD8F93", item: { count: 16, id: "minecraft:coal" }, type: "item" }]
+			tasks: [{ id: "3CF1C7B1818DEB45", item: { count: 1, id: "voltaicdynamics:combustion_generator" }, type: "item" }]
+			x: -2.5d
+			y: -2.0d
+		}
+		{
+			dependencies: ["78382D3A00A7E088"]
+			id: "50566971057157E8"
+			rewards: [{ id: "62D17F622E614BAE", type: "xp", xp: 25 }, { id: "4150A73CAA5D38D6", item: { count: 4, id: "minecraft:packed_ice" }, type: "item" }]
+			tasks: [{ id: "192DF2F300534FAD", item: { count: 1, id: "voltaicdynamics:thermoelectric_generator" }, type: "item" }]
+			x: -5.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["78382D3A00A7E088"]
+			id: "265BA22A1C811A9E"
+			rewards: [{ id: "284B4A4B44D668DB", type: "xp", xp: 25 }]
+			tasks: [{ id: "75B003F88000FFA2", item: { count: 1, id: "voltaicdynamics:fluid_generator" }, type: "item" }]
+			x: -2.5d
+			y: -4.0d
+		}
+		{
+			dependencies: ["78382D3A00A7E088"]
+			id: "276D690EE1DAE18E"
+			rewards: [{ id: "1D16EE8B2DC4E3A4", type: "xp", xp: 25 }]
+			tasks: [{ id: "5FBBBE4DB72A9F04", item: { count: 1, id: "voltaicdynamics:basic_accumulator" }, type: "item" }]
+			x: 0.0d
+			y: -3.0d
+		}
+		{
+			dependencies: ["12FA44E8F4855D49"]
+			id: "156C19716D490497"
+			rewards: [{ id: "10A049D8EC9F4BB9", type: "xp", xp: 10 }, { id: "62B20C44EA4DC2D2", item: { count: 8, id: "voltaicdynamics:voltaic_cable" }, type: "item" }]
+			tasks: [{ count: 8L, id: "4C81E348F1F013BF", item: { count: 1, id: "voltaicdynamics:voltaic_cable" }, type: "item" }]
+			x: 2.5d
+			y: -2.0d
+		}
+		{
+			dependencies: ["156C19716D490497", "7994335CB2E15C30"]
+			id: "48ABCD25B85E97C6"
+			rewards: [{ id: "4DD50AFED4D97389", type: "xp", xp: 25 }]
+			tasks: [{ id: "22862F82229DDC66", item: { count: 1, id: "voltaicdynamics:electric_furnace" }, type: "item" }]
+			x: 5.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["156C19716D490497"]
+			id: "3A9B55D7CB53D3D6"
+			rewards: [{ id: "5479849BBDF4A8AC", type: "xp", xp: 25 }, { id: "2CCFC1B1611515B9", item: { count: 8, id: "minecraft:redstone" }, type: "item" }]
+			tasks: [{ id: "1C533F5601EC88A2", item: { count: 1, id: "voltaicdynamics:alloy_smelter" }, type: "item" }]
+			x: 2.5d
+			y: 0.5d
+		}
+		{
+			dependencies: ["3A9B55D7CB53D3D6"]
+			id: "744A53A16AA14F47"
+			rewards: [{ id: "59E65D1162AECC90", type: "xp", xp: 25 }]
+			tasks: [{ id: "7369F8802F62346A", item: { count: 1, id: "voltaicdynamics:pulverizer" }, type: "item" }]
+			x: 5.0d
+			y: 0.5d
+		}
+		{
+			dependencies: ["12FA44E8F4855D49"]
+			id: "7994335CB2E15C30"
+			rewards: [{ id: "122204367E7A133C", type: "xp", xp: 10 }, { id: "3293E8CFA1E6CF3C", item: { count: 4, id: "minecraft:gold_ingot" }, type: "item" }]
+			tasks: [{ count: 4L, id: "26C450657F2499D7", item: { count: 1, id: "voltaicdynamics:galvanic_alloy" }, type: "item" }]
+			x: 0.0d
+			y: 2.5d
+		}
+		{
+			dependencies: ["744A53A16AA14F47"]
+			id: "221BE67451111B3A"
+			rewards: [{ id: "423C3054ADE1C371", type: "xp", xp: 25 }]
+			tasks: [{ id: "6577F9B4C0F1F9F7", item: { count: 1, id: "voltaicdynamics:speed_upgrade" }, type: "item" }, { id: "6915E6FB4FD32EF2", item: { count: 1, id: "voltaicdynamics:efficiency_upgrade" }, type: "item" }]
+			x: 7.5d
+			y: 0.5d
+		}
+		{
+			dependencies: ["7994335CB2E15C30", "276D690EE1DAE18E"]
+			id: "4AFCAF9DC6196B4B"
+			rewards: [{ id: "18E5195E8C994B5D", type: "xp", xp: 50 }]
+			tasks: [{ id: "263FD2EF47BCDB32", item: { count: 1, id: "voltaicdynamics:advanced_accumulator" }, type: "item" }]
+			x: 0.0d
+			y: 5.0d
+		}
+		{
+			dependencies: ["4AFCAF9DC6196B4B"]
+			id: "28C5C27E21CC8E40"
+			rewards: [{ id: "10B1063DF05B3F8C", type: "xp", xp: 25 }]
+			tasks: [{ id: "422BA7CBC4E7B32F", item: { count: 1, id: "voltaicdynamics:pocket_accumulator" }, type: "item" }]
+			x: -2.5d
+			y: 5.0d
+		}
+		{
+			dependencies: ["3D12F03AC008E724"]
+			id: "5CF42477C806789A"
+			rewards: [{ id: "7B395D1F35A93583", type: "xp", xp: 10 }]
+			tasks: [{ count: 4L, id: "115A01B8C3312ED1", item: { count: 1, id: "voltaicdynamics:item_cable" }, type: "item" }, { count: 4L, id: "7E07222A5241A760", item: { count: 1, id: "voltaicdynamics:fluid_cable" }, type: "item" }]
+			x: -2.5d
+			y: 2.5d
+		}
+		{
+			dependencies: ["12FA44E8F4855D49"]
+			id: "3D12F03AC008E724"
+			rewards: [{ id: "7770083EEAD7A2D9", type: "xp", xp: 10 }]
+			tasks: [{ id: "1AD3B0EC077395BE", item: { count: 1, id: "voltaicdynamics:voltaic_wrench" }, type: "item" }]
+			x: -5.0d
+			y: 2.5d
+		}
+		{
+			dependencies: ["5CF42477C806789A"]
+			id: "46D4CA3717AE041D"
+			rewards: [{ id: "79CB9C1F822E11AE", type: "xp", xp: 10 }]
+			tasks: [{ id: "5CE77E79A9C93936", item: { count: 1, id: "voltaicdynamics:fluid_tank" }, type: "item" }]
+			x: -5.0d
+			y: 5.0d
+		}
+	]
+}
