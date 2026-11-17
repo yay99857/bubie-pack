@@ -215,7 +215,7 @@
 	quest.70424936C6A0FA5E.title: "Triplicando"
 	quest.71F3144E071A8DF4.quest_desc: ["Quase tudo do &ePowah&r começa com pasta dielétrica (carvão + argila + lava)."]
 	quest.71F3144E071A8DF4.title: "Pasta dielétrica"
-	quest.73B62EE1080C58E6.quest_desc: ["A &ePlanta de Base&r (mesa de trabalho + 3 papéis) constrói a base de uma vez: piso redondo, quadrado, octogonal ou hexagonal,", "com paredes, porta, teto ou cúpula. Clique direito no ar (ou &eN&r) para o menu; segure e mire para ver o contorno; clique num bloco para construir.", "Os blocos vêm do inventário, da mochila e dos baús por perto. &eShift + clique direito no ar&r desfaz e devolve tudo."]
+	quest.73B62EE1080C58E6.quest_desc: ["A &ePlanta de Base&r (mesa de trabalho + 3 papéis) constrói a base de uma vez: piso redondo, quadrado, octogonal ou hexagonal,", "com paredes, porta, teto ou cúpula. Clique direito no ar (ou &eN&r) para o menu; segure e mire para ver o contorno; clique num bloco para construir.", "Os blocos vêm do inventário, da mochila e dos baús por perto. &eShift + clique direito no ar&r desfaz e devolve tudo.", "Cada planta faz &e8 bases&r; conserte na bigorna com papel."]
 	quest.73B62EE1080C58E6.title: "Planta de Base"
 	quest.744A53A16AA14F47.quest_desc: ["Minério de ferro, cobre ou ouro vira &e2 pós&r; minério bruto rende 1 pó e chance de outro. Derreta os pós na Fornalha Elétrica."]
 	quest.744A53A16AA14F47.title: "Pulverizador"
@@ -229,7 +229,7 @@
 	quest.78382D3A00A7E088.title: "Gerador a Combustão"
 	quest.78984C7D34352AF2.quest_desc: ["O gerador do &eEnder IO&r também queima combustível. Use se já estiver fazendo máquinas do Ender IO."]
 	quest.78984C7D34352AF2.title: "Alternativa: Stirling Generator"
-	quest.7994335CB2E15C30.quest_desc: ["&eLingote Voltaico + ouro + redstone&r: o material do nível avançado (Fornalha Elétrica, Acumulador Avançado)."]
+	quest.7994335CB2E15C30.quest_desc: ["Feita só na &eFundidora de Ligas&r: Lingote Voltaico + ouro + redstone. É uma liga, como as do Mekanism: não tem pó nem sai da fornalha.", "É o material do nível avançado (Fornalha Elétrica, Acumulador Avançado, melhorias)."]
 	quest.7994335CB2E15C30.title: "Liga Galvânica"
 	quest.7BE658401325C6B3.quest_desc: ["Um &eFluid Tank&r com Blaze Burners embaixo vira caldeira; o &eSteam Engine&r em cima dá muita força. É a energia forte do Create."]
 	quest.7BE658401325C6B3.title: "Motor a vapor"

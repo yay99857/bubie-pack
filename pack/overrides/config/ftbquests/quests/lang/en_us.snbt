@@ -215,7 +215,7 @@
 	quest.70424936C6A0FA5E.title: "Tripling"
 	quest.71F3144E071A8DF4.quest_desc: ["Almost everything in &ePowah&r starts with dielectric paste (coal + clay + lava)."]
 	quest.71F3144E071A8DF4.title: "Dielectric paste"
-	quest.73B62EE1080C58E6.quest_desc: ["The &eBase Blueprint&r (crafting table + 3 paper) builds your base at once: a round, square, octagonal or hexagonal floor,", "with walls, a door, a roof or a dome. Right-click the air (or &eN&r) for the menu; hold it and aim to see the outline; click a block to build.", "Blocks come from your inventory, backpack and nearby chests. &eSneak + right-click the air&r undoes it and gives everything back."]
+	quest.73B62EE1080C58E6.quest_desc: ["The &eBase Blueprint&r (crafting table + 3 paper) builds your base at once: a round, square, octagonal or hexagonal floor,", "with walls, a door, a roof or a dome. Right-click the air (or &eN&r) for the menu; hold it and aim to see the outline; click a block to build.", "Blocks come from your inventory, backpack and nearby chests. &eSneak + right-click the air&r undoes it and gives everything back.", "Each blueprint builds &e8 bases&r; repair it with paper in an anvil."]
 	quest.73B62EE1080C58E6.title: "Base Blueprint"
 	quest.744A53A16AA14F47.quest_desc: ["Iron, copper or gold ore becomes &e2 dusts&r; raw ore gives 1 dust and a chance of another. Smelt the dusts in the Electric Furnace."]
 	quest.744A53A16AA14F47.title: "Pulverizer"
@@ -229,7 +229,7 @@
 	quest.78382D3A00A7E088.title: "Combustion Generator"
 	quest.78984C7D34352AF2.quest_desc: ["The &eEnder IO&r generator also burns fuel. Use it if you are already building Ender IO machines."]
 	quest.78984C7D34352AF2.title: "Alternative: Stirling Generator"
-	quest.7994335CB2E15C30.quest_desc: ["&eVoltaic Ingot + gold + redstone&r: the material for the advanced tier (Electric Furnace, Advanced Accumulator)."]
+	quest.7994335CB2E15C30.quest_desc: ["Made only in the &eAlloy Smelter&r: Voltaic Ingot + gold + redstone. It is an alloy, like Mekanism's: no dust, and it never comes out of a furnace.", "It is the material for the advanced tier (Electric Furnace, Advanced Accumulator, upgrades)."]
 	quest.7994335CB2E15C30.title: "Galvanic Alloy"
 	quest.7BE658401325C6B3.quest_desc: ["A &eFluid Tank&r with Blaze Burners below becomes a boiler; a &eSteam Engine&r on it gives lots of stress. Create's big power source."]
 	quest.7BE658401325C6B3.title: "Steam engine"

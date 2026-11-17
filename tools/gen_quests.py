@@ -123,10 +123,12 @@ q(c, 'baú', 0, 3, ('Organizando os baús', 'Organizing your chests'),
 q(c, 'planta', 0, -3, ('Planta de Base', 'Base Blueprint'),
   ['A &ePlanta de Base&r (mesa de trabalho + 3 papéis) constrói a base de uma vez: piso redondo, quadrado, octogonal ou hexagonal,',
    'com paredes, porta, teto ou cúpula. Clique direito no ar (ou &eN&r) para o menu; segure e mire para ver o contorno; clique num bloco para construir.',
-   'Os blocos vêm do inventário, da mochila e dos baús por perto. &eShift + clique direito no ar&r desfaz e devolve tudo.'],
+   'Os blocos vêm do inventário, da mochila e dos baús por perto. &eShift + clique direito no ar&r desfaz e devolve tudo.',
+   'Cada planta faz &e8 bases&r; conserte na bigorna com papel.'],
   ['The &eBase Blueprint&r (crafting table + 3 paper) builds your base at once: a round, square, octagonal or hexagonal floor,',
    'with walls, a door, a roof or a dome. Right-click the air (or &eN&r) for the menu; hold it and aim to see the outline; click a block to build.',
-   'Blocks come from your inventory, backpack and nearby chests. &eSneak + right-click the air&r undoes it and gives everything back.'],
+   'Blocks come from your inventory, backpack and nearby chests. &eSneak + right-click the air&r undoes it and gives everything back.',
+   'Each blueprint builds &e8 bases&r; repair it with paper in an anvil.'],
   [I('baseblueprint:base_blueprint')], xp=25, items=[('minecraft:cobblestone', 64)])
 
 # ================= Energia =================
@@ -569,9 +571,11 @@ q(c, 'pulverizador', 5, 0.5, ('Pulverizador', 'Pulverizer'),
   ['Iron, copper or gold ore becomes &e2 dusts&r; raw ore gives 1 dust and a chance of another. Smelt the dusts in the Electric Furnace.'],
   [I('voltaicdynamics:pulverizer')], deps=['fundidora'], xp=25)
 q(c, 'galvanica', 0, 2.5, ('Liga Galvânica', 'Galvanic Alloy'),
-  ['&eLingote Voltaico + ouro + redstone&r: o material do nível avançado (Fornalha Elétrica, Acumulador Avançado).'],
-  ['&eVoltaic Ingot + gold + redstone&r: the material for the advanced tier (Electric Furnace, Advanced Accumulator).'],
-  [I('voltaicdynamics:galvanic_alloy', 4)], deps=['lingote'], items=[('minecraft:gold_ingot', 4)])
+  ['Feita só na &eFundidora de Ligas&r: Lingote Voltaico + ouro + redstone. É uma liga, como as do Mekanism: não tem pó nem sai da fornalha.',
+   'É o material do nível avançado (Fornalha Elétrica, Acumulador Avançado, melhorias).'],
+  ['Made only in the &eAlloy Smelter&r: Voltaic Ingot + gold + redstone. It is an alloy, like Mekanism\'s: no dust, and it never comes out of a furnace.',
+   'It is the material for the advanced tier (Electric Furnace, Advanced Accumulator, upgrades).'],
+  [I('voltaicdynamics:galvanic_alloy', 4)], deps=['fundidora'], items=[('minecraft:gold_ingot', 4)])
 q(c, 'melhorias', 7.5, 0.5, ('Melhorias', 'Upgrades'),
   ['Cada máquina tem 2 espaços de melhoria: &eVelocidade&r (mais rápida, gasta mais) e &eEficiência&r (gasta menos).'],
   ['Each machine has 2 upgrade slots: &eSpeed&r (faster, uses more) and &eEfficiency&r (uses less).'],

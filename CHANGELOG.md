@@ -1,5 +1,16 @@
 # Changelog — Bubie Pack
 
+## 0.6.1 (2026-11-17)
+Atualiza os dois mods do pack. Dá para continuar no mundo da 0.6.0.
+### Voltaic Dynamics 1.6.0
+- A Liga Galvânica agora sai só da **Fundidora de Ligas**, como as ligas do Mekanism saem do Metallurgic Infuser.
+  O Pó Galvânico foi removido (receita à mão, fornalha, alto-forno e Pulverizador): pó vira lingote, liga é feita em máquina.
+  Pó Galvânico que já esteja no mundo some.
+- A quest da Liga Galvânica agora vem depois da quest da Fundidora de Ligas.
+### Base Blueprint 1.2.0
+- **Andares:** empilha até 16 andares, cada um com a altura das paredes, um piso entre eles e um buraco para a escada. Faz torres.
+- Cada planta faz **8 bases** (no criativo não gasta); conserta na bigorna com papel. Plantas que você já tem também passam a ter 8 usos.
+
 ## 0.6.0 (2026-11-16)
 Dois mods feitos para o Bubie Pack. Dá para continuar no mundo da 0.5.x: o progresso das quests é mantido.
 ### Adicionado
