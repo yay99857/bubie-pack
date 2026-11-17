@@ -10,7 +10,7 @@
 	quests: [
 		{
 			id: "1B6A690704ABED89"
-			rewards: [{ id: "10EA3C5286BD01B4", type: "xp", xp: 25 }, { id: "3137BA9817A2C74B", item: { count: 16, id: "minecraft:redstone" }, type: "item" }]
+			rewards: [{ id: "10EA3C5286BD01B4", type: "xp", xp: 60 }, { id: "3137BA9817A2C74B", item: { count: 32, id: "minecraft:redstone" }, type: "item" }]
 			shape: "pentagon"
 			size: 1.5d
 			tasks: [{ count: 16L, icon: { id: "mekanism:ingot_osmium" }, id: "1E1D39BAD5B3D250", item: { components: { "ftbfiltersystem:filter": "ftbfiltersystem:item_tag(c:ingots/osmium)" }, count: 1, id: "ftbfiltersystem:smart_filter" }, type: "item" }]
@@ -20,7 +20,7 @@
 		{
 			dependencies: ["1B6A690704ABED89", "3F9731AAA5BA5B34"]
 			id: "156C8D7D02C8E974"
-			rewards: [{ id: "3D3BF99CD5F432EE", type: "xp", xp: 25 }, { id: "746ED208F63267CD", item: { count: 8, id: "mekanism:enriched_redstone" }, type: "item" }]
+			rewards: [{ id: "3D3BF99CD5F432EE", type: "xp", xp: 60 }, { id: "746ED208F63267CD", item: { count: 16, id: "mekanism:enriched_redstone" }, type: "item" }]
 			tasks: [{ id: "310FAB5151E8054C", item: { count: 1, id: "mekanism:metallurgic_infuser" }, type: "item" }]
 			x: 2.5d
 			y: 0.0d
@@ -28,7 +28,7 @@
 		{
 			dependencies: ["156C8D7D02C8E974"]
 			id: "275216252CEC1832"
-			rewards: [{ id: "770EDD865CC82918", type: "xp", xp: 10 }]
+			rewards: [{ id: "770EDD865CC82918", type: "xp", xp: 30 }]
 			tasks: [{ count: 16L, icon: { id: "mekanism:ingot_steel" }, id: "38D8B23AD5F9D5DE", item: { components: { "ftbfiltersystem:filter": "ftbfiltersystem:item_tag(c:ingots/steel)" }, count: 1, id: "ftbfiltersystem:smart_filter" }, type: "item" }]
 			x: 5.0d
 			y: -1.5d
@@ -36,7 +36,7 @@
 		{
 			dependencies: ["156C8D7D02C8E974"]
 			id: "26ECFB2F495D2777"
-			rewards: [{ id: "254D805CEA762C5F", type: "xp", xp: 10 }, { id: "5F86C110E9827980", item: { count: 2, id: "mekanism:basic_control_circuit" }, type: "item" }]
+			rewards: [{ id: "254D805CEA762C5F", type: "xp", xp: 30 }, { id: "5F86C110E9827980", item: { count: 4, id: "mekanism:basic_control_circuit" }, type: "item" }]
 			tasks: [{ count: 4L, id: "1531DADDFDBF443E", item: { count: 1, id: "mekanism:basic_control_circuit" }, type: "item" }]
 			x: 5.0d
 			y: 1.5d
@@ -44,7 +44,7 @@
 		{
 			dependencies: ["275216252CEC1832", "26ECFB2F495D2777"]
 			id: "26C5493D51EFD40D"
-			rewards: [{ id: "75D781A5AF6F1343", type: "xp", xp: 25 }]
+			rewards: [{ id: "75D781A5AF6F1343", type: "xp", xp: 60 }]
 			tasks: [{ count: 2L, id: "25733AC44F569697", item: { count: 1, id: "mekanism:steel_casing" }, type: "item" }]
 			x: 7.5d
 			y: 0.0d
@@ -52,7 +52,7 @@
 		{
 			dependencies: ["26C5493D51EFD40D"]
 			id: "430D5635C7C17AD5"
-			rewards: [{ id: "7F76B7AF3AA39B56", type: "xp", xp: 50 }, { id: "3DB495DD31F2CF58", item: { count: 8, id: "minecraft:raw_iron" }, type: "item" }]
+			rewards: [{ id: "7F76B7AF3AA39B56", type: "xp", xp: 120 }, { id: "3DB495DD31F2CF58", item: { count: 16, id: "minecraft:raw_iron" }, type: "item" }]
 			size: 1.3d
 			tasks: [{ id: "1CCA92D971270C61", item: { count: 1, id: "mekanism:enrichment_chamber" }, type: "item" }]
 			x: 10.0d
@@ -61,7 +61,7 @@
 		{
 			dependencies: ["430D5635C7C17AD5"]
 			id: "589C57CB9E6FA31F"
-			rewards: [{ id: "160944912A3B7D06", type: "xp", xp: 10 }]
+			rewards: [{ id: "160944912A3B7D06", type: "xp", xp: 30 }]
 			tasks: [{ id: "503BFD1D824C144F", item: { count: 1, id: "mekanism:energized_smelter" }, type: "item" }]
 			x: 12.5d
 			y: -1.5d
@@ -69,7 +69,7 @@
 		{
 			dependencies: ["430D5635C7C17AD5"]
 			id: "70424936C6A0FA5E"
-			rewards: [{ id: "7135249B04EE45C8", type: "xp", xp: 50 }]
+			rewards: [{ id: "7135249B04EE45C8", type: "xp", xp: 120 }]
 			tasks: [{ id: "195368774E6A3716", item: { count: 1, id: "mekanism:purification_chamber" }, type: "item" }]
 			x: 12.5d
 			y: 1.5d
@@ -77,7 +77,7 @@
 		{
 			dependencies: ["26C5493D51EFD40D"]
 			id: "3E1358836CD07D20"
-			rewards: [{ id: "1EADB4D3B4076BD2", type: "xp", xp: 10 }]
+			rewards: [{ id: "1EADB4D3B4076BD2", type: "xp", xp: 30 }]
 			tasks: [{ id: "22ECB91A68228D6D", item: { count: 1, id: "mekanism:configurator" }, type: "item" }]
 			x: 10.0d
 			y: 2.5d

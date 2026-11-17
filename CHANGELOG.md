@@ -1,5 +1,17 @@
 # Changelog — Bubie Pack
 
+## 0.6.2 (2026-11-17)
+Dá para continuar no mundo da 0.6.x: o progresso das quests é mantido (recompensas já resgatadas não mudam).
+### Quests: recompensas maiores
+- XP de todas as quests subiu: 10 → 30, 25 → 60, 50 → 120 e 100 → 250.
+- As 43 quests com item dão o dobro (até um pack de 64): por exemplo 32 carvões, 16 silícios, 32 cabos de energia, 128 pedregulhos
+  na Planta de Base. A quest da primeira rede ME dá um componente de 4k em vez de 1k, e a do ferro dá também 32 tochas.
+  Upgrades únicos (Pickup Upgrade, Stack Upgrade) e o balde continuam 1.
+### Base Blueprint 1.2.1
+- O menu mostra a base em **3D** com os materiais escolhidos: arraste para girar, role para aproximar. O botão 2D/3D troca pela planta em pixels.
+- "Paredes" virou **"Altura"** (a altura de cada andar). Com mais de 1 andar a altura mínima é 2; ao subir de 1 para 2 andares, uma altura menor vira 4.
+- O contorno da base no mundo usa um buffer próprio, para tentar corrigir ele não aparecer com Sodium e Iris.
+
 ## 0.6.1 (2026-11-17)
 Atualiza os dois mods do pack. Dá para continuar no mundo da 0.6.0.
 ### Voltaic Dynamics 1.6.0

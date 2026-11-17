@@ -10,7 +10,7 @@
 	quests: [
 		{
 			id: "634F7AC552E29D2A"
-			rewards: [{ id: "552A5B31A1584271", type: "xp", xp: 25 }, { id: "26E5C5EEE27DB13F", item: { count: 16, id: "mysticalagriculture:inferium_essence" }, type: "item" }]
+			rewards: [{ id: "552A5B31A1584271", type: "xp", xp: 60 }, { id: "26E5C5EEE27DB13F", item: { count: 32, id: "mysticalagriculture:inferium_essence" }, type: "item" }]
 			shape: "pentagon"
 			size: 1.5d
 			tasks: [{ count: 32L, id: "49292CBAA4EF81B6", item: { count: 1, id: "mysticalagriculture:inferium_essence" }, type: "item" }]
@@ -20,7 +20,7 @@
 		{
 			dependencies: ["634F7AC552E29D2A"]
 			id: "193C81A87B09C363"
-			rewards: [{ id: "7C0C6E0CFD74155A", type: "xp", xp: 10 }, { id: "626D0DCE4B50C388", item: { count: 1, id: "mysticalagriculture:inferium_seeds" }, type: "item" }]
+			rewards: [{ id: "7C0C6E0CFD74155A", type: "xp", xp: 30 }, { id: "626D0DCE4B50C388", item: { count: 2, id: "mysticalagriculture:inferium_seeds" }, type: "item" }]
 			tasks: [{ id: "6839EE4AAB61A03E", item: { count: 1, id: "mysticalagriculture:inferium_seeds" }, type: "item" }, { count: 4L, id: "7E3A9950FFCCFBD0", item: { count: 1, id: "mysticalagriculture:inferium_farmland" }, type: "item" }]
 			x: 2.5d
 			y: -1.5d
@@ -28,7 +28,7 @@
 		{
 			dependencies: ["634F7AC552E29D2A"]
 			id: "142BCC4E2C02779F"
-			rewards: [{ id: "3DB71029551E02D8", type: "xp", xp: 10 }]
+			rewards: [{ id: "3DB71029551E02D8", type: "xp", xp: 30 }]
 			tasks: [{ count: 16L, id: "3DB21B333361D94F", item: { count: 1, id: "mysticalagriculture:prosperity_shard" }, type: "item" }]
 			x: 2.5d
 			y: 1.5d
@@ -36,7 +36,7 @@
 		{
 			dependencies: ["193C81A87B09C363", "142BCC4E2C02779F"]
 			id: "15A708F09E7ABE21"
-			rewards: [{ id: "175DFA9ED7829550", type: "xp", xp: 50 }]
+			rewards: [{ id: "175DFA9ED7829550", type: "xp", xp: 120 }]
 			tasks: [{ id: "5557447CE8329B06", item: { count: 1, id: "mysticalagriculture:infusion_altar" }, type: "item" }, { count: 8L, id: "1D8ECE0497241198", item: { count: 1, id: "mysticalagriculture:infusion_pedestal" }, type: "item" }]
 			x: 5.0d
 			y: 0.0d
@@ -44,7 +44,7 @@
 		{
 			dependencies: ["15A708F09E7ABE21"]
 			id: "19E85018FA057E39"
-			rewards: [{ id: "1A66EB484E312223", type: "xp", xp: 50 }]
+			rewards: [{ id: "1A66EB484E312223", type: "xp", xp: 120 }]
 			size: 1.3d
 			tasks: [{ id: "1F5AA50F0C90C53A", item: { count: 1, id: "mysticalagriculture:iron_seeds" }, type: "item" }]
 			x: 7.5d
@@ -53,7 +53,7 @@
 		{
 			dependencies: ["15A708F09E7ABE21"]
 			id: "1A26A55C666787FB"
-			rewards: [{ id: "11420366B1D2CDED", type: "xp", xp: 10 }]
+			rewards: [{ id: "11420366B1D2CDED", type: "xp", xp: 30 }]
 			tasks: [{ count: 16L, id: "33C95F3366CDA4EB", item: { count: 1, id: "mysticalagriculture:prudentium_essence" }, type: "item" }, { count: 4L, id: "5F50A7367FF9E814", item: { count: 1, id: "mysticalagriculture:tertium_essence" }, type: "item" }]
 			x: 5.0d
 			y: 2.5d
@@ -61,7 +61,7 @@
 		{
 			dependencies: ["193C81A87B09C363"]
 			id: "69983086E002634C"
-			rewards: [{ id: "2B87FEF91311FC60", type: "xp", xp: 10 }]
+			rewards: [{ id: "2B87FEF91311FC60", type: "xp", xp: 30 }]
 			tasks: [{ id: "7C6D221D53466438", item: { count: 1, id: "mysticalagriculture:inferium_watering_can" }, type: "item" }]
 			x: 5.0d
 			y: -2.5d
@@ -69,7 +69,7 @@
 		{
 			dependencies: ["19E85018FA057E39"]
 			id: "5EB379BD7656A1DB"
-			rewards: [{ id: "1F1BBF003F35AB73", type: "xp", xp: 10 }]
+			rewards: [{ id: "1F1BBF003F35AB73", type: "xp", xp: 30 }]
 			tasks: [{ id: "13C83928606E1F69", item: { count: 1, id: "mysticalagriculture:infusion_crystal" }, type: "item" }]
 			x: 10.0d
 			y: 0.0d
@@ -77,7 +77,7 @@
 		{
 			dependencies: ["19E85018FA057E39"]
 			id: "489F25A7EE56F42F"
-			rewards: [{ id: "75D48A99005853AF", type: "xp", xp: 10 }]
+			rewards: [{ id: "75D48A99005853AF", type: "xp", xp: 30 }]
 			tasks: [{ id: "213E80A3CB53BE65", type: "checkmark" }]
 			x: 10.0d
 			y: 2.5d

@@ -10,7 +10,7 @@
 	quests: [
 		{
 			id: "3F9731AAA5BA5B34"
-			rewards: [{ id: "1391916DF3F19952", type: "xp", xp: 10 }]
+			rewards: [{ id: "1391916DF3F19952", type: "xp", xp: 30 }]
 			shape: "pentagon"
 			size: 2.0d
 			tasks: [{ id: "4C0112B9A9F8F3F2", type: "checkmark" }]
@@ -20,7 +20,7 @@
 		{
 			dependencies: ["3F9731AAA5BA5B34"]
 			id: "71F3144E071A8DF4"
-			rewards: [{ id: "1465EF9FCDDBA79F", type: "xp", xp: 10 }, { id: "18AF5D3A4A9E24CB", item: { count: 8, id: "powah:dielectric_paste" }, type: "item" }]
+			rewards: [{ id: "1465EF9FCDDBA79F", type: "xp", xp: 30 }, { id: "18AF5D3A4A9E24CB", item: { count: 16, id: "powah:dielectric_paste" }, type: "item" }]
 			tasks: [{ count: 8L, id: "132C9303BCF5453D", item: { count: 1, id: "powah:dielectric_paste" }, type: "item" }]
 			x: -2.5d
 			y: -2.0d
@@ -28,7 +28,7 @@
 		{
 			dependencies: ["71F3144E071A8DF4"]
 			id: "57FC937AADD4C3F8"
-			rewards: [{ id: "53AFAE71A002EA43", type: "xp", xp: 50 }, { id: "1552DE3730354AC1", item: { count: 16, id: "minecraft:coal" }, type: "item" }]
+			rewards: [{ id: "53AFAE71A002EA43", type: "xp", xp: 120 }, { id: "1552DE3730354AC1", item: { count: 32, id: "minecraft:coal" }, type: "item" }]
 			size: 1.3d
 			tasks: [{ id: "10FD1ABA422606CB", item: { count: 1, id: "powah:furnator_starter" }, type: "item" }]
 			x: -5.0d
@@ -37,7 +37,7 @@
 		{
 			dependencies: ["3F9731AAA5BA5B34"]
 			id: "78984C7D34352AF2"
-			rewards: [{ id: "58A4C91E0100A2A4", type: "xp", xp: 10 }, { id: "13E8F0564D5E85B4", item: { count: 2, id: "minecraft:coal_block" }, type: "item" }]
+			rewards: [{ id: "58A4C91E0100A2A4", type: "xp", xp: 30 }, { id: "13E8F0564D5E85B4", item: { count: 4, id: "minecraft:coal_block" }, type: "item" }]
 			tasks: [{ id: "1E10D07AC73897E6", item: { count: 1, id: "enderio:stirling_generator" }, type: "item" }]
 			x: -5.0d
 			y: 0.0d
@@ -45,7 +45,7 @@
 		{
 			dependencies: ["3F9731AAA5BA5B34", "19BAB846C53AAF69"]
 			id: "75A2F4E2F3508394"
-			rewards: [{ id: "13636B1828AD5FAA", type: "xp", xp: 10 }]
+			rewards: [{ id: "13636B1828AD5FAA", type: "xp", xp: 30 }]
 			tasks: [{ count: 2L, id: "40E721B03D182163", item: { count: 1, id: "create:water_wheel" }, type: "item" }]
 			x: 2.5d
 			y: -2.0d
@@ -53,7 +53,7 @@
 		{
 			dependencies: ["75A2F4E2F3508394"]
 			id: "62B1BB017A944AB6"
-			rewards: [{ id: "132EEA55E91CA2A4", type: "xp", xp: 50 }]
+			rewards: [{ id: "132EEA55E91CA2A4", type: "xp", xp: 120 }]
 			size: 1.3d
 			tasks: [{ id: "3D7ED2BAAFDF3B62", item: { count: 1, id: "createaddition:alternator" }, type: "item" }]
 			x: 5.0d
@@ -62,7 +62,7 @@
 		{
 			dependencies: ["3F9731AAA5BA5B34"]
 			id: "251D0388AA912FF0"
-			rewards: [{ id: "75EFE058461B625D", type: "xp", xp: 10 }]
+			rewards: [{ id: "75EFE058461B625D", type: "xp", xp: 30 }]
 			tasks: [{ id: "70775BA01799A163", item: { count: 1, id: "powah:solar_panel_starter" }, type: "item" }, { id: "38A8A45D5F079180", item: { count: 1, id: "mekanismgenerators:solar_generator" }, type: "item" }]
 			x: 0.0d
 			y: -3.0d
@@ -70,7 +70,7 @@
 		{
 			dependencies: ["3F9731AAA5BA5B34"]
 			id: "5FFC4911DC0AB777"
-			rewards: [{ id: "3C91AE02110C7FA0", type: "xp", xp: 10 }]
+			rewards: [{ id: "3C91AE02110C7FA0", type: "xp", xp: 30 }]
 			tasks: [{ id: "72D035DD434E3870", item: { count: 1, id: "mekanismgenerators:heat_generator" }, type: "item" }]
 			x: 2.5d
 			y: 0.0d
@@ -78,7 +78,7 @@
 		{
 			dependencies: ["71F3144E071A8DF4"]
 			id: "50FFADA15252DD2E"
-			rewards: [{ id: "12A4A4C9E49C008C", type: "xp", xp: 50 }, { id: "5F7978D5C4B0D755", item: { count: 2, id: "minecraft:magma_block" }, type: "item" }]
+			rewards: [{ id: "12A4A4C9E49C008C", type: "xp", xp: 120 }, { id: "5F7978D5C4B0D755", item: { count: 4, id: "minecraft:magma_block" }, type: "item" }]
 			tasks: [{ id: "3262F24AB474A519", item: { count: 1, id: "powah:thermo_generator_starter" }, type: "item" }]
 			x: -2.5d
 			y: -4.0d
@@ -86,7 +86,7 @@
 		{
 			dependencies: ["71F3144E071A8DF4"]
 			id: "478ED541DEA63974"
-			rewards: [{ id: "226D661B5310FD2C", type: "xp", xp: 25 }]
+			rewards: [{ id: "226D661B5310FD2C", type: "xp", xp: 60 }]
 			size: 1.3d
 			tasks: [{ id: "56EE084F9B93A23A", item: { count: 1, id: "powah:energy_cell_starter" }, type: "item" }]
 			x: 0.0d
@@ -95,7 +95,7 @@
 		{
 			dependencies: ["478ED541DEA63974", "26C5493D51EFD40D"]
 			id: "4DB519F8B6D31F5A"
-			rewards: [{ id: "3A11FF4DF72E6F0F", type: "xp", xp: 10 }, { id: "5DF4B2502493A3C3", item: { count: 2, id: "mekanism:energy_tablet" }, type: "item" }]
+			rewards: [{ id: "3A11FF4DF72E6F0F", type: "xp", xp: 30 }, { id: "5DF4B2502493A3C3", item: { count: 4, id: "mekanism:energy_tablet" }, type: "item" }]
 			tasks: [{ id: "736F5E0CA44F3F3D", item: { count: 1, id: "mekanism:basic_energy_cube" }, type: "item" }]
 			x: 2.5d
 			y: 2.5d
@@ -103,7 +103,7 @@
 		{
 			dependencies: ["3F9731AAA5BA5B34"]
 			id: "4259D7492D3DD4F4"
-			rewards: [{ id: "6C3853C03D2348A0", type: "xp", xp: 10 }, { id: "1B41D6EA1CD6E953", item: { count: 16, id: "pipez:energy_pipe" }, type: "item" }]
+			rewards: [{ id: "6C3853C03D2348A0", type: "xp", xp: 30 }, { id: "1B41D6EA1CD6E953", item: { count: 32, id: "pipez:energy_pipe" }, type: "item" }]
 			tasks: [{ count: 16L, id: "13945B415A39FE11", item: { count: 1, id: "pipez:energy_pipe" }, type: "item" }]
 			x: -2.5d
 			y: 2.5d
@@ -111,7 +111,7 @@
 		{
 			dependencies: ["478ED541DEA63974"]
 			id: "59D681E3DDE81753"
-			rewards: [{ id: "23B429A5410B55A5", type: "xp", xp: 25 }, { id: "57A91368181200EE", item: { count: 1, id: "powah:energizing_rod_starter" }, type: "item" }]
+			rewards: [{ id: "23B429A5410B55A5", type: "xp", xp: 60 }, { id: "57A91368181200EE", item: { count: 2, id: "powah:energizing_rod_starter" }, type: "item" }]
 			tasks: [{ id: "72DD5E51BB313D0B", item: { count: 1, id: "powah:energizing_orb" }, type: "item" }, { count: 2L, id: "40C4EF39F37E3D65", item: { count: 1, id: "powah:energizing_rod_starter" }, type: "item" }]
 			x: 0.0d
 			y: 5.0d
@@ -119,7 +119,7 @@
 		{
 			dependencies: ["59D681E3DDE81753"]
 			id: "19EB5170BEF0B8CD"
-			rewards: [{ id: "1BFB0BB4061F6B5D", type: "xp", xp: 10 }, { id: "1535924B25B41D31", item: { count: 4, id: "powah:steel_energized" }, type: "item" }]
+			rewards: [{ id: "1BFB0BB4061F6B5D", type: "xp", xp: 30 }, { id: "1535924B25B41D31", item: { count: 8, id: "powah:steel_energized" }, type: "item" }]
 			tasks: [{ count: 8L, id: "5855A37B4670AE0C", item: { count: 1, id: "powah:steel_energized" }, type: "item" }]
 			x: 2.5d
 			y: 5.0d
@@ -127,7 +127,7 @@
 		{
 			dependencies: ["19EB5170BEF0B8CD"]
 			id: "4F133CC357D5E9F2"
-			rewards: [{ id: "1877E680E5A44F31", type: "xp", xp: 25 }]
+			rewards: [{ id: "1877E680E5A44F31", type: "xp", xp: 60 }]
 			tasks: [{ id: "337047137FA1BF52", item: { count: 1, id: "powah:energy_cell_basic" }, type: "item" }]
 			x: 5.0d
 			y: 5.0d
@@ -135,7 +135,7 @@
 		{
 			dependencies: ["4259D7492D3DD4F4"]
 			id: "538A77B7CC540B71"
-			rewards: [{ id: "7782BAAE41096651", type: "xp", xp: 50 }, { id: "202478B8107F9C17", item: { count: 8, id: "fluxnetworks:flux_dust" }, type: "item" }]
+			rewards: [{ id: "7782BAAE41096651", type: "xp", xp: 120 }, { id: "202478B8107F9C17", item: { count: 16, id: "fluxnetworks:flux_dust" }, type: "item" }]
 			tasks: [{ id: "15DC93273A993E54", item: { count: 1, id: "fluxnetworks:flux_plug" }, type: "item" }, { id: "5A51F8529B0F17BC", item: { count: 1, id: "fluxnetworks:flux_point" }, type: "item" }]
 			x: -2.5d
 			y: 5.0d

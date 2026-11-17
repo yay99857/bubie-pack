@@ -10,7 +10,7 @@
 	quests: [
 		{
 			id: "354B18086A2D7B82"
-			rewards: [{ id: "6C42C7DBD7BB2128", type: "xp", xp: 10 }, { id: "19FF3D59C2C3E6FA", item: { count: 2, id: "functionalstorage:oak_1" }, type: "item" }]
+			rewards: [{ id: "6C42C7DBD7BB2128", type: "xp", xp: 30 }, { id: "19FF3D59C2C3E6FA", item: { count: 4, id: "functionalstorage:oak_1" }, type: "item" }]
 			shape: "pentagon"
 			size: 1.5d
 			tasks: [{ count: 4L, id: "553A303FC5EC1867", item: { count: 1, id: "functionalstorage:oak_1" }, type: "item" }]
@@ -20,7 +20,7 @@
 		{
 			dependencies: ["354B18086A2D7B82"]
 			id: "42B57BBC3E09CC08"
-			rewards: [{ id: "646AE7D485A45DD6", type: "xp", xp: 25 }]
+			rewards: [{ id: "646AE7D485A45DD6", type: "xp", xp: 60 }]
 			tasks: [{ id: "1416563F93FA9C7E", item: { count: 1, id: "functionalstorage:storage_controller" }, type: "item" }]
 			x: 2.5d
 			y: 0.0d
@@ -28,7 +28,7 @@
 		{
 			dependencies: ["354B18086A2D7B82"]
 			id: "2B568231DA49478D"
-			rewards: [{ id: "1F0B6471EEBA64EE", type: "xp", xp: 10 }, { id: "1BDEA63380A1C39E", item: { count: 8, id: "ae2:certus_quartz_crystal" }, type: "item" }]
+			rewards: [{ id: "1F0B6471EEBA64EE", type: "xp", xp: 30 }, { id: "1BDEA63380A1C39E", item: { count: 16, id: "ae2:certus_quartz_crystal" }, type: "item" }]
 			tasks: [{ id: "18ED5CA130785953", item: { count: 1, id: "ae2:meteorite_compass" }, type: "item" }]
 			x: 0.0d
 			y: 3.0d
@@ -36,7 +36,7 @@
 		{
 			dependencies: ["2B568231DA49478D"]
 			id: "28A272F76CF103BE"
-			rewards: [{ id: "19587434A68113A3", type: "xp", xp: 50 }]
+			rewards: [{ id: "19587434A68113A3", type: "xp", xp: 120 }]
 			tasks: [{ id: "50788368CC9AC0E9", item: { count: 1, id: "ae2:logic_processor_press" }, type: "item" }, { id: "6CCFC8B7EB199294", item: { count: 1, id: "ae2:calculation_processor_press" }, type: "item" }, { id: "4BE3DD1C6026AD6F", item: { count: 1, id: "ae2:engineering_processor_press" }, type: "item" }, { id: "183CADCF19BBF40C", item: { count: 1, id: "ae2:silicon_press" }, type: "item" }]
 			x: 2.5d
 			y: 3.0d
@@ -44,7 +44,7 @@
 		{
 			dependencies: ["28A272F76CF103BE", "3F9731AAA5BA5B34"]
 			id: "11A702D7FD79EC60"
-			rewards: [{ id: "4BC90FBB08242419", type: "xp", xp: 25 }, { id: "3C12B6608AF7DB3F", item: { count: 8, id: "ae2:silicon" }, type: "item" }]
+			rewards: [{ id: "4BC90FBB08242419", type: "xp", xp: 60 }, { id: "3C12B6608AF7DB3F", item: { count: 16, id: "ae2:silicon" }, type: "item" }]
 			tasks: [{ id: "1CD1D4A82C42AA30", item: { count: 1, id: "ae2:inscriber" }, type: "item" }, { id: "7EFA50D4812D3B4B", item: { count: 1, id: "ae2:charger" }, type: "item" }]
 			x: 5.0d
 			y: 3.0d
@@ -52,7 +52,7 @@
 		{
 			dependencies: ["11A702D7FD79EC60"]
 			id: "201109993506AF6B"
-			rewards: [{ id: "78EE6328B02BE973", type: "xp", xp: 25 }, { id: "2E3DE13D4F625564", item: { count: 4, id: "ae2:printed_silicon" }, type: "item" }]
+			rewards: [{ id: "78EE6328B02BE973", type: "xp", xp: 60 }, { id: "2E3DE13D4F625564", item: { count: 8, id: "ae2:printed_silicon" }, type: "item" }]
 			tasks: [{ id: "106ADC40D1654F53", item: { count: 1, id: "ae2:logic_processor" }, type: "item" }, { id: "32AF069E0BE15C0E", item: { count: 1, id: "ae2:calculation_processor" }, type: "item" }, { id: "560ECA11AAAE4F5D", item: { count: 1, id: "ae2:engineering_processor" }, type: "item" }]
 			x: 7.5d
 			y: 3.0d
@@ -60,7 +60,7 @@
 		{
 			dependencies: ["201109993506AF6B"]
 			id: "3A31F520128A4250"
-			rewards: [{ id: "757B1D7C2C0EFD94", type: "xp", xp: 100 }, { id: "798F0A49EB818622", item: { count: 1, id: "ae2:cell_component_1k" }, type: "item" }]
+			rewards: [{ id: "757B1D7C2C0EFD94", type: "xp", xp: 250 }, { id: "798F0A49EB818622", item: { count: 1, id: "ae2:cell_component_4k" }, type: "item" }]
 			shape: "hexagon"
 			size: 1.5d
 			tasks: [{ id: "1AE6963CCCA994F4", item: { count: 1, id: "ae2:drive" }, type: "item" }, { id: "29A17CF5CFD876AF", item: { count: 1, id: "ae2:terminal" }, type: "item" }, { id: "7C94A3074041F17D", item: { count: 1, id: "ae2:energy_acceptor" }, type: "item" }, { id: "253DF568AAC96E2A", item: { count: 1, id: "ae2:item_storage_cell_1k" }, type: "item" }]
@@ -70,7 +70,7 @@
 		{
 			dependencies: ["3A31F520128A4250"]
 			id: "12D3BC843DD9ABC5"
-			rewards: [{ id: "4F009E2D2F26C159", type: "xp", xp: 10 }]
+			rewards: [{ id: "4F009E2D2F26C159", type: "xp", xp: 30 }]
 			tasks: [{ id: "3F487DF907D7227A", item: { count: 1, id: "appmek:chemical_storage_cell_1k" }, type: "item" }]
 			x: 12.5d
 			y: 3.0d

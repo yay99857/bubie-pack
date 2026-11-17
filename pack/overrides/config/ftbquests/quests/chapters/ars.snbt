@@ -10,7 +10,7 @@
 	quests: [
 		{
 			id: "5AA2455B8B434FD5"
-			rewards: [{ id: "4387758AF0C35207", type: "xp", xp: 25 }, { id: "15971523D2F89AD6", item: { count: 4, id: "ars_nouveau:source_gem" }, type: "item" }]
+			rewards: [{ id: "4387758AF0C35207", type: "xp", xp: 60 }, { id: "15971523D2F89AD6", item: { count: 8, id: "ars_nouveau:source_gem" }, type: "item" }]
 			shape: "pentagon"
 			size: 1.5d
 			tasks: [{ id: "50921B79A67A15F7", item: { count: 1, id: "ars_nouveau:novice_spell_book" }, type: "item" }]
@@ -20,7 +20,7 @@
 		{
 			dependencies: ["5AA2455B8B434FD5"]
 			id: "125BA7281C89648E"
-			rewards: [{ id: "6947C9CEF1E54DFB", type: "xp", xp: 10 }]
+			rewards: [{ id: "6947C9CEF1E54DFB", type: "xp", xp: 30 }]
 			tasks: [{ id: "6CFBEB16322A360E", type: "checkmark" }]
 			x: 2.5d
 			y: -2.0d
@@ -28,7 +28,7 @@
 		{
 			dependencies: ["5AA2455B8B434FD5"]
 			id: "34892D6C1C6DAFE3"
-			rewards: [{ id: "4F2A14286F48EF77", type: "xp", xp: 10 }]
+			rewards: [{ id: "4F2A14286F48EF77", type: "xp", xp: 30 }]
 			tasks: [{ count: 8L, id: "7697E1D18D150EEB", item: { count: 1, id: "ars_nouveau:source_gem" }, type: "item" }]
 			x: 2.5d
 			y: 2.0d
@@ -36,7 +36,7 @@
 		{
 			dependencies: ["34892D6C1C6DAFE3"]
 			id: "76F6D99A51ABF4C8"
-			rewards: [{ id: "1450F9E7D85986E9", type: "xp", xp: 25 }]
+			rewards: [{ id: "1450F9E7D85986E9", type: "xp", xp: 60 }]
 			tasks: [{ id: "72FCAFD0E0658151", item: { count: 1, id: "ars_nouveau:source_jar" }, type: "item" }, { id: "61038F5FCC254110", item: { count: 1, id: "ars_nouveau:agronomic_sourcelink" }, type: "item" }]
 			x: 5.0d
 			y: 2.0d
@@ -44,7 +44,7 @@
 		{
 			dependencies: ["76F6D99A51ABF4C8"]
 			id: "137E1685FCAA8688"
-			rewards: [{ id: "77260102E9CF8A16", type: "xp", xp: 10 }]
+			rewards: [{ id: "77260102E9CF8A16", type: "xp", xp: 30 }]
 			tasks: [{ id: "6457B4EDCF9DD7FA", item: { count: 1, id: "ars_nouveau:imbuement_chamber" }, type: "item" }]
 			x: 7.5d
 			y: 2.0d
@@ -52,7 +52,7 @@
 		{
 			dependencies: ["125BA7281C89648E"]
 			id: "227FD052DA952DC0"
-			rewards: [{ id: "3DDDDA027DA154D9", type: "xp", xp: 25 }]
+			rewards: [{ id: "3DDDDA027DA154D9", type: "xp", xp: 60 }]
 			tasks: [{ id: "1737B189CB11E395", item: { count: 1, id: "ars_nouveau:scribes_table" }, type: "item" }, { id: "515B9401043D89F0", item: { count: 1, id: "ars_nouveau:glyph_projectile" }, type: "item" }, { id: "1AF98ED3FF08617C", item: { count: 1, id: "ars_nouveau:glyph_break" }, type: "item" }]
 			x: 5.0d
 			y: -2.0d
@@ -60,7 +60,7 @@
 		{
 			dependencies: ["227FD052DA952DC0", "137E1685FCAA8688"]
 			id: "29CE2FF08E00A038"
-			rewards: [{ id: "5E842BAEAD1C1457", type: "xp", xp: 50 }]
+			rewards: [{ id: "5E842BAEAD1C1457", type: "xp", xp: 120 }]
 			tasks: [{ id: "1968020E6C995286", item: { count: 1, id: "ars_nouveau:enchanting_apparatus" }, type: "item" }, { id: "662BA3655520008C", item: { count: 1, id: "ars_nouveau:arcane_core" }, type: "item" }, { count: 4L, id: "1DCB7331577C6AA3", item: { count: 1, id: "ars_nouveau:arcane_pedestal" }, type: "item" }]
 			x: 10.0d
 			y: 0.0d
@@ -68,7 +68,7 @@
 		{
 			dependencies: ["29CE2FF08E00A038"]
 			id: "2DE8ADEBEAADB02A"
-			rewards: [{ id: "1DDB8881452FB7BD", type: "xp", xp: 50 }]
+			rewards: [{ id: "1DDB8881452FB7BD", type: "xp", xp: 120 }]
 			size: 1.3d
 			tasks: [{ id: "473B008D9EC64A1B", item: { count: 1, id: "ars_nouveau:apprentice_spell_book" }, type: "item" }]
 			x: 12.5d
@@ -77,7 +77,7 @@
 		{
 			dependencies: ["29CE2FF08E00A038"]
 			id: "3C3C2AD614C7C1B0"
-			rewards: [{ id: "79911D09463C91B7", type: "xp", xp: 10 }]
+			rewards: [{ id: "79911D09463C91B7", type: "xp", xp: 30 }]
 			tasks: [{ id: "2094261410562C2B", item: { count: 1, id: "ars_nouveau:starbuncle_charm" }, type: "item" }]
 			x: 10.0d
 			y: 2.5d

@@ -10,7 +10,7 @@
 	quests: [
 		{
 			id: "2C5B86ABAEBA2976"
-			rewards: [{ id: "35A33C83F01B4AF5", type: "xp", xp: 10 }]
+			rewards: [{ id: "35A33C83F01B4AF5", type: "xp", xp: 30 }]
 			shape: "pentagon"
 			size: 2.0d
 			tasks: [{ id: "4B83849C690629BD", type: "checkmark" }]
@@ -20,7 +20,7 @@
 		{
 			dependencies: ["2C5B86ABAEBA2976"]
 			id: "3BC06D93E6105408"
-			rewards: [{ id: "198F9EE5006509A7", type: "xp", xp: 10 }]
+			rewards: [{ id: "198F9EE5006509A7", type: "xp", xp: 30 }]
 			tasks: [{ id: "1DE933996FA105DC", type: "checkmark" }]
 			x: -2.5d
 			y: 0.0d
@@ -28,7 +28,7 @@
 		{
 			dependencies: ["2C5B86ABAEBA2976"]
 			id: "47A2F1A8F3F82B77"
-			rewards: [{ id: "65D9F9BF9ED32BCC", type: "xp", xp: 10 }]
+			rewards: [{ id: "65D9F9BF9ED32BCC", type: "xp", xp: 30 }]
 			tasks: [{ id: "4AB73DD6C51A2D44", type: "checkmark" }]
 			x: 2.5d
 			y: 0.0d
@@ -36,7 +36,7 @@
 		{
 			dependencies: ["2C5B86ABAEBA2976"]
 			id: "4596AD77CEC3CDE8"
-			rewards: [{ id: "1238245A66B67043", type: "xp", xp: 10 }]
+			rewards: [{ id: "1238245A66B67043", type: "xp", xp: 30 }]
 			tasks: [{ id: "559B5D7F79FA02A7", type: "checkmark" }]
 			x: 0.0d
 			y: 2.5d
@@ -44,7 +44,7 @@
 		{
 			dependencies: ["4596AD77CEC3CDE8"]
 			id: "23E2CB5D9315B1D5"
-			rewards: [{ id: "12711E7D20527E3D", type: "xp", xp: 10 }]
+			rewards: [{ id: "12711E7D20527E3D", type: "xp", xp: 30 }]
 			tasks: [{ id: "33F9D0B33C9FA357", type: "checkmark" }]
 			x: -2.5d
 			y: 2.5d
@@ -52,7 +52,7 @@
 		{
 			dependencies: ["4596AD77CEC3CDE8"]
 			id: "2B249C362A72D173"
-			rewards: [{ id: "428E792AC5516C38", type: "xp", xp: 10 }]
+			rewards: [{ id: "428E792AC5516C38", type: "xp", xp: 30 }]
 			tasks: [{ id: "3A33EE8FAA0F7262", type: "checkmark" }]
 			x: 2.5d
 			y: 2.5d
@@ -60,7 +60,7 @@
 		{
 			dependencies: ["2C5B86ABAEBA2976"]
 			id: "1F74B35C479EAD11"
-			rewards: [{ id: "31EB27998C04D88D", type: "xp", xp: 10 }]
+			rewards: [{ id: "31EB27998C04D88D", type: "xp", xp: 30 }]
 			tasks: [{ id: "1FB57DBD7B475A68", type: "checkmark" }]
 			x: 0.0d
 			y: -2.5d

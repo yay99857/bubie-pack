@@ -11,7 +11,7 @@
 		{
 			dependencies: ["19BAB846C53AAF69"]
 			id: "5BF42C92DA85DDA8"
-			rewards: [{ id: "2FB3812176F1E4D0", type: "xp", xp: 25 }, { id: "3DABF9168FE041A8", item: { count: 8, id: "create:shaft" }, type: "item" }]
+			rewards: [{ id: "2FB3812176F1E4D0", type: "xp", xp: 60 }, { id: "3DABF9168FE041A8", item: { count: 16, id: "create:shaft" }, type: "item" }]
 			shape: "pentagon"
 			size: 1.5d
 			tasks: [{ count: 8L, id: "643EC65BBEE58956", item: { count: 1, id: "create:cogwheel" }, type: "item" }, { count: 2L, id: "7976B37BFC78495A", item: { count: 1, id: "create:large_cogwheel" }, type: "item" }, { id: "3104466A104E5D87", item: { count: 1, id: "create:goggles" }, type: "item" }]
@@ -21,7 +21,7 @@
 		{
 			dependencies: ["5BF42C92DA85DDA8"]
 			id: "6043210E440C2AC6"
-			rewards: [{ id: "52B4E5FC2DF80C6C", type: "xp", xp: 10 }, { id: "30D5BBEE45CB0E26", item: { count: 4, id: "create:belt_connector" }, type: "item" }]
+			rewards: [{ id: "52B4E5FC2DF80C6C", type: "xp", xp: 30 }, { id: "30D5BBEE45CB0E26", item: { count: 8, id: "create:belt_connector" }, type: "item" }]
 			tasks: [{ count: 4L, id: "1606E6DD62FB8A87", item: { count: 1, id: "create:belt_connector" }, type: "item" }, { id: "1E67D6FC771F9ADA", item: { count: 1, id: "create:depot" }, type: "item" }]
 			x: 2.5d
 			y: -2.0d
@@ -29,7 +29,7 @@
 		{
 			dependencies: ["5BF42C92DA85DDA8"]
 			id: "30A419C152F7CB19"
-			rewards: [{ id: "1A84A0BE316C6561", type: "xp", xp: 10 }]
+			rewards: [{ id: "1A84A0BE316C6561", type: "xp", xp: 30 }]
 			tasks: [{ id: "5FC9B78E5121790C", item: { count: 1, id: "create:millstone" }, type: "item" }, { id: "7394467EEB8B6BAD", item: { count: 1, id: "create:encased_fan" }, type: "item" }]
 			x: 2.5d
 			y: 2.0d
@@ -37,7 +37,7 @@
 		{
 			dependencies: ["30A419C152F7CB19"]
 			id: "5EBF1ED1A3030B91"
-			rewards: [{ id: "5234D8300DA1C24E", type: "xp", xp: 50 }]
+			rewards: [{ id: "5234D8300DA1C24E", type: "xp", xp: 120 }]
 			tasks: [{ count: 2L, id: "79A6D7C6056502E8", item: { count: 1, id: "create:crushing_wheel" }, type: "item" }, { count: 8L, id: "3D378B5D85F92827", item: { count: 1, id: "create:crushed_raw_iron" }, type: "item" }]
 			x: 5.0d
 			y: 2.0d
@@ -45,7 +45,7 @@
 		{
 			dependencies: ["6043210E440C2AC6"]
 			id: "3AEF3FB0E9F18305"
-			rewards: [{ id: "65E2F111BA4B49CD", type: "xp", xp: 50 }, { id: "3E8AA9858CC5B669", item: { count: 2, id: "create:electron_tube" }, type: "item" }]
+			rewards: [{ id: "65E2F111BA4B49CD", type: "xp", xp: 120 }, { id: "3E8AA9858CC5B669", item: { count: 4, id: "create:electron_tube" }, type: "item" }]
 			tasks: [{ id: "25FF1C4FABFBA79C", item: { count: 1, id: "create:mechanical_mixer" }, type: "item" }, { id: "11E45960AC11B72B", item: { count: 1, id: "create:basin" }, type: "item" }, { id: "6A93FD6396F5F1F5", item: { count: 1, id: "create:blaze_burner" }, type: "item" }, { count: 16L, icon: { id: "create:brass_ingot" }, id: "3DE8B9C4A03E607D", item: { components: { "ftbfiltersystem:filter": "ftbfiltersystem:item_tag(c:ingots/brass)" }, count: 1, id: "ftbfiltersystem:smart_filter" }, type: "item" }]
 			x: 5.0d
 			y: -2.0d
@@ -53,7 +53,7 @@
 		{
 			dependencies: ["3AEF3FB0E9F18305"]
 			id: "6F3939A9B8698E7C"
-			rewards: [{ id: "4CF0E2177E66FC3B", type: "xp", xp: 50 }]
+			rewards: [{ id: "4CF0E2177E66FC3B", type: "xp", xp: 120 }]
 			tasks: [{ count: 4L, id: "6371F802D8C72FCD", item: { count: 1, id: "create:precision_mechanism" }, type: "item" }, { id: "1D73DE113897B53B", item: { count: 1, id: "create:deployer" }, type: "item" }]
 			x: 7.5d
 			y: -2.0d
@@ -61,7 +61,7 @@
 		{
 			dependencies: ["6F3939A9B8698E7C"]
 			id: "65531BBF4859B271"
-			rewards: [{ id: "573604197D4239DC", type: "xp", xp: 10 }]
+			rewards: [{ id: "573604197D4239DC", type: "xp", xp: 30 }]
 			tasks: [{ id: "130DAF105556F6DD", item: { count: 1, id: "create:mechanical_arm" }, type: "item" }]
 			x: 10.0d
 			y: -2.0d
@@ -69,7 +69,7 @@
 		{
 			dependencies: ["5BF42C92DA85DDA8"]
 			id: "5E617B062F0E3916"
-			rewards: [{ id: "1D3E269458C4A2E2", type: "xp", xp: 10 }]
+			rewards: [{ id: "1D3E269458C4A2E2", type: "xp", xp: 30 }]
 			tasks: [{ id: "193F6E6EC2661E0C", item: { count: 1, id: "create:mechanical_harvester" }, type: "item" }, { id: "1CE13CBDE68FADEE", item: { count: 1, id: "create:mechanical_drill" }, type: "item" }]
 			x: 2.5d
 			y: 4.5d
@@ -77,7 +77,7 @@
 		{
 			dependencies: ["6F3939A9B8698E7C", "62B1BB017A944AB6"]
 			id: "1051DF3A54C380A4"
-			rewards: [{ id: "418596CA1DB9E6F4", type: "xp", xp: 25 }]
+			rewards: [{ id: "418596CA1DB9E6F4", type: "xp", xp: 60 }]
 			tasks: [{ id: "60B15522865B8B3C", item: { count: 1, id: "createaddition:electric_motor" }, type: "item" }]
 			x: 10.0d
 			y: 2.0d
@@ -85,7 +85,7 @@
 		{
 			dependencies: ["65531BBF4859B271", "1051DF3A54C380A4"]
 			id: "7BE658401325C6B3"
-			rewards: [{ id: "1F75DE834AA9D134", type: "xp", xp: 100 }]
+			rewards: [{ id: "1F75DE834AA9D134", type: "xp", xp: 250 }]
 			shape: "hexagon"
 			size: 1.3d
 			tasks: [{ id: "2B9E357719BD00E0", item: { count: 1, id: "create:steam_engine" }, type: "item" }, { count: 4L, id: "6B8706F409A6F33A", item: { count: 1, id: "create:fluid_tank" }, type: "item" }]
