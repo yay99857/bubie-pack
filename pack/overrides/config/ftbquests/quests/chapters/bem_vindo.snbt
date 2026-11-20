@@ -59,6 +59,15 @@
 		}
 		{
 			dependencies: ["2C5B86ABAEBA2976"]
+			id: "5F4B52BA084BE7C1"
+			rewards: [{ id: "6EB3C43CF7F1A388", type: "xp", xp: 30 }, { id: "1E4D51EBCE28C38E", item: { count: 8, id: "minecraft:redstone" }, type: "item" }]
+			shape: "hexagon"
+			tasks: [{ id: "75F43EC4CF265CCF", type: "checkmark" }]
+			x: -2.5d
+			y: -2.5d
+		}
+		{
+			dependencies: ["2C5B86ABAEBA2976"]
 			id: "1F74B35C479EAD11"
 			rewards: [{ id: "31EB27998C04D88D", type: "xp", xp: 30 }]
 			tasks: [{ id: "1FB57DBD7B475A68", type: "checkmark" }]

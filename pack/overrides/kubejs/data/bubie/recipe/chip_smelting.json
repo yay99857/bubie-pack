@@ -1,0 +1,23 @@
+{
+  "type": "voltaicdynamics:alloying",
+  "experience": 1.0,
+  "ingredients": [
+    {
+      "count": 2,
+      "item": "voltaicdynamics:galvanic_alloy"
+    },
+    {
+      "item": "minecraft:blast_furnace",
+      "count": 1
+    },
+    {
+      "count": 4,
+      "tag": "c:dusts/redstone"
+    }
+  ],
+  "result": {
+    "id": "bubie:chip_smelting",
+    "count": 1
+  },
+  "time": 200
+}

@@ -36,7 +36,7 @@
 	quest.156C8D7D02C8E974.title: "Metallurgic Infuser"
 	quest.15A708F09E7ABE21.quest_desc: ["As sementes de recurso são feitas no &eInfusion Altar&r com 8 &epedestais&r em volta. Ative com redstone."]
 	quest.15A708F09E7ABE21.title: "Altar de infusão"
-	quest.1638C3E96FAF8E46.quest_desc: ["Com a &ePlanta de Base&r, o Bubie constrói para você: configure a planta (forma, tamanho, material), leve o Bubie até o lugar e clique nele com ela.", "Ele levanta a base bloco por bloco, pegando o material no baú dele. Se acabar, espera: ponha um &eLenhador&r ou uma &ePedreira&r enchendo o mesmo baú e eles trabalham em equipe."]
+	quest.1638C3E96FAF8E46.quest_desc: ["Com a &ePlanta de Base&r, o Bubie constrói para você: configure a planta (forma, tamanho, material), leve o Bubie até o lugar e clique nele com ela. Ou olhe para o lugar e aperte &eConstruir com Bubie&r no menu da planta.", "Ele levanta a base bloco por bloco, pegando o material no baú dele. Se acabar, espera: ponha um &eLenhador&r ou uma &ePedreira&r enchendo o mesmo baú e eles trabalham em equipe."]
 	quest.1638C3E96FAF8E46.title: "Bubie Construtor"
 	quest.1668F5E182CA8F52.quest_desc: ["Monte um bloco de &eCrafting Units&r com pelo menos um &eCrafting Storage&r: essa é a CPU que faz os pedidos.", "Mais storage = pedidos maiores. &eCo-Processing Units&r (aceleradores) fazem vários passos ao mesmo tempo."]
 	quest.1668F5E182CA8F52.title: "Crafting CPU"
@@ -136,7 +136,7 @@
 	quest.3E1358836CD07D20.title: "Configurator"
 	quest.3F9731AAA5BA5B34.quest_desc: ["Quase toda a tecnologia do pack usa &eFE&r (energia). Recomendação para o começo:", "", "&a1.&r &eFurnator (Starter)&r do Powah: queima carvão ou qualquer combustível. É o mais barato.", "&a2.&r &eRoda d'água + Alternator&r (Create): energia infinita, sem combustível.", "&a3.&r &ePainéis solares&r: complemento de dia.", "&a4.&r &eThermo Generator&r do Powah: o melhor do começo ao meio do jogo.", "", "Guarde a energia numa &ebateria&r e leve até as máquinas com &ecabos&r."]
 	quest.3F9731AAA5BA5B34.title: "Energia: por onde começar?"
-	quest.41D2702567D17922.quest_desc: ["Quatro slots de chip: &eVelocidade&r, &eArmazenamento&r (+9 espaços), &eAlcance&r (áreas maiores), &eÍmã&r, &eFundição&r (minério sai em barra) e &eEficiência&r.", "Clique no Bubie com o chip para instalar."]
+	quest.41D2702567D17922.quest_desc: ["Quatro slots de chip: &eVelocidade&r, &eArmazenamento&r (+9 espaços), &eAlcance&r (áreas maiores), &eÍmã&r, &eFundição&r (minério sai em barra) e &eEficiência&r.", "No pack, os chips saem da &eFundidora de Ligas&r da Voltaic: 2 ligas galvânicas, 4 redstone e a peça do chip (açúcar, bússola, funil...). Veja no EMI.", "Clique no Bubie com o chip para instalar."]
 	quest.41D2702567D17922.title: "Chips de melhoria"
 	quest.4259D7492D3DD4F4.quest_desc: ["O &eEnergy Pipe&r do Pipez é barato e transporta bastante. Use a chave (Pipe Wrench) para escolher os lados que puxam ou empurram.", "O &eUniversal Cable&r do Mekanism é a alternativa."]
 	quest.4259D7492D3DD4F4.title: "Cabos"
@@ -204,10 +204,12 @@
 	quest.5EB379BD7656A1DB.title: "Cristal de infusão"
 	quest.5EBF1ED1A3030B91.quest_desc: ["Duas &eCrushing Wheels&r transformam minério bruto em minério triturado, com chance de extra e XP.", "Lave o minério triturado com o ventilador para ganhar pepitas a mais: rende mais do que fundir direto."]
 	quest.5EBF1ED1A3030B91.title: "Crushing Wheels"
+	quest.5F4B52BA084BE7C1.quest_desc: ["O &eBubie&r é o robozinho ajudante do pack: corta árvores, escava, minera, colhe, leva itens de um baú para outro e até &econstrói a sua base&r.", "Ele é feito com &elingotes voltaicos&r: o caminho é &ePrimeiros Passos&r → &eVoltaic Dynamics&r (o primeiro lingote dá para fazer só com mesa e fornalha) → capítulo &eBubie&r.", "Quanto antes você tiver um, mais cedo ele trabalha por você."]
+	quest.5F4B52BA084BE7C1.title: "&eConheça o Bubie"
 	quest.5FFC4911DC0AB777.quest_desc: ["O gerador de calor do &eMekanism&r queima combustível e também gera um pouco sozinho se tiver lava encostada nele."]
 	quest.5FFC4911DC0AB777.title: "Heat Generator"
 	quest.600ACA5682720B9D.quest_desc: ["No menu, escolha &eTrabalhar&r e a tarefa:", "&eLenhador&r derruba a árvore inteira e replanta. &eEscavador&r tira areia, cascalho, terra e argila.", "&ePedreira&r escava a área e deixa uma escada; tampa lava e água com pedregulho. &eFazendeiro&r colhe e replanta (Mystical Agriculture também).", "&eMinerador&r pega veios expostos ou abre túneis. &eColetor&r junta os itens do chão.", "Dê a ferramenta certa no slot dele: ele para antes de ela quebrar."]
-	quest.600ACA5682720B9D.title: "Seis tarefas"
+	quest.600ACA5682720B9D.title: "As tarefas"
 	quest.6043210E440C2AC6.quest_desc: ["A &eesteira&r leva itens entre máquinas. O &eDepot&r segura um item para a prensa ou outra máquina trabalhar."]
 	quest.6043210E440C2AC6.title: "Esteiras e depósitos"
 	quest.62B1BB017A944AB6.quest_desc: ["O &eAlternator&r (Crafts & Additions) transforma rotação do Create em FE.", "Uma fileira de rodas d'água ligada nele dá energia constante sem gastar nada."]
@@ -252,6 +254,8 @@
 	quest.7BE658401325C6B3.title: "Motor a vapor"
 	quest.7DF066788A2A1F25.quest_desc: ["As fornalhas do &eIron Furnaces&r são mais rápidas e gastam menos combustível. Dá para melhorar depois sem quebrar."]
 	quest.7DF066788A2A1F25.title: "Fornalha melhor"
+	quest.7F5413F8EFFC43E8.quest_desc: ["O &eEntregador&r esvazia os baús, funis e saídas de fornalha da área dele e leva tudo para o baú dele.", "Use para trazer a madeira do Lenhador até a base, ou para alimentar o &eConstrutor&r: se o baú de destino é de um Construtor, ele leva só o que a planta ainda precisa."]
+	quest.7F5413F8EFFC43E8.title: "Bubie Entregador"
 	reward_table.227AC615E7F235E4.title: "Sorteio: Básico"
 	reward_table.3762B6C16AF14BB1.title: "Sorteio: Mekanism"
 	reward_table.51C9C34D6D66E89A.title: "Sorteio: Energia"

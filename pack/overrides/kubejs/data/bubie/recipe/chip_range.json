@@ -1,0 +1,23 @@
+{
+  "type": "voltaicdynamics:alloying",
+  "experience": 1.0,
+  "ingredients": [
+    {
+      "count": 2,
+      "item": "voltaicdynamics:galvanic_alloy"
+    },
+    {
+      "item": "minecraft:compass",
+      "count": 1
+    },
+    {
+      "count": 4,
+      "tag": "c:dusts/redstone"
+    }
+  ],
+  "result": {
+    "id": "bubie:chip_range",
+    "count": 1
+  },
+  "time": 200
+}

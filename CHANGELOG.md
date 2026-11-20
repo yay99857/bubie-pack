@@ -1,5 +1,19 @@
 # Changelog — Bubie Pack
 
+## 1.1.0 (não publicada)
+Dá para continuar no mundo da 1.0.0.
+### Bubie 1.2.0
+- Tarefa nova **Entregador**: esvazia os baús, funis e saídas de fornalha da área no baú dele. Se o baú é de um Construtor, leva só o que a planta ainda precisa.
+- Bubies na mesma área **dividem o trabalho**: cada um reserva o bloco (o Lenhador, a árvore inteira) em que está.
+- Um Bubie que fica preso (buraco, porta, cerca) se teleporta para perto do destino ou mostra **Preso**, em vez de ficar parado sem explicação.
+- O Construtor mostra o **progresso** (blocos feitos / total) no menu e no Jade, e o balão diz **qual bloco falta e quantos**.
+### Base Blueprint 1.3.0
+- Botão **Construir com Bubie** no menu da planta: o seu Bubie mais próximo constrói a base onde você está olhando.
+### Pack
+- Os **chips do Bubie** agora saem da **Fundidora de Ligas** da Voltaic (2 ligas galvânicas, 4 redstone e a peça do chip).
+- Quest nova **"Conheça o Bubie"** logo no primeiro capítulo, mostrando o caminho até ele; quest nova do **Entregador**.
+- Logo novo do pack.
+
 ## 1.0.0 (2026-11-20)
 Dá para continuar no mundo da 0.6.x: o progresso das quests é mantido.
 ### Novo: Bubie

@@ -36,7 +36,7 @@
 	quest.156C8D7D02C8E974.title: "Metallurgic Infuser"
 	quest.15A708F09E7ABE21.quest_desc: ["Resource seeds are made on the &eInfusion Altar&r with 8 &epedestals&r around it. Activate it with redstone."]
 	quest.15A708F09E7ABE21.title: "Infusion altar"
-	quest.1638C3E96FAF8E46.quest_desc: ["With the &eBase Blueprint&r, the Bubie builds for you: set up the blueprint (shape, size, material), take the Bubie to the spot and click it with the blueprint.", "It raises the base block by block, taking the blocks from its chest. When they run out it waits: set a &eLumberjack&r or a &eQuarry&r filling the same chest and they work as a team."]
+	quest.1638C3E96FAF8E46.quest_desc: ["With the &eBase Blueprint&r, the Bubie builds for you: set up the blueprint (shape, size, material), take the Bubie to the spot and click it with the blueprint. Or look at the spot and press &eBuild with Bubie&r in the blueprint menu.", "It raises the base block by block, taking the blocks from its chest. When they run out it waits: set a &eLumberjack&r or a &eQuarry&r filling the same chest and they work as a team."]
 	quest.1638C3E96FAF8E46.title: "Bubie the Builder"
 	quest.1668F5E182CA8F52.quest_desc: ["Build a block of &eCrafting Units&r with at least one &eCrafting Storage&r: that is the CPU that runs crafting jobs.", "More storage = bigger jobs. &eCo-Processing Units&r (accelerators) run several steps at once."]
 	quest.1668F5E182CA8F52.title: "Crafting CPU"
@@ -136,7 +136,7 @@
 	quest.3E1358836CD07D20.title: "Configurator"
 	quest.3F9731AAA5BA5B34.quest_desc: ["Almost all tech in this pack runs on &eFE&r (energy). Recommended path:", "", "&a1.&r Powah &eFurnator (Starter)&r: burns coal or any fuel. The cheapest option.", "&a2.&r &eWater wheel + Alternator&r (Create): endless power, no fuel.", "&a3.&r &eSolar panels&r: a daytime extra.", "&a4.&r Powah &eThermo Generator&r: the best generator from early to mid game.", "", "Store energy in a &ebattery&r and move it to machines with &ecables&r."]
 	quest.3F9731AAA5BA5B34.title: "Power: where to start?"
-	quest.41D2702567D17922.quest_desc: ["Four chip slots: &eSpeed&r, &eStorage&r (+9 slots), &eRange&r (bigger areas), &eMagnet&r, &eSmelting&r (ores come out as ingots) and &eEfficiency&r.", "Click the Bubie with a chip to install it."]
+	quest.41D2702567D17922.quest_desc: ["Four chip slots: &eSpeed&r, &eStorage&r (+9 slots), &eRange&r (bigger areas), &eMagnet&r, &eSmelting&r (ores come out as ingots) and &eEfficiency&r.", "In the pack, chips come out of Voltaic's &eAlloy Smelter&r: 2 galvanic alloy, 4 redstone and the chip's part (sugar, compass, hopper...). Check EMI.", "Click the Bubie with a chip to install it."]
 	quest.41D2702567D17922.title: "Upgrade chips"
 	quest.4259D7492D3DD4F4.quest_desc: ["Pipez's &eEnergy Pipe&r is cheap and moves a lot. Use the Pipe Wrench to choose which sides pull or push.", "Mekanism's &eUniversal Cable&r is the alternative."]
 	quest.4259D7492D3DD4F4.title: "Cables"
@@ -204,10 +204,12 @@
 	quest.5EB379BD7656A1DB.title: "Infusion crystal"
 	quest.5EBF1ED1A3030B91.quest_desc: ["Two &eCrushing Wheels&r turn raw ore into crushed ore, with a chance of extras and XP.", "Wash crushed ore with a fan for bonus nuggets: better yield than smelting directly."]
 	quest.5EBF1ED1A3030B91.title: "Crushing Wheels"
+	quest.5F4B52BA084BE7C1.quest_desc: ["The &eBubie&r is the pack's little helper robot: it fells trees, digs, mines, farms, carries items from one chest to another and even &ebuilds your base&r.", "It is made with &evoltaic ingots&r: the way is &eFirst Steps&r → &eVoltaic Dynamics&r (the first ingot needs only a crafting table and a furnace) → the &eBubie&r chapter.", "The sooner you have one, the sooner it works for you."]
+	quest.5F4B52BA084BE7C1.title: "&eMeet the Bubie"
 	quest.5FFC4911DC0AB777.quest_desc: ["&eMekanism&r's Heat Generator burns fuel and also makes a little on its own when lava touches it."]
 	quest.5FFC4911DC0AB777.title: "Heat Generator"
 	quest.600ACA5682720B9D.quest_desc: ["In the menu, pick &eWork&r and a job:", "&eLumberjack&r fells whole trees and replants. &eDigger&r takes sand, gravel, dirt and clay.", "&eQuarry&r digs out the area and leaves a staircase; plugs lava and water with cobblestone. &eFarmer&r harvests and replants (Mystical Agriculture too).", "&eMiner&r takes exposed veins or digs tunnels. &eCollector&r gathers items on the ground.", "Put the right tool in its slot: it stops before the tool breaks."]
-	quest.600ACA5682720B9D.title: "Six jobs"
+	quest.600ACA5682720B9D.title: "The jobs"
 	quest.6043210E440C2AC6.quest_desc: ["&eBelts&r carry items between machines. The &eDepot&r holds an item for a press or other machine to work on."]
 	quest.6043210E440C2AC6.title: "Belts and depots"
 	quest.62B1BB017A944AB6.quest_desc: ["The &eAlternator&r (Crafts & Additions) turns Create rotation into FE.", "A row of water wheels connected to it gives steady power for free."]
@@ -252,6 +254,8 @@
 	quest.7BE658401325C6B3.title: "Steam engine"
 	quest.7DF066788A2A1F25.quest_desc: ["&eIron Furnaces&r are faster and use less fuel. You can upgrade them later without breaking them."]
 	quest.7DF066788A2A1F25.title: "A better furnace"
+	quest.7F5413F8EFFC43E8.quest_desc: ["The &eCourier&r empties the chests, hoppers and furnace outputs in its area and takes everything to its own chest.", "Use it to bring the Lumberjack's wood home, or to feed the &eBuilder&r: when the destination chest is a Builder's, it carries only what the blueprint still needs."]
+	quest.7F5413F8EFFC43E8.title: "Bubie the Courier"
 	reward_table.227AC615E7F235E4.title: "Draw: Basics"
 	reward_table.3762B6C16AF14BB1.title: "Draw: Mekanism"
 	reward_table.51C9C34D6D66E89A.title: "Draw: Power"

@@ -1,6 +1,8 @@
 #!/usr/bin/env bash
 # Publica a versão do pack/manifest.json: gera os zips, envia ao CurseForge e cria o GitHub Release.
 # Uso: tools/release.sh [--skip-curseforge]   (DRY_RUN=1 gera tudo e para antes de enviar)
+# Antes de enviar: confere que todo arquivo do manifest está aprovado no CurseForge (SKIP_FILE_CHECK=1 pula) e roda
+# os GameTests do Bubie com os mods do server pack, se ../bubie-mod existir (SKIP_PACK_TEST=1 pula).
 #      tools/release.sh --server-only <fileID do pack no CurseForge>   (reenvia só o server pack)
 # Token do CurseForge: variável CURSEFORGE_TOKEN ou o arquivo ~/.config/bubie-pack/curseforge-token
 set -euo pipefail
@@ -43,6 +45,11 @@ upload_server() {
 
 if [ -n "$SERVER_ONLY" ]; then
   [ -f "dist/BubiePack-$VER-server.zip" ] || tools/build.sh --server
+if [ -z "${SKIP_PACK_TEST:-}" ] && [ -d ../bubie-mod ]; then
+  echo "--- GameTests do Bubie com os mods do pack ---"
+  (cd ../bubie-mod && tools/prepare-pack-test.sh "../minecraft-modpack/dist/server-$VER" && ./gradlew -q runPackGameTest) \
+    || { echo "Os GameTests falharam: nada foi publicado. (SKIP_PACK_TEST=1 pula)"; exit 1; }
+fi
   $PY tools/release_notes.py "$VER" > dist/notes.md
   upload_server "$SERVER_ONLY"; exit 0
 fi
@@ -57,7 +64,11 @@ if [ -z "${CI:-}" ]; then
 fi
 
 mkdir -p dist
+[ -n "${SKIP_FILE_CHECK:-}" ] || $PY tools/check_files.py
 $PY tools/release_notes.py "$VER" > dist/notes.md
+# O server pack (~350 MB) às vezes leva 524 no CurseForge; o do GitHub Release sempre fica, e o link vai nas notas.
+REPO=$(gh repo view --json nameWithOwner -q .nameWithOwner)
+printf '\n\nServer pack: https://github.com/%s/releases/download/v%s/BubiePack-%s-server.zip\n' "$REPO" "$VER" "$VER" >> dist/notes.md
 echo "--- Notas da versão $VER ---"; cat dist/notes.md; echo "---"
 tools/build.sh --server
 
@@ -75,9 +86,10 @@ if [ "$SKIP_CF" = false ]; then
   MAIN=$(curl --fail-with-body -sS --max-time 1800 -H "X-Api-Token: $TOKEN" \
     -F "metadata=<dist/meta.json;type=application/json" -F "file=@dist/BubiePack-$VER.zip" "$URL")
   echo "CurseForge pack: $MAIN"
-  upload_server "$(echo "$MAIN" | jq -r .id)"
 fi
 
 gh release create "v$VER" --target "$(git rev-parse HEAD)" --title "Bubie Pack $VER" --notes-file dist/notes.md \
   "dist/BubiePack-$VER.zip" "dist/BubiePack-$VER-server.zip"
+echo "GitHub: v$VER"
+[ "$SKIP_CF" = true ] || upload_server "$(echo "$MAIN" | jq -r .id)"
 echo "Publicado: v$VER"

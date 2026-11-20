@@ -53,7 +53,7 @@
 		{
 			dependencies: ["600ACA5682720B9D"]
 			id: "41D2702567D17922"
-			rewards: [{ id: "1D78BBAF17E6F038", type: "xp", xp: 30 }, { id: "129F9465A06E48C8", item: { count: 16, id: "minecraft:redstone" }, type: "item" }, { id: "1D1857536A1A5987", item: { count: 16, id: "minecraft:gold_nugget" }, type: "item" }]
+			rewards: [{ id: "1D78BBAF17E6F038", type: "xp", xp: 30 }, { id: "129F9465A06E48C8", item: { count: 16, id: "minecraft:redstone" }, type: "item" }, { id: "1D1857536A1A5987", item: { count: 4, id: "voltaicdynamics:galvanic_alloy" }, type: "item" }]
 			tasks: [{ count: 1L, icon: { id: "bubie:chip_speed" }, id: "391C8B8B7D02F81A", item: { components: { "ftbfiltersystem:filter": "ftbfiltersystem:item_tag(bubie:chips)" }, count: 1, id: "ftbfiltersystem:smart_filter" }, type: "item" }]
 			x: 5.0d
 			y: 1.5d
@@ -64,6 +64,14 @@
 			rewards: [{ id: "2D87B3C036D52C20", type: "xp", xp: 30 }, { id: "2D9939A1032B5FAE", item: { count: 64, id: "minecraft:spruce_planks" }, type: "item" }]
 			tasks: [{ id: "2A8EFA65C75BF016", item: { count: 1, id: "baseblueprint:base_blueprint" }, type: "item" }]
 			x: 2.5d
+			y: 4.0d
+		}
+		{
+			dependencies: ["600ACA5682720B9D"]
+			id: "7F5413F8EFFC43E8"
+			rewards: [{ id: "73B09D3ADBC7CEC4", type: "xp", xp: 30 }, { id: "6FA996847CB96C52", item: { count: 4, id: "minecraft:chest" }, type: "item" }]
+			tasks: [{ id: "4742E3C7AAE5568F", type: "checkmark" }]
+			x: 5.0d
 			y: 4.0d
 		}
 		{
