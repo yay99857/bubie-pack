@@ -45,11 +45,6 @@ upload_server() {
 
 if [ -n "$SERVER_ONLY" ]; then
   [ -f "dist/BubiePack-$VER-server.zip" ] || tools/build.sh --server
-if [ -z "${SKIP_PACK_TEST:-}" ] && [ -d ../bubie-mod ]; then
-  echo "--- GameTests do Bubie com os mods do pack ---"
-  (cd ../bubie-mod && tools/prepare-pack-test.sh "../minecraft-modpack/dist/server-$VER" && ./gradlew -q runPackGameTest) \
-    || { echo "Os GameTests falharam: nada foi publicado. (SKIP_PACK_TEST=1 pula)"; exit 1; }
-fi
   $PY tools/release_notes.py "$VER" > dist/notes.md
   upload_server "$SERVER_ONLY"; exit 0
 fi
@@ -71,6 +66,11 @@ REPO=$(gh repo view --json nameWithOwner -q .nameWithOwner)
 printf '\n\nServer pack: https://github.com/%s/releases/download/v%s/BubiePack-%s-server.zip\n' "$REPO" "$VER" "$VER" >> dist/notes.md
 echo "--- Notas da versão $VER ---"; cat dist/notes.md; echo "---"
 tools/build.sh --server
+if [ -z "${SKIP_PACK_TEST:-}" ] && [ -d ../bubie-mod ]; then
+  echo "--- GameTests do Bubie com os mods do pack ---"
+  (cd ../bubie-mod && tools/prepare-pack-test.sh "../minecraft-modpack/dist/server-$VER" && ./gradlew -q runPackGameTest) \
+    || { echo "Os GameTests falharam: nada foi publicado. (SKIP_PACK_TEST=1 pula)"; exit 1; }
+fi
 
 if [ -n "${DRY_RUN:-}" ]; then
   jq -n --rawfile cl dist/notes.md --arg dn "Bubie Pack $VER" --arg rt "$CF_RELEASE_TYPE" \
