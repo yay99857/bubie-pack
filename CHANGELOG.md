@@ -11,6 +11,8 @@ Dá para continuar no mundo da 0.6.x: o progresso das quests é mantido.
 - **Editar meu Bubie**: cores do casco, do moletom e da luz da tela, olhos e boca do My Bubie do bubie.gg.
 - Funciona com o resto do pack: guarda em Sophisticated Storage, Functional Storage, cofres do Create e bins do Mekanism; respeita as áreas do
   FTB Chunks (quebra blocos como o dono); quem é do mesmo time do FTB Teams também dá ordens; Jade mostra o que ele está fazendo.
+- **Integração com a Voltaic:** no pack, o Bubie é feito com **lingotes voltaicos** e a Estação com um **Acumulador Básico**; o **Acumulador de Bolso**
+  (ou um tablet do Mekanism) no slot de combustível recarrega o Bubie; o Minerador pode entregar minério direto no **Pulverizador**.
 ### Quests
 - Capítulo novo **Bubie** (8 quests). A última, "Um amigo para o Bubie", dá **outro Bubie**.
 

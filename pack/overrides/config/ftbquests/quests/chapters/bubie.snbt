@@ -9,7 +9,7 @@
 	quest_links: [ ]
 	quests: [
 		{
-			dependencies: ["1346E595987721F1"]
+			dependencies: ["12FA44E8F4855D49"]
 			id: "2C967157F94A35F7"
 			rewards: [{ id: "786FCD7F1FBCD790", type: "xp", xp: 60 }, { id: "1A0FA791AB67B338", item: { count: 16, id: "minecraft:coal" }, type: "item" }]
 			shape: "pentagon"

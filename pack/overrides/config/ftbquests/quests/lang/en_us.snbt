@@ -100,7 +100,7 @@
 	quest.2B568231DA49478D.title: "Applied Energistics 2"
 	quest.2C5B86ABAEBA2976.quest_desc: ["A pack to play with friends: tech, magic, exploration and automation, at your own pace.", "", "Quests are &aoptional&r: no mod is locked behind them. They are a guide, especially early on."]
 	quest.2C5B86ABAEBA2976.title: "&bWelcome to Bubie Pack!"
-	quest.2C967157F94A35F7.quest_desc: ["&eBubie&r is the little robot from bubie.gg: it follows you, carries items and, given a job and an area, gathers resources on its own and stores them in a chest.", "Recipe: &ecopper, glass, redstone and black wool&r. Click the ground with it to switch it on; right-click it to open its menu.", "&eShift + click&r with an empty hand folds the Bubie into your inventory, with everything it carries."]
+	quest.2C967157F94A35F7.quest_desc: ["&eBubie&r is the little robot from bubie.gg: it follows you, carries items and, given a job and an area, gathers resources on its own and stores them in a chest.", "In Bubie Pack it is made with &evoltaic ingots&r (Voltaic Dynamics chapter), glass, redstone and black wool. Click the ground with it to switch it on; right-click it to open its menu.", "&eShift + click&r with an empty hand folds the Bubie into your inventory, with everything it carries."]
 	quest.2C967157F94A35F7.title: "Your Bubie"
 	quest.2DE8ADEBEAADB02A.quest_desc: ["The &eApprentice Spell Book&r holds bigger spells and unlocks tier 2 glyphs."]
 	quest.2DE8ADEBEAADB02A.title: "Apprentice book"
@@ -174,7 +174,7 @@
 	quest.50566971057157E8.title: "Thermoelectric Generator"
 	quest.50FFADA15252DD2E.quest_desc: ["Place it on top of a heat source (lava, magma) and feed it water.", "It makes far more than the Furnator and needs no fuel: the best generator from early to mid game."]
 	quest.50FFADA15252DD2E.title: "Thermo Generator"
-	quest.51675D313F1C29C2.quest_desc: ["The Bubie's home: holds 27 stacks and &echarges&r the Bubie with &eFE from any cable&r (Powah, Mekanism, Flux Networks, Voltaic) or with coal.", "Mark it with &eShift + click&r of the Clipboard. With a home it goes back to charge on its own and rests at night: power the station and it never stops.", "To keep it working while you are away, force-load the chunk with FTB Chunks."]
+	quest.51675D313F1C29C2.quest_desc: ["The Bubie's home: holds 27 stacks and &echarges&r the Bubie with &eFE from any cable&r (Powah, Mekanism, Flux Networks, Voltaic) or with coal.", "Mark it with &eShift + click&r of the Clipboard. With a home it goes back to charge on its own and rests at night: power the station and it never stops.", "Pack recipe: voltaic ingots and a Voltaic &eBasic Accumulator&r. A &ePocket Accumulator&r (or Mekanism energy tablet) in the fuel slot of the Bubie charges it too, without being used up.", "To keep it working while you are away, force-load the chunk with FTB Chunks."]
 	quest.51675D313F1C29C2.title: "Bubie Station"
 	quest.538A77B7CC540B71.quest_desc: ["Moves energy wirelessly from &eFlux Plugs&r (input) to &eFlux Points&r (output), even across dimensions.", "Flux dust comes from redstone crushed between bedrock and obsidian: check EMI for how.", "", "&cIn Bubie Pack&r, the Flux Controller wireless charging &cdoes not charge jetpacks or the MekaSuit&r. Bring spare energy on long trips!"]
 	quest.538A77B7CC540B71.title: "Flux Networks"

@@ -1,0 +1,27 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "VGV",
+    "VRV",
+    " W "
+  ],
+  "key": {
+    "V": {
+      "item": "voltaicdynamics:voltaic_ingot"
+    },
+    "G": {
+      "tag": "c:glass_panes"
+    },
+    "R": {
+      "item": "minecraft:redstone"
+    },
+    "W": {
+      "item": "minecraft:black_wool"
+    }
+  },
+  "result": {
+    "id": "bubie:bubie",
+    "count": 1
+  }
+}

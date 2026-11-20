@@ -1,0 +1,33 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "VGV",
+    "RHR",
+    "IAI"
+  ],
+  "key": {
+    "V": {
+      "item": "voltaicdynamics:voltaic_ingot"
+    },
+    "G": {
+      "tag": "c:glass_panes"
+    },
+    "R": {
+      "item": "minecraft:redstone"
+    },
+    "H": {
+      "tag": "c:chests/wooden"
+    },
+    "I": {
+      "tag": "c:ingots/iron"
+    },
+    "A": {
+      "item": "voltaicdynamics:basic_accumulator"
+    }
+  },
+  "result": {
+    "id": "bubie:bubie_station",
+    "count": 1
+  }
+}
