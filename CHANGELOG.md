@@ -1,5 +1,19 @@
 # Changelog — Bubie Pack
 
+## 1.0.0 (2026-11-20)
+Dá para continuar no mundo da 0.6.x: o progresso das quests é mantido.
+### Novo: Bubie
+- O terceiro mod feito para o pack: o **Bubie**, o robozinho do bubie.gg, como ajudante. Ele segue você, carrega itens e, com uma tarefa e uma área,
+  trabalha sozinho e guarda tudo num baú: **Lenhador** (árvores inteiras, replanta), **Escavador** (areia, cascalho, terra, argila),
+  **Pedreira** (com escada, tampa lava e água), **Fazendeiro** (inclui Mystical Agriculture e Farmer's Delight), **Minerador** (veios ou túneis, `c:ores`)
+  e **Coletor**.
+- **Prancheta do Bubie** para marcar área, baú e casa; **Estação do Bubie** que carrega com FE de qualquer cabo ou carvão; 6 **chips** de melhoria.
+- **Editar meu Bubie**: cores do casco, do moletom e da luz da tela, olhos e boca do My Bubie do bubie.gg.
+- Funciona com o resto do pack: guarda em Sophisticated Storage, Functional Storage, cofres do Create e bins do Mekanism; respeita as áreas do
+  FTB Chunks (quebra blocos como o dono); quem é do mesmo time do FTB Teams também dá ordens; Jade mostra o que ele está fazendo.
+### Quests
+- Capítulo novo **Bubie** (8 quests). A última, "Um amigo para o Bubie", dá **outro Bubie**.
+
 ## 0.6.5 (2026-11-20)
 Dá para continuar no mundo da 0.6.x.
 ### Corrigido

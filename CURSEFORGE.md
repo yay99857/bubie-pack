@@ -14,6 +14,7 @@ Create, Mekanism, Applied Energistics 2, Ars Nouveau, Mystical Agriculture, Apot
 - **Create** with Copycats+, Design n' Decor, Dragons Plus, **Crafts & Additions** (Create power ↔ FE) and **Create: Enchantment Industry** (liquid experience and automatic enchanting)
 - **Mekanism** (Generators and Tools), **Powah!**, **Extreme Reactors**, **Ender IO**, **Energy Meter**
 - **Voltaic Dynamics**, made for this pack: compact FE generators, machines with upgrades, accumulators and lag-free cables
+- **Bubie**, made for this pack: the little robot from bubie.gg that chops trees, digs, quarries, farms and mines for you, then stores everything in your chest
 - **Industrial Foregoing**, **Actually Additions**, **XyCraft**, **RFTools**, **Just Dire Things**
 - Logistics with **Pipez**, **LaserIO**, **Modular Routers** and the **Integrated Dynamics** family
 
@@ -91,7 +92,7 @@ Every quest gives XP, and almost all of them give items too: the big milestones 
 - **Power: Getting Started**: which generator to build first (Furnator, water wheel + Alternator, Thermo Generator), batteries, cables and Flux Networks.
 - **Mekanism**: double ores, then 3x, 4x and 5x, the hydrogen jetpack and the Digital Miner.
 - **Storage** and **AE2: Autocrafting**: from drawers to your first ME network, Crafting CPU, patterns and the wireless terminal.
-- **Create: Automation**, **Mystical Agriculture**, **Ars Nouveau** and **Voltaic Dynamics**.
+- **Create: Automation**, **Mystical Agriculture**, **Ars Nouveau**, **Voltaic Dynamics** and **Bubie**.
 
 ---
 
@@ -140,6 +141,7 @@ Create, Mekanism, Applied Energistics 2, Ars Nouveau, Mystical Agriculture, Apot
 - **Create** com Copycats+, Design n' Decor, Dragons Plus, **Crafts & Additions** (energia do Create ↔ FE) e **Create: Enchantment Industry** (experiência líquida e encantamento automático)
 - **Mekanism** (Generators e Tools), **Powah!**, **Extreme Reactors**, **Ender IO**, **Energy Meter**
 - **Voltaic Dynamics**, feito para o pack: geradores de FE compactos, máquinas com melhorias, acumuladores e cabos sem lag
+- **Bubie**, feito para o pack: o robozinho do bubie.gg que corta árvores, escava, abre pedreiras, planta e minera para você, e guarda tudo no seu baú
 - **Industrial Foregoing**, **Actually Additions**, **XyCraft**, **RFTools**, **Just Dire Things**
 - Logística com **Pipez**, **LaserIO**, **Modular Routers** e a família **Integrated Dynamics**
 
@@ -217,7 +219,7 @@ Toda quest dá XP, e quase todas dão itens também: os marcos grandes dão algo
 - **Energia: o Começo**: qual gerador fazer primeiro (Furnator, roda d'água + Alternator, Thermo Generator), baterias, cabos e Flux Networks.
 - **Mekanism**: minérios em dobro, depois 3x, 4x e 5x, jetpack a hidrogênio e Digital Miner.
 - **Armazenamento** e **AE2: Autocrafting**: das gavetas até a primeira rede ME, Crafting CPU, padrões e terminal sem fio.
-- **Create: Automação**, **Mystical Agriculture**, **Ars Nouveau** e **Voltaic Dynamics**.
+- **Create: Automação**, **Mystical Agriculture**, **Ars Nouveau**, **Voltaic Dynamics** e **Bubie**.
 
 ---
 

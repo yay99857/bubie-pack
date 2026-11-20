@@ -9,6 +9,7 @@
 	chapter.4412162570FD1664.title: "&5Ars Nouveau"
 	chapter.4E036F98450D7CD0.title: "&6Create: Automation"
 	chapter.6568E61EB0324E2C.title: "&bVoltaic Dynamics"
+	chapter.6629E7EA29C21E7A.title: "&eBubie"
 	chapter.6CF3D48FE0991369.title: "&2Mystical Agriculture"
 	file.0000000000000001.title: "Bubie Pack"
 	quest.1051DF3A54C380A4.quest_desc: ["The &eElectric Motor&r (Crafts & Additions) does the opposite of the Alternator: it turns FE into rotation, no wheels needed."]
@@ -65,6 +66,8 @@
 	quest.201109993506AF6B.title: "Processors"
 	quest.20FBCC4BD6FC3A56.quest_desc: ["The &eDigital Miner&r mines only the ores you filter for, in a large radius, without digging up the map. It uses a lot of power."]
 	quest.20FBCC4BD6FC3A56.title: "Digital Miner"
+	quest.21D4089E77310943.quest_desc: ["In the &eStatus&r tab of the menu, &e✎ Edit my Bubie&r changes the casing, hoodie and screen-light colours, the eyes and the mouth, like My Bubie on bubie.gg.", "Everyone on the server sees your look."]
+	quest.21D4089E77310943.title: "Edit my Bubie"
 	quest.21E8A2282FF4DEE6.quest_desc: ["&eTier Installers&r turn a regular machine into a Factory that processes several items at once, without breaking it."]
 	quest.21E8A2282FF4DEE6.title: "Tier Installers"
 	quest.221BE67451111B3A.quest_desc: ["Each machine has 2 upgrade slots: &eSpeed&r (faster, uses more) and &eEfficiency&r (uses less)."]
@@ -97,6 +100,8 @@
 	quest.2B568231DA49478D.title: "Applied Energistics 2"
 	quest.2C5B86ABAEBA2976.quest_desc: ["A pack to play with friends: tech, magic, exploration and automation, at your own pace.", "", "Quests are &aoptional&r: no mod is locked behind them. They are a guide, especially early on."]
 	quest.2C5B86ABAEBA2976.title: "&bWelcome to Bubie Pack!"
+	quest.2C967157F94A35F7.quest_desc: ["&eBubie&r is the little robot from bubie.gg: it follows you, carries items and, given a job and an area, gathers resources on its own and stores them in a chest.", "Recipe: &ecopper, glass, redstone and black wool&r. Click the ground with it to switch it on; right-click it to open its menu.", "&eShift + click&r with an empty hand folds the Bubie into your inventory, with everything it carries."]
+	quest.2C967157F94A35F7.title: "Your Bubie"
 	quest.2DE8ADEBEAADB02A.quest_desc: ["The &eApprentice Spell Book&r holds bigger spells and unlocks tier 2 glyphs."]
 	quest.2DE8ADEBEAADB02A.title: "Apprentice book"
 	quest.30A419C152F7CB19.quest_desc: ["The &eMillstone&r grinds items. An &eEncased Fan&r blowing through water &ewashes&r items; through lava it &esmelts&r; through soul fire it &ehaunts&r."]
@@ -129,6 +134,8 @@
 	quest.3E1358836CD07D20.title: "Configurator"
 	quest.3F9731AAA5BA5B34.quest_desc: ["Almost all tech in this pack runs on &eFE&r (energy). Recommended path:", "", "&a1.&r Powah &eFurnator (Starter)&r: burns coal or any fuel. The cheapest option.", "&a2.&r &eWater wheel + Alternator&r (Create): endless power, no fuel.", "&a3.&r &eSolar panels&r: a daytime extra.", "&a4.&r Powah &eThermo Generator&r: the best generator from early to mid game.", "", "Store energy in a &ebattery&r and move it to machines with &ecables&r."]
 	quest.3F9731AAA5BA5B34.title: "Power: where to start?"
+	quest.41D2702567D17922.quest_desc: ["Four chip slots: &eSpeed&r, &eStorage&r (+9 slots), &eRange&r (bigger areas), &eMagnet&r, &eSmelting&r (ores come out as ingots) and &eEfficiency&r.", "Click the Bubie with a chip to install it."]
+	quest.41D2702567D17922.title: "Upgrade chips"
 	quest.4259D7492D3DD4F4.quest_desc: ["Pipez's &eEnergy Pipe&r is cheap and moves a lot. Use the Pipe Wrench to choose which sides pull or push.", "Mekanism's &eUniversal Cable&r is the alternative."]
 	quest.4259D7492D3DD4F4.title: "Cables"
 	quest.42B57BBC3E09CC08.quest_desc: ["Links all touching drawers: insert and extract from all of them through the controller."]
@@ -167,6 +174,8 @@
 	quest.50566971057157E8.title: "Thermoelectric Generator"
 	quest.50FFADA15252DD2E.quest_desc: ["Place it on top of a heat source (lava, magma) and feed it water.", "It makes far more than the Furnator and needs no fuel: the best generator from early to mid game."]
 	quest.50FFADA15252DD2E.title: "Thermo Generator"
+	quest.51675D313F1C29C2.quest_desc: ["The Bubie's home: holds 27 stacks and &echarges&r the Bubie with &eFE from any cable&r (Powah, Mekanism, Flux Networks, Voltaic) or with coal.", "Mark it with &eShift + click&r of the Clipboard. With a home it goes back to charge on its own and rests at night: power the station and it never stops.", "To keep it working while you are away, force-load the chunk with FTB Chunks."]
+	quest.51675D313F1C29C2.title: "Bubie Station"
 	quest.538A77B7CC540B71.quest_desc: ["Moves energy wirelessly from &eFlux Plugs&r (input) to &eFlux Points&r (output), even across dimensions.", "Flux dust comes from redstone crushed between bedrock and obsidian: check EMI for how.", "", "&cIn Bubie Pack&r, the Flux Controller wireless charging &cdoes not charge jetpacks or the MekaSuit&r. Bring spare energy on long trips!"]
 	quest.538A77B7CC540B71.title: "Flux Networks"
 	quest.5470183DC0646A6A.quest_desc: ["The &eGas-Burning Generator&r burns hydrogen (or ethylene). It works, but the separator uses more power than hydrogen gives back: use ethylene for a profit."]
@@ -181,6 +190,8 @@
 	quest.5AA2455B8B434FD5.title: "Spell book"
 	quest.5BF42C92DA85DDA8.quest_desc: ["Cogs pass rotation along; large cogs change the speed. The &eEngineer's Goggles&r show speed and stress."]
 	quest.5BF42C92DA85DDA8.title: "Cogs and goggles"
+	quest.5C98CD6FFE91586D.quest_desc: ["Your Bubie knows the job. Gather &e256 logs&r (let the Lumberjack do it) and get &eanother Bubie&r to build your crew.", "Each player can have up to 3 Bubies switched on at once."]
+	quest.5C98CD6FFE91586D.title: "A friend for your Bubie"
 	quest.5CF42477C806789A.quest_desc: ["&ePull / deliver / off&r connectors with no items in transit (no lag). Use the &eVoltaic Wrench&r to set each arm."]
 	quest.5CF42477C806789A.title: "Item and Fluid Cables"
 	quest.5E40C8421E074CE5.quest_desc: ["Mekanism's &eJetpack&r flies on hydrogen, not energy. Fill it in a &eChemical Tank&r full of hydrogen.", "Great for the Nether, since Flux does not charge jetpacks in this pack."]
@@ -193,6 +204,8 @@
 	quest.5EBF1ED1A3030B91.title: "Crushing Wheels"
 	quest.5FFC4911DC0AB777.quest_desc: ["&eMekanism&r's Heat Generator burns fuel and also makes a little on its own when lava touches it."]
 	quest.5FFC4911DC0AB777.title: "Heat Generator"
+	quest.600ACA5682720B9D.quest_desc: ["In the menu, pick &eWork&r and a job:", "&eLumberjack&r fells whole trees and replants. &eDigger&r takes sand, gravel, dirt and clay.", "&eQuarry&r digs out the area and leaves a staircase; plugs lava and water with cobblestone. &eFarmer&r harvests and replants (Mystical Agriculture too).", "&eMiner&r takes exposed veins or digs tunnels. &eCollector&r gathers items on the ground.", "Put the right tool in its slot: it stops before the tool breaks."]
+	quest.600ACA5682720B9D.title: "Six jobs"
 	quest.6043210E440C2AC6.quest_desc: ["&eBelts&r carry items between machines. The &eDepot&r holds an item for a press or other machine to work on."]
 	quest.6043210E440C2AC6.title: "Belts and depots"
 	quest.62B1BB017A944AB6.quest_desc: ["The &eAlternator&r (Crafts & Additions) turns Create rotation into FE.", "A row of water wheels connected to it gives steady power for free."]
@@ -215,6 +228,8 @@
 	quest.70424936C6A0FA5E.title: "Tripling"
 	quest.71F3144E071A8DF4.quest_desc: ["Almost everything in &ePowah&r starts with dielectric paste (coal + clay + lava)."]
 	quest.71F3144E071A8DF4.title: "Dielectric paste"
+	quest.73A2C67DCD5363F2.quest_desc: ["Marks where the Bubie works: click &e2 blocks&r (the corners of the area), &eShift + click&r a chest (where it stores things), then click the Bubie.", "Any block with an inventory works: chests, Sophisticated Storage, drawers, Create vaults. For AE2, put a Storage Bus on the chest."]
+	quest.73A2C67DCD5363F2.title: "Bubie Clipboard"
 	quest.73B62EE1080C58E6.quest_desc: ["The &eBase Blueprint&r (crafting table + 3 paper) builds your base at once: a round, square, octagonal or hexagonal floor,", "with walls, a door, a roof or a dome. Right-click the air (or &eN&r) for the menu; hold it and aim to see the outline; click a block to build.", "Blocks come from your inventory, backpack and nearby chests. &eSneak + right-click the air&r undoes it and gives everything back.", "Each blueprint builds &e8 bases&r; repair it with paper in an anvil."]
 	quest.73B62EE1080C58E6.title: "Base Blueprint"
 	quest.744A53A16AA14F47.quest_desc: ["Iron, copper or gold ore becomes &e2 dusts&r; raw ore gives 1 dust and a chance of another. Smelt the dusts in the Electric Furnace."]

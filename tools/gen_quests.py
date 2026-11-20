@@ -655,6 +655,60 @@ q(c, 'tanque', -5, 5, ('Tanque de Fluidos', 'Fluid Tank'),
   ['Stores fluid and keeps it when broken; its icon shows how full it is.'],
   [I('voltaicdynamics:fluid_tank')], deps=['logistica'])
 
+# ================= Bubie =================
+c = chapter('bubie', '&eBubie', '&eBubie', 'bubie:bubie', 11)
+q(c, 'bubie', 0, 0, ('Seu Bubie', 'Your Bubie'),
+  ['O &eBubie&r é o robozinho do bubie.gg: segue você, carrega itens e, com uma tarefa e uma área, junta recursos sozinho e guarda num baú.',
+   'Receita: &ecobre, vidro, redstone e lã preta&r. Clique no chão com ele para ligar; clique direito nele abre o menu.',
+   '&eShift + clique&r com a mão vazia guarda o Bubie no inventário, com tudo o que ele carrega.'],
+  ['&eBubie&r is the little robot from bubie.gg: it follows you, carries items and, given a job and an area, gathers resources on its own and stores them in a chest.',
+   'Recipe: &ecopper, glass, redstone and black wool&r. Click the ground with it to switch it on; right-click it to open its menu.',
+   '&eShift + click&r with an empty hand folds the Bubie into your inventory, with everything it carries.'],
+  [I('bubie:bubie')], shape='pentagon', size=1.5, xp=60, items=[('minecraft:coal', 16)], deps=['primeiros_passos/ferro'])
+q(c, 'prancheta', 2.5, -1.5, ('Prancheta do Bubie', 'Bubie Clipboard'),
+  ['Marca onde o Bubie trabalha: clique em &e2 blocos&r (os cantos da área), &eShift + clique&r num baú (onde ele guarda) e depois clique no Bubie.',
+   'Ele aceita qualquer bloco com inventário: baús, Sophisticated Storage, gavetas, cofres do Create. Para o AE2, ponha um Storage Bus no baú.'],
+  ['Marks where the Bubie works: click &e2 blocks&r (the corners of the area), &eShift + click&r a chest (where it stores things), then click the Bubie.',
+   'Any block with an inventory works: chests, Sophisticated Storage, drawers, Create vaults. For AE2, put a Storage Bus on the chest.'],
+  [I('bubie:bubie_clipboard')], deps=['bubie'], items=[('minecraft:chest', 2)])
+q(c, 'tarefas', 2.5, 1.5, ('Seis tarefas', 'Six jobs'),
+  ['No menu, escolha &eTrabalhar&r e a tarefa:', '&eLenhador&r derruba a árvore inteira e replanta. &eEscavador&r tira areia, cascalho, terra e argila.',
+   '&ePedreira&r escava a área e deixa uma escada; tampa lava e água com pedregulho. &eFazendeiro&r colhe e replanta (Mystical Agriculture também).',
+   '&eMinerador&r pega veios expostos ou abre túneis. &eColetor&r junta os itens do chão.',
+   'Dê a ferramenta certa no slot dele: ele para antes de ela quebrar.'],
+  ['In the menu, pick &eWork&r and a job:', '&eLumberjack&r fells whole trees and replants. &eDigger&r takes sand, gravel, dirt and clay.',
+   '&eQuarry&r digs out the area and leaves a staircase; plugs lava and water with cobblestone. &eFarmer&r harvests and replants (Mystical Agriculture too).',
+   '&eMiner&r takes exposed veins or digs tunnels. &eCollector&r gathers items on the ground.',
+   'Put the right tool in its slot: it stops before the tool breaks.'],
+  [C], deps=['bubie'])
+q(c, 'visual', -2.5, 1.5, ('Editar meu Bubie', 'Edit my Bubie'),
+  ['Na aba &eStatus&r do menu, &e✎ Editar meu Bubie&r troca a cor do casco, do moletom e da luz da tela, os olhos e a boca, como no My Bubie do bubie.gg.',
+   'Todo mundo no servidor vê o seu visual.'],
+  ['In the &eStatus&r tab of the menu, &e✎ Edit my Bubie&r changes the casing, hoodie and screen-light colours, the eyes and the mouth, like My Bubie on bubie.gg.',
+   'Everyone on the server sees your look.'],
+  [C], deps=['bubie'])
+q(c, 'estacao', 5, -1.5, ('Estação do Bubie', 'Bubie Station'),
+  ['A casa do Bubie: guarda 27 pilhas e &erecarrega&r o Bubie com &eFE de qualquer cabo&r (Powah, Mekanism, Flux Networks, Voltaic) ou com carvão.',
+   'Marque com &eShift + clique&r da Prancheta. Com casa, ele volta sozinho para carregar e descansa à noite: ligue a estação na energia e ele nunca para.',
+   'Para ele trabalhar com você longe, carregue o chunk pelo FTB Chunks.'],
+  ['The Bubie\'s home: holds 27 stacks and &echarges&r the Bubie with &eFE from any cable&r (Powah, Mekanism, Flux Networks, Voltaic) or with coal.',
+   'Mark it with &eShift + click&r of the Clipboard. With a home it goes back to charge on its own and rests at night: power the station and it never stops.',
+   'To keep it working while you are away, force-load the chunk with FTB Chunks.'],
+  [I('bubie:bubie_station')], deps=['prancheta'], xp=60, items=[('minecraft:coal_block', 4)])
+q(c, 'chips', 5, 1.5, ('Chips de melhoria', 'Upgrade chips'),
+  ['Quatro slots de chip: &eVelocidade&r, &eArmazenamento&r (+9 espaços), &eAlcance&r (áreas maiores), &eÍmã&r, &eFundição&r (minério sai em barra) e &eEficiência&r.',
+   'Clique no Bubie com o chip para instalar.'],
+  ['Four chip slots: &eSpeed&r, &eStorage&r (+9 slots), &eRange&r (bigger areas), &eMagnet&r, &eSmelting&r (ores come out as ingots) and &eEfficiency&r.',
+   'Click the Bubie with a chip to install it.'],
+  [T('bubie:chips', 1, 'bubie:chip_speed')], deps=['tarefas'], items=[('minecraft:redstone', 16), ('minecraft:gold_nugget', 16)])
+q(c, 'amigo', 7.5, 0, ('Um amigo para o Bubie', 'A friend for your Bubie'),
+  ['Seu Bubie já sabe trabalhar. Junte &e256 troncos&r (deixe o Lenhador fazer isso) e ganhe &eoutro Bubie&r para montar a sua equipe.',
+   'Cada jogador pode ter até 3 Bubies ligados ao mesmo tempo.'],
+  ['Your Bubie knows the job. Gather &e256 logs&r (let the Lumberjack do it) and get &eanother Bubie&r to build your crew.',
+   'Each player can have up to 3 Bubies switched on at once.'],
+  [T('minecraft:logs', 256, 'minecraft:oak_log')], deps=['estacao', 'chips'], shape='gear', size=1.5, xp=250,
+  items=[('bubie:bubie', 1)])
+
 # ================= write =================
 qd = os.path.join(OUT, 'quests'); os.makedirs(os.path.join(qd, 'chapters'), exist_ok=True)
 os.makedirs(os.path.join(qd, 'lang'), exist_ok=True)
