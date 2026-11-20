@@ -20,6 +20,8 @@ API = 'https://api.modrinth.com/v2'
 WWW = os.path.expanduser('~/www')
 STATE = os.path.join(os.path.dirname(os.path.abspath(__file__)), 'modrinth-projects.json')
 UA = 'bubie-pack-tools/1.0'
+# all three must be installed on the client and on the server
+ENVIRONMENT = 'client_and_server'
 
 MODS = {
     'blueprint': dict(repo='base-blueprint', slug='base-blueprint', title='Base Blueprint', jar='baseblueprint-{v}.jar',
@@ -52,7 +54,8 @@ def request(method, path, body=None, files=None):
     elif body is not None:
         data = json.dumps(body).encode()
         headers['Content-Type'] = 'application/json'
-    req = urllib.request.Request(API + path, data=data, method=method, headers=headers)
+    url = path if path.startswith('http') else API + path
+    req = urllib.request.Request(url, data=data, method=method, headers=headers)
     try:
         with urllib.request.urlopen(req, timeout=300) as r:
             raw = r.read()
@@ -112,6 +115,8 @@ def main():
         made = request('POST', '/version', files={'data': (None, json.dumps(meta).encode(), 'application/json'),
                                                   'file': (os.path.basename(jar), open(jar, 'rb').read(), 'application/java-archive')})
         print('  version uploaded:', made['id'])
+        # which side it runs on is a v3 field (v2 accepts it but ignores it); review needs it set
+        request('PATCH', f'https://api.modrinth.com/v3/version/{made["id"]}', body={'environment': ENVIRONMENT})
         project = request('GET', f'/project/{pid}')
         if project.get('status') == 'draft':
             request('PATCH', f'/project/{pid}', body={'status': 'processing'})
