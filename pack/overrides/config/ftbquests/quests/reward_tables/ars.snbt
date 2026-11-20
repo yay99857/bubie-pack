@@ -1,0 +1,20 @@
+{
+	icon: { id: "ftbquests:lootcrate" }
+	id: "617213E1FA0BDFC7"
+	loot_size: 1
+	order_index: 6
+	rewards: [
+		{ id: "62F7E47842D40C1C", item: { count: 8, id: "ars_nouveau:source_gem" }, weight: 3.0f }
+		{ id: "5D81CC105C43760D", item: { count: 8, id: "ars_nouveau:sourceberry_bush" }, weight: 2.0f }
+		{ id: "78160C7209634A90", item: { count: 4, id: "ars_nouveau:source_berry_pie" }, weight: 2.0f }
+		{ id: "66857EF872EEC343", item: { count: 8, id: "ars_nouveau:magebloom_fiber" }, weight: 2.0f }
+		{ id: "150CBD01A2D91B52", item: { count: 8, id: "ars_nouveau:blank_parchment" }, weight: 2.0f }
+		{ id: "523F559D2FAF649B", item: { count: 2, id: "ars_nouveau:air_essence" }, weight: 1.0f }
+		{ id: "63DA4AEEEA5C5C07", item: { count: 2, id: "ars_nouveau:earth_essence" }, weight: 1.0f }
+		{ id: "2DED6787E11BE8A0", item: { count: 2, id: "ars_nouveau:fire_essence" }, weight: 1.0f }
+		{ id: "3E18233FE319122C", item: { count: 2, id: "ars_nouveau:water_essence" }, weight: 1.0f }
+		{ id: "65409394019141D9", item: { count: 2, id: "ars_nouveau:abjuration_essence" }, weight: 1.0f }
+		{ id: "5CC2E41D7C1D0D0C", item: { count: 2, id: "ars_nouveau:conjuration_essence" }, weight: 1.0f }
+		{ id: "62310132B5B7F264", item: { count: 2, id: "ars_nouveau:manipulation_essence" }, weight: 1.0f }
+	]
+}

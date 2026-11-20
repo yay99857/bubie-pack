@@ -20,7 +20,7 @@
 		{
 			dependencies: ["354B18086A2D7B82"]
 			id: "42B57BBC3E09CC08"
-			rewards: [{ id: "646AE7D485A45DD6", type: "xp", xp: 60 }]
+			rewards: [{ id: "646AE7D485A45DD6", type: "xp", xp: 60 }, { id: "1DCE1AA756DC1C6F", table_id: 7418672453065512805L, type: "random" }]
 			tasks: [{ id: "1416563F93FA9C7E", item: { count: 1, id: "functionalstorage:storage_controller" }, type: "item" }]
 			x: 2.5d
 			y: 0.0d
@@ -36,7 +36,7 @@
 		{
 			dependencies: ["2B568231DA49478D"]
 			id: "28A272F76CF103BE"
-			rewards: [{ id: "19587434A68113A3", type: "xp", xp: 120 }]
+			rewards: [{ id: "19587434A68113A3", type: "xp", xp: 120 }, { id: "27FD5C883E4441E4", item: { count: 8, id: "ae2:charged_certus_quartz_crystal" }, type: "item" }]
 			tasks: [{ id: "50788368CC9AC0E9", item: { count: 1, id: "ae2:logic_processor_press" }, type: "item" }, { id: "6CCFC8B7EB199294", item: { count: 1, id: "ae2:calculation_processor_press" }, type: "item" }, { id: "4BE3DD1C6026AD6F", item: { count: 1, id: "ae2:engineering_processor_press" }, type: "item" }, { id: "183CADCF19BBF40C", item: { count: 1, id: "ae2:silicon_press" }, type: "item" }]
 			x: 2.5d
 			y: 3.0d
@@ -70,7 +70,7 @@
 		{
 			dependencies: ["3A31F520128A4250"]
 			id: "12D3BC843DD9ABC5"
-			rewards: [{ id: "4F009E2D2F26C159", type: "xp", xp: 30 }]
+			rewards: [{ id: "4F009E2D2F26C159", type: "xp", xp: 30 }, { id: "652585BD8EE81A6D", table_id: 7418672453065512805L, type: "random" }]
 			tasks: [{ id: "3F487DF907D7227A", item: { count: 1, id: "appmek:chemical_storage_cell_1k" }, type: "item" }]
 			x: 12.5d
 			y: 3.0d

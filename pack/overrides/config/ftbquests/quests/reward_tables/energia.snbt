@@ -1,0 +1,19 @@
+{
+	icon: { id: "ftbquests:lootcrate" }
+	id: "51C9C34D6D66E89A"
+	loot_size: 1
+	order_index: 1
+	rewards: [
+		{ id: "42189FA6DBF56844", item: { count: 16, id: "powah:dielectric_paste" }, weight: 3.0f }
+		{ id: "117526C2662BA3E1", item: { count: 8, id: "powah:energy_cable_starter" }, weight: 3.0f }
+		{ id: "7FE2A1A463BB0D17", item: { count: 32, id: "minecraft:redstone" }, weight: 3.0f }
+		{ id: "765D804DDBAC644D", item: { count: 8, id: "minecraft:coal_block" }, weight: 3.0f }
+		{ id: "11C2BAC697047951", item: { count: 4, id: "powah:dielectric_casing" }, weight: 2.0f }
+		{ id: "1C61F6CEF8BAB8EC", item: { count: 2, id: "powah:capacitor_basic" }, weight: 2.0f }
+		{ id: "72DCCD42BEE7892F", item: { count: 16, id: "createaddition:copper_wire" }, weight: 2.0f }
+		{ id: "6161785F9E418575", item: { count: 2, id: "createaddition:copper_spool" }, weight: 2.0f }
+		{ id: "2A76D74E168670B1", item: { count: 8, id: "createaddition:connector" }, weight: 2.0f }
+		{ id: "5B1486F9F4081925", item: { count: 1, id: "powah:energizing_rod_starter" }, weight: 1.0f }
+		{ id: "2E0D2656DB492BA8", item: { count: 1, id: "powah:energy_cell_starter" }, weight: 1.0f }
+	]
+}

@@ -1,0 +1,20 @@
+{
+	icon: { id: "ftbquests:lootcrate" }
+	id: "227AC615E7F235E4"
+	loot_size: 1
+	order_index: 0
+	rewards: [
+		{ id: "6D0AD23C8E23441B", item: { count: 16, id: "minecraft:iron_ingot" }, weight: 3.0f }
+		{ id: "3C17DAF471355C09", item: { count: 16, id: "minecraft:copper_ingot" }, weight: 3.0f }
+		{ id: "6391F1EFAB004274", item: { count: 8, id: "minecraft:gold_ingot" }, weight: 2.0f }
+		{ id: "4F757F26C7A89531", item: { count: 32, id: "minecraft:coal" }, weight: 3.0f }
+		{ id: "620DE06F63B17494", item: { count: 32, id: "minecraft:torch" }, weight: 3.0f }
+		{ id: "262011E54162784B", item: { count: 16, id: "minecraft:bread" }, weight: 3.0f }
+		{ id: "3150D289ED98B16E", item: { count: 16, id: "minecraft:cooked_beef" }, weight: 2.0f }
+		{ id: "534DB915560CB701", item: { count: 16, id: "minecraft:leather" }, weight: 2.0f }
+		{ id: "5702B94608DED510", item: { count: 4, id: "waystones:warp_scroll" }, weight: 2.0f }
+		{ id: "4D01C5E61F288545", item: { count: 4, id: "functionalstorage:oak_1" }, weight: 2.0f }
+		{ id: "13609CB0EA77F4BF", item: { count: 4, id: "minecraft:ender_pearl" }, weight: 1.0f }
+		{ id: "46DE9D78BD99F6F8", item: { count: 2, id: "minecraft:diamond" }, weight: 1.0f }
+	]
+}

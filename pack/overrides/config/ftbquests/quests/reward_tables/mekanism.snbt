@@ -1,0 +1,20 @@
+{
+	icon: { id: "ftbquests:lootcrate" }
+	id: "3762B6C16AF14BB1"
+	loot_size: 1
+	order_index: 2
+	rewards: [
+		{ id: "43B20C983FA21DE5", item: { count: 16, id: "alltheores:osmium_ingot" }, weight: 3.0f }
+		{ id: "5D0927DC46FF9525", item: { count: 16, id: "alltheores:raw_osmium" }, weight: 3.0f }
+		{ id: "7ED5BDB7EFDEAD3F", item: { count: 8, id: "alltheores:steel_ingot" }, weight: 3.0f }
+		{ id: "1112A6931A0C7776", item: { count: 16, id: "mekanism:enriched_redstone" }, weight: 2.0f }
+		{ id: "5AC6B30F773BC505", item: { count: 16, id: "mekanism:enriched_carbon" }, weight: 2.0f }
+		{ id: "4C7366E086C9CFFB", item: { count: 4, id: "mekanism:alloy_infused" }, weight: 2.0f }
+		{ id: "6442970AD3D4B9C9", item: { count: 4, id: "mekanism:basic_control_circuit" }, weight: 2.0f }
+		{ id: "5E328BE4CDAE7905", item: { count: 8, id: "mekanism:basic_universal_cable" }, weight: 2.0f }
+		{ id: "6923163E3F4A6036", item: { count: 8, id: "mekanism:basic_mechanical_pipe" }, weight: 2.0f }
+		{ id: "1C88F3303E9915F5", item: { count: 8, id: "mekanism:basic_pressurized_tube" }, weight: 2.0f }
+		{ id: "7B3F9DA6AC1FBA52", item: { count: 1, id: "mekanism:steel_casing" }, weight: 1.0f }
+		{ id: "2DEC95458BE246E7", item: { count: 1, id: "mekanism:upgrade_speed" }, weight: 1.0f }
+	]
+}

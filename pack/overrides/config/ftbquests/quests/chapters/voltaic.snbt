@@ -37,7 +37,7 @@
 		{
 			dependencies: ["78382D3A00A7E088"]
 			id: "265BA22A1C811A9E"
-			rewards: [{ id: "284B4A4B44D668DB", type: "xp", xp: 60 }]
+			rewards: [{ id: "284B4A4B44D668DB", type: "xp", xp: 60 }, { id: "76281860183ECF2F", table_id: 6727621327448355933L, type: "random" }]
 			tasks: [{ id: "75B003F88000FFA2", item: { count: 1, id: "voltaicdynamics:fluid_generator" }, type: "item" }]
 			x: -2.5d
 			y: -4.0d
@@ -45,7 +45,7 @@
 		{
 			dependencies: ["78382D3A00A7E088"]
 			id: "276D690EE1DAE18E"
-			rewards: [{ id: "1D16EE8B2DC4E3A4", type: "xp", xp: 60 }]
+			rewards: [{ id: "1D16EE8B2DC4E3A4", type: "xp", xp: 60 }, { id: "7EE0B4524EA5F14C", table_id: 6727621327448355933L, type: "random" }]
 			tasks: [{ id: "5FBBBE4DB72A9F04", item: { count: 1, id: "voltaicdynamics:basic_accumulator" }, type: "item" }]
 			x: 0.0d
 			y: -3.0d
@@ -61,7 +61,7 @@
 		{
 			dependencies: ["156C19716D490497", "7994335CB2E15C30"]
 			id: "48ABCD25B85E97C6"
-			rewards: [{ id: "4DD50AFED4D97389", type: "xp", xp: 60 }]
+			rewards: [{ id: "4DD50AFED4D97389", type: "xp", xp: 60 }, { id: "60F8E5F939978C2C", table_id: 6727621327448355933L, type: "random" }]
 			tasks: [{ id: "22862F82229DDC66", item: { count: 1, id: "voltaicdynamics:electric_furnace" }, type: "item" }]
 			x: 5.0d
 			y: -2.0d
@@ -77,7 +77,7 @@
 		{
 			dependencies: ["3A9B55D7CB53D3D6"]
 			id: "744A53A16AA14F47"
-			rewards: [{ id: "59E65D1162AECC90", type: "xp", xp: 60 }]
+			rewards: [{ id: "59E65D1162AECC90", type: "xp", xp: 60 }, { id: "2674F8C31291FBA4", table_id: 6727621327448355933L, type: "random" }]
 			tasks: [{ id: "7369F8802F62346A", item: { count: 1, id: "voltaicdynamics:pulverizer" }, type: "item" }]
 			x: 5.0d
 			y: 0.5d
@@ -93,7 +93,7 @@
 		{
 			dependencies: ["744A53A16AA14F47"]
 			id: "221BE67451111B3A"
-			rewards: [{ id: "423C3054ADE1C371", type: "xp", xp: 60 }]
+			rewards: [{ id: "423C3054ADE1C371", type: "xp", xp: 60 }, { id: "140C10A1DFDB6B75", table_id: 6727621327448355933L, type: "random" }]
 			tasks: [{ id: "6577F9B4C0F1F9F7", item: { count: 1, id: "voltaicdynamics:speed_upgrade" }, type: "item" }, { id: "6915E6FB4FD32EF2", item: { count: 1, id: "voltaicdynamics:efficiency_upgrade" }, type: "item" }]
 			x: 7.5d
 			y: 0.5d
@@ -101,7 +101,7 @@
 		{
 			dependencies: ["7994335CB2E15C30", "276D690EE1DAE18E"]
 			id: "4AFCAF9DC6196B4B"
-			rewards: [{ id: "18E5195E8C994B5D", type: "xp", xp: 120 }]
+			rewards: [{ id: "18E5195E8C994B5D", type: "xp", xp: 120 }, { id: "2FB766ADDD34ABC8", item: { count: 16, id: "voltaicdynamics:voltaic_ingot" }, type: "item" }, { id: "13C720363ECE0443", item: { count: 8, id: "voltaicdynamics:galvanic_alloy" }, type: "item" }]
 			tasks: [{ id: "263FD2EF47BCDB32", item: { count: 1, id: "voltaicdynamics:advanced_accumulator" }, type: "item" }]
 			x: 0.0d
 			y: 5.0d
@@ -109,7 +109,7 @@
 		{
 			dependencies: ["4AFCAF9DC6196B4B"]
 			id: "28C5C27E21CC8E40"
-			rewards: [{ id: "10B1063DF05B3F8C", type: "xp", xp: 60 }]
+			rewards: [{ id: "10B1063DF05B3F8C", type: "xp", xp: 60 }, { id: "3FF2CF1814B14F0D", table_id: 6727621327448355933L, type: "random" }]
 			tasks: [{ id: "422BA7CBC4E7B32F", item: { count: 1, id: "voltaicdynamics:pocket_accumulator" }, type: "item" }]
 			x: -2.5d
 			y: 5.0d
@@ -117,7 +117,7 @@
 		{
 			dependencies: ["3D12F03AC008E724"]
 			id: "5CF42477C806789A"
-			rewards: [{ id: "7B395D1F35A93583", type: "xp", xp: 30 }]
+			rewards: [{ id: "7B395D1F35A93583", type: "xp", xp: 30 }, { id: "6E52806C3E089141", table_id: 6727621327448355933L, type: "random" }]
 			tasks: [{ count: 4L, id: "115A01B8C3312ED1", item: { count: 1, id: "voltaicdynamics:item_cable" }, type: "item" }, { count: 4L, id: "7E07222A5241A760", item: { count: 1, id: "voltaicdynamics:fluid_cable" }, type: "item" }]
 			x: -2.5d
 			y: 2.5d
@@ -125,7 +125,7 @@
 		{
 			dependencies: ["12FA44E8F4855D49"]
 			id: "3D12F03AC008E724"
-			rewards: [{ id: "7770083EEAD7A2D9", type: "xp", xp: 30 }]
+			rewards: [{ id: "7770083EEAD7A2D9", type: "xp", xp: 30 }, { id: "6C60B7E5768C465A", table_id: 6727621327448355933L, type: "random" }]
 			tasks: [{ id: "1AD3B0EC077395BE", item: { count: 1, id: "voltaicdynamics:voltaic_wrench" }, type: "item" }]
 			x: -5.0d
 			y: 2.5d
@@ -133,7 +133,7 @@
 		{
 			dependencies: ["5CF42477C806789A"]
 			id: "46D4CA3717AE041D"
-			rewards: [{ id: "79CB9C1F822E11AE", type: "xp", xp: 30 }]
+			rewards: [{ id: "79CB9C1F822E11AE", type: "xp", xp: 30 }, { id: "1343AAB6D01BF4A1", table_id: 6727621327448355933L, type: "random" }]
 			tasks: [{ id: "5CE77E79A9C93936", item: { count: 1, id: "voltaicdynamics:fluid_tank" }, type: "item" }]
 			x: -5.0d
 			y: 5.0d

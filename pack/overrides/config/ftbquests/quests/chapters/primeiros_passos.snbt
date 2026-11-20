@@ -52,7 +52,7 @@
 		{
 			dependencies: ["4BAB93ADF16059DB"]
 			id: "1BA710707F5D7AFB"
-			rewards: [{ id: "179062B70CA9E518", type: "xp", xp: 30 }]
+			rewards: [{ id: "179062B70CA9E518", type: "xp", xp: 30 }, { id: "26F68E4B2EBBAF07", table_id: 2484515941836273124L, type: "random" }]
 			tasks: [{ id: "26322B7493FAA22E", item: { count: 1, id: "torchmaster:megatorch" }, type: "item" }]
 			x: -4.0d
 			y: 0.0d

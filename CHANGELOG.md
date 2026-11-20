@@ -1,5 +1,15 @@
 # Changelog — Bubie Pack
 
+## 0.6.3 (2026-11-20)
+Dá para continuar no mundo da 0.6.x: o progresso das quests é mantido, e quem já completou uma quest pode resgatar a recompensa nova.
+### Quests: item em quase toda quest
+Comparado com ATM10, Craftoria e Enigmatica 10, que dão item em quase toda quest. Antes, 69 das 112 quests davam só XP; agora são 10 (as de leitura).
+- **16 marcos ganharam item fixo** para o próximo passo, por exemplo: 3 Precision Mechanisms, 2 Molecular Assemblers e 1 Pattern Provider,
+  2 bombas, 16 canos e 1 Blaze Burner no motor a vapor, 4 Refined Obsidian e 4 Reinforced Alloys na dissolução (5x).
+- **43 quests menores dão um sorteio** da tabela do capítulo (Básico, Energia, Mekanism, AE2, Create, Mystical, Ars Nouveau e Voltaic):
+  um pacote de 1 a 32 itens, como 16 lingotes de ósmio, 16 silícios ou 32 essências de inferium. Upgrades e diamantes saem menos.
+- Os metais dados são os do All the Ores, os mesmos que o Almost Unified usa nas receitas. O XP não mudou.
+
 ## 0.6.2 (2026-11-17)
 Dá para continuar no mundo da 0.6.x: o progresso das quests é mantido (recompensas já resgatadas não mudam).
 ### Quests: recompensas maiores

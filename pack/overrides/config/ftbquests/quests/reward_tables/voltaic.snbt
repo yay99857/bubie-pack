@@ -1,0 +1,18 @@
+{
+	icon: { id: "ftbquests:lootcrate" }
+	id: "5D5D4FF3EDE6B45D"
+	loot_size: 1
+	order_index: 7
+	rewards: [
+		{ id: "32643803D03EF575", item: { count: 8, id: "voltaicdynamics:voltaic_ingot" }, weight: 3.0f }
+		{ id: "1DF86C95B6361B32", item: { count: 16, id: "voltaicdynamics:voltaic_cable" }, weight: 3.0f }
+		{ id: "2DA0055284483686", item: { count: 32, id: "minecraft:redstone" }, weight: 2.0f }
+		{ id: "6BA9D68478A0081B", item: { count: 16, id: "minecraft:copper_ingot" }, weight: 2.0f }
+		{ id: "6114637620AB005A", item: { count: 16, id: "voltaicdynamics:voltaic_dust" }, weight: 2.0f }
+		{ id: "6AC32A1A2C67F4DC", item: { count: 4, id: "voltaicdynamics:galvanic_alloy" }, weight: 2.0f }
+		{ id: "1CD2E096EE73C889", item: { count: 8, id: "voltaicdynamics:item_cable" }, weight: 2.0f }
+		{ id: "18E5750AED3C0B03", item: { count: 8, id: "voltaicdynamics:fluid_cable" }, weight: 2.0f }
+		{ id: "219F3933D50E3A67", item: { count: 1, id: "voltaicdynamics:speed_upgrade" }, weight: 1.0f }
+		{ id: "796F41155A8826CB", item: { count: 1, id: "voltaicdynamics:efficiency_upgrade" }, weight: 1.0f }
+	]
+}

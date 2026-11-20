@@ -26,6 +26,60 @@ C = ('check',)
 REC = ('&aRecomendado:&r ', '&aRecommended:&r ')
 def rec(pt, en): return (REC[0] + pt, REC[1] + en)
 
+# ================= Sorteios =================
+# Quests sem item fixo dão 1 sorteio da tabela do capítulo, como no ATM10, Craftoria e Enigmatica 10.
+# Quests só de leitura (checkmark) e o capítulo Bem-vindo ficam só com XP.
+# Metais vêm do All the Ores, que tem prioridade no Almost Unified sobre Create e Mekanism.
+# Cada entrada: (item, quantidade, peso). Itens raros têm peso 1.
+TABLES = {
+    'basico': (('Sorteio: Básico', 'Draw: Basics'), [
+        ('minecraft:iron_ingot', 16, 3), ('minecraft:copper_ingot', 16, 3), ('minecraft:gold_ingot', 8, 2),
+        ('minecraft:coal', 32, 3), ('minecraft:torch', 32, 3), ('minecraft:bread', 16, 3),
+        ('minecraft:cooked_beef', 16, 2), ('minecraft:leather', 16, 2), ('waystones:warp_scroll', 4, 2),
+        ('functionalstorage:oak_1', 4, 2), ('minecraft:ender_pearl', 4, 1), ('minecraft:diamond', 2, 1)]),
+    'energia': (('Sorteio: Energia', 'Draw: Power'), [
+        ('powah:dielectric_paste', 16, 3), ('powah:energy_cable_starter', 8, 3), ('minecraft:redstone', 32, 3),
+        ('minecraft:coal_block', 8, 3), ('powah:dielectric_casing', 4, 2), ('powah:capacitor_basic', 2, 2),
+        ('createaddition:copper_wire', 16, 2), ('createaddition:copper_spool', 2, 2), ('createaddition:connector', 8, 2),
+        ('powah:energizing_rod_starter', 1, 1), ('powah:energy_cell_starter', 1, 1)]),
+    'mekanism': (('Sorteio: Mekanism', 'Draw: Mekanism'), [
+        ('alltheores:osmium_ingot', 16, 3), ('alltheores:raw_osmium', 16, 3), ('alltheores:steel_ingot', 8, 3),
+        ('mekanism:enriched_redstone', 16, 2), ('mekanism:enriched_carbon', 16, 2), ('mekanism:alloy_infused', 4, 2),
+        ('mekanism:basic_control_circuit', 4, 2), ('mekanism:basic_universal_cable', 8, 2),
+        ('mekanism:basic_mechanical_pipe', 8, 2), ('mekanism:basic_pressurized_tube', 8, 2),
+        ('mekanism:steel_casing', 1, 1), ('mekanism:upgrade_speed', 1, 1)]),
+    'ae2': (('Sorteio: Applied Energistics', 'Draw: Applied Energistics'), [
+        ('ae2:certus_quartz_crystal', 16, 3), ('ae2:silicon', 16, 3), ('ae2:charged_certus_quartz_crystal', 8, 2),
+        ('ae2:fluix_crystal', 8, 2), ('ae2:printed_silicon', 8, 2), ('ae2:logic_processor', 4, 2),
+        ('ae2:calculation_processor', 4, 2), ('ae2:engineering_processor', 4, 2), ('ae2:fluix_smart_cable', 16, 2),
+        ('ae2:blank_pattern', 8, 2), ('ae2:quartz_glass', 16, 2), ('ae2:cell_component_1k', 2, 1)]),
+    'create': (('Sorteio: Create', 'Draw: Create'), [
+        ('create:andesite_alloy', 16, 3), ('create:shaft', 16, 3), ('create:cogwheel', 8, 3),
+        ('create:large_cogwheel', 4, 2), ('alltheores:brass_ingot', 8, 2), ('alltheores:zinc_ingot', 8, 2),
+        ('create:andesite_casing', 8, 2), ('create:belt_connector', 8, 2), ('create:electron_tube', 4, 2),
+        ('alltheores:iron_plate', 8, 2), ('alltheores:copper_plate', 8, 2), ('create:brass_casing', 4, 1)]),
+    'mystical': (('Sorteio: Mystical Agriculture', 'Draw: Mystical Agriculture'), [
+        ('mysticalagriculture:inferium_essence', 32, 3), ('mysticalagriculture:prosperity_shard', 8, 3),
+        ('mysticalagriculture:prudentium_essence', 8, 2), ('mysticalagriculture:inferium_seeds', 2, 2),
+        ('mysticalagriculture:inferium_farmland', 4, 2), ('mysticalagriculture:fertilized_essence', 4, 2),
+        ('mysticalagriculture:mystical_fertilizer', 8, 2), ('mysticalagriculture:inferium_ingot', 4, 2),
+        ('mysticalagriculture:tertium_essence', 2, 1)]),
+    'ars': (('Sorteio: Ars Nouveau', 'Draw: Ars Nouveau'), [
+        ('ars_nouveau:source_gem', 8, 3), ('ars_nouveau:sourceberry_bush', 8, 2), ('ars_nouveau:source_berry_pie', 4, 2),
+        ('ars_nouveau:magebloom_fiber', 8, 2), ('ars_nouveau:blank_parchment', 8, 2),
+        ('ars_nouveau:air_essence', 2, 1), ('ars_nouveau:earth_essence', 2, 1), ('ars_nouveau:fire_essence', 2, 1),
+        ('ars_nouveau:water_essence', 2, 1), ('ars_nouveau:abjuration_essence', 2, 1),
+        ('ars_nouveau:conjuration_essence', 2, 1), ('ars_nouveau:manipulation_essence', 2, 1)]),
+    'voltaic': (('Sorteio: Voltaic Dynamics', 'Draw: Voltaic Dynamics'), [
+        ('voltaicdynamics:voltaic_ingot', 8, 3), ('voltaicdynamics:voltaic_cable', 16, 3), ('minecraft:redstone', 32, 2),
+        ('minecraft:copper_ingot', 16, 2), ('voltaicdynamics:voltaic_dust', 16, 2), ('voltaicdynamics:galvanic_alloy', 4, 2),
+        ('voltaicdynamics:item_cable', 8, 2), ('voltaicdynamics:fluid_cable', 8, 2),
+        ('voltaicdynamics:speed_upgrade', 1, 1), ('voltaicdynamics:efficiency_upgrade', 1, 1)]),
+}
+CHAPTER_TABLE = {'primeiros_passos': 'basico', 'energia': 'energia', 'processamento': 'mekanism',
+                 'mekanism_avancado': 'mekanism', 'armazenamento': 'ae2', 'ae2_autocrafting': 'ae2',
+                 'create': 'create', 'mystical': 'mystical', 'ars': 'ars', 'voltaic': 'voltaic'}
+
 # ================= Bem-vindo =================
 c = chapter('bem_vindo', '&bBem-vindo ao Bubie Pack', '&bWelcome to Bubie Pack', 'ftbquests:book', 0)
 q(c, 'inicio', 0, 0, ('&bBem-vindo ao Bubie Pack!', '&bWelcome to Bubie Pack!'),
@@ -168,7 +222,7 @@ q(c, 'alternator', 5, -2, rec('Alternator', 'Alternator'),
    "Uma fileira de rodas d'água ligada nele dá energia constante sem gastar nada."],
   ['The &eAlternator&r (Crafts & Additions) turns Create rotation into FE.',
    'A row of water wheels connected to it gives steady power for free.'],
-  [I('createaddition:alternator')], deps=['roda'], xp=120, size=1.3)
+  [I('createaddition:alternator')], deps=['roda'], xp=120, size=1.3, items=[('createaddition:connector', 8), ('createaddition:copper_spool', 2)])
 q(c, 'solar', 0, -3, ('Energia solar', 'Solar power'),
   ['Os painéis solares funcionam sozinhos durante o dia. Bom complemento, mas de noite não geram nada.',
    'O &eSolar Panel (Starter)&r do Powah é o mais barato; o &eSolar Generator&r do Mekanism rende um pouco mais.'],
@@ -253,7 +307,7 @@ q(c, 'smelter', 12.5, -1.5, ('Energized Smelter', 'Energized Smelter'),
 q(c, 'purification', 12.5, 1.5, ('Triplicando', 'Tripling'),
   ['A &ePurification Chamber&r usa oxigênio para tirar &e3 lingotes&r por minério. É o próximo passo.'],
   ['The &ePurification Chamber&r uses oxygen to get &e3 ingots&r per ore. That is the next step.'],
-  [I('mekanism:purification_chamber')], deps=['enrichment'], xp=120)
+  [I('mekanism:purification_chamber')], deps=['enrichment'], xp=120, items=[('mekanism:basic_chemical_tank', 1), ('alltheores:raw_osmium', 16)])
 q(c, 'configurator', 10, 2.5, ('Configurator', 'Configurator'),
   ['Shift + clique com o Configurator muda os lados de entrada e saída das máquinas.'],
   ['Shift + click with the Configurator to change machine input and output sides.'],
@@ -277,7 +331,7 @@ q(c, 'prensas', 2.5, 3, ('As prensas', 'The presses'),
   ['Pegue as 4 prensas no meteorito: lógica, cálculo, engenharia e silício.'],
   ['Collect the 4 presses from the meteorite: logic, calculation, engineering and silicon.'],
   [I('ae2:logic_processor_press'), I('ae2:calculation_processor_press'), I('ae2:engineering_processor_press'), I('ae2:silicon_press')],
-  deps=['meteoro'], xp=120)
+  deps=['meteoro'], xp=120, items=[('ae2:charged_certus_quartz_crystal', 8)])
 q(c, 'inscriber', 5, 3, ('Inscriber e Charger', 'Inscriber and Charger'),
   ['O Inscriber usa as prensas para fazer os processadores. O Charger carrega o quartzo de certus.'],
   ['The Inscriber uses the presses to make processors. The Charger charges certus quartz.'],
@@ -319,7 +373,7 @@ q(c, 'cpu', 5, 0, ('Crafting CPU', 'Crafting CPU'),
    'Mais storage = pedidos maiores. &eCo-Processing Units&r (aceleradores) fazem vários passos ao mesmo tempo.'],
   ['Build a block of &eCrafting Units&r with at least one &eCrafting Storage&r: that is the CPU that runs crafting jobs.',
    'More storage = bigger jobs. &eCo-Processing Units&r (accelerators) run several steps at once.'],
-  [I('ae2:1k_crafting_storage'), I('ae2:crafting_accelerator')], deps=['controller'], xp=120)
+  [I('ae2:1k_crafting_storage'), I('ae2:crafting_accelerator')], deps=['controller'], xp=120, items=[('ae2:4k_crafting_storage', 1)])
 q(c, 'padroes', 7.5, -1.5, ('Padrões', 'Patterns'),
   ['No &ePattern Encoding Terminal&r você grava receitas em &eBlank Patterns&r. Use o EMI para preencher a receita com um clique.'],
   ['In the &ePattern Encoding Terminal&r you write recipes onto &eBlank Patterns&r. Use EMI to fill in the recipe with one click.'],
@@ -329,7 +383,7 @@ q(c, 'assembler', 7.5, 1.5, rec('Molecular Assembler', 'Molecular Assembler'),
    'Agora peça qualquer item no terminal: a rede fabrica sozinha.'],
   ['Place a &ePattern Provider&r against a &eMolecular Assembler&r and put your crafting patterns in the Provider.',
    'Now request any item from the terminal: the network crafts it on its own.'],
-  [I('ae2:pattern_provider'), I('ae2:molecular_assembler')], deps=['cpu'], xp=250, size=1.3)
+  [I('ae2:pattern_provider'), I('ae2:molecular_assembler')], deps=['cpu'], xp=250, size=1.3, items=[('ae2:molecular_assembler', 2), ('ae2:pattern_provider', 1)])
 q(c, 'maquinas', 10, 1.5, ('Autocrafting com máquinas', 'Autocrafting with machines'),
   ['Padrões de &eprocessamento&r servem para máquinas: o Pattern Provider manda os ingredientes para a máquina encostada nele',
    'e o resultado volta para a rede por uma &eInterface&r ou pelo próprio Provider.'],
@@ -380,18 +434,18 @@ q(c, 'injecao', 10, 0, ('4x: Chemical Injection', '4x: Chemical Injection'),
    'O cloreto de hidrogênio vem do &eChemical Infuser&r (hidrogênio + cloro). O cloro sai da salmoura no Electrolytic Separator.'],
   ['The &eChemical Injection Chamber&r with hydrogen chloride gets &e4 ingots&r per ore.',
    'Hydrogen chloride comes from the &eChemical Infuser&r (hydrogen + chlorine). Chlorine comes from brine in the Electrolytic Separator.'],
-  [I('mekanism:chemical_injection_chamber'), I('mekanism:chemical_infuser')], deps=['separador'], xp=120, size=1.3)
+  [I('mekanism:chemical_injection_chamber'), I('mekanism:chemical_infuser')], deps=['separador'], xp=120, size=1.3, items=[('mekanism:basic_chemical_tank', 2)])
 q(c, 'dissolucao', 12.5, 0, ('5x: Dissolution', '5x: Dissolution'),
   ['O topo do processamento: &eChemical Dissolution Chamber&r (ácido sulfúrico) → &eChemical Washer&r → &eChemical Crystallizer&r.',
    'Resultado: &e5 lingotes&r por minério.'],
   ['The top of ore processing: &eChemical Dissolution Chamber&r (sulfuric acid) → &eChemical Washer&r → &eChemical Crystallizer&r.',
    'Result: &e5 ingots&r per ore.'],
   [I('mekanism:chemical_dissolution_chamber'), I('mekanism:chemical_washer'), I('mekanism:chemical_crystallizer')],
-  deps=['injecao'], xp=250, size=1.3, shape='hexagon')
+  deps=['injecao'], xp=250, size=1.3, shape='hexagon', items=[('mekanism:ingot_refined_obsidian', 4), ('mekanism:alloy_reinforced', 4)])
 q(c, 'miner', 10, -2.5, ('Digital Miner', 'Digital Miner'),
   ['O &eDigital Miner&r minera só os minérios que você filtrar, num raio grande, sem cavar o mapa. Gasta bastante energia.'],
   ['The &eDigital Miner&r mines only the ores you filter for, in a large radius, without digging up the map. It uses a lot of power.'],
-  [I('mekanism:digital_miner')], deps=['upgrades'], xp=120)
+  [I('mekanism:digital_miner')], deps=['upgrades'], xp=120, items=[('mekanism:upgrade_speed', 2), ('mekanism:upgrade_energy', 2)])
 
 # ================= Create =================
 c = chapter('create', '&6Create: Automação', '&6Create: Automation', 'create:cogwheel', 7)
@@ -412,7 +466,7 @@ q(c, 'crushing', 5, 2, ('Crushing Wheels', 'Crushing Wheels'),
    'Lave o minério triturado com o ventilador para ganhar pepitas a mais: rende mais do que fundir direto.'],
   ['Two &eCrushing Wheels&r turn raw ore into crushed ore, with a chance of extras and XP.',
    'Wash crushed ore with a fan for bonus nuggets: better yield than smelting directly.'],
-  [I('create:crushing_wheel', 2), I('create:crushed_raw_iron', 8)], deps=['moinho'], xp=120)
+  [I('create:crushing_wheel', 2), I('create:crushed_raw_iron', 8)], deps=['moinho'], xp=120, items=[('minecraft:raw_gold', 16), ('minecraft:raw_copper', 16)])
 q(c, 'latao', 5, -2, ('Latão', 'Brass'),
   ['Misture cobre e zinco num &eBasin&r com um &eMechanical Mixer&r em cima e um &eBlaze Burner&r embaixo.',
    'O Blaze Burner vazio é carregado clicando num blaze com ele.'],
@@ -423,7 +477,7 @@ q(c, 'latao', 5, -2, ('Latão', 'Brass'),
 q(c, 'mecanismo', 7.5, -2, ('Mecanismo de precisão', 'Precision mechanism'),
   ['O &emecanismo de precisão&r é feito numa linha de montagem com deployers. Ele libera as peças de latão do Create.'],
   ['The &eprecision mechanism&r is made on a sequenced assembly line with deployers. It unlocks Create brass parts.'],
-  [I('create:precision_mechanism', 4), I('create:deployer')], deps=['latao'], xp=120)
+  [I('create:precision_mechanism', 4), I('create:deployer')], deps=['latao'], xp=120, items=[('create:precision_mechanism', 3)])
 q(c, 'braco', 10, -2, ('Braço mecânico', 'Mechanical arm'),
   ['O &eMechanical Arm&r pega itens de um lugar e coloca em outro: ótimo para alimentar máquinas e depósitos.'],
   ['The &eMechanical Arm&r moves items from one spot to another: great for feeding machines and depots.'],
@@ -439,7 +493,7 @@ q(c, 'motor', 10, 2, ('Motor elétrico', 'Electric motor'),
 q(c, 'vapor', 12.5, 0, ('Motor a vapor', 'Steam engine'),
   ['Um &eFluid Tank&r com Blaze Burners embaixo vira caldeira; o &eSteam Engine&r em cima dá muita força. É a energia forte do Create.'],
   ['A &eFluid Tank&r with Blaze Burners below becomes a boiler; a &eSteam Engine&r on it gives lots of stress. Create\'s big power source.'],
-  [I('create:steam_engine'), I('create:fluid_tank', 4)], deps=['braco', 'motor'], xp=250, size=1.3, shape='hexagon')
+  [I('create:steam_engine'), I('create:fluid_tank', 4)], deps=['braco', 'motor'], xp=250, size=1.3, shape='hexagon', items=[('create:mechanical_pump', 2), ('create:fluid_pipe', 16), ('create:blaze_burner', 1)])
 
 # ================= Mystical Agriculture =================
 c = chapter('mystical', '&2Mystical Agriculture', '&2Mystical Agriculture', 'mysticalagriculture:inferium_essence', 8)
@@ -458,11 +512,11 @@ q(c, 'prosperidade', 2.5, 1.5, ('Fragmentos de prosperidade', 'Prosperity shards
 q(c, 'altar', 5, 0, ('Altar de infusão', 'Infusion altar'),
   ['As sementes de recurso são feitas no &eInfusion Altar&r com 8 &epedestais&r em volta. Ative com redstone.'],
   ['Resource seeds are made on the &eInfusion Altar&r with 8 &epedestals&r around it. Activate it with redstone.'],
-  [I('mysticalagriculture:infusion_altar'), I('mysticalagriculture:infusion_pedestal', 8)], deps=['sementes', 'prosperidade'], xp=120)
+  [I('mysticalagriculture:infusion_altar'), I('mysticalagriculture:infusion_pedestal', 8)], deps=['sementes', 'prosperidade'], xp=120, items=[('mysticalagriculture:prosperity_shard', 16)])
 q(c, 'ferro', 7.5, 0, rec('Sementes de ferro', 'Iron seeds'),
   ['A primeira semente de recurso que vale a pena: ferro infinito sem minerar.'],
   ['The first resource seed worth making: endless iron without mining.'],
-  [I('mysticalagriculture:iron_seeds')], deps=['altar'], xp=120, size=1.3)
+  [I('mysticalagriculture:iron_seeds')], deps=['altar'], xp=120, size=1.3, items=[('mysticalagriculture:inferium_farmland', 8), ('mysticalagriculture:prudentium_essence', 16)])
 q(c, 'tiers', 5, 2.5, ('Essências melhores', 'Better essences'),
   ['4 essências de um nível viram 1 do próximo: inferium → prudentium → tertium → imperium → supremium.',
    'Sementes melhores pedem essências melhores.'],
@@ -515,11 +569,11 @@ q(c, 'glifos', 5, -2, ('Mesa do escriba', "Scribe's Table"),
 q(c, 'aparato', 10, 0, ('Enchanting Apparatus', 'Enchanting Apparatus'),
   ['O &eEnchanting Apparatus&r em cima de um &eArcane Core&r, com &epedestais&r em volta, faz os itens mágicos mais fortes.'],
   ['The &eEnchanting Apparatus&r on an &eArcane Core&r, with &epedestals&r around it, crafts the strongest magic items.'],
-  [I('ars_nouveau:enchanting_apparatus'), I('ars_nouveau:arcane_core'), I('ars_nouveau:arcane_pedestal', 4)], deps=['glifos', 'imbuement'], xp=120)
+  [I('ars_nouveau:enchanting_apparatus'), I('ars_nouveau:arcane_core'), I('ars_nouveau:arcane_pedestal', 4)], deps=['glifos', 'imbuement'], xp=120, items=[('ars_nouveau:source_gem', 16)])
 q(c, 'aprendiz', 12.5, 0, ('Livro de aprendiz', 'Apprentice book'),
   ['O &eApprentice Spell Book&r guarda feitiços maiores e libera glifos de nível 2.'],
   ['The &eApprentice Spell Book&r holds bigger spells and unlocks tier 2 glyphs.'],
-  [I('ars_nouveau:apprentice_spell_book')], deps=['aparato'], xp=120, size=1.3)
+  [I('ars_nouveau:apprentice_spell_book')], deps=['aparato'], xp=120, size=1.3, items=[('ars_nouveau:source_gem_block', 4)])
 q(c, 'familiares', 10, 2.5, ('Ajudantes', 'Helpers'),
   ['O &eStarbuncle&r carrega itens entre baús; o &eWixie&r faz crafting e poções para você. Use os amuletos (charms) para invocá-los.'],
   ['The &eStarbuncle&r carries items between chests; the &eWixie&r crafts items and potions for you. Use their charms to summon them.'],
@@ -583,7 +637,7 @@ q(c, 'melhorias', 7.5, 0.5, ('Melhorias', 'Upgrades'),
 q(c, 'acumulador2', 0, 5, ('Acumulador Avançado', 'Advanced Accumulator'),
   ['Guarda &e8.000.000 FE&r e passa 10.000 FE/t.'],
   ['Stores &e8,000,000 FE&r and moves 10,000 FE/t.'],
-  [I('voltaicdynamics:advanced_accumulator')], deps=['galvanica', 'acumulador'], xp=120)
+  [I('voltaicdynamics:advanced_accumulator')], deps=['galvanica', 'acumulador'], xp=120, items=[('voltaicdynamics:voltaic_ingot', 16), ('voltaicdynamics:galvanic_alloy', 8)])
 q(c, 'bolso', -2.5, 5, ('Acumulador de Bolso', 'Pocket Accumulator'),
   ['Carrega o que você segura e veste, direto do inventário.'],
   ['Charges what you hold and wear, straight from your inventory.'],
@@ -636,6 +690,17 @@ open(os.path.join(qd, 'data.snbt'), 'w', encoding='utf-8', newline='').write('''
 ''')
 open(os.path.join(qd, 'chapter_groups.snbt'), 'w', encoding='utf-8', newline='').write('{\n\tchapter_groups: [ ]\n}\n')
 LANG = {'pt': {'file.0000000000000001.title': 'Bubie Pack'}, 'en': {'file.0000000000000001.title': 'Bubie Pack'}}
+os.makedirs(os.path.join(qd, 'reward_tables'), exist_ok=True)
+table_ids = {}
+for order, (name, (title, entries)) in enumerate(TABLES.items()):
+    tid = table_ids[name] = uid('table:' + name)
+    LANG['pt'][f'reward_table.{tid}.title'] = title[0]
+    LANG['en'][f'reward_table.{tid}.title'] = title[1]
+    L = ['{', '\ticon: { id: "ftbquests:lootcrate" }', f'\tid: {s(tid)}', '\tloot_size: 1', f'\torder_index: {order}', '\trewards: [']
+    for n, (iid, cnt, w) in enumerate(entries):
+        L.append(f'\t\t{{ id: {s(uid(f"tentry:{name}:{n}"))}, item: {{ count: {cnt}, id: {s(iid)} }}, weight: {float(w)}f }}')
+    L += ['\t]', '}', '']
+    open(os.path.join(qd, 'reward_tables', name + '.snbt'), 'w', encoding='utf-8', newline='').write('\n'.join(L))
 total = 0
 for ch in CH:
     cid = uid('chapter:' + ch['fn'])
@@ -651,6 +716,9 @@ for ch in CH:
         rw = [f'{{ id: {s(uid("rxp:" + qq["key"]))}, type: "xp", xp: {qq["xp"]} }}']
         for n, (iid, cnt) in enumerate(qq['items']):
             rw.append(f'{{ id: {s(uid(f"ritem:{qq["key"]}:{n}"))}, item: {{ count: {cnt}, id: {s(iid)} }}, type: "item" }}')
+        tb = CHAPTER_TABLE.get(ch['fn'])
+        if tb and not qq['items'] and any(t[0] != 'check' for t in qq['tasks']):
+            rw.append(f'{{ id: {s(uid("rtable:" + qq["key"]))}, table_id: {int(table_ids[tb], 16)}L, type: "random" }}')
         L.append('\t\t\trewards: [' + ', '.join(rw) + ']')
         if qq['shape']: L.append(f'\t\t\tshape: {s(qq["shape"])}')
         if qq['size']: L.append(f'\t\t\tsize: {qq["size"]}d')

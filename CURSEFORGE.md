@@ -85,7 +85,7 @@ Create, Mekanism, Applied Energistics 2, Ars Nouveau, Mystical Agriculture, Apot
 ## Quests
 
 **112 quests in 11 chapters**, in English and Portuguese (they follow your game language). They are optional: a guide, not a gate. No mod is locked behind them.
-Every quest gives XP, and about a third also give a small item for the next step: a few cables, some silicon, an upgrade. Never a whole machine.
+Every quest gives XP, and almost all of them give items too: the big milestones give something for the next step (precision mechanisms, molecular assemblers, chemical tanks), and the smaller quests give a draw from the chapter's reward table (a stack of osmium, some silicon, an upgrade).
 
 - **Welcome** and **First Steps**: commands, teams, voice chat, waystones, backpacks and Create.
 - **Power: Getting Started**: which generator to build first (Furnator, water wheel + Alternator, Thermo Generator), batteries, cables and Flux Networks.
@@ -211,7 +211,7 @@ Create, Mekanism, Applied Energistics 2, Ars Nouveau, Mystical Agriculture, Apot
 ## Quests
 
 **112 quests em 11 capítulos**, em português e inglês (o idioma segue o do jogo). Elas são opcionais: servem de guia, nenhum mod fica travado.
-Toda quest dá XP, e cerca de um terço também dá um item pequeno para o próximo passo: alguns cabos, um pouco de silício, um upgrade. Nunca uma máquina inteira.
+Toda quest dá XP, e quase todas dão itens também: os marcos grandes dão algo para o próximo passo (precision mechanisms, molecular assemblers, tanques químicos), e as quests menores dão um sorteio da tabela do capítulo (um pack de ósmio, um pouco de silício, um upgrade).
 
 - **Bem-vindo** e **Primeiros Passos**: comandos, times, chat de voz, waystones, mochila e Create.
 - **Energia: o Começo**: qual gerador fazer primeiro (Furnator, roda d'água + Alternator, Thermo Generator), baterias, cabos e Flux Networks.

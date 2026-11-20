@@ -235,4 +235,12 @@
 	quest.7BE658401325C6B3.title: "Steam engine"
 	quest.7DF066788A2A1F25.quest_desc: ["&eIron Furnaces&r are faster and use less fuel. You can upgrade them later without breaking them."]
 	quest.7DF066788A2A1F25.title: "A better furnace"
+	reward_table.227AC615E7F235E4.title: "Draw: Basics"
+	reward_table.3762B6C16AF14BB1.title: "Draw: Mekanism"
+	reward_table.51C9C34D6D66E89A.title: "Draw: Power"
+	reward_table.5D5D4FF3EDE6B45D.title: "Draw: Voltaic Dynamics"
+	reward_table.617213E1FA0BDFC7.title: "Draw: Ars Nouveau"
+	reward_table.66F46B4A4DF21765.title: "Draw: Applied Energistics"
+	reward_table.738CF89FCB721C3C.title: "Draw: Create"
+	reward_table.754B6DD54D86EF33.title: "Draw: Mystical Agriculture"
 }

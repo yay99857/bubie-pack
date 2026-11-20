@@ -235,4 +235,12 @@
 	quest.7BE658401325C6B3.title: "Motor a vapor"
 	quest.7DF066788A2A1F25.quest_desc: ["As fornalhas do &eIron Furnaces&r são mais rápidas e gastam menos combustível. Dá para melhorar depois sem quebrar."]
 	quest.7DF066788A2A1F25.title: "Fornalha melhor"
+	reward_table.227AC615E7F235E4.title: "Sorteio: Básico"
+	reward_table.3762B6C16AF14BB1.title: "Sorteio: Mekanism"
+	reward_table.51C9C34D6D66E89A.title: "Sorteio: Energia"
+	reward_table.5D5D4FF3EDE6B45D.title: "Sorteio: Voltaic Dynamics"
+	reward_table.617213E1FA0BDFC7.title: "Sorteio: Ars Nouveau"
+	reward_table.66F46B4A4DF21765.title: "Sorteio: Applied Energistics"
+	reward_table.738CF89FCB721C3C.title: "Sorteio: Create"
+	reward_table.754B6DD54D86EF33.title: "Sorteio: Mystical Agriculture"
 }

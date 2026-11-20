@@ -28,7 +28,7 @@
 		{
 			dependencies: ["156C8D7D02C8E974"]
 			id: "275216252CEC1832"
-			rewards: [{ id: "770EDD865CC82918", type: "xp", xp: 30 }]
+			rewards: [{ id: "770EDD865CC82918", type: "xp", xp: 30 }, { id: "77E6468639FDF2C6", table_id: 3990953161642822577L, type: "random" }]
 			tasks: [{ count: 16L, icon: { id: "mekanism:ingot_steel" }, id: "38D8B23AD5F9D5DE", item: { components: { "ftbfiltersystem:filter": "ftbfiltersystem:item_tag(c:ingots/steel)" }, count: 1, id: "ftbfiltersystem:smart_filter" }, type: "item" }]
 			x: 5.0d
 			y: -1.5d
@@ -44,7 +44,7 @@
 		{
 			dependencies: ["275216252CEC1832", "26ECFB2F495D2777"]
 			id: "26C5493D51EFD40D"
-			rewards: [{ id: "75D781A5AF6F1343", type: "xp", xp: 60 }]
+			rewards: [{ id: "75D781A5AF6F1343", type: "xp", xp: 60 }, { id: "2785260580477222", table_id: 3990953161642822577L, type: "random" }]
 			tasks: [{ count: 2L, id: "25733AC44F569697", item: { count: 1, id: "mekanism:steel_casing" }, type: "item" }]
 			x: 7.5d
 			y: 0.0d
@@ -61,7 +61,7 @@
 		{
 			dependencies: ["430D5635C7C17AD5"]
 			id: "589C57CB9E6FA31F"
-			rewards: [{ id: "160944912A3B7D06", type: "xp", xp: 30 }]
+			rewards: [{ id: "160944912A3B7D06", type: "xp", xp: 30 }, { id: "1A6951A4494485ED", table_id: 3990953161642822577L, type: "random" }]
 			tasks: [{ id: "503BFD1D824C144F", item: { count: 1, id: "mekanism:energized_smelter" }, type: "item" }]
 			x: 12.5d
 			y: -1.5d
@@ -69,7 +69,7 @@
 		{
 			dependencies: ["430D5635C7C17AD5"]
 			id: "70424936C6A0FA5E"
-			rewards: [{ id: "7135249B04EE45C8", type: "xp", xp: 120 }]
+			rewards: [{ id: "7135249B04EE45C8", type: "xp", xp: 120 }, { id: "1FB0495FB7D244FA", item: { count: 1, id: "mekanism:basic_chemical_tank" }, type: "item" }, { id: "2C18C3138072B0B6", item: { count: 16, id: "alltheores:raw_osmium" }, type: "item" }]
 			tasks: [{ id: "195368774E6A3716", item: { count: 1, id: "mekanism:purification_chamber" }, type: "item" }]
 			x: 12.5d
 			y: 1.5d
@@ -77,7 +77,7 @@
 		{
 			dependencies: ["26C5493D51EFD40D"]
 			id: "3E1358836CD07D20"
-			rewards: [{ id: "1EADB4D3B4076BD2", type: "xp", xp: 30 }]
+			rewards: [{ id: "1EADB4D3B4076BD2", type: "xp", xp: 30 }, { id: "5EC417F373766431", table_id: 3990953161642822577L, type: "random" }]
 			tasks: [{ id: "22ECB91A68228D6D", item: { count: 1, id: "mekanism:configurator" }, type: "item" }]
 			x: 10.0d
 			y: 2.5d

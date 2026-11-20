@@ -1,0 +1,20 @@
+{
+	icon: { id: "ftbquests:lootcrate" }
+	id: "738CF89FCB721C3C"
+	loot_size: 1
+	order_index: 4
+	rewards: [
+		{ id: "7DE2BF6317E4F034", item: { count: 16, id: "create:andesite_alloy" }, weight: 3.0f }
+		{ id: "2675262560974B53", item: { count: 16, id: "create:shaft" }, weight: 3.0f }
+		{ id: "501100F24F2B8A00", item: { count: 8, id: "create:cogwheel" }, weight: 3.0f }
+		{ id: "6756F382C741819E", item: { count: 4, id: "create:large_cogwheel" }, weight: 2.0f }
+		{ id: "1EE8A8758C1FADE7", item: { count: 8, id: "alltheores:brass_ingot" }, weight: 2.0f }
+		{ id: "1CE1A0FA8D319A5A", item: { count: 8, id: "alltheores:zinc_ingot" }, weight: 2.0f }
+		{ id: "1A5631C028B11288", item: { count: 8, id: "create:andesite_casing" }, weight: 2.0f }
+		{ id: "2919C1713D449851", item: { count: 8, id: "create:belt_connector" }, weight: 2.0f }
+		{ id: "63E31C8A4ACE73CE", item: { count: 4, id: "create:electron_tube" }, weight: 2.0f }
+		{ id: "4F0D11D6FC121887", item: { count: 8, id: "alltheores:iron_plate" }, weight: 2.0f }
+		{ id: "2BD1E5A98B613F91", item: { count: 8, id: "alltheores:copper_plate" }, weight: 2.0f }
+		{ id: "6333358E1725AE6F", item: { count: 4, id: "create:brass_casing" }, weight: 1.0f }
+	]
+}

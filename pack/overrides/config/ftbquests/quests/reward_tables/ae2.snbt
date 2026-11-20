@@ -1,0 +1,20 @@
+{
+	icon: { id: "ftbquests:lootcrate" }
+	id: "66F46B4A4DF21765"
+	loot_size: 1
+	order_index: 3
+	rewards: [
+		{ id: "16F44E40BF110BCA", item: { count: 16, id: "ae2:certus_quartz_crystal" }, weight: 3.0f }
+		{ id: "2245F51CEBC7AAC6", item: { count: 16, id: "ae2:silicon" }, weight: 3.0f }
+		{ id: "2D139E5DCAB0C2CB", item: { count: 8, id: "ae2:charged_certus_quartz_crystal" }, weight: 2.0f }
+		{ id: "6C3D4BF8014ACF69", item: { count: 8, id: "ae2:fluix_crystal" }, weight: 2.0f }
+		{ id: "35B417400E8766FB", item: { count: 8, id: "ae2:printed_silicon" }, weight: 2.0f }
+		{ id: "2866B070912DC339", item: { count: 4, id: "ae2:logic_processor" }, weight: 2.0f }
+		{ id: "4867C2DF72B354E5", item: { count: 4, id: "ae2:calculation_processor" }, weight: 2.0f }
+		{ id: "30D8C7D4872DADE0", item: { count: 4, id: "ae2:engineering_processor" }, weight: 2.0f }
+		{ id: "68B39CFA44C0F053", item: { count: 16, id: "ae2:fluix_smart_cable" }, weight: 2.0f }
+		{ id: "144CEE866F560708", item: { count: 8, id: "ae2:blank_pattern" }, weight: 2.0f }
+		{ id: "71AB5563BA1B9F05", item: { count: 16, id: "ae2:quartz_glass" }, weight: 2.0f }
+		{ id: "46FF2AAC8D9BCE3A", item: { count: 2, id: "ae2:cell_component_1k" }, weight: 1.0f }
+	]
+}

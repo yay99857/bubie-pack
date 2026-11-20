@@ -21,7 +21,7 @@
 		{
 			dependencies: ["4D95D207050A26CE"]
 			id: "1B2B1B42332B19F0"
-			rewards: [{ id: "1BAA4D8637431765", type: "xp", xp: 30 }]
+			rewards: [{ id: "1BAA4D8637431765", type: "xp", xp: 30 }, { id: "5A561C2A2B4A23DE", table_id: 7418672453065512805L, type: "random" }]
 			tasks: [{ count: 16L, id: "7E6B0624B0A31058", item: { count: 1, id: "ae2:fluix_smart_cable" }, type: "item" }, { count: 2L, id: "6E4A30EC6B03B728", item: { count: 1, id: "ae2:fluix_smart_dense_cable" }, type: "item" }]
 			x: 2.5d
 			y: -1.5d
@@ -29,7 +29,7 @@
 		{
 			dependencies: ["4D95D207050A26CE"]
 			id: "36057E15D36413C6"
-			rewards: [{ id: "2C336F6FDAFCC8D0", type: "xp", xp: 30 }]
+			rewards: [{ id: "2C336F6FDAFCC8D0", type: "xp", xp: 30 }, { id: "26AA7B3D5727AFBC", table_id: 7418672453065512805L, type: "random" }]
 			tasks: [{ id: "188DDD38638CDC40", item: { count: 1, id: "ae2:item_storage_cell_4k" }, type: "item" }]
 			x: 2.5d
 			y: 1.5d
@@ -37,7 +37,7 @@
 		{
 			dependencies: ["4D95D207050A26CE"]
 			id: "1668F5E182CA8F52"
-			rewards: [{ id: "21A0733775CD4C67", type: "xp", xp: 120 }]
+			rewards: [{ id: "21A0733775CD4C67", type: "xp", xp: 120 }, { id: "1CAE68CF657FC4B1", item: { count: 1, id: "ae2:4k_crafting_storage" }, type: "item" }]
 			tasks: [{ id: "73035C6B20FFD250", item: { count: 1, id: "ae2:1k_crafting_storage" }, type: "item" }, { id: "2D0AB8D6DF89D2F4", item: { count: 1, id: "ae2:crafting_accelerator" }, type: "item" }]
 			x: 5.0d
 			y: 0.0d
@@ -53,7 +53,7 @@
 		{
 			dependencies: ["1668F5E182CA8F52"]
 			id: "11037745952DD9D7"
-			rewards: [{ id: "16743CCF4201336D", type: "xp", xp: 250 }]
+			rewards: [{ id: "16743CCF4201336D", type: "xp", xp: 250 }, { id: "5875D7C7EF4EDCCB", item: { count: 2, id: "ae2:molecular_assembler" }, type: "item" }, { id: "35B07AD96FA63D24", item: { count: 1, id: "ae2:pattern_provider" }, type: "item" }]
 			size: 1.3d
 			tasks: [{ id: "52B5E56AF65A7CB7", item: { count: 1, id: "ae2:pattern_provider" }, type: "item" }, { id: "197EA19724CBFC99", item: { count: 1, id: "ae2:molecular_assembler" }, type: "item" }]
 			x: 7.5d
@@ -62,7 +62,7 @@
 		{
 			dependencies: ["11037745952DD9D7"]
 			id: "3D8AC49B4698398D"
-			rewards: [{ id: "61B049AE21E40F23", type: "xp", xp: 60 }]
+			rewards: [{ id: "61B049AE21E40F23", type: "xp", xp: 60 }, { id: "149A2A2FAB6B94C5", table_id: 7418672453065512805L, type: "random" }]
 			tasks: [{ id: "1B003C3D9CCA701B", item: { count: 1, id: "ae2:interface" }, type: "item" }]
 			x: 10.0d
 			y: 1.5d
@@ -70,7 +70,7 @@
 		{
 			dependencies: ["3457838A848F2CC7"]
 			id: "6A1458CF5765B38A"
-			rewards: [{ id: "2CB4356337B3F221", type: "xp", xp: 30 }]
+			rewards: [{ id: "2CB4356337B3F221", type: "xp", xp: 30 }, { id: "35625AA4E4C44C95", table_id: 7418672453065512805L, type: "random" }]
 			tasks: [{ id: "1F5B24B183CD279B", item: { count: 1, id: "ae2:import_bus" }, type: "item" }, { id: "767526461CFD3826", item: { count: 1, id: "ae2:export_bus" }, type: "item" }, { id: "6A11321DD4209DFF", item: { count: 1, id: "ae2:storage_bus" }, type: "item" }]
 			x: 10.0d
 			y: -1.5d

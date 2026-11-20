@@ -1,0 +1,17 @@
+{
+	icon: { id: "ftbquests:lootcrate" }
+	id: "754B6DD54D86EF33"
+	loot_size: 1
+	order_index: 5
+	rewards: [
+		{ id: "54122C82986A57CE", item: { count: 32, id: "mysticalagriculture:inferium_essence" }, weight: 3.0f }
+		{ id: "132AA55010F86E8F", item: { count: 8, id: "mysticalagriculture:prosperity_shard" }, weight: 3.0f }
+		{ id: "364AB7B392051D5F", item: { count: 8, id: "mysticalagriculture:prudentium_essence" }, weight: 2.0f }
+		{ id: "2863BA787490A97C", item: { count: 2, id: "mysticalagriculture:inferium_seeds" }, weight: 2.0f }
+		{ id: "26A0C7AE866ADB5F", item: { count: 4, id: "mysticalagriculture:inferium_farmland" }, weight: 2.0f }
+		{ id: "54A11A07EC115408", item: { count: 4, id: "mysticalagriculture:fertilized_essence" }, weight: 2.0f }
+		{ id: "109F19F14264B43C", item: { count: 8, id: "mysticalagriculture:mystical_fertilizer" }, weight: 2.0f }
+		{ id: "2D3D52F19D229E2F", item: { count: 4, id: "mysticalagriculture:inferium_ingot" }, weight: 2.0f }
+		{ id: "4009BDA68A64CE77", item: { count: 2, id: "mysticalagriculture:tertium_essence" }, weight: 1.0f }
+	]
+}
