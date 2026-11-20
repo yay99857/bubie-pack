@@ -36,6 +36,8 @@
 	quest.156C8D7D02C8E974.title: "Metallurgic Infuser"
 	quest.15A708F09E7ABE21.quest_desc: ["Resource seeds are made on the &eInfusion Altar&r with 8 &epedestals&r around it. Activate it with redstone."]
 	quest.15A708F09E7ABE21.title: "Infusion altar"
+	quest.1638C3E96FAF8E46.quest_desc: ["With the &eBase Blueprint&r, the Bubie builds for you: set up the blueprint (shape, size, material), take the Bubie to the spot and click it with the blueprint.", "It raises the base block by block, taking the blocks from its chest. When they run out it waits: set a &eLumberjack&r or a &eQuarry&r filling the same chest and they work as a team."]
+	quest.1638C3E96FAF8E46.title: "Bubie the Builder"
 	quest.1668F5E182CA8F52.quest_desc: ["Build a block of &eCrafting Units&r with at least one &eCrafting Storage&r: that is the CPU that runs crafting jobs.", "More storage = bigger jobs. &eCo-Processing Units&r (accelerators) run several steps at once."]
 	quest.1668F5E182CA8F52.title: "Crafting CPU"
 	quest.183F691BD3A16BF7.quest_desc: ["Splits water into &ehydrogen&r and &eoxygen&r. Oxygen feeds the Purification Chamber; hydrogen is fuel."]

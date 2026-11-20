@@ -36,6 +36,8 @@
 	quest.156C8D7D02C8E974.title: "Metallurgic Infuser"
 	quest.15A708F09E7ABE21.quest_desc: ["As sementes de recurso são feitas no &eInfusion Altar&r com 8 &epedestais&r em volta. Ative com redstone."]
 	quest.15A708F09E7ABE21.title: "Altar de infusão"
+	quest.1638C3E96FAF8E46.quest_desc: ["Com a &ePlanta de Base&r, o Bubie constrói para você: configure a planta (forma, tamanho, material), leve o Bubie até o lugar e clique nele com ela.", "Ele levanta a base bloco por bloco, pegando o material no baú dele. Se acabar, espera: ponha um &eLenhador&r ou uma &ePedreira&r enchendo o mesmo baú e eles trabalham em equipe."]
+	quest.1638C3E96FAF8E46.title: "Bubie Construtor"
 	quest.1668F5E182CA8F52.quest_desc: ["Monte um bloco de &eCrafting Units&r com pelo menos um &eCrafting Storage&r: essa é a CPU que faz os pedidos.", "Mais storage = pedidos maiores. &eCo-Processing Units&r (aceleradores) fazem vários passos ao mesmo tempo."]
 	quest.1668F5E182CA8F52.title: "Crafting CPU"
 	quest.183F691BD3A16BF7.quest_desc: ["Separa água em &ehidrogênio&r e &eoxigênio&r. O oxigênio vai para a Purification Chamber; o hidrogênio é combustível."]

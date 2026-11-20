@@ -703,6 +703,12 @@ q(c, 'chips', 5, 1.5, ('Chips de melhoria', 'Upgrade chips'),
   ['Four chip slots: &eSpeed&r, &eStorage&r (+9 slots), &eRange&r (bigger areas), &eMagnet&r, &eSmelting&r (ores come out as ingots) and &eEfficiency&r.',
    'Click the Bubie with a chip to install it.'],
   [T('bubie:chips', 1, 'bubie:chip_speed')], deps=['tarefas'], items=[('minecraft:redstone', 16), ('minecraft:gold_nugget', 16)])
+q(c, 'construtor', 2.5, 4, ('Bubie Construtor', 'Bubie the Builder'),
+  ['Com a &ePlanta de Base&r, o Bubie constrói para você: configure a planta (forma, tamanho, material), leve o Bubie até o lugar e clique nele com ela.',
+   'Ele levanta a base bloco por bloco, pegando o material no baú dele. Se acabar, espera: ponha um &eLenhador&r ou uma &ePedreira&r enchendo o mesmo baú e eles trabalham em equipe.'],
+  ['With the &eBase Blueprint&r, the Bubie builds for you: set up the blueprint (shape, size, material), take the Bubie to the spot and click it with the blueprint.',
+   'It raises the base block by block, taking the blocks from its chest. When they run out it waits: set a &eLumberjack&r or a &eQuarry&r filling the same chest and they work as a team.'],
+  [I('baseblueprint:base_blueprint')], deps=['tarefas'], items=[('minecraft:spruce_planks', 64)])
 q(c, 'amigo', 7.5, 0, ('Um amigo para o Bubie', 'A friend for your Bubie'),
   ['Seu Bubie já sabe trabalhar. Junte &e256 troncos&r (deixe o Lenhador fazer isso) e ganhe &eoutro Bubie&r para montar a sua equipe.',
    'Cada jogador pode ter até 3 Bubies ligados ao mesmo tempo.'],

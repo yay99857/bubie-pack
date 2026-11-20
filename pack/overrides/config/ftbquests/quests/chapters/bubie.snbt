@@ -59,6 +59,14 @@
 			y: 1.5d
 		}
 		{
+			dependencies: ["600ACA5682720B9D"]
+			id: "1638C3E96FAF8E46"
+			rewards: [{ id: "2D87B3C036D52C20", type: "xp", xp: 30 }, { id: "2D9939A1032B5FAE", item: { count: 64, id: "minecraft:spruce_planks" }, type: "item" }]
+			tasks: [{ id: "2A8EFA65C75BF016", item: { count: 1, id: "baseblueprint:base_blueprint" }, type: "item" }]
+			x: 2.5d
+			y: 4.0d
+		}
+		{
 			dependencies: ["51675D313F1C29C2", "41D2702567D17922"]
 			id: "5C98CD6FFE91586D"
 			rewards: [{ id: "182DF1FDB27A5E8D", type: "xp", xp: 250 }, { id: "7332470910456823", item: { count: 1, id: "bubie:bubie" }, type: "item" }]
