@@ -725,6 +725,12 @@ q(c, 'entregador', 5, 4, ('Bubie Entregador', 'Bubie the Courier'),
   ['The &eCourier&r empties the chests, hoppers and furnace outputs in its area and takes everything to its own chest.',
    'Use it to bring the Lumberjack\'s wood home, or to feed the &eBuilder&r: when the destination chest is a Builder\'s, it carries only what the blueprint still needs.'],
   [C], deps=['tarefas'], items=[('minecraft:chest', 4)])
+q(c, 'dj', -2.5, -1.5, ('Bubie DJ', 'Bubie the DJ'),
+  ['Na aba &eDJ&r do menu, o Bubie toca os &ediscos de música&r do inventário dele (de qualquer mod) e links de &e.mp3/.ogg&r, para todo mundo por perto.',
+   'A tela vira um equalizador, ele dança, e os Bubies em volta dançam junto. Dá para pular música e ajustar o volume.'],
+  ['In the &eDJ&r tab of its menu, the Bubie plays the &emusic discs&r in its storage (from any mod) and &e.mp3/.ogg&r links, for everyone nearby.',
+   'Its screen becomes an equalizer, it dances, and the Bubies around dance along. You can skip songs and set the volume.'],
+  [C], deps=['bubie'], items=[('minecraft:music_disc_cat', 1)])
 q(c, 'amigo', 7.5, 0, ('Um amigo para o Bubie', 'A friend for your Bubie'),
   ['Seu Bubie já sabe trabalhar. Junte &e256 troncos&r (deixe o Lenhador fazer isso) e ganhe &eoutro Bubie&r para montar a sua equipe.',
    'Cada jogador pode ter até 3 Bubies ligados ao mesmo tempo.'],

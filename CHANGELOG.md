@@ -1,5 +1,12 @@
 # Changelog — Bubie Pack
 
+## 1.1.1 (2026-11-20)
+Dá para continuar no mundo da 1.1.0.
+### Bubie 1.3.0: o DJ
+- Aba **DJ** no menu do Bubie: toca os discos de música do inventário (de qualquer mod) e links de `.mp3`/`.ogg`, para todo mundo por perto.
+- A tela vira um equalizador, ele dança e solta notas, e os Bubies em volta dançam junto.
+- Quest nova **"Bubie DJ"** no capítulo do Bubie (recompensa: um disco).
+
 ## 1.1.0 (não publicada)
 Dá para continuar no mundo da 1.0.0.
 ### Bubie 1.2.0

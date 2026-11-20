@@ -75,6 +75,14 @@
 			y: 4.0d
 		}
 		{
+			dependencies: ["2C967157F94A35F7"]
+			id: "1F821E81CC0F86D1"
+			rewards: [{ id: "49912583BF5C2D6D", type: "xp", xp: 30 }, { id: "6B9CFDB98788A227", item: { count: 1, id: "minecraft:music_disc_cat" }, type: "item" }]
+			tasks: [{ id: "755821A5B2737914", type: "checkmark" }]
+			x: -2.5d
+			y: -1.5d
+		}
+		{
 			dependencies: ["51675D313F1C29C2", "41D2702567D17922"]
 			id: "5C98CD6FFE91586D"
 			rewards: [{ id: "182DF1FDB27A5E8D", type: "xp", xp: 250 }, { id: "7332470910456823", item: { count: 1, id: "bubie:bubie" }, type: "item" }]

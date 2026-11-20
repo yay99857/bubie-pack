@@ -64,6 +64,8 @@
 	quest.1BA710707F5D7AFB.title: "Base sem mobs"
 	quest.1F74B35C479EAD11.quest_desc: ["Ao morrer, seus itens ficam guardados num &etúmulo&r (Corail Tombstone) no local da morte.", "Use &e/back&r para voltar até ele e clique no túmulo para recuperar tudo."]
 	quest.1F74B35C479EAD11.title: "Se você morrer"
+	quest.1F821E81CC0F86D1.quest_desc: ["Na aba &eDJ&r do menu, o Bubie toca os &ediscos de música&r do inventário dele (de qualquer mod) e links de &e.mp3/.ogg&r, para todo mundo por perto.", "A tela vira um equalizador, ele dança, e os Bubies em volta dançam junto. Dá para pular música e ajustar o volume."]
+	quest.1F821E81CC0F86D1.title: "Bubie DJ"
 	quest.201109993506AF6B.quest_desc: ["Faça um de cada. Eles aparecem em quase todas as peças do AE2."]
 	quest.201109993506AF6B.title: "Processadores"
 	quest.20FBCC4BD6FC3A56.quest_desc: ["O &eDigital Miner&r minera só os minérios que você filtrar, num raio grande, sem cavar o mapa. Gasta bastante energia."]

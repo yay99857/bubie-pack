@@ -64,6 +64,8 @@
 	quest.1BA710707F5D7AFB.title: "A mob-free base"
 	quest.1F74B35C479EAD11.quest_desc: ["When you die, your items are stored in a &egrave&r (Corail Tombstone) where you died.", "Use &e/back&r to return and click the grave to get everything back."]
 	quest.1F74B35C479EAD11.title: "If you die"
+	quest.1F821E81CC0F86D1.quest_desc: ["In the &eDJ&r tab of its menu, the Bubie plays the &emusic discs&r in its storage (from any mod) and &e.mp3/.ogg&r links, for everyone nearby.", "Its screen becomes an equalizer, it dances, and the Bubies around dance along. You can skip songs and set the volume."]
+	quest.1F821E81CC0F86D1.title: "Bubie the DJ"
 	quest.201109993506AF6B.quest_desc: ["Make one of each. They are used in almost every AE2 part."]
 	quest.201109993506AF6B.title: "Processors"
 	quest.20FBCC4BD6FC3A56.quest_desc: ["The &eDigital Miner&r mines only the ores you filter for, in a large radius, without digging up the map. It uses a lot of power."]
