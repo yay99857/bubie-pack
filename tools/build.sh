@@ -5,17 +5,24 @@ cd "$(dirname "$0")/.."
 . tools/python.sh
 VER=$($PY -c "import json;print(json.load(open('pack/manifest.json', encoding='utf-8'))['version'])")
 mkdir -p dist
-# Better Compatibility Checker: a lista de servidores compara esta versão com a do servidor.
+# Better Compatibility Checker: a lista de servidores compara esta versão com a do servidor,
+# e o All The Tweaks a mostra no título da janela. O BCC 21.x lê o .toml (o .json era do formato antigo).
 $PY - "$VER" <<'PY'
-import json, sys
-p = 'pack/overrides/config/bcc-common.json'
-cfg = {
-    'modpackName': {'value': 'Bubie Pack', 'comments': ['The name of the modpack']},
-    'modpackVersion': {'value': sys.argv[1], 'comments': ['The version of the modpack']},
-    'useMetadata': {'value': False, 'comments': ['Use the metadata.json to determine the modpack version',
-                                                 'ONLY ENABLE THIS IF YOU KNOW WHAT YOU ARE DOING']},
-}
-open(p, 'w', encoding='utf-8', newline='').write(json.dumps(cfg, indent=2) + '\n')
+import sys
+open('pack/overrides/config/bcc-common.toml', 'w', encoding='utf-8', newline='').write(f'''#General settings
+[general]
+	#modpackProjectID is now deprecated and will be removed soon
+	# Default: 0
+	# Range: > 0
+	modpackProjectID = 0
+	#The name of the modpack
+	modpackName = "Bubie Pack"
+	#The version of the modpack
+	modpackVersion = "{sys.argv[1]}"
+	#Use the metadata.json to determine the modpack version
+	#ONLY ENABLE THIS IF YOU KNOW WHAT YOU ARE DOING
+	useMetadata = false
+''')
 PY
 rm -f "dist/BubiePack-$VER.zip"
 $PY tools/zipdir.py "dist/BubiePack-$VER.zip" pack manifest.json modlist.html overrides profileImage

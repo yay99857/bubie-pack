@@ -1,5 +1,13 @@
 # Changelog — Bubie Pack
 
+## 0.6.5 (2026-11-20)
+Dá para continuar no mundo da 0.6.x.
+### Corrigido
+- A janela do jogo se chamava **"All The Mods CHANGE ME"** e tinha o ícone do All the Mods. Agora mostra **"Bubie Pack" e a versão**, com o ícone do pack.
+  O All The Tweaks usava o perfil do ATM porque o nome do pack estava em branco, e a versão vinha do Better Compatibility Checker, que não lia a config do pack
+  (o build gravava o `bcc-common.json` do formato antigo; o BCC 21.x lê o `bcc-common.toml`). A lista de servidores também passa a comparar a versão certa.
+- O status do Discord não mostra mais "All The Mods 10".
+
 ## 0.6.4 (2026-11-20)
 A 0.6.3 foi recusada pelo CurseForge: o **No Chat Reports** saiu do CurseForge, e um modpack não pode citar um arquivo que não existe mais lá.
 Esta versão tira o mod e traz as mudanças de quests da 0.6.3. Dá para continuar no mundo da 0.6.x: o mod não tem blocos nem itens.

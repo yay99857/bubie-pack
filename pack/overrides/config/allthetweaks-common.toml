@@ -1,6 +1,6 @@
 [discord]
 	#Enable Discord Rich Presence
-	discord = true
+	discord = false
 
 [packmode]
 	#ATM = 0 SLOP = 1 SKY = 2 MAGIC = 3 EXPERT = 4 GRAVITAS = 5 LITE = 6 AOA = 7 MON = 8
@@ -15,7 +15,7 @@
 	curseforge_url = ""
 	#Pack name shown in the window title and on the branding lines
 	#Leave blank to take it from the packmode profile
-	display_name = ""
+	display_name = "Bubie Pack"
 
 	[pack.discord]
 		#Asset key or image URL for the small corner icon on the card
@@ -37,7 +37,7 @@
 	[pack.window]
 		#16x16 window icon, read from the allthetweaks folder next to this file
 		#Leave blank to use the bundled icon
-		icon_16 = ""
+		icon_16 = "icon_16.png"
 		#32x32 window icon, read from the allthetweaks folder next to this file
 		#Leave blank to use the bundled icon
-		icon_32 = ""
+		icon_32 = "icon_32.png"
