@@ -12,7 +12,7 @@ Dá para continuar no mundo da 1.0.0.
 ### Pack
 - Os **chips do Bubie** agora saem da **Fundidora de Ligas** da Voltaic (2 ligas galvânicas, 4 redstone e a peça do chip).
 - Quest nova **"Conheça o Bubie"** logo no primeiro capítulo, mostrando o caminho até ele; quest nova do **Entregador**.
-- Logo novo do pack.
+- Nome e logo novos: **Bubie Pack - Tech, Magic & Robot Helpers**.
 
 ## 1.0.0 (2026-11-20)
 Dá para continuar no mundo da 0.6.x: o progresso das quests é mantido.

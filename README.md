@@ -1,6 +1,6 @@
 <p align="center"><img src="assets/icon.png" width="128" alt="Bubie Pack"></p>
 
-# Bubie Pack
+# Bubie Pack - Tech, Magic & Robot Helpers
 
 Modpack kitchen-sink de tecnologia e magia para **Minecraft 1.21.1 / NeoForge 21.1.265**, feito para jogar com os amigos.
 *A tech and magic kitchen-sink modpack for Minecraft 1.21.1 / NeoForge, made to play with friends.*
@@ -9,7 +9,7 @@ Modpack kitchen-sink de tecnologia e magia para **Minecraft 1.21.1 / NeoForge 21
 - Minérios do All the Ores em veias menores, sem duplicatas do Mekanism.
 - Vilas maiores e mais frequentes (ChoiceTheorem's Overhauled Village) e estruturas vanilla redesenhadas pelos YUNG's.
 - 112 quests em português e inglês.
-- Três mods feitos para o pack: Voltaic Dynamics (tecnologia com FE), Base Blueprint (constrói a base de uma vez) e Bubie (o robozinho ajudante do bubie.gg).
+- Três mods feitos para o pack: Voltaic Dynamics (tecnologia com FE), Base Blueprint (constrói a base de uma vez) e Bubie (um robozinho ajudante).
 - Flux Networks sem carregar jetpacks à distância.
 
 O histórico de mudanças está no [CHANGELOG.md](CHANGELOG.md).

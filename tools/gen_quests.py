@@ -666,10 +666,10 @@ q(c, 'tanque', -5, 5, ('Tanque de Fluidos', 'Fluid Tank'),
 # ================= Bubie =================
 c = chapter('bubie', '&eBubie', '&eBubie', 'bubie:bubie', 11)
 q(c, 'bubie', 0, 0, ('Seu Bubie', 'Your Bubie'),
-  ['O &eBubie&r é o robozinho do bubie.gg: segue você, carrega itens e, com uma tarefa e uma área, junta recursos sozinho e guarda num baú.',
+  ['O &eBubie&r é um robozinho ajudante: segue você, carrega itens e, com uma tarefa e uma área, junta recursos sozinho e guarda num baú.',
    'No Bubie Pack ele é feito com &elingotes voltaicos&r (capítulo Voltaic Dynamics), vidro, redstone e lã preta. Clique no chão com ele para ligar; clique direito nele abre o menu.',
    '&eShift + clique&r com a mão vazia guarda o Bubie no inventário, com tudo o que ele carrega.'],
-  ['&eBubie&r is the little robot from bubie.gg: it follows you, carries items and, given a job and an area, gathers resources on its own and stores them in a chest.',
+  ['&eBubie&r is a little helper robot: it follows you, carries items and, given a job and an area, gathers resources on its own and stores them in a chest.',
    'In Bubie Pack it is made with &evoltaic ingots&r (Voltaic Dynamics chapter), glass, redstone and black wool. Click the ground with it to switch it on; right-click it to open its menu.',
    '&eShift + click&r with an empty hand folds the Bubie into your inventory, with everything it carries.'],
   [I('bubie:bubie')], shape='pentagon', size=1.5, xp=60, items=[('minecraft:coal', 16)], deps=['voltaic/lingote'])
@@ -690,9 +690,9 @@ q(c, 'tarefas', 2.5, 1.5, ('As tarefas', 'The jobs'),
    'Put the right tool in its slot: it stops before the tool breaks.'],
   [C], deps=['bubie'])
 q(c, 'visual', -2.5, 1.5, ('Editar meu Bubie', 'Edit my Bubie'),
-  ['Na aba &eStatus&r do menu, &e✎ Editar meu Bubie&r troca a cor do casco, do moletom e da luz da tela, os olhos e a boca, como no My Bubie do bubie.gg.',
+  ['Na aba &eStatus&r do menu, &e✎ Editar meu Bubie&r troca a cor do casco, do moletom e da luz da tela, os olhos e a boca.',
    'Todo mundo no servidor vê o seu visual.'],
-  ['In the &eStatus&r tab of the menu, &e✎ Edit my Bubie&r changes the casing, hoodie and screen-light colours, the eyes and the mouth, like My Bubie on bubie.gg.',
+  ['In the &eStatus&r tab of the menu, &e✎ Edit my Bubie&r changes the casing, hoodie and screen-light colours, the eyes and the mouth.',
    'Everyone on the server sees your look.'],
   [C], deps=['bubie'])
 q(c, 'estacao', 5, -1.5, ('Estação do Bubie', 'Bubie Station'),

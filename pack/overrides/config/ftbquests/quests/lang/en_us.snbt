@@ -68,7 +68,7 @@
 	quest.201109993506AF6B.title: "Processors"
 	quest.20FBCC4BD6FC3A56.quest_desc: ["The &eDigital Miner&r mines only the ores you filter for, in a large radius, without digging up the map. It uses a lot of power."]
 	quest.20FBCC4BD6FC3A56.title: "Digital Miner"
-	quest.21D4089E77310943.quest_desc: ["In the &eStatus&r tab of the menu, &e✎ Edit my Bubie&r changes the casing, hoodie and screen-light colours, the eyes and the mouth, like My Bubie on bubie.gg.", "Everyone on the server sees your look."]
+	quest.21D4089E77310943.quest_desc: ["In the &eStatus&r tab of the menu, &e✎ Edit my Bubie&r changes the casing, hoodie and screen-light colours, the eyes and the mouth.", "Everyone on the server sees your look."]
 	quest.21D4089E77310943.title: "Edit my Bubie"
 	quest.21E8A2282FF4DEE6.quest_desc: ["&eTier Installers&r turn a regular machine into a Factory that processes several items at once, without breaking it."]
 	quest.21E8A2282FF4DEE6.title: "Tier Installers"
@@ -102,7 +102,7 @@
 	quest.2B568231DA49478D.title: "Applied Energistics 2"
 	quest.2C5B86ABAEBA2976.quest_desc: ["A pack to play with friends: tech, magic, exploration and automation, at your own pace.", "", "Quests are &aoptional&r: no mod is locked behind them. They are a guide, especially early on."]
 	quest.2C5B86ABAEBA2976.title: "&bWelcome to Bubie Pack!"
-	quest.2C967157F94A35F7.quest_desc: ["&eBubie&r is the little robot from bubie.gg: it follows you, carries items and, given a job and an area, gathers resources on its own and stores them in a chest.", "In Bubie Pack it is made with &evoltaic ingots&r (Voltaic Dynamics chapter), glass, redstone and black wool. Click the ground with it to switch it on; right-click it to open its menu.", "&eShift + click&r with an empty hand folds the Bubie into your inventory, with everything it carries."]
+	quest.2C967157F94A35F7.quest_desc: ["&eBubie&r is a little helper robot: it follows you, carries items and, given a job and an area, gathers resources on its own and stores them in a chest.", "In Bubie Pack it is made with &evoltaic ingots&r (Voltaic Dynamics chapter), glass, redstone and black wool. Click the ground with it to switch it on; right-click it to open its menu.", "&eShift + click&r with an empty hand folds the Bubie into your inventory, with everything it carries."]
 	quest.2C967157F94A35F7.title: "Your Bubie"
 	quest.2DE8ADEBEAADB02A.quest_desc: ["The &eApprentice Spell Book&r holds bigger spells and unlocks tier 2 glyphs."]
 	quest.2DE8ADEBEAADB02A.title: "Apprentice book"

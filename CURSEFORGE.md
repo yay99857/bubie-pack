@@ -1,4 +1,4 @@
-# Bubie Pack
+# Bubie Pack - Tech, Magic & Robot Helpers
 
 **A tech and magic kitchen-sink modpack for NeoForge 1.21.1, made to play with friends.**
 
@@ -6,16 +6,16 @@
 
 Create, Mekanism, Applied Energistics 2, Ars Nouveau, Mystical Agriculture, Apotheosis and 200+ more mods, tuned to work well together: no duplicate ores, integrations between the power and storage systems, bigger villages, and a pack light enough to run on a modest PC.
 
-## 🤖 New in 1.0.0: Bubie
+## 🤖 Bubie, your robot helper
 
 ![Bubies dressed up in the editor](https://media.forgecdn.net/attachments/2241/432/01-lineup-png.png)
 
-**Bubie**, the little robot from bubie.gg, is the third mod made for this pack. Give it a job and an area and it works on its own, then stores everything in your chest:
+**Bubie**, a little CRT robot in a hoodie, is the third mod made for this pack. Give it a job and an area and it works on its own, then stores everything in your chest:
 
 - **Lumberjack, Digger, Quarry, Farmer, Miner and Collector**, with the Bubie Clipboard to mark the area and the chest.
 - **Builder**: hand it a **Base Blueprint** and it raises the base block by block from its chest. Set a Lumberjack or a Quarry filling the same chest and they work as a team.
 - Built with the pack's own tech: crafted from **voltaic ingots**, its station runs on any FE cable, and a **Voltaic pocket accumulator** keeps it charged.
-- **Edit my Bubie**: casing, hoodie and screen-light colours, eyes and mouth, like My Bubie on bubie.gg.
+- **Edit my Bubie**: casing, hoodie and screen-light colours, eyes and mouth.
 - A new quest chapter whose last quest gives you **a second Bubie**.
 
 ---
@@ -26,7 +26,7 @@ Create, Mekanism, Applied Energistics 2, Ars Nouveau, Mystical Agriculture, Apot
 - **Create** with Copycats+, Design n' Decor, Dragons Plus, **Crafts & Additions** (Create power ↔ FE) and **Create: Enchantment Industry** (liquid experience and automatic enchanting)
 - **Mekanism** (Generators and Tools), **Powah!**, **Extreme Reactors**, **Ender IO**, **Energy Meter**
 - **Voltaic Dynamics**, made for this pack: compact FE generators, machines with upgrades, accumulators and lag-free cables
-- **Bubie**, made for this pack: the little robot from bubie.gg that chops trees, digs, quarries, farms and mines for you, then stores everything in your chest
+- **Bubie**, made for this pack: a little robot that chops trees, digs, quarries, farms and mines for you, then stores everything in your chest
 - **Industrial Foregoing**, **Actually Additions**, **XyCraft**, **RFTools**, **Just Dire Things**
 - Logistics with **Pipez**, **LaserIO**, **Modular Routers** and the **Integrated Dynamics** family
 
@@ -139,20 +139,20 @@ Found a bug or crash? Leave a comment with the log (`latest.log` or the crash re
 ---
 ---
 
-# 🇧🇷 Bubie Pack (Português)
+# 🇧🇷 Bubie Pack - Tecnologia, Magia e Robôs Ajudantes (Português)
 
 **Kitchen-sink de tecnologia e magia para NeoForge 1.21.1, feito para jogar com os amigos.**
 
 Create, Mekanism, Applied Energistics 2, Ars Nouveau, Mystical Agriculture, Apotheosis e mais de 200 mods, ajustados para funcionar bem juntos: menos minério duplicado, integrações entre os sistemas de energia e armazenamento, vilas maiores e um pack leve o bastante para rodar em PC modesto.
 
-## 🤖 Novo na 1.0.0: Bubie
+## 🤖 Bubie, o seu robô ajudante
 
-O **Bubie**, o robozinho do bubie.gg, é o terceiro mod feito para o pack. Com uma tarefa e uma área, ele trabalha sozinho e guarda tudo no seu baú:
+O **Bubie**, um robozinho de tela CRT e moletom, é o terceiro mod feito para o pack. Com uma tarefa e uma área, ele trabalha sozinho e guarda tudo no seu baú:
 
 - **Lenhador, Escavador, Pedreira, Fazendeiro, Minerador e Coletor**, com a Prancheta do Bubie para marcar a área e o baú.
 - **Construtor**: entregue uma **Planta de Base** e ele levanta a base bloco por bloco com o material do baú. Ponha um Lenhador ou uma Pedreira enchendo o mesmo baú e eles trabalham em equipe.
 - Feito com a tecnologia do pack: receita com **lingotes voltaicos**, estação que carrega por qualquer cabo de FE, e o **Acumulador de Bolso da Voltaic** mantém ele carregado.
-- **Editar meu Bubie**: cores do casco, do moletom e da luz da tela, olhos e boca, como no My Bubie do bubie.gg.
+- **Editar meu Bubie**: cores do casco, do moletom e da luz da tela, olhos e boca.
 - Capítulo novo de quests, e a última dá **um segundo Bubie**.
 
 ---
@@ -163,7 +163,7 @@ O **Bubie**, o robozinho do bubie.gg, é o terceiro mod feito para o pack. Com u
 - **Create** com Copycats+, Design n' Decor, Dragons Plus, **Crafts & Additions** (energia do Create ↔ FE) e **Create: Enchantment Industry** (experiência líquida e encantamento automático)
 - **Mekanism** (Generators e Tools), **Powah!**, **Extreme Reactors**, **Ender IO**, **Energy Meter**
 - **Voltaic Dynamics**, feito para o pack: geradores de FE compactos, máquinas com melhorias, acumuladores e cabos sem lag
-- **Bubie**, feito para o pack: o robozinho do bubie.gg que corta árvores, escava, abre pedreiras, planta e minera para você, e guarda tudo no seu baú
+- **Bubie**, feito para o pack: um robozinho que corta árvores, escava, abre pedreiras, planta e minera para você, e guarda tudo no seu baú
 - **Industrial Foregoing**, **Actually Additions**, **XyCraft**, **RFTools**, **Just Dire Things**
 - Logística com **Pipez**, **LaserIO**, **Modular Routers** e a família **Integrated Dynamics**
 

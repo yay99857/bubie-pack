@@ -68,7 +68,7 @@
 	quest.201109993506AF6B.title: "Processadores"
 	quest.20FBCC4BD6FC3A56.quest_desc: ["O &eDigital Miner&r minera só os minérios que você filtrar, num raio grande, sem cavar o mapa. Gasta bastante energia."]
 	quest.20FBCC4BD6FC3A56.title: "Digital Miner"
-	quest.21D4089E77310943.quest_desc: ["Na aba &eStatus&r do menu, &e✎ Editar meu Bubie&r troca a cor do casco, do moletom e da luz da tela, os olhos e a boca, como no My Bubie do bubie.gg.", "Todo mundo no servidor vê o seu visual."]
+	quest.21D4089E77310943.quest_desc: ["Na aba &eStatus&r do menu, &e✎ Editar meu Bubie&r troca a cor do casco, do moletom e da luz da tela, os olhos e a boca.", "Todo mundo no servidor vê o seu visual."]
 	quest.21D4089E77310943.title: "Editar meu Bubie"
 	quest.21E8A2282FF4DEE6.quest_desc: ["Os &eTier Installers&r transformam uma máquina comum numa Factory, que processa vários itens ao mesmo tempo, sem quebrar nada."]
 	quest.21E8A2282FF4DEE6.title: "Tier Installers"
@@ -102,7 +102,7 @@
 	quest.2B568231DA49478D.title: "Applied Energistics 2"
 	quest.2C5B86ABAEBA2976.quest_desc: ["Um pack para jogar com os amigos: tecnologia, magia, exploração e automação, sem pressa.", "", "As quests são &aopcionais&r: nenhum mod está travado atrás delas. Elas servem de guia, principalmente no começo."]
 	quest.2C5B86ABAEBA2976.title: "&bBem-vindo ao Bubie Pack!"
-	quest.2C967157F94A35F7.quest_desc: ["O &eBubie&r é o robozinho do bubie.gg: segue você, carrega itens e, com uma tarefa e uma área, junta recursos sozinho e guarda num baú.", "No Bubie Pack ele é feito com &elingotes voltaicos&r (capítulo Voltaic Dynamics), vidro, redstone e lã preta. Clique no chão com ele para ligar; clique direito nele abre o menu.", "&eShift + clique&r com a mão vazia guarda o Bubie no inventário, com tudo o que ele carrega."]
+	quest.2C967157F94A35F7.quest_desc: ["O &eBubie&r é um robozinho ajudante: segue você, carrega itens e, com uma tarefa e uma área, junta recursos sozinho e guarda num baú.", "No Bubie Pack ele é feito com &elingotes voltaicos&r (capítulo Voltaic Dynamics), vidro, redstone e lã preta. Clique no chão com ele para ligar; clique direito nele abre o menu.", "&eShift + clique&r com a mão vazia guarda o Bubie no inventário, com tudo o que ele carrega."]
 	quest.2C967157F94A35F7.title: "Seu Bubie"
 	quest.2DE8ADEBEAADB02A.quest_desc: ["O &eApprentice Spell Book&r guarda feitiços maiores e libera glifos de nível 2."]
 	quest.2DE8ADEBEAADB02A.title: "Livro de aprendiz"
