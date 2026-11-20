@@ -42,6 +42,8 @@
 	quest.1668F5E182CA8F52.title: "Crafting CPU"
 	quest.183F691BD3A16BF7.quest_desc: ["Splits water into &ehydrogen&r and &eoxygen&r. Oxygen feeds the Purification Chamber; hydrogen is fuel."]
 	quest.183F691BD3A16BF7.title: "Electrolytic Separator"
+	quest.18A800CAE7AEBE45.quest_desc: ["Give the Bubie a &eweapon&r and pick &eGuard&r: it fights the monsters that walk into its area (or around the Station), picks up their drops and keeps watch at night.", "It leaves &ecreepers&r alone: hitting one up close only makes it blow up in your base."]
+	quest.18A800CAE7AEBE45.title: "Bubie the Guard"
 	quest.193C81A87B09C363.quest_desc: ["Plant &einferium seeds&r to grow more essence. On inferium farmland they yield a bit more."]
 	quest.193C81A87B09C363.title: "Inferium seeds"
 	quest.19BAB846C53AAF69.quest_desc: ["Andesite alloy is the foundation of &eCreate&r: shafts, cogs, presses.", "It is also the path to fuel-free power in the Power chapter."]
@@ -110,6 +112,8 @@
 	quest.2DE8ADEBEAADB02A.title: "Apprentice book"
 	quest.30A419C152F7CB19.quest_desc: ["The &eMillstone&r grinds items. An &eEncased Fan&r blowing through water &ewashes&r items; through lava it &esmelts&r; through soul fire it &ehaunts&r."]
 	quest.30A419C152F7CB19.title: "Milling and washing"
+	quest.318E5CD7D7963849.quest_desc: ["In Bubie Pack, the &eMiner&r, &eBuilder&r, &eCourier&r and &eGuard&r only work with a &eProgram Chip&r installed.", "It comes out of Voltaic's &eAlloy Smelter&r: 2 galvanic alloy, 1 diamond and 4 redstone."]
+	quest.318E5CD7D7963849.title: "Program Chip"
 	quest.3457838A848F2CC7.quest_desc: ["In the &ePattern Encoding Terminal&r you write recipes onto &eBlank Patterns&r. Use EMI to fill in the recipe with one click."]
 	quest.3457838A848F2CC7.title: "Patterns"
 	quest.34892D6C1C6DAFE3.quest_desc: ["&eSource gems&r come from amethyst in the &eImbuement Chamber&r."]
@@ -234,7 +238,7 @@
 	quest.70424936C6A0FA5E.title: "Tripling"
 	quest.71F3144E071A8DF4.quest_desc: ["Almost everything in &ePowah&r starts with dielectric paste (coal + clay + lava)."]
 	quest.71F3144E071A8DF4.title: "Dielectric paste"
-	quest.73A2C67DCD5363F2.quest_desc: ["Marks where the Bubie works: click &e2 blocks&r (the corners of the area), &eShift + click&r a chest (where it stores things), then click the Bubie.", "Any block with an inventory works: chests, Sophisticated Storage, drawers, Create vaults. For AE2, put a Storage Bus on the chest."]
+	quest.73A2C67DCD5363F2.quest_desc: ["&eShift + click&r a chest, then click the Bubie: it stores everything there and works &earound the chest&r (set the radius with − and + in the Area tab). The Quarry and the Digger dig in front of the chest, never under your base.", "Want an exact area? Click &e2 blocks&r (the corners) first. Any block with an inventory works: chests, Sophisticated Storage, drawers, Create vaults. For AE2, put a Storage Bus on the chest."]
 	quest.73A2C67DCD5363F2.title: "Bubie Clipboard"
 	quest.73B62EE1080C58E6.quest_desc: ["The &eBase Blueprint&r (crafting table + 3 paper) builds your base at once: a round, square, octagonal or hexagonal floor,", "with walls, a door, a roof or a dome. Right-click the air (or &eN&r) for the menu; hold it and aim to see the outline; click a block to build.", "Blocks come from your inventory, backpack and nearby chests. &eSneak + right-click the air&r undoes it and gives everything back.", "Each blueprint builds &e8 bases&r; repair it with paper in an anvil."]
 	quest.73B62EE1080C58E6.title: "Base Blueprint"

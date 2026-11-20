@@ -1,0 +1,23 @@
+{
+  "type": "voltaicdynamics:alloying",
+  "experience": 1.5,
+  "ingredients": [
+    {
+      "count": 2,
+      "item": "voltaicdynamics:galvanic_alloy"
+    },
+    {
+      "count": 1,
+      "item": "minecraft:diamond"
+    },
+    {
+      "count": 4,
+      "tag": "c:dusts/redstone"
+    }
+  ],
+  "result": {
+    "count": 1,
+    "id": "bubie:chip_program"
+  },
+  "time": 300
+}

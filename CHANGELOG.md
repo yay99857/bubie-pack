@@ -1,5 +1,17 @@
 # Changelog — Bubie Pack
 
+## 1.2.0 (não publicada)
+Dá para continuar no mundo da 1.1.x. Mundos novos já vêm com a progressão do chip; num mundo antigo, ligue
+`advancedJobsNeedChip` em `serverconfig/bubie-server.toml` se quiser.
+### Bubie 1.4.0
+- **Sem cantos para marcar:** Shift + clique num baú com a Prancheta e o Bubie trabalha em volta dele (raio ajustável no menu). A Pedreira e o Escavador cavam na frente do baú.
+- Tarefa nova **Guarda**: enfrenta os monstros da área com a arma do slot de ferramenta e fica de vigia à noite.
+- **Chip de programa**: no pack, o Minerador, o Construtor, o Entregador e o Guarda precisam dele (sai da Fundidora de Ligas).
+- O menu da **Estação** mostra os Bubies que moram nela.
+- **Español** no Bubie, na Voltaic Dynamics (1.6.1) e na Base Blueprint (1.3.1).
+### Quests
+- Novas: **Chip de programa** e **Bubie Guarda**.
+
 ## 1.1.1 (2026-11-20)
 Dá para continuar no mundo da 1.1.0.
 ### Bubie 1.3.0: o DJ

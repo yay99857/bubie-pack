@@ -42,6 +42,8 @@
 	quest.1668F5E182CA8F52.title: "Crafting CPU"
 	quest.183F691BD3A16BF7.quest_desc: ["Separa água em &ehidrogênio&r e &eoxigênio&r. O oxigênio vai para a Purification Chamber; o hidrogênio é combustível."]
 	quest.183F691BD3A16BF7.title: "Electrolytic Separator"
+	quest.18A800CAE7AEBE45.quest_desc: ["Dê uma &earma&r ao Bubie e escolha &eGuarda&r: ele enfrenta os monstros que entram na área (ou em volta da Estação), junta o que eles largam e fica de vigia à noite.", "Ele deixa os &ecreepers&r em paz: acertar um de perto só faz ele explodir na sua base."]
+	quest.18A800CAE7AEBE45.title: "Bubie Guarda"
 	quest.193C81A87B09C363.quest_desc: ["Plante as &esementes de inferium&r para colher mais essência. Em terra de inferium, rendem um pouco mais."]
 	quest.193C81A87B09C363.title: "Sementes de inferium"
 	quest.19BAB846C53AAF69.quest_desc: ["A liga de andesito é a base do &eCreate&r: eixos, engrenagens, prensas.", "Ela também é o caminho para energia sem combustível no capítulo de Energia."]
@@ -110,6 +112,8 @@
 	quest.2DE8ADEBEAADB02A.title: "Livro de aprendiz"
 	quest.30A419C152F7CB19.quest_desc: ["O &eMillstone&r mói itens. Um &eEncased Fan&r soprando através de água &elava&r itens; através de lava, &efunde&r; através de fogo de alma, &eassombra&r."]
 	quest.30A419C152F7CB19.title: "Moer e lavar"
+	quest.318E5CD7D7963849.quest_desc: ["No Bubie Pack, o &eMinerador&r, o &eConstrutor&r, o &eEntregador&r e o &eGuarda&r só trabalham com um &echip de programa&r instalado.", "Ele sai da &eFundidora de Ligas&r da Voltaic: 2 ligas galvânicas, 1 diamante e 4 redstone."]
+	quest.318E5CD7D7963849.title: "Chip de programa"
 	quest.3457838A848F2CC7.quest_desc: ["No &ePattern Encoding Terminal&r você grava receitas em &eBlank Patterns&r. Use o EMI para preencher a receita com um clique."]
 	quest.3457838A848F2CC7.title: "Padrões"
 	quest.34892D6C1C6DAFE3.quest_desc: ["As &esource gems&r saem de ametista na &eImbuement Chamber&r."]
@@ -234,7 +238,7 @@
 	quest.70424936C6A0FA5E.title: "Triplicando"
 	quest.71F3144E071A8DF4.quest_desc: ["Quase tudo do &ePowah&r começa com pasta dielétrica (carvão + argila + lava)."]
 	quest.71F3144E071A8DF4.title: "Pasta dielétrica"
-	quest.73A2C67DCD5363F2.quest_desc: ["Marca onde o Bubie trabalha: clique em &e2 blocos&r (os cantos da área), &eShift + clique&r num baú (onde ele guarda) e depois clique no Bubie.", "Ele aceita qualquer bloco com inventário: baús, Sophisticated Storage, gavetas, cofres do Create. Para o AE2, ponha um Storage Bus no baú."]
+	quest.73A2C67DCD5363F2.quest_desc: ["&eShift + clique&r num baú e depois clique no Bubie: ele guarda tudo ali e trabalha &eem volta do baú&r (o raio se ajusta com − e + na aba Área do menu). A Pedreira e o Escavador cavam na frente do baú, nunca embaixo da base.", "Quer uma área exata? Clique antes em &e2 blocos&r (os cantos). Qualquer bloco com inventário serve: baús, Sophisticated Storage, gavetas, cofres do Create. Para o AE2, ponha um Storage Bus no baú."]
 	quest.73A2C67DCD5363F2.title: "Prancheta do Bubie"
 	quest.73B62EE1080C58E6.quest_desc: ["A &ePlanta de Base&r (mesa de trabalho + 3 papéis) constrói a base de uma vez: piso redondo, quadrado, octogonal ou hexagonal,", "com paredes, porta, teto ou cúpula. Clique direito no ar (ou &eN&r) para o menu; segure e mire para ver o contorno; clique num bloco para construir.", "Os blocos vêm do inventário, da mochila e dos baús por perto. &eShift + clique direito no ar&r desfaz e devolve tudo.", "Cada planta faz &e8 bases&r; conserte na bigorna com papel."]
 	quest.73B62EE1080C58E6.title: "Planta de Base"

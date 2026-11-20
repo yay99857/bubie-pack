@@ -59,7 +59,7 @@
 			y: 1.5d
 		}
 		{
-			dependencies: ["600ACA5682720B9D"]
+			dependencies: ["600ACA5682720B9D", "318E5CD7D7963849"]
 			id: "1638C3E96FAF8E46"
 			rewards: [{ id: "2D87B3C036D52C20", type: "xp", xp: 30 }, { id: "2D9939A1032B5FAE", item: { count: 64, id: "minecraft:spruce_planks" }, type: "item" }]
 			tasks: [{ id: "2A8EFA65C75BF016", item: { count: 1, id: "baseblueprint:base_blueprint" }, type: "item" }]
@@ -81,6 +81,22 @@
 			tasks: [{ id: "755821A5B2737914", type: "checkmark" }]
 			x: -2.5d
 			y: -1.5d
+		}
+		{
+			dependencies: ["41D2702567D17922"]
+			id: "318E5CD7D7963849"
+			rewards: [{ id: "18246CFE792C3D4D", type: "xp", xp: 30 }, { id: "42551C71CCA81737", item: { count: 2, id: "voltaicdynamics:galvanic_alloy" }, type: "item" }]
+			tasks: [{ id: "33F8BAC6D2CCF5D0", item: { count: 1, id: "bubie:chip_program" }, type: "item" }]
+			x: 5.0d
+			y: 6.5d
+		}
+		{
+			dependencies: ["318E5CD7D7963849"]
+			id: "18A800CAE7AEBE45"
+			rewards: [{ id: "44CFDD3AE0B47201", type: "xp", xp: 30 }, { id: "15FECB121706344B", item: { count: 1, id: "minecraft:iron_sword" }, type: "item" }]
+			tasks: [{ id: "1B415AC193DD126F", type: "checkmark" }]
+			x: 7.5d
+			y: 6.5d
 		}
 		{
 			dependencies: ["51675D313F1C29C2", "41D2702567D17922"]

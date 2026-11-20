@@ -1,0 +1,46 @@
+#How many Bubies each player can have placed in the world at once.
+# Default: 3
+# Range: 1 ~ 64
+maxPerPlayer = 3
+#Bubies spend energy while working and stop when it runs out. Off: they work forever.
+requireEnergy = true
+#Battery size, in ticks of work (20 ticks = 1 second).
+# Default: 48000
+# Range: 1000 ~ 10000000
+maxEnergy = 48000
+#Energy from one fuel item = its furnace burn time x this. Coal (1600) x 7.5 = 12000 = 10 minutes.
+# Default: 7.5
+# Range: 0.1 ~ 100.0
+fuelMultiplier = 7.5
+#FE the Bubie Station spends per unit of Bubie energy.
+# Default: 4
+# Range: 0 ~ 10000
+fePerEnergy = 4
+#Mining speed compared with a player using the same tool (1.0 = same speed).
+# Default: 0.75
+# Range: 0.05 ~ 10.0
+breakSpeed = 0.75
+#Largest work area side, in blocks, without Range Chips. Each chip adds this much again.
+# Default: 32
+# Range: 4 ~ 256
+areaSize = 32
+#Blocks each Bubie may inspect per tick while looking for work (performance).
+# Default: 512
+# Range: 16 ~ 65536
+scanPerTick = 512
+#Bubies with a station go home at night and rest until morning.
+restAtNight = true
+#A Bubie Station keeps the 3x3 chunks around it loaded, so Bubies work while you are away.
+stationLoadsChunks = false
+#A Bubie that cannot walk back to its chest or station (e.g. from the bottom of a sand pit) teleports there.
+teleportWhenStuck = true
+#Without a marked area, a Bubie with a station works this many blocks around it.
+# Default: 8
+# Range: 2 ~ 64
+homeRadius = 8
+#The DJ may play audio links (.ogg, .mp3). Every player near the Bubie downloads them from that
+#address, which sees their IP. Off: discs only. Players can also turn links off for themselves (client config).
+djLinks = true
+#The Miner, Builder, Courier and Guard jobs need a Program Chip installed.
+#Off: every job is open from the start. Packs can turn it on to pace progression.
+advancedJobsNeedChip = true
