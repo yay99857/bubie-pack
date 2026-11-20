@@ -30,10 +30,13 @@ Baixe o pack pelo **CurseForge App**. Para servidor, use o **Server Pack** da ab
 
 ## Gerar os zips
 
+Precisa de bash e Python 3.8+. No Windows, use o Git Bash e instale o Python com `winget install Python.Python.3.12`.
+Os scripts acham sozinhos `python3`, `python` ou `py`. Para publicar pelo PC também precisa de `jq` e `gh`.
+
 ```bash
 # Quests (depois de editar tools/gen_quests.py)
 rm -rf pack/overrides/config/ftbquests
-python3 tools/gen_quests.py pack/overrides/config/ftbquests
+python tools/gen_quests.py pack/overrides/config/ftbquests
 
 # Pack para o CurseForge App
 tools/build.sh

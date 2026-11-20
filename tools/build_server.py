@@ -10,7 +10,7 @@ ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 OUT = os.path.abspath(sys.argv[1])
 UA = {'User-Agent': 'Mozilla/5.0 bubiepack-builder'}
 NAMES_FILE = os.path.join(ROOT, 'pack', 'mod-files.json')
-CLIENT_ONLY = [l.strip() for l in open(os.path.join(ROOT, 'server', 'client-only-mods.txt'))
+CLIENT_ONLY = [l.strip() for l in open(os.path.join(ROOT, 'server', 'client-only-mods.txt'), encoding='utf-8')
                if l.strip() and not l.startswith('#')]
 
 
@@ -25,8 +25,8 @@ def get(url, tries=6):
             time.sleep(5 * (n + 1))
 
 
-manifest = json.load(open(os.path.join(ROOT, 'pack', 'manifest.json')))
-names = json.load(open(NAMES_FILE)) if os.path.exists(NAMES_FILE) else {}
+manifest = json.load(open(os.path.join(ROOT, 'pack', 'manifest.json'), encoding='utf-8'))
+names = json.load(open(NAMES_FILE, encoding='utf-8')) if os.path.exists(NAMES_FILE) else {}
 changed = False
 for f in manifest['files']:
     fid = str(f['fileID'])
@@ -36,7 +36,7 @@ for f in manifest['files']:
         changed = True
         print('resolved', names[fid], flush=True)
 if changed:
-    json.dump(dict(sorted(names.items())), open(NAMES_FILE, 'w'), indent=1)
+    json.dump(dict(sorted(names.items())), open(NAMES_FILE, 'w', encoding='utf-8', newline=''), indent=1)
 
 shutil.rmtree(OUT, ignore_errors=True)
 os.makedirs(os.path.join(OUT, 'mods'))

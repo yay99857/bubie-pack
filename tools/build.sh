@@ -2,10 +2,11 @@
 # Gera o zip do pack (CurseForge App) e, com --server, o server pack.
 set -euo pipefail
 cd "$(dirname "$0")/.."
-VER=$(python3 -c "import json;print(json.load(open('pack/manifest.json'))['version'])")
+. tools/python.sh
+VER=$($PY -c "import json;print(json.load(open('pack/manifest.json', encoding='utf-8'))['version'])")
 mkdir -p dist
 # Better Compatibility Checker: a lista de servidores compara esta versão com a do servidor.
-python3 - "$VER" <<'PY'
+$PY - "$VER" <<'PY'
 import json, sys
 p = 'pack/overrides/config/bcc-common.json'
 cfg = {
@@ -14,14 +15,14 @@ cfg = {
     'useMetadata': {'value': False, 'comments': ['Use the metadata.json to determine the modpack version',
                                                  'ONLY ENABLE THIS IF YOU KNOW WHAT YOU ARE DOING']},
 }
-open(p, 'w').write(json.dumps(cfg, indent=2) + '\n')
+open(p, 'w', encoding='utf-8', newline='').write(json.dumps(cfg, indent=2) + '\n')
 PY
 rm -f "dist/BubiePack-$VER.zip"
-(cd pack && zip -qr "../dist/BubiePack-$VER.zip" manifest.json modlist.html overrides profileImage)
+$PY tools/zipdir.py "dist/BubiePack-$VER.zip" pack manifest.json modlist.html overrides profileImage
 echo "dist/BubiePack-$VER.zip"
 if [ "${1:-}" = "--server" ]; then
-  python3 tools/build_server.py "dist/server-$VER"
+  $PY tools/build_server.py "dist/server-$VER"
   rm -f "dist/BubiePack-$VER-server.zip"
-  (cd "dist/server-$VER" && zip -qr "../BubiePack-$VER-server.zip" .)
+  $PY tools/zipdir.py "dist/BubiePack-$VER-server.zip" "dist/server-$VER" .
   echo "dist/BubiePack-$VER-server.zip"
 fi

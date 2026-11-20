@@ -608,7 +608,7 @@ seen = {}
 def uid(k):
     v = hid(k); assert seen.setdefault(v, k) == k, (k, seen[v]); return v
 allq = {qq['key'] for ch in CH for qq in ch['quests']}
-open(os.path.join(qd, 'data.snbt'), 'w').write('''{
+open(os.path.join(qd, 'data.snbt'), 'w', encoding='utf-8', newline='').write('''{
 	default_autoclaim_rewards: "disabled"
 	default_consume_items: false
 	default_quest_disable_jei: false
@@ -634,7 +634,7 @@ open(os.path.join(qd, 'data.snbt'), 'w').write('''{
 	version: 13
 }
 ''')
-open(os.path.join(qd, 'chapter_groups.snbt'), 'w').write('{\n\tchapter_groups: [ ]\n}\n')
+open(os.path.join(qd, 'chapter_groups.snbt'), 'w', encoding='utf-8', newline='').write('{\n\tchapter_groups: [ ]\n}\n')
 LANG = {'pt': {'file.0000000000000001.title': 'Bubie Pack'}, 'en': {'file.0000000000000001.title': 'Bubie Pack'}}
 total = 0
 for ch in CH:
@@ -666,8 +666,8 @@ for ch in CH:
             LANG[l][f'quest.{qid}.title'] = qq['title'][l]
             LANG[l][f'quest.{qid}.quest_desc'] = qq['desc'][l]
     L += ['\t]', '}', '']
-    open(os.path.join(qd, 'chapters', ch['fn'] + '.snbt'), 'w').write('\n'.join(L))
+    open(os.path.join(qd, 'chapters', ch['fn'] + '.snbt'), 'w', encoding='utf-8', newline='').write('\n'.join(L))
 for l, loc in (('en', 'en_us'), ('pt', 'pt_br')):
     body = '{\n' + '\n'.join(f'\t{k}: ' + ('[' + ', '.join(s(x) for x in v) + ']' if isinstance(v, list) else s(v)) for k, v in sorted(LANG[l].items())) + '\n}\n'
-    open(os.path.join(qd, 'lang', loc + '.snbt'), 'w').write(body)
+    open(os.path.join(qd, 'lang', loc + '.snbt'), 'w', encoding='utf-8', newline='').write(body)
 print(len(CH), 'chapters', total, 'quests', len(LANG['en']), 'lang keys per locale')

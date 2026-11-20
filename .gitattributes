@@ -1,0 +1,5 @@
+# Scripts de shell precisam de LF mesmo no Windows (core.autocrlf=true quebraria o bash).
+*.sh   text eol=lf
+*.py   text eol=lf
+*.bat  text eol=crlf
+*.cmd  text eol=crlf

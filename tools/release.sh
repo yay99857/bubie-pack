@@ -13,7 +13,8 @@ SERVER_ONLY=""
 CF_PROJECT_ID=${CF_PROJECT_ID:-1801989}
 CF_RELEASE_TYPE=${CF_RELEASE_TYPE:-beta}
 # IDs do CurseForge: 11779 = Minecraft 1.21.1, 10150 = NeoForge (GET /api/game/versions)
-VER=$(python3 -c "import json;print(json.load(open('pack/manifest.json'))['version'])")
+. tools/python.sh
+VER=$($PY -c "import json;print(json.load(open('pack/manifest.json', encoding='utf-8'))['version'])")
 
 cf_token() {
   local t=${CURSEFORGE_TOKEN:-}
@@ -42,7 +43,7 @@ upload_server() {
 
 if [ -n "$SERVER_ONLY" ]; then
   [ -f "dist/BubiePack-$VER-server.zip" ] || tools/build.sh --server
-  python3 tools/release_notes.py "$VER" > dist/notes.md
+  $PY tools/release_notes.py "$VER" > dist/notes.md
   upload_server "$SERVER_ONLY"; exit 0
 fi
 
@@ -56,7 +57,7 @@ if [ -z "${CI:-}" ]; then
 fi
 
 mkdir -p dist
-python3 tools/release_notes.py "$VER" > dist/notes.md
+$PY tools/release_notes.py "$VER" > dist/notes.md
 echo "--- Notas da versão $VER ---"; cat dist/notes.md; echo "---"
 tools/build.sh --server
 
