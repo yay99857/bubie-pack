@@ -1,6 +1,6 @@
 # Changelog — Bubie Pack
 
-## 1.2.0 (não publicada)
+## 1.2.0 (2026-11-20)
 Dá para continuar no mundo da 1.1.x. Mundos novos já vêm com a progressão do chip; num mundo antigo, ligue
 `advancedJobsNeedChip` em `serverconfig/bubie-server.toml` se quiser.
 ### Bubie 1.4.0
