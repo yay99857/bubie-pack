@@ -61,7 +61,7 @@ Create, Mekanism, Applied Energistics 2, Ars Nouveau, Mystical Agriculture, Apot
 - **Corail Tombstone**: your items are kept safe in a grave when you die.
 - **Better Compatibility Checker**: the server list shows whether your pack version matches the server's.
 - **Simple Backups**: automatic world backups every 2 hours (keeps the last 10).
-- **No Chat Reports** and **Crash Assistant** (shows what crashed and which mod caused it, so friends can send you the log).
+- **Crash Assistant** (shows what crashed and which mod caused it, so friends can send you the log).
 
 **Light and fast**
 - Sodium, Lithium, ModernFix, FerriteCore, ImmediatelyFast, Entity Culling and Clumps.
@@ -187,7 +187,7 @@ Create, Mekanism, Applied Energistics 2, Ars Nouveau, Mystical Agriculture, Apot
 - **Corail Tombstone**: seus itens ficam guardados num túmulo quando você morre.
 - **Better Compatibility Checker**: a lista de servidores mostra se a versão do seu pack é a mesma do servidor.
 - **Simple Backups**: backup automático do mundo a cada 2 horas (guarda os 10 últimos).
-- **No Chat Reports** e **Crash Assistant** (mostra o que crashou e qual mod causou, para os amigos mandarem o log).
+- **Crash Assistant** (mostra o que crashou e qual mod causou, para os amigos mandarem o log).
 
 **Leve e rápido**
 - Sodium, Lithium, ModernFix, FerriteCore, ImmediatelyFast, Entity Culling e Clumps.

@@ -1,5 +1,11 @@
 # Changelog — Bubie Pack
 
+## 0.6.4 (2026-11-20)
+A 0.6.3 foi recusada pelo CurseForge: o **No Chat Reports** saiu do CurseForge, e um modpack não pode citar um arquivo que não existe mais lá.
+Esta versão tira o mod e traz as mudanças de quests da 0.6.3. Dá para continuar no mundo da 0.6.x: o mod não tem blocos nem itens.
+### Removido
+- No Chat Reports (o projeto não existe mais no CurseForge).
+
 ## 0.6.3 (2026-11-20)
 Dá para continuar no mundo da 0.6.x: o progresso das quests é mantido, e quem já completou uma quest pode resgatar a recompensa nova.
 ### Quests: item em quase toda quest
