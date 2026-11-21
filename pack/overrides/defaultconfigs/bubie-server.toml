@@ -8,10 +8,11 @@ requireEnergy = true
 # Default: 48000
 # Range: 1000 ~ 10000000
 maxEnergy = 48000
-#Energy from one fuel item = its furnace burn time x this. Coal (1600) x 7.5 = 12000 = 10 minutes.
-# Default: 7.5
-# Range: 0.1 ~ 100.0
-fuelMultiplier = 7.5
+#Bubies run on redstone or FE, not on coal. Energy from one redstone dust in the fuel slot
+#(a block of redstone gives 9 times this). 6000 = 5 minutes of work.
+# Default: 6000
+# Range: 1 ~ 1000000
+redstoneEnergy = 6000
 #FE the Bubie Station spends per unit of Bubie energy.
 # Default: 4
 # Range: 0 ~ 10000

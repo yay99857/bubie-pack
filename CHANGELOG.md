@@ -1,5 +1,19 @@
 # Changelog — Bubie Pack
 
+## 1.2.1 (2026-11-21)
+Dá para continuar no mundo da 1.2.0.
+### Bubie 1.5.0
+- **Funciona com redstone ou FE, não com carvão** (é um robô): um pó de redstone dá 5 minutos de trabalho, um bloco 45. A Estação também aceita redstone, e a redstone que o Bubie minera abastece o slot dele. Carvão que já estiver no slot só fica lá.
+- **Slot de disco na aba DJ**: o disco não ocupa mais o inventário nem vai para o baú, e tirar o disco enquanto toca faz a música parar.
+- **Links do DJ**: links de compartilhamento do Dropbox, Google Drive, GitHub e Audius tocam direto. YouTube, Spotify e parecidos são recusados com o motivo, e um arquivo do computador explica como compartilhar.
+- Mostra **"A ferramenta está sem energia"** quando uma ferramenta elétrica (Atomic Disassembler, qualquer ferramenta com FE) está descarregada.
+- O **clique do meio** (Inventory Tweaks) não puxa mais a ferramenta, o combustível, os chips e o disco para o inventário.
+- Menu: dicas nos botões, o motivo de ele estar sem fazer nada e a área aparece no mundo ao mudar o raio.
+### Voltaic Dynamics 1.6.2
+- O Inventory Tweaks não mistura mais os slots das máquinas (entradas, upgrades, baterias do acumulador).
+### Quests
+- O Bubie dá redstone em vez de carvão; textos do Bubie e do DJ atualizados.
+
 ## 1.2.0 (2026-11-20)
 Dá para continuar no mundo da 1.1.x. Mundos novos já vêm com a progressão do chip; num mundo antigo, ligue
 `advancedJobsNeedChip` em `serverconfig/bubie-server.toml` se quiser.
