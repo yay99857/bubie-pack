@@ -1,5 +1,14 @@
 # Changelog — Bubie Pack
 
+## 1.2.2
+Dá para continuar no mundo da 1.2.1.
+### Voltaic Dynamics 1.7.0
+- **Acumuladores Elite (32M FE) e Supremo (128M FE)**, e um **Acumulador Criativo** que nunca acaba.
+- **Tanques de Fluidos Avançado, Elite e Supremo** (64.000 / 128.000 / 256.000 mB) e um **Tanque Criativo**.
+- **Instaladores de Nível**: sobem a Fornalha Elétrica, a Fundidora de Ligas e o Pulverizador sem tirar nada de dentro, para processar 2, 4 ou 8 itens ao mesmo tempo com a mesma energia por item.
+- Os **Cabos Voltaicos brilham** enquanto passa energia.
+- Valores equilibrados com o Mekanism e o Powah.
+
 ## 1.2.1 (2026-11-21)
 Dá para continuar no mundo da 1.2.0.
 ### Bubie 1.5.0
