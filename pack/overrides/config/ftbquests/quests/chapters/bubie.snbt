@@ -11,7 +11,7 @@
 		{
 			dependencies: ["12FA44E8F4855D49"]
 			id: "2C967157F94A35F7"
-			rewards: [{ id: "786FCD7F1FBCD790", type: "xp", xp: 60 }, { id: "1A0FA791AB67B338", item: { count: 16, id: "minecraft:coal" }, type: "item" }]
+			rewards: [{ id: "786FCD7F1FBCD790", type: "xp", xp: 60 }, { id: "1A0FA791AB67B338", item: { count: 16, id: "minecraft:redstone" }, type: "item" }]
 			shape: "pentagon"
 			size: 1.5d
 			tasks: [{ id: "7C1C952318564456", item: { count: 1, id: "bubie:bubie" }, type: "item" }]
@@ -45,7 +45,7 @@
 		{
 			dependencies: ["73A2C67DCD5363F2"]
 			id: "51675D313F1C29C2"
-			rewards: [{ id: "479689DBF3E919B9", type: "xp", xp: 60 }, { id: "32503047BEB37CCF", item: { count: 4, id: "minecraft:coal_block" }, type: "item" }]
+			rewards: [{ id: "479689DBF3E919B9", type: "xp", xp: 60 }, { id: "32503047BEB37CCF", item: { count: 4, id: "minecraft:redstone_block" }, type: "item" }]
 			tasks: [{ id: "2096AD4DA3C8C948", item: { count: 1, id: "bubie:bubie_station" }, type: "item" }]
 			x: 5.0d
 			y: -1.5d
@@ -106,6 +106,14 @@
 			size: 1.5d
 			tasks: [{ count: 256L, icon: { id: "minecraft:oak_log" }, id: "36056ABA4EF1B003", item: { components: { "ftbfiltersystem:filter": "ftbfiltersystem:item_tag(minecraft:logs)" }, count: 1, id: "ftbfiltersystem:smart_filter" }, type: "item" }]
 			x: 7.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["2C967157F94A35F7"]
+			id: "301644741195E553"
+			rewards: [{ id: "6BC7435BD9EEF6FD", type: "xp", xp: 60 }, { id: "79F278CEA468B28C", item: { count: 8, id: "minecraft:quartz" }, type: "item" }]
+			tasks: [{ id: "279EE1F0A5687A09", item: { count: 1, id: "bubie:solid_state_drive" }, type: "item" }]
+			x: -5.0d
 			y: 0.0d
 		}
 	]

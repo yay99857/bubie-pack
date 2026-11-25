@@ -66,7 +66,7 @@
 	quest.1BA710707F5D7AFB.title: "A mob-free base"
 	quest.1F74B35C479EAD11.quest_desc: ["When you die, your items are stored in a &egrave&r (Corail Tombstone) where you died.", "Use &e/back&r to return and click the grave to get everything back."]
 	quest.1F74B35C479EAD11.title: "If you die"
-	quest.1F821E81CC0F86D1.quest_desc: ["In the &eDJ&r tab of its menu, the Bubie plays the &emusic discs&r in its storage (from any mod) and &e.mp3/.ogg&r links, for everyone nearby.", "Its screen becomes an equalizer, it dances, and the Bubies around dance along. You can skip songs and set the volume."]
+	quest.1F821E81CC0F86D1.quest_desc: ["In the &eDJ&r tab of its menu, put a &emusic disc&r (from any mod) in the tab's slot: the Bubie plays it for everyone nearby, over and over.", "Its screen becomes an equalizer, it dances, and the Bubies around dance along. Play, stop and volume are in the tab."]
 	quest.1F821E81CC0F86D1.title: "Bubie the DJ"
 	quest.201109993506AF6B.quest_desc: ["Make one of each. They are used in almost every AE2 part."]
 	quest.201109993506AF6B.title: "Processors"
@@ -106,7 +106,7 @@
 	quest.2B568231DA49478D.title: "Applied Energistics 2"
 	quest.2C5B86ABAEBA2976.quest_desc: ["A pack to play with friends: tech, magic, exploration and automation, at your own pace.", "", "Quests are &aoptional&r: no mod is locked behind them. They are a guide, especially early on."]
 	quest.2C5B86ABAEBA2976.title: "&bWelcome to Bubie Pack!"
-	quest.2C967157F94A35F7.quest_desc: ["&eBubie&r is a little helper robot: it follows you, carries items and, given a job and an area, gathers resources on its own and stores them in a chest.", "In Bubie Pack it is made with &evoltaic ingots&r (Voltaic Dynamics chapter), glass, redstone and black wool. Click the ground with it to switch it on; right-click it to open its menu.", "&eShift + click&r with an empty hand folds the Bubie into your inventory, with everything it carries."]
+	quest.2C967157F94A35F7.quest_desc: ["&eBubie&r is a little helper robot: it follows you, carries items and, given a job and an area, gathers resources on its own and stores them in a chest.", "In Bubie Pack it is made with &evoltaic ingots&r (Voltaic Dynamics chapter), glass, redstone, black wool and an empty &eHard Drive&r (iron, gold and redstone). Click the ground with it to switch it on; right-click it to open its menu.", "&eShift + click&r with an empty hand folds the Bubie into your inventory, with everything it carries."]
 	quest.2C967157F94A35F7.title: "Your Bubie"
 	quest.2DE8ADEBEAADB02A.quest_desc: ["The &eApprentice Spell Book&r holds bigger spells and unlocks tier 2 glyphs."]
 	quest.2DE8ADEBEAADB02A.title: "Apprentice book"
@@ -142,7 +142,7 @@
 	quest.3E1358836CD07D20.title: "Configurator"
 	quest.3F9731AAA5BA5B34.quest_desc: ["Almost all tech in this pack runs on &eFE&r (energy). Recommended path:", "", "&a1.&r Powah &eFurnator (Starter)&r: burns coal or any fuel. The cheapest option.", "&a2.&r &eWater wheel + Alternator&r (Create): endless power, no fuel.", "&a3.&r &eSolar panels&r: a daytime extra.", "&a4.&r Powah &eThermo Generator&r: the best generator from early to mid game.", "", "Store energy in a &ebattery&r and move it to machines with &ecables&r."]
 	quest.3F9731AAA5BA5B34.title: "Power: where to start?"
-	quest.41D2702567D17922.quest_desc: ["Four chip slots: &eSpeed&r, &eStorage&r (+9 slots), &eRange&r (bigger areas), &eMagnet&r, &eSmelting&r (ores come out as ingots) and &eEfficiency&r.", "In the pack, chips come out of Voltaic's &eAlloy Smelter&r: 2 galvanic alloy, 4 redstone and the chip's part (sugar, compass, hopper...). Check EMI.", "Click the Bubie with a chip to install it."]
+	quest.41D2702567D17922.quest_desc: ["Four chip slots: &eSpeed&r, &eRange&r (bigger areas), &eMagnet&r, &eSmelting&r (ores come out as ingots) and &eEfficiency&r. More room comes from a &eSolid-State Drive&r (Drives quest).", "In the pack, chips come out of Voltaic's &eAlloy Smelter&r: 2 galvanic alloy, 4 redstone and the chip's part (sugar, compass, hopper...). Check EMI.", "Click the Bubie with a chip to install it."]
 	quest.41D2702567D17922.title: "Upgrade chips"
 	quest.4259D7492D3DD4F4.quest_desc: ["Pipez's &eEnergy Pipe&r is cheap and moves a lot. Use the Pipe Wrench to choose which sides pull or push.", "Mekanism's &eUniversal Cable&r is the alternative."]
 	quest.4259D7492D3DD4F4.title: "Cables"
@@ -182,7 +182,7 @@
 	quest.50566971057157E8.title: "Thermoelectric Generator"
 	quest.50FFADA15252DD2E.quest_desc: ["Place it on top of a heat source (lava, magma) and feed it water.", "It makes far more than the Furnator and needs no fuel: the best generator from early to mid game."]
 	quest.50FFADA15252DD2E.title: "Thermo Generator"
-	quest.51675D313F1C29C2.quest_desc: ["The Bubie's home: holds 27 stacks and &echarges&r the Bubie with &eFE from any cable&r (Powah, Mekanism, Flux Networks, Voltaic) or with coal.", "Mark it with &eShift + click&r of the Clipboard. With a home it goes back to charge on its own and rests at night: power the station and it never stops.", "Pack recipe: voltaic ingots and a Voltaic &eBasic Accumulator&r. A &ePocket Accumulator&r (or Mekanism energy tablet) in the fuel slot of the Bubie charges it too, without being used up.", "To keep it working while you are away, force-load the chunk with FTB Chunks."]
+	quest.51675D313F1C29C2.quest_desc: ["The Bubie's home: holds 27 stacks and &echarges&r the Bubie with &eFE from any cable&r (Powah, Mekanism, Flux Networks, Voltaic) or with redstone.", "Mark it with &eShift + click&r of the Clipboard. With a home it goes back to charge on its own and rests at night: power the station and it never stops.", "Pack recipe: voltaic ingots and a Voltaic &eBasic Accumulator&r. A &ePocket Accumulator&r (or Mekanism energy tablet) in the fuel slot of the Bubie charges it too, without being used up.", "To keep it working while you are away, force-load the chunk with FTB Chunks."]
 	quest.51675D313F1C29C2.title: "Bubie Station"
 	quest.538A77B7CC540B71.quest_desc: ["Moves energy wirelessly from &eFlux Plugs&r (input) to &eFlux Points&r (output), even across dimensions.", "Flux dust comes from redstone crushed between bedrock and obsidian: check EMI for how.", "", "&cIn Bubie Pack&r, the Flux Controller wireless charging &cdoes not charge jetpacks or the MekaSuit&r. Bring spare energy on long trips!"]
 	quest.538A77B7CC540B71.title: "Flux Networks"
@@ -270,4 +270,6 @@
 	reward_table.66F46B4A4DF21765.title: "Draw: Applied Energistics"
 	reward_table.738CF89FCB721C3C.title: "Draw: Create"
 	reward_table.754B6DD54D86EF33.title: "Draw: Mystical Agriculture"
+	quest.301644741195E553.quest_desc: ["What a Bubie carries lives on its &edrive&r, in the slot next to its fuel. Every Bubie comes with a &eHard Drive&r: &e18 slots&r.", "A &eSolid-State Drive&r gives it &e36 slots&r: quartz, gold, redstone and a diamond. Two old &eStorage Chips&r and a diamond make one too.", "Take the drive out and the cargo goes with it, into another Bubie or your pocket: its tooltip lists what is on it.", "Click the Bubie's name in its menu to give it a name."]
+	quest.301644741195E553.title: "Hard Drives and SSDs"
 }

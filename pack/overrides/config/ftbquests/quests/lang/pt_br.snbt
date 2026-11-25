@@ -66,7 +66,7 @@
 	quest.1BA710707F5D7AFB.title: "Base sem mobs"
 	quest.1F74B35C479EAD11.quest_desc: ["Ao morrer, seus itens ficam guardados num &etúmulo&r (Corail Tombstone) no local da morte.", "Use &e/back&r para voltar até ele e clique no túmulo para recuperar tudo."]
 	quest.1F74B35C479EAD11.title: "Se você morrer"
-	quest.1F821E81CC0F86D1.quest_desc: ["Na aba &eDJ&r do menu, o Bubie toca os &ediscos de música&r do inventário dele (de qualquer mod) e links de &e.mp3/.ogg&r, para todo mundo por perto.", "A tela vira um equalizador, ele dança, e os Bubies em volta dançam junto. Dá para pular música e ajustar o volume."]
+	quest.1F821E81CC0F86D1.quest_desc: ["Na aba &eDJ&r do menu, coloque um &edisco de música&r (de qualquer mod) no slot da aba: o Bubie toca para todo mundo por perto, sem parar.", "A tela vira um equalizador, ele dança, e os Bubies em volta dançam junto. Tocar, parar e o volume ficam na aba."]
 	quest.1F821E81CC0F86D1.title: "Bubie DJ"
 	quest.201109993506AF6B.quest_desc: ["Faça um de cada. Eles aparecem em quase todas as peças do AE2."]
 	quest.201109993506AF6B.title: "Processadores"
@@ -106,7 +106,7 @@
 	quest.2B568231DA49478D.title: "Applied Energistics 2"
 	quest.2C5B86ABAEBA2976.quest_desc: ["Um pack para jogar com os amigos: tecnologia, magia, exploração e automação, sem pressa.", "", "As quests são &aopcionais&r: nenhum mod está travado atrás delas. Elas servem de guia, principalmente no começo."]
 	quest.2C5B86ABAEBA2976.title: "&bBem-vindo ao Bubie Pack!"
-	quest.2C967157F94A35F7.quest_desc: ["O &eBubie&r é um robozinho ajudante: segue você, carrega itens e, com uma tarefa e uma área, junta recursos sozinho e guarda num baú.", "No Bubie Pack ele é feito com &elingotes voltaicos&r (capítulo Voltaic Dynamics), vidro, redstone e lã preta. Clique no chão com ele para ligar; clique direito nele abre o menu.", "&eShift + clique&r com a mão vazia guarda o Bubie no inventário, com tudo o que ele carrega."]
+	quest.2C967157F94A35F7.quest_desc: ["O &eBubie&r é um robozinho ajudante: segue você, carrega itens e, com uma tarefa e uma área, junta recursos sozinho e guarda num baú.", "No Bubie Pack ele é feito com &elingotes voltaicos&r (capítulo Voltaic Dynamics), vidro, redstone, lã preta e um &eHD&r vazio (ferro, ouro e redstone). Clique no chão com ele para ligar; clique direito nele abre o menu.", "&eShift + clique&r com a mão vazia guarda o Bubie no inventário, com tudo o que ele carrega."]
 	quest.2C967157F94A35F7.title: "Seu Bubie"
 	quest.2DE8ADEBEAADB02A.quest_desc: ["O &eApprentice Spell Book&r guarda feitiços maiores e libera glifos de nível 2."]
 	quest.2DE8ADEBEAADB02A.title: "Livro de aprendiz"
@@ -142,7 +142,7 @@
 	quest.3E1358836CD07D20.title: "Configurator"
 	quest.3F9731AAA5BA5B34.quest_desc: ["Quase toda a tecnologia do pack usa &eFE&r (energia). Recomendação para o começo:", "", "&a1.&r &eFurnator (Starter)&r do Powah: queima carvão ou qualquer combustível. É o mais barato.", "&a2.&r &eRoda d'água + Alternator&r (Create): energia infinita, sem combustível.", "&a3.&r &ePainéis solares&r: complemento de dia.", "&a4.&r &eThermo Generator&r do Powah: o melhor do começo ao meio do jogo.", "", "Guarde a energia numa &ebateria&r e leve até as máquinas com &ecabos&r."]
 	quest.3F9731AAA5BA5B34.title: "Energia: por onde começar?"
-	quest.41D2702567D17922.quest_desc: ["Quatro slots de chip: &eVelocidade&r, &eArmazenamento&r (+9 espaços), &eAlcance&r (áreas maiores), &eÍmã&r, &eFundição&r (minério sai em barra) e &eEficiência&r.", "No pack, os chips saem da &eFundidora de Ligas&r da Voltaic: 2 ligas galvânicas, 4 redstone e a peça do chip (açúcar, bússola, funil...). Veja no EMI.", "Clique no Bubie com o chip para instalar."]
+	quest.41D2702567D17922.quest_desc: ["Quatro slots de chip: &eVelocidade&r, &eAlcance&r (áreas maiores), &eÍmã&r, &eFundição&r (minério sai em barra) e &eEficiência&r. Mais espaço vem de um &eSSD&r (quest dos discos).", "No pack, os chips saem da &eFundidora de Ligas&r da Voltaic: 2 ligas galvânicas, 4 redstone e a peça do chip (açúcar, bússola, funil...). Veja no EMI.", "Clique no Bubie com o chip para instalar."]
 	quest.41D2702567D17922.title: "Chips de melhoria"
 	quest.4259D7492D3DD4F4.quest_desc: ["O &eEnergy Pipe&r do Pipez é barato e transporta bastante. Use a chave (Pipe Wrench) para escolher os lados que puxam ou empurram.", "O &eUniversal Cable&r do Mekanism é a alternativa."]
 	quest.4259D7492D3DD4F4.title: "Cabos"
@@ -182,7 +182,7 @@
 	quest.50566971057157E8.title: "Gerador Termoelétrico"
 	quest.50FFADA15252DD2E.quest_desc: ["Coloque-o em cima de uma fonte de calor (lava, magma) e alimente com água.", "Rende bem mais que o Furnator e não gasta combustível: é o melhor gerador do começo ao meio do jogo."]
 	quest.50FFADA15252DD2E.title: "Thermo Generator"
-	quest.51675D313F1C29C2.quest_desc: ["A casa do Bubie: guarda 27 pilhas e &erecarrega&r o Bubie com &eFE de qualquer cabo&r (Powah, Mekanism, Flux Networks, Voltaic) ou com carvão.", "Marque com &eShift + clique&r da Prancheta. Com casa, ele volta sozinho para carregar e descansa à noite: ligue a estação na energia e ele nunca para.", "Receita do pack: lingotes voltaicos e um &eAcumulador Básico&r da Voltaic. Um &eAcumulador de Bolso&r (ou tablet do Mekanism) no slot de combustível do Bubie também o recarrega, sem se gastar.", "Para ele trabalhar com você longe, carregue o chunk pelo FTB Chunks."]
+	quest.51675D313F1C29C2.quest_desc: ["A casa do Bubie: guarda 27 pilhas e &erecarrega&r o Bubie com &eFE de qualquer cabo&r (Powah, Mekanism, Flux Networks, Voltaic) ou com redstone.", "Marque com &eShift + clique&r da Prancheta. Com casa, ele volta sozinho para carregar e descansa à noite: ligue a estação na energia e ele nunca para.", "Receita do pack: lingotes voltaicos e um &eAcumulador Básico&r da Voltaic. Um &eAcumulador de Bolso&r (ou tablet do Mekanism) no slot de combustível do Bubie também o recarrega, sem se gastar.", "Para ele trabalhar com você longe, carregue o chunk pelo FTB Chunks."]
 	quest.51675D313F1C29C2.title: "Estação do Bubie"
 	quest.538A77B7CC540B71.quest_desc: ["Leva energia sem fio entre &eFlux Plugs&r (entrada) e &eFlux Points&r (saída), até entre dimensões.", "O pó de flux sai de redstone esmagada entre bedrock e obsidiana: veja como no EMI.", "", "&cNo Bubie Pack&r, o carregamento sem fio do Flux Controller &cnão carrega jetpacks nem a MekaSuit&r. Leve energia de reserva quando for longe!"]
 	quest.538A77B7CC540B71.title: "Flux Networks"
@@ -270,4 +270,6 @@
 	reward_table.66F46B4A4DF21765.title: "Sorteio: Applied Energistics"
 	reward_table.738CF89FCB721C3C.title: "Sorteio: Create"
 	reward_table.754B6DD54D86EF33.title: "Sorteio: Mystical Agriculture"
+	quest.301644741195E553.quest_desc: ["O que o Bubie carrega fica no &edisco&r dele, no slot ao lado do combustível. Todo Bubie vem com um &eHD&r: &e18 espaços&r.", "Um &eSSD&r dá &e36 espaços&r: quartzo, ouro, redstone e um diamante. Dois &eChips de Armazenamento&r antigos e um diamante também fazem um.", "Tirou o disco, a carga vai junto, para outro Bubie ou para o seu bolso: o tooltip mostra o que tem nele.", "Clique no nome do Bubie no menu para dar um nome a ele."]
+	quest.301644741195E553.title: "HD e SSD"
 }

@@ -3,8 +3,8 @@
   "category": "misc",
   "pattern": [
     "VGV",
-    "VRV",
-    " W "
+    "VHV",
+    "RWR"
   ],
   "key": {
     "V": {
@@ -18,6 +18,12 @@
     },
     "W": {
       "item": "minecraft:black_wool"
+    },
+    "H": {
+      "type": "neoforge:components",
+      "items": "bubie:hard_drive",
+      "components": {},
+      "strict": true
     }
   },
   "result": {

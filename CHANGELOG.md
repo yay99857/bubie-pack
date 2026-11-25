@@ -1,5 +1,20 @@
 # Changelog — Bubie Pack
 
+## 1.3.0
+Dá para continuar no mundo da 1.2.2: cada Bubie ganha um disco com tudo o que carregava.
+### Bubie 2.0.0
+- **HD e SSD:** o que o Bubie carrega fica no **disco** dele, num slot ao lado do combustível. Todo Bubie vem com um **HD** (18 espaços; a receita agora pede um) e um **SSD** dá 36. Tirou o disco, a carga vai junto.
+- O **Chip de Armazenamento foi aposentado**: dois deles e um diamante viram um SSD.
+- **Dê nome ao Bubie** pelo menu.
+- **Abre o próprio caminho:** quando não tem como chegar, cava um poço, faz degraus, túnel ou ponte, sai do buraco no fim e tapa o que abriu. Preso de verdade, mostra um **?** na tela.
+- Segure **Alt + B** para ver seus Bubies através das paredes.
+### Base Blueprint 1.4.0
+- **"Construído por: Você / Bubie"** no menu da planta: com Bubie, clique num bloco e o Bubie mais perto constrói a base ali.
+### Voltaic Dynamics 1.7.1
+- Cada cabo mostra no núcleo o que está passando.
+### Quests
+- Quest nova **HD e SSD**; as quests do Bubie, dos chips, do DJ e da Estação descrevem a 2.0.0. As quests do Bubie dão redstone em vez de carvão.
+
 ## 1.2.2
 Dá para continuar no mundo da 1.2.1.
 ### Voltaic Dynamics 1.7.0

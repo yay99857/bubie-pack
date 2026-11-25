@@ -11,7 +11,7 @@
   "manifestType": "minecraftModpack",
   "manifestVersion": 1,
   "name": "Bubie Pack - Tech, Magic & Robot Helpers",
-  "version": "1.2.2",
+  "version": "1.3.0",
   "author": "Moão",
   "overrides": "overrides",
   "files": [
@@ -1523,19 +1523,19 @@
     },
     {
       "projectID": 1809423,
-      "fileID": 9731481,
+      "fileID": 9744796,
       "required": true,
       "isLocked": false
     },
     {
       "projectID": 1809447,
-      "fileID": 9722435,
+      "fileID": 9744795,
       "required": true,
       "isLocked": false
     },
     {
       "projectID": 1818331,
-      "fileID": 9731130,
+      "fileID": 9814512,
       "required": true,
       "isLocked": false
     }
