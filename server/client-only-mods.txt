@@ -24,3 +24,11 @@ IrisSearch-
 rebind_narrator-
 overloadedarmorbar-
 bwncr-
+justzoom_
+konkrete_
+PickUpNotifier-
+smithingtemplateviewer-
+JustEnoughMekanismMultiblocks-
+JustEnoughProfessions-
+ae2ct-
+chat_heads-

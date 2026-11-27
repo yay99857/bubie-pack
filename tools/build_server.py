@@ -3,7 +3,7 @@
 Os nomes dos arquivos vêm de pack/mod-files.json (fileID -> nome do jar). Mods que não estiverem lá
 são resolvidos pelo cfwidget e gravados de volta no arquivo, para o próximo build não precisar consultar.
 """
-import json, os, shutil, sys, time, urllib.request
+import json, os, shutil, sys, time, urllib.parse, urllib.request
 from concurrent.futures import ThreadPoolExecutor
 
 ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
@@ -51,7 +51,7 @@ for f in manifest['files']:
 
 def download(job):
     fid, name = job
-    data = get(f'https://edge.forgecdn.net/files/{fid[:4]}/{int(fid[4:])}/{name}')
+    data = get(f'https://edge.forgecdn.net/files/{fid[:4]}/{int(fid[4:])}/{urllib.parse.quote(name)}')
     open(os.path.join(OUT, 'mods', name), 'wb').write(data)
     print('ok  ', name, flush=True)
 

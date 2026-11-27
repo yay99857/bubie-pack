@@ -36,9 +36,9 @@
 		}
 		{
 			dependencies: ["3F9731AAA5BA5B34"]
-			id: "78984C7D34352AF2"
-			rewards: [{ id: "58A4C91E0100A2A4", type: "xp", xp: 30 }, { id: "13E8F0564D5E85B4", item: { count: 4, id: "minecraft:coal_block" }, type: "item" }]
-			tasks: [{ id: "1E10D07AC73897E6", item: { count: 1, id: "enderio:stirling_generator" }, type: "item" }]
+			id: "1E555D3B5D830A66"
+			rewards: [{ id: "1BCBF177CFFD56DE", type: "xp", xp: 30 }, { id: "238F89E5D5AD7EB0", item: { count: 4, id: "minecraft:coal_block" }, type: "item" }]
+			tasks: [{ id: "2E4CB9331A3B86AF", item: { count: 1, id: "voltaicdynamics:combustion_generator" }, type: "item" }]
 			x: -5.0d
 			y: 0.0d
 		}

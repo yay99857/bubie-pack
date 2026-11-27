@@ -1,5 +1,26 @@
 # Changelog — Bubie Pack
 
+## 1.4.0 (2026-11-27)
+**Comece um mundo novo**: a geração do mundo mudou com o Terralith e o Cataclysm, e mods de recursos e blocos antigos foram removidos para equilibrar a progressão.
+### Adicionado
+- **L_Ender's Cataclysm** (com Lionfish API): chefes desafiadores de endgame, arenas e equipamentos míticos para testar o seu gear.
+- **Terralith**: biomas e relevos novos no Overworld usando apenas blocos vanilla.
+- **Handcrafted**: mobília e decoração detalhada para as bases.
+- **Carry On**: carregue baús, blocos e mobs nas mãos.
+- **GraveStone Mod**: túmulo limpo ao morrer (substitui o Corail Tombstone).
+- **Chat Heads** (só cliente): mostra a cabeça dos jogadores no chat.
+### Removido
+- **Equilíbrio e progressão:** Allthemodium, All The Tweaks, Grinding Ball Additions, BBL Strainers (+ In World Recipes e BBL Core), Botany Pots - Mystical Agriculture Compat, Growth Accelerator Tiers e Enchanting Infuser.
+- **Redundância e peso:** Agritech: Evolved, Animal Feeding Trough, XyCraft (Core, World, Machines, Override), Ender IO (+ Endergy) e Corail Tombstone.
+- Configs antigas desses mods removidas dos overrides e do Almost Unified (`xycraft_world`).
+### Quests
+- Capítulo novo **Objetivo Final** (8 quests): cace os chefes do Cataclysm (Netherite Monstrosity, Ignis, The Harbinger, Maledictus), domine os seis pilares do pack e complete o **Mestre do Bubie Pack** (**133 quests em 13 capítulos**).
+- Atualizadas as quests de túmulo (GraveStone Mod), gerador alternativo (Voltaic Combustion Generator no lugar do Stirling Generator) e fazenda automática do Mystical Agriculture (Bubie Fazendeiro / Create / Industrial Foregoing).
+### Correções
+- Título da janela passa a ser definido pelo KubeJS (`"Bubie Pack"`).
+- Mods puramente de cliente (`justzoom_`, `konkrete_`, `PickUpNotifier-`, `smithingtemplateviewer-`, `JustEnoughMekanismMultiblocks-`, `JustEnoughProfessions-`, `ae2ct-`, `chat_heads-`) filtrados do Server Pack.
+- `tools/build_server.py` agora faz URL-encoding no nome dos jars ao baixar do CurseForge.
+
 ## 1.3.0
 Dá para continuar no mundo da 1.2.2: cada Bubie ganha um disco com tudo o que carregava.
 ### Bubie 2.0.0

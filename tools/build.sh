@@ -5,8 +5,8 @@ cd "$(dirname "$0")/.."
 . tools/python.sh
 VER=$($PY -c "import json;print(json.load(open('pack/manifest.json', encoding='utf-8'))['version'])")
 mkdir -p dist
-# Better Compatibility Checker: a lista de servidores compara esta versão com a do servidor,
-# e o All The Tweaks a mostra no título da janela. O BCC 21.x lê o .toml (o .json era do formato antigo).
+# Better Compatibility Checker: a lista de servidores compara esta versão com a do servidor.
+# O BCC 21.x lê o .toml (o .json era do formato antigo).
 $PY - "$VER" <<'PY'
 import sys
 open('pack/overrides/config/bcc-common.toml', 'w', encoding='utf-8', newline='').write(f'''#General settings

@@ -24,10 +24,10 @@ Create, Mekanism, Applied Energistics 2, Ars Nouveau, Mystical Agriculture, Apot
 
 ### ⚙️ Tech and automation
 - **Create** with Copycats+, Design n' Decor, Dragons Plus, **Crafts & Additions** (Create power ↔ FE) and **Create: Enchantment Industry** (liquid experience and automatic enchanting)
-- **Mekanism** (Generators and Tools), **Powah!**, **Extreme Reactors**, **Ender IO**, **Energy Meter**
+- **Mekanism** (Generators and Tools), **Powah!**, **Extreme Reactors**, **Energy Meter**
 - **Voltaic Dynamics**, made for this pack: compact FE generators, machines with upgrades, accumulators and lag-free cables
 - **Bubie**, made for this pack: a little robot that chops trees, digs, quarries, farms and mines for you, then stores everything in your chest
-- **Industrial Foregoing**, **Actually Additions**, **XyCraft**, **RFTools**, **Just Dire Things**
+- **Industrial Foregoing**, **Actually Additions**, **RFTools**, **Just Dire Things**
 - Logistics with **Pipez**, **LaserIO**, **Modular Routers** and the **Integrated Dynamics** family
 
 ### 📦 Storage
@@ -38,11 +38,13 @@ Create, Mekanism, Applied Energistics 2, Ars Nouveau, Mystical Agriculture, Apot
 ### ✨ Magic and progression
 - **Ars Nouveau**, with **Ars Énergistique** (Source in the ME network) and **Ars Creo** (Create compat)
 - Full **Apotheosis**: affixes, gems, enchanting and spawners
-- **Mystical Agriculture** + Agradditions, **Botany Pots**, **Productive Bees**
+- **Mystical Agriculture** + Agradditions (farmed in the world — pairs great with the Bubie Farmer), **Botany Pots** (regular crops and trees), **Productive Bees**
 - **Hostile Neural Networks** for mob farming without killing mobs
 - **Artifacts**, **Iron Jetpacks**, **Time in a Bottle**
 
 ### 🗺️ Exploration
+- **Terralith**: new Overworld biomes and terrain built with vanilla blocks
+- **L_Ender's Cataclysm**: challenging endgame bosses, arenas and mythical gear
 - **ChoiceTheorem's Overhauled Village**: bigger villages that differ in every biome, about 1.5x more common
 - **YUNG's Better** Mineshafts, Dungeons, Strongholds, Nether Fortresses, Desert and Jungle Temples, Ocean Monuments, Witch Huts and End Island: the vanilla structures, fully redesigned
 - **The Bumblezone**, **Dungeon Crawl**, Moog's structures (MVS and MES), **Lootr** (separate loot for each player)
@@ -50,7 +52,7 @@ Create, Mekanism, Applied Energistics 2, Ars Nouveau, Mystical Agriculture, Apot
 - **Waystones**, **Explorer's Compass**, **Nature's Compass**, Xaero's Minimap and World Map
 
 ### 🏠 Building and decoration
-- **Chipped**, **Rechiseled**, **FramedBlocks**, **Supplementaries** + **Amendments**, Macaw's Fences and Walls, Factory Blocks
+- **Chipped**, **Rechiseled**, **FramedBlocks**, **Handcrafted**, **Supplementaries** + **Amendments**, Macaw's Fences and Walls, Factory Blocks
 - **Building Gadgets**, **Mining Gadgets**, Construction Sticks
 - **Base Blueprint**, made for this pack: builds your first base in one click (round, square, octagon or hexagon, with walls, door, roof or dome)
 
@@ -68,10 +70,11 @@ Create, Mekanism, Applied Energistics 2, Ars Nouveau, Mystical Agriculture, Apot
 - **Almost Unified**: one item per metal. No more two kinds of zinc or tin that don't stack.
 
 **Made for playing together**
-- **Simple Voice Chat**: proximity voice chat.
+- **Simple Voice Chat**: proximity voice chat, plus **Chat Heads** in chat.
+- **Carry On**: pick up and move chests, blocks and mobs with your hands.
 - **Comforts** (sleeping bags and hammocks that don't move your spawn) and **Cosmetic Armor Reworked** (show the look you want over your real armor).
 - **FTB Teams, Chunks and Essentials**: teams, claim protection, chunk loading and `/home`.
-- **Corail Tombstone**: your items are kept safe in a grave when you die.
+- **GraveStone Mod**: your items are kept safe in a gravestone when you die.
 - **Better Compatibility Checker**: the server list shows whether your pack version matches the server's.
 - **Simple Backups**: automatic world backups every 2 hours (keeps the last 10).
 - **Crash Assistant** (shows what crashed and which mod caused it, so friends can send you the log).
@@ -97,14 +100,14 @@ Create, Mekanism, Applied Energistics 2, Ars Nouveau, Mystical Agriculture, Apot
 
 ## Quests
 
-**120 quests in 12 chapters**, in English and Portuguese (they follow your game language). They are optional: a guide, not a gate. No mod is locked behind them.
+**133 quests in 13 chapters**, in English and Portuguese (they follow your game language). They are optional: a guide, not a gate. No mod is locked behind them.
 Every quest gives XP, and almost all of them give items too: the big milestones give something for the next step (precision mechanisms, molecular assemblers, chemical tanks), and the smaller quests give a draw from the chapter's reward table (a stack of osmium, some silicon, an upgrade).
 
 - **Welcome** and **First Steps**: commands, teams, voice chat, waystones, backpacks and Create.
 - **Power: Getting Started**: which generator to build first (Furnator, water wheel + Alternator, Thermo Generator), batteries, cables and Flux Networks.
 - **Mekanism**: double ores, then 3x, 4x and 5x, the hydrogen jetpack and the Digital Miner.
 - **Storage** and **AE2: Autocrafting**: from drawers to your first ME network, Crafting CPU, patterns and the wireless terminal.
-- **Create: Automation**, **Mystical Agriculture**, **Ars Nouveau**, **Voltaic Dynamics** and **Bubie**.
+- **Create: Automation**, **Mystical Agriculture**, **Ars Nouveau**, **Voltaic Dynamics**, **Bubie** and **Final Goal** (Cataclysm bosses + mastering all six pillars).
 
 ---
 
@@ -161,10 +164,10 @@ O **Bubie**, um robozinho de tela CRT e moletom, é o terceiro mod feito para o 
 
 ### ⚙️ Tecnologia e automação
 - **Create** com Copycats+, Design n' Decor, Dragons Plus, **Crafts & Additions** (energia do Create ↔ FE) e **Create: Enchantment Industry** (experiência líquida e encantamento automático)
-- **Mekanism** (Generators e Tools), **Powah!**, **Extreme Reactors**, **Ender IO**, **Energy Meter**
+- **Mekanism** (Generators e Tools), **Powah!**, **Extreme Reactors**, **Energy Meter**
 - **Voltaic Dynamics**, feito para o pack: geradores de FE compactos, máquinas com melhorias, acumuladores e cabos sem lag
 - **Bubie**, feito para o pack: um robozinho que corta árvores, escava, abre pedreiras, planta e minera para você, e guarda tudo no seu baú
-- **Industrial Foregoing**, **Actually Additions**, **XyCraft**, **RFTools**, **Just Dire Things**
+- **Industrial Foregoing**, **Actually Additions**, **RFTools**, **Just Dire Things**
 - Logística com **Pipez**, **LaserIO**, **Modular Routers** e a família **Integrated Dynamics**
 
 ### 📦 Armazenamento
@@ -175,11 +178,13 @@ O **Bubie**, um robozinho de tela CRT e moletom, é o terceiro mod feito para o 
 ### ✨ Magia e progressão
 - **Ars Nouveau**, com **Ars Énergistique** (Source na rede ME) e **Ars Creo** (compatibilidade com o Create)
 - **Apotheosis** completo: afixos, gemas, encantamentos e spawners
-- **Mystical Agriculture** + Agradditions, **Botany Pots**, **Productive Bees**
+- **Mystical Agriculture** + Agradditions (plantado no mundo — combina com o Bubie Fazendeiro), **Botany Pots** (plantações comuns e árvores), **Productive Bees**
 - **Hostile Neural Networks** para farm de mobs sem matar mobs
 - **Artifacts**, **Iron Jetpacks**, **Time in a Bottle**
 
 ### 🗺️ Exploração
+- **Terralith**: novos biomas e relevos no Overworld usando blocos vanilla
+- **L_Ender's Cataclysm**: chefes desafiadores de endgame, arenas e equipamentos míticos
 - **ChoiceTheorem's Overhauled Village**: vilas maiores e diferentes em cada bioma, e cerca de 1,5x mais frequentes
 - **YUNG's Better** Mineshafts, Dungeons, Strongholds, Nether Fortresses, Desert e Jungle Temples, Ocean Monuments, Witch Huts e End Island: as estruturas vanilla redesenhadas
 - **The Bumblezone**, **Dungeon Crawl**, estruturas do Moog (MVS e MES), **Lootr** (loot separado para cada jogador)
@@ -187,7 +192,7 @@ O **Bubie**, um robozinho de tela CRT e moletom, é o terceiro mod feito para o 
 - **Waystones**, **Explorer's Compass**, **Nature's Compass**, Xaero's Minimap e World Map
 
 ### 🏠 Construção e decoração
-- **Chipped**, **Rechiseled**, **FramedBlocks**, **Supplementaries** + **Amendments**, Macaw's Fences and Walls, Factory Blocks
+- **Chipped**, **Rechiseled**, **FramedBlocks**, **Handcrafted**, **Supplementaries** + **Amendments**, Macaw's Fences and Walls, Factory Blocks
 - **Building Gadgets**, **Mining Gadgets**, Construction Sticks
 - **Base Blueprint**, feito para o pack: constrói a primeira base com um clique (redonda, quadrada, octogonal ou hexagonal, com paredes, porta, teto ou cúpula)
 
@@ -205,10 +210,11 @@ O **Bubie**, um robozinho de tela CRT e moletom, é o terceiro mod feito para o 
 - **Almost Unified**: um item só por metal. Nada de dois tipos de zinco ou estanho que não empilham.
 
 **Feito para jogar junto**
-- **Simple Voice Chat**: chat de voz por proximidade.
+- **Simple Voice Chat**: chat de voz por proximidade, mais **Chat Heads** no chat.
+- **Carry On**: pegue e carregue baús, blocos e mobs nas mãos.
 - **Comforts** (saco de dormir e rede que não mudam o seu spawn) e **Cosmetic Armor Reworked** (mostre a aparência que quiser por cima da armadura de verdade).
 - **FTB Teams, Chunks e Essentials**: times, proteção de área, chunks carregados e `/home`.
-- **Corail Tombstone**: seus itens ficam guardados num túmulo quando você morre.
+- **GraveStone Mod**: seus itens ficam guardados num túmulo quando você morre.
 - **Better Compatibility Checker**: a lista de servidores mostra se a versão do seu pack é a mesma do servidor.
 - **Simple Backups**: backup automático do mundo a cada 2 horas (guarda os 10 últimos).
 - **Crash Assistant** (mostra o que crashou e qual mod causou, para os amigos mandarem o log).
@@ -234,14 +240,14 @@ O **Bubie**, um robozinho de tela CRT e moletom, é o terceiro mod feito para o 
 
 ## Quests
 
-**120 quests em 12 capítulos**, em português e inglês (o idioma segue o do jogo). Elas são opcionais: servem de guia, nenhum mod fica travado.
+**133 quests em 13 capítulos**, em português e inglês (o idioma segue o do jogo). Elas são opcionais: servem de guia, nenhum mod fica travado.
 Toda quest dá XP, e quase todas dão itens também: os marcos grandes dão algo para o próximo passo (precision mechanisms, molecular assemblers, tanques químicos), e as quests menores dão um sorteio da tabela do capítulo (um pack de ósmio, um pouco de silício, um upgrade).
 
 - **Bem-vindo** e **Primeiros Passos**: comandos, times, chat de voz, waystones, mochila e Create.
 - **Energia: o Começo**: qual gerador fazer primeiro (Furnator, roda d'água + Alternator, Thermo Generator), baterias, cabos e Flux Networks.
 - **Mekanism**: minérios em dobro, depois 3x, 4x e 5x, jetpack a hidrogênio e Digital Miner.
 - **Armazenamento** e **AE2: Autocrafting**: das gavetas até a primeira rede ME, Crafting CPU, padrões e terminal sem fio.
-- **Create: Automação**, **Mystical Agriculture**, **Ars Nouveau**, **Voltaic Dynamics** e **Bubie**.
+- **Create: Automação**, **Mystical Agriculture**, **Ars Nouveau**, **Voltaic Dynamics**, **Bubie** e **Objetivo Final** (chefes do Cataclysm + domínio dos seis pilares).
 
 ---
 

@@ -76,9 +76,9 @@
 		}
 		{
 			dependencies: ["19E85018FA057E39"]
-			id: "489F25A7EE56F42F"
-			rewards: [{ id: "75D48A99005853AF", type: "xp", xp: 30 }]
-			tasks: [{ id: "213E80A3CB53BE65", type: "checkmark" }]
+			id: "31FA9D28A1B7BF76"
+			rewards: [{ id: "7E5E74151F0986EE", type: "xp", xp: 30 }]
+			tasks: [{ id: "27E6A461482FDF6B", type: "checkmark" }]
 			x: 10.0d
 			y: 2.5d
 		}

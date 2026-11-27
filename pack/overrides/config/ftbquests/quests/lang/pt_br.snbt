@@ -8,6 +8,7 @@
 	chapter.3D3DA9CC07FFAF31.title: "&9AE2: Autocrafting"
 	chapter.4412162570FD1664.title: "&5Ars Nouveau"
 	chapter.4E036F98450D7CD0.title: "&6Create: Automação"
+	chapter.5A93EDE765A7D586.title: "&6Objetivo Final"
 	chapter.6568E61EB0324E2C.title: "&bVoltaic Dynamics"
 	chapter.6629E7EA29C21E7A.title: "&eBubie"
 	chapter.6CF3D48FE0991369.title: "&2Mystical Agriculture"
@@ -16,6 +17,8 @@
 	quest.1051DF3A54C380A4.title: "Motor elétrico"
 	quest.11037745952DD9D7.quest_desc: ["Encoste um &ePattern Provider&r num &eMolecular Assembler&r e coloque os padrões de crafting no Provider.", "Agora peça qualquer item no terminal: a rede fabrica sozinha."]
 	quest.11037745952DD9D7.title: "&aRecomendado:&r Molecular Assembler"
+	quest.1180BD99A9BD2DC7.quest_desc: ["Cada chefe do Cataclysm tem uma arena própria. Crie um &eOlho&r (Eye of Flame, Monstrous, Mech, Void, Abyss, Desert, Curse ou Storm) e jogue-o no ar para localizar a estrutura."]
+	quest.1180BD99A9BD2DC7.title: "Olhos do Cataclysm"
 	quest.11A702D7FD79EC60.quest_desc: ["O Inscriber usa as prensas para fazer os processadores. O Charger carrega o quartzo de certus."]
 	quest.11A702D7FD79EC60.title: "Inscriber e Charger"
 	quest.125BA7281C89648E.quest_desc: ["Um feitiço é uma &eforma&r (Projectile, Touch, Self) mais &eefeitos&r (Break, Harm...).", "Abra o livro, monte &eProjectile + Break&r e você tem uma picareta à distância."]
@@ -64,9 +67,13 @@
 	quest.1B9A3E0DE88A25FC.title: "Organizando os baús"
 	quest.1BA710707F5D7AFB.quest_desc: ["A &eMega Torch&r impede que monstros nasçam num raio grande. Coloque uma no meio da base."]
 	quest.1BA710707F5D7AFB.title: "Base sem mobs"
-	quest.1F74B35C479EAD11.quest_desc: ["Ao morrer, seus itens ficam guardados num &etúmulo&r (Corail Tombstone) no local da morte.", "Use &e/back&r para voltar até ele e clique no túmulo para recuperar tudo."]
+	quest.1E555D3B5D830A66.quest_desc: ["O gerador da &eVoltaic Dynamics&r também queima combustível e é bem compacto. Veja mais no capítulo Voltaic Dynamics."]
+	quest.1E555D3B5D830A66.title: "Alternativa: Gerador a Combustão"
+	quest.1EAD54CDB628DDD9.quest_desc: ["Enfrente a &eNetherite Monstrosity&r na Soul Blacksmith (Nether) e colete o &eMonstrous Horn&r."]
+	quest.1EAD54CDB628DDD9.title: "Netherite Monstrosity"
+	quest.1F74B35C479EAD11.quest_desc: ["Ao morrer, seus itens ficam guardados num &etúmulo&r (GraveStone Mod) no local da morte.", "Use &e/back&r para voltar até ele e quebre o túmulo para recuperar tudo."]
 	quest.1F74B35C479EAD11.title: "Se você morrer"
-	quest.1F821E81CC0F86D1.quest_desc: ["Na aba &eDJ&r do menu, coloque um &edisco de música&r (de qualquer mod) no slot da aba: o Bubie toca para todo mundo por perto, sem parar.", "A tela vira um equalizador, ele dança, e os Bubies em volta dançam junto. Tocar, parar e o volume ficam na aba."]
+	quest.1F821E81CC0F86D1.quest_desc: ["Na aba &eDJ&r do menu, o Bubie toca o &edisco de música&r do slot da aba (de qualquer mod) e links de &e.mp3/.ogg&r, Dropbox, Google Drive ou Audius, para todo mundo por perto.", "A tela vira um equalizador, ele dança, e os Bubies em volta dançam junto. Dá para pular música e ajustar o volume."]
 	quest.1F821E81CC0F86D1.title: "Bubie DJ"
 	quest.201109993506AF6B.quest_desc: ["Faça um de cada. Eles aparecem em quase todas as peças do AE2."]
 	quest.201109993506AF6B.title: "Processadores"
@@ -106,14 +113,20 @@
 	quest.2B568231DA49478D.title: "Applied Energistics 2"
 	quest.2C5B86ABAEBA2976.quest_desc: ["Um pack para jogar com os amigos: tecnologia, magia, exploração e automação, sem pressa.", "", "As quests são &aopcionais&r: nenhum mod está travado atrás delas. Elas servem de guia, principalmente no começo."]
 	quest.2C5B86ABAEBA2976.title: "&bBem-vindo ao Bubie Pack!"
-	quest.2C967157F94A35F7.quest_desc: ["O &eBubie&r é um robozinho ajudante: segue você, carrega itens e, com uma tarefa e uma área, junta recursos sozinho e guarda num baú.", "No Bubie Pack ele é feito com &elingotes voltaicos&r (capítulo Voltaic Dynamics), vidro, redstone, lã preta e um &eHD&r vazio (ferro, ouro e redstone). Clique no chão com ele para ligar; clique direito nele abre o menu.", "&eShift + clique&r com a mão vazia guarda o Bubie no inventário, com tudo o que ele carrega."]
+	quest.2C7301DAEEFA4125.quest_desc: ["Derrote &eIgnis&r na Burning Arena (Nether) e forje o &eIgnitium Ingot&r com as cinzas."]
+	quest.2C7301DAEEFA4125.title: "Ignis"
+	quest.2C967157F94A35F7.quest_desc: ["O &eBubie&r é um robozinho ajudante: segue você, carrega itens e, com uma tarefa e uma área, junta recursos sozinho e guarda num baú.", "No Bubie Pack ele é feito com &elingotes voltaicos&r (capítulo Voltaic Dynamics), vidro, redstone e lã preta. Clique no chão com ele para ligar; clique direito nele abre o menu.", "&eShift + clique&r com a mão vazia guarda o Bubie no inventário, com tudo o que ele carrega.", "Ele é um robô: funciona com &eredstone&r (um pó = 5 minutos de trabalho) ou uma bateria com FE no slot de combustível. Carvão não serve."]
 	quest.2C967157F94A35F7.title: "Seu Bubie"
 	quest.2DE8ADEBEAADB02A.quest_desc: ["O &eApprentice Spell Book&r guarda feitiços maiores e libera glifos de nível 2."]
 	quest.2DE8ADEBEAADB02A.title: "Livro de aprendiz"
+	quest.2F461FA2B097AF7A.quest_desc: ["Hora de testar tudo o que você automatizou e encantou.", "Cace os grandes chefes do &eL_Ender's Cataclysm&r e domine os seis pilares do Bubie Pack (Create, Mekanism, AE2, Ars Nouveau, Voltaic e Bubie)."]
+	quest.2F461FA2B097AF7A.title: "&6O Desafio Final"
 	quest.30A419C152F7CB19.quest_desc: ["O &eMillstone&r mói itens. Um &eEncased Fan&r soprando através de água &elava&r itens; através de lava, &efunde&r; através de fogo de alma, &eassombra&r."]
 	quest.30A419C152F7CB19.title: "Moer e lavar"
 	quest.318E5CD7D7963849.quest_desc: ["No Bubie Pack, o &eMinerador&r, o &eConstrutor&r, o &eEntregador&r e o &eGuarda&r só trabalham com um &echip de programa&r instalado.", "Ele sai da &eFundidora de Ligas&r da Voltaic: 2 ligas galvânicas, 1 diamante e 4 redstone."]
 	quest.318E5CD7D7963849.title: "Chip de programa"
+	quest.31FA9D28A1B7BF76.quest_desc: ["As sementes do Mystical Agriculture precisam de plantio no mundo: use o &eBubie Fazendeiro&r, o &eMechanical Harvester&r do Create ou o &eIndustrial Foregoing&r.", "Os &eBotany Pots&r continuam ótimos para plantações comuns, árvores e ingredientes do Farmer's Delight."]
+	quest.31FA9D28A1B7BF76.title: "Fazenda automática"
 	quest.3457838A848F2CC7.quest_desc: ["No &ePattern Encoding Terminal&r você grava receitas em &eBlank Patterns&r. Use o EMI para preencher a receita com um clique."]
 	quest.3457838A848F2CC7.title: "Padrões"
 	quest.34892D6C1C6DAFE3.quest_desc: ["As &esource gems&r saem de ametista na &eImbuement Chamber&r."]
@@ -142,7 +155,7 @@
 	quest.3E1358836CD07D20.title: "Configurator"
 	quest.3F9731AAA5BA5B34.quest_desc: ["Quase toda a tecnologia do pack usa &eFE&r (energia). Recomendação para o começo:", "", "&a1.&r &eFurnator (Starter)&r do Powah: queima carvão ou qualquer combustível. É o mais barato.", "&a2.&r &eRoda d'água + Alternator&r (Create): energia infinita, sem combustível.", "&a3.&r &ePainéis solares&r: complemento de dia.", "&a4.&r &eThermo Generator&r do Powah: o melhor do começo ao meio do jogo.", "", "Guarde a energia numa &ebateria&r e leve até as máquinas com &ecabos&r."]
 	quest.3F9731AAA5BA5B34.title: "Energia: por onde começar?"
-	quest.41D2702567D17922.quest_desc: ["Quatro slots de chip: &eVelocidade&r, &eAlcance&r (áreas maiores), &eÍmã&r, &eFundição&r (minério sai em barra) e &eEficiência&r. Mais espaço vem de um &eSSD&r (quest dos discos).", "No pack, os chips saem da &eFundidora de Ligas&r da Voltaic: 2 ligas galvânicas, 4 redstone e a peça do chip (açúcar, bússola, funil...). Veja no EMI.", "Clique no Bubie com o chip para instalar."]
+	quest.41D2702567D17922.quest_desc: ["Quatro slots de chip: &eVelocidade&r, &eArmazenamento&r (+9 espaços), &eAlcance&r (áreas maiores), &eÍmã&r, &eFundição&r (minério sai em barra) e &eEficiência&r.", "No pack, os chips saem da &eFundidora de Ligas&r da Voltaic: 2 ligas galvânicas, 4 redstone e a peça do chip (açúcar, bússola, funil...). Veja no EMI.", "Clique no Bubie com o chip para instalar."]
 	quest.41D2702567D17922.title: "Chips de melhoria"
 	quest.4259D7492D3DD4F4.quest_desc: ["O &eEnergy Pipe&r do Pipez é barato e transporta bastante. Use a chave (Pipe Wrench) para escolher os lados que puxam ou empurram.", "O &eUniversal Cable&r do Mekanism é a alternativa."]
 	quest.4259D7492D3DD4F4.title: "Cabos"
@@ -158,8 +171,6 @@
 	quest.478ED541DEA63974.title: "&aRecomendado:&r Bateria"
 	quest.47A2F1A8F3F82B77.quest_desc: ["&e/sethome&r e &e/home&r: uma casa por jogador.", "&e/spawn&r: volta para o spawn.", "&e/back&r: volta para onde você morreu ou de onde teleportou.", "&e/rtp&r: teleporte aleatório (recarga de 10 minutos).", "&e/tpa <jogador>&r: pede para teleportar até um amigo."]
 	quest.47A2F1A8F3F82B77.title: "Comandos úteis"
-	quest.489F25A7EE56F42F.quest_desc: ["As sementes do Mystical Agriculture funcionam nos &eBotany Pots&r: farms compactas que dá para automatizar com funis."]
-	quest.489F25A7EE56F42F.title: "Botany Pots"
 	quest.48ABCD25B85E97C6.quest_desc: ["Derrete qualquer receita de fornalha com energia, &eduas vezes mais rápido&r. Aceita melhorias."]
 	quest.48ABCD25B85E97C6.title: "Fornalha Elétrica"
 	quest.499E4FB045BF927D.quest_desc: ["A &eChemical Injection Chamber&r com cloreto de hidrogênio tira &e4 lingotes&r por minério.", "O cloreto de hidrogênio vem do &eChemical Infuser&r (hidrogênio + cloro). O cloro sai da salmoura no Electrolytic Separator."]
@@ -182,12 +193,14 @@
 	quest.50566971057157E8.title: "Gerador Termoelétrico"
 	quest.50FFADA15252DD2E.quest_desc: ["Coloque-o em cima de uma fonte de calor (lava, magma) e alimente com água.", "Rende bem mais que o Furnator e não gasta combustível: é o melhor gerador do começo ao meio do jogo."]
 	quest.50FFADA15252DD2E.title: "Thermo Generator"
-	quest.51675D313F1C29C2.quest_desc: ["A casa do Bubie: guarda 27 pilhas e &erecarrega&r o Bubie com &eFE de qualquer cabo&r (Powah, Mekanism, Flux Networks, Voltaic) ou com redstone.", "Marque com &eShift + clique&r da Prancheta. Com casa, ele volta sozinho para carregar e descansa à noite: ligue a estação na energia e ele nunca para.", "Receita do pack: lingotes voltaicos e um &eAcumulador Básico&r da Voltaic. Um &eAcumulador de Bolso&r (ou tablet do Mekanism) no slot de combustível do Bubie também o recarrega, sem se gastar.", "Para ele trabalhar com você longe, carregue o chunk pelo FTB Chunks."]
+	quest.51675D313F1C29C2.quest_desc: ["A casa do Bubie: guarda 27 pilhas e &erecarrega&r o Bubie com &eFE de qualquer cabo&r (Powah, Mekanism, Flux Networks, Voltaic) ou com carvão.", "Marque com &eShift + clique&r da Prancheta. Com casa, ele volta sozinho para carregar e descansa à noite: ligue a estação na energia e ele nunca para.", "Receita do pack: lingotes voltaicos e um &eAcumulador Básico&r da Voltaic. Um &eAcumulador de Bolso&r (ou tablet do Mekanism) no slot de combustível do Bubie também o recarrega, sem se gastar.", "Para ele trabalhar com você longe, carregue o chunk pelo FTB Chunks."]
 	quest.51675D313F1C29C2.title: "Estação do Bubie"
 	quest.538A77B7CC540B71.quest_desc: ["Leva energia sem fio entre &eFlux Plugs&r (entrada) e &eFlux Points&r (saída), até entre dimensões.", "O pó de flux sai de redstone esmagada entre bedrock e obsidiana: veja como no EMI.", "", "&cNo Bubie Pack&r, o carregamento sem fio do Flux Controller &cnão carrega jetpacks nem a MekaSuit&r. Leve energia de reserva quando for longe!"]
 	quest.538A77B7CC540B71.title: "Flux Networks"
 	quest.5470183DC0646A6A.quest_desc: ["O &eGas-Burning Generator&r queima hidrogênio (ou etileno). Funciona, mas o separador gasta mais energia do que o hidrogênio devolve: use etileno para lucrar."]
 	quest.5470183DC0646A6A.title: "Energia de hidrogênio"
+	quest.5602B457C5ED18E2.quest_desc: ["Com os troféus do Cataclysm e os seis pilares completos, você zerou o &eBubie Pack&r!", "Pegue seu Bubie comemorativo e aproveite a base com os amigos."]
+	quest.5602B457C5ED18E2.title: "&6Mestre do Bubie Pack"
 	quest.57FC937AADD4C3F8.quest_desc: ["Gerador do Powah que queima combustível. Simples e barato.", "Coloque carvão e ligue um cabo ou uma bateria do lado."]
 	quest.57FC937AADD4C3F8.title: "&aRecomendado:&r Furnator"
 	quest.589C57CB9E6FA31F.quest_desc: ["Uma fornalha elétrica, rápida e sem combustível. Ligue logo depois da Enrichment Chamber."]
@@ -196,6 +209,8 @@
 	quest.59D681E3DDE81753.title: "Energizing Orb"
 	quest.5AA2455B8B434FD5.quest_desc: ["O &eNovice Spell Book&r é o começo do Ars Nouveau. O &eWorn Notebook&r é o guia do mod: leia quando tiver dúvida."]
 	quest.5AA2455B8B434FD5.title: "Livro de feitiços"
+	quest.5BCC4375D259DB8A.quest_desc: ["Reúna os marcos dos principais mods do pack: &eCreate&r, &eMekanism&r, &eAE2&r, &eArs Nouveau&r, &eVoltaic Dynamics&r e &eBubie&r."]
+	quest.5BCC4375D259DB8A.title: "Os Seis Pilares"
 	quest.5BF42C92DA85DDA8.quest_desc: ["Engrenagens passam rotação; a engrenagem grande muda a velocidade. Os &eóculos do engenheiro&r mostram velocidade e stress."]
 	quest.5BF42C92DA85DDA8.title: "Engrenagens e óculos"
 	quest.5C98CD6FFE91586D.quest_desc: ["Seu Bubie já sabe trabalhar. Junte &e256 troncos&r (deixe o Lenhador fazer isso) e ganhe &eoutro Bubie&r para montar a sua equipe.", "Cada jogador pode ter até 3 Bubies ligados ao mesmo tempo."]
@@ -224,6 +239,8 @@
 	quest.63186178CF030461.title: "Upgrades"
 	quest.634F7AC552E29D2A.quest_desc: ["A &eessência de inferium&r vem do minério de inferium e às vezes cai de mobs. É a base de todo o mod."]
 	quest.634F7AC552E29D2A.title: "Essência de inferium"
+	quest.6436B21E3DA9DEA1.quest_desc: ["Acorde e derrote &eThe Harbinger&r na Ancient Factory (Overworld) para obter o &eWitherite Ingot&r."]
+	quest.6436B21E3DA9DEA1.title: "The Harbinger"
 	quest.65531BBF4859B271.quest_desc: ["O &eMechanical Arm&r pega itens de um lugar e coloca em outro: ótimo para alimentar máquinas e depósitos."]
 	quest.65531BBF4859B271.title: "Braço mecânico"
 	quest.69983086E002634C.quest_desc: ["O &eregador&r acelera as plantas em volta enquanto você segura o clique. Melhore com essências."]
@@ -252,10 +269,10 @@
 	quest.76F6D99A51ABF4C8.title: "Gerando source"
 	quest.78382D3A00A7E088.quest_desc: ["Queima qualquer combustível de fornalha a &e40 FE/t&r: um carvão dá 32.000 FE. Para quando enche, sem desperdiçar."]
 	quest.78382D3A00A7E088.title: "Gerador a Combustão"
-	quest.78984C7D34352AF2.quest_desc: ["O gerador do &eEnder IO&r também queima combustível. Use se já estiver fazendo máquinas do Ender IO."]
-	quest.78984C7D34352AF2.title: "Alternativa: Stirling Generator"
 	quest.7994335CB2E15C30.quest_desc: ["Feita só na &eFundidora de Ligas&r: Lingote Voltaico + ouro + redstone. É uma liga, como as do Mekanism: não tem pó nem sai da fornalha.", "É o material do nível avançado (Fornalha Elétrica, Acumulador Avançado, melhorias)."]
 	quest.7994335CB2E15C30.title: "Liga Galvânica"
+	quest.79F7FBA630F2189E.quest_desc: ["Derrote &eMaledictus&r na Frosted Prison (Overworld) para conquistar o &eCursium Ingot&r."]
+	quest.79F7FBA630F2189E.title: "Maledictus"
 	quest.7BE658401325C6B3.quest_desc: ["Um &eFluid Tank&r com Blaze Burners embaixo vira caldeira; o &eSteam Engine&r em cima dá muita força. É a energia forte do Create."]
 	quest.7BE658401325C6B3.title: "Motor a vapor"
 	quest.7DF066788A2A1F25.quest_desc: ["As fornalhas do &eIron Furnaces&r são mais rápidas e gastam menos combustível. Dá para melhorar depois sem quebrar."]
@@ -270,6 +287,4 @@
 	reward_table.66F46B4A4DF21765.title: "Sorteio: Applied Energistics"
 	reward_table.738CF89FCB721C3C.title: "Sorteio: Create"
 	reward_table.754B6DD54D86EF33.title: "Sorteio: Mystical Agriculture"
-	quest.301644741195E553.quest_desc: ["O que o Bubie carrega fica no &edisco&r dele, no slot ao lado do combustível. Todo Bubie vem com um &eHD&r: &e18 espaços&r.", "Um &eSSD&r dá &e36 espaços&r: quartzo, ouro, redstone e um diamante. Dois &eChips de Armazenamento&r antigos e um diamante também fazem um.", "Tirou o disco, a carga vai junto, para outro Bubie ou para o seu bolso: o tooltip mostra o que tem nele.", "Clique no nome do Bubie no menu para dar um nome a ele."]
-	quest.301644741195E553.title: "HD e SSD"
 }

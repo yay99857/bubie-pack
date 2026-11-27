@@ -133,10 +133,10 @@ q(c, 'conheca_bubie', -2.5, -2.5, ('&eConheça o Bubie', '&eMeet the Bubie'),
    'The sooner you have one, the sooner it works for you.'],
   [C], deps=['inicio'], shape='hexagon', items=[('minecraft:redstone', 8)])
 q(c, 'morte', 0, -2.5, ('Se você morrer', 'If you die'),
-  ['Ao morrer, seus itens ficam guardados num &etúmulo&r (Corail Tombstone) no local da morte.',
-   'Use &e/back&r para voltar até ele e clique no túmulo para recuperar tudo.'],
-  ['When you die, your items are stored in a &egrave&r (Corail Tombstone) where you died.',
-   'Use &e/back&r to return and click the grave to get everything back.'],
+  ['Ao morrer, seus itens ficam guardados num &etúmulo&r (GraveStone Mod) no local da morte.',
+   'Use &e/back&r para voltar até ele e quebre o túmulo para recuperar tudo.'],
+  ['When you die, your items are stored in a &egrave&r (GraveStone Mod) where you died.',
+   'Use &e/back&r to return and break the grave to get everything back.'],
   [C], deps=['inicio'])
 
 # ================= Primeiros passos =================
@@ -217,10 +217,10 @@ q(c, 'furnator', -5, -2, rec('Furnator', 'Furnator'),
   ['Gerador do Powah que queima combustível. Simples e barato.', 'Coloque carvão e ligue um cabo ou uma bateria do lado.'],
   ['Powah generator that burns fuel. Simple and cheap.', 'Add coal and connect a cable or a battery next to it.'],
   [I('powah:furnator_starter')], deps=['paste'], xp=120, size=1.3, items=[('minecraft:coal', 32)])
-q(c, 'stirling', -5, 0, ('Alternativa: Stirling Generator', 'Alternative: Stirling Generator'),
-  ['O gerador do &eEnder IO&r também queima combustível. Use se já estiver fazendo máquinas do Ender IO.'],
-  ['The &eEnder IO&r generator also burns fuel. Use it if you are already building Ender IO machines.'],
-  [I('enderio:stirling_generator')], deps=['inicio'], items=[('minecraft:coal_block', 4)])
+q(c, 'voltaic_gen', -5, 0, ('Alternativa: Gerador a Combustão', 'Alternative: Combustion Generator'),
+  ['O gerador da &eVoltaic Dynamics&r também queima combustível e é bem compacto. Veja mais no capítulo Voltaic Dynamics.'],
+  ['The &eVoltaic Dynamics&r generator also burns fuel and is very compact. See more in the Voltaic Dynamics chapter.'],
+  [I('voltaicdynamics:combustion_generator')], deps=['inicio'], items=[('minecraft:coal_block', 4)])
 q(c, 'roda', 2.5, -2, ("Roda d'água", 'Water wheel'),
   ['Coloque a roda na água corrente: ela gira para sempre. Mais rodas = mais força (stress).'],
   ['Place the wheel in flowing water: it spins forever. More wheels = more stress capacity.'],
@@ -539,9 +539,11 @@ q(c, 'cristal', 10, 0, ('Cristal de infusão', 'Infusion crystal'),
   ['O &eInfusion Crystal&r substitui a essência nas receitas de crafting e dura vários usos. O &eMaster Infusion Crystal&r não acaba.'],
   ['The &eInfusion Crystal&r replaces essence in crafting recipes and lasts many uses. The &eMaster Infusion Crystal&r never breaks.'],
   [I('mysticalagriculture:infusion_crystal')], deps=['ferro'])
-q(c, 'botany', 10, 2.5, ('Botany Pots', 'Botany Pots'),
-  ['As sementes do Mystical Agriculture funcionam nos &eBotany Pots&r: farms compactas que dá para automatizar com funis.'],
-  ['Mystical Agriculture seeds work in &eBotany Pots&r: compact farms you can automate with hoppers.'],
+q(c, 'fazenda', 10, 2.5, ('Fazenda automática', 'Automated farm'),
+  ['As sementes do Mystical Agriculture precisam de plantio no mundo: use o &eBubie Fazendeiro&r, o &eMechanical Harvester&r do Create ou o &eIndustrial Foregoing&r.',
+   "Os &eBotany Pots&r continuam ótimos para plantações comuns, árvores e ingredientes do Farmer's Delight."],
+  ['Mystical Agriculture seeds must be farmed in the world: use a &eBubie Farmer&r, Create\'s &eMechanical Harvester&r or &eIndustrial Foregoing&r.',
+   "&eBotany Pots&r remain great for regular crops, trees and Farmer's Delight ingredients."],
   [C], deps=['ferro'])
 
 # ================= Ars Nouveau =================
@@ -752,6 +754,50 @@ q(c, 'amigo', 7.5, 0, ('Um amigo para o Bubie', 'A friend for your Bubie'),
    'Each player can have up to 3 Bubies switched on at once.'],
   [T('minecraft:logs', 256, 'minecraft:oak_log')], deps=['estacao', 'chips'], shape='gear', size=1.5, xp=250,
   items=[('bubie:bubie', 1)])
+
+# ================= Objetivo Final =================
+c = chapter('endgame', '&6Objetivo Final', '&6Final Goal', 'cataclysm:ignitium_ingot', 12)
+q(c, 'inicio', 0, 0, ('&6O Desafio Final', '&6The Final Challenge'),
+  ['Hora de testar tudo o que você automatizou e encantou.',
+   'Cace os grandes chefes do &eL_Ender\'s Cataclysm&r e domine os seis pilares do Bubie Pack (Create, Mekanism, AE2, Ars Nouveau, Voltaic e Bubie).'],
+  ['Time to put everything you automated and enchanted to the test.',
+   'Hunt the great bosses of &eL_Ender\'s Cataclysm&r and master the six pillars of Bubie Pack (Create, Mekanism, AE2, Ars Nouveau, Voltaic and Bubie).'],
+  [C], shape='pentagon', size=2.0)
+q(c, 'olhos', -2.5, 0, ('Olhos do Cataclysm', 'Cataclysm Eyes'),
+  ['Cada chefe do Cataclysm tem uma arena própria. Crie um &eOlho&r (Eye of Flame, Monstrous, Mech, Void, Abyss, Desert, Curse ou Storm) e jogue-o no ar para localizar a estrutura.'],
+  ['Each Cataclysm boss has its own arena. Craft an &eEye&r (Eye of Flame, Monstrous, Mech, Void, Abyss, Desert, Curse or Storm) and throw it into the air to locate the structure.'],
+  [I('cataclysm:flame_eye')], deps=['inicio'], xp=60)
+q(c, 'monstrosity', -5, -2, ('Netherite Monstrosity', 'Netherite Monstrosity'),
+  ['Enfrente a &eNetherite Monstrosity&r na Soul Blacksmith (Nether) e colete o &eMonstrous Horn&r.'],
+  ['Face the &eNetherite Monstrosity&r in the Soul Blacksmith (Nether) and collect the &eMonstrous Horn&r.'],
+  [I('cataclysm:monstrous_horn')], deps=['olhos'], xp=250, items=[('minecraft:netherite_scrap', 4)])
+q(c, 'ignis', -5, 0, ('Ignis', 'Ignis'),
+  ['Derrote &eIgnis&r na Burning Arena (Nether) e forje o &eIgnitium Ingot&r com as cinzas.'],
+  ['Defeat &eIgnis&r in the Burning Arena (Nether) and forge the &eIgnitium Ingot&r from its ashes.'],
+  [I('cataclysm:ignitium_ingot')], deps=['olhos'], xp=250, items=[('minecraft:netherite_ingot', 1)])
+q(c, 'harbinger', -5, 2, ('The Harbinger', 'The Harbinger'),
+  ['Acorde e derrote &eThe Harbinger&r na Ancient Factory (Overworld) para obter o &eWitherite Ingot&r.'],
+  ['Awaken and defeat &eThe Harbinger&r in the Ancient Factory (Overworld) to obtain the &eWitherite Ingot&r.'],
+  [I('cataclysm:witherite_ingot')], deps=['olhos'], xp=250, items=[('minecraft:nether_star', 1)])
+q(c, 'maledictus', -2.5, 2.5, ('Maledictus', 'Maledictus'),
+  ['Derrote &eMaledictus&r na Frosted Prison (Overworld) para conquistar o &eCursium Ingot&r.'],
+  ['Defeat &eMaledictus&r in the Frosted Prison (Overworld) to claim the &eCursium Ingot&r.'],
+  [I('cataclysm:cursium_ingot')], deps=['olhos'], xp=250, items=[('minecraft:diamond_block', 2)])
+q(c, 'pilares', 2.5, 0, ('Os Seis Pilares', 'The Six Pillars'),
+  ['Reúna os marcos dos principais mods do pack: &eCreate&r, &eMekanism&r, &eAE2&r, &eArs Nouveau&r, &eVoltaic Dynamics&r e &eBubie&r.'],
+  ['Gather the milestones from the pack\'s main mods: &eCreate&r, &eMekanism&r, &eAE2&r, &eArs Nouveau&r, &eVoltaic Dynamics&r and &eBubie&r.'],
+  [I('create:precision_mechanism', 4), I('mekanism:digital_miner'), I('ae2:controller'),
+   I('ars_nouveau:apprentice_spell_book'), I('voltaicdynamics:advanced_accumulator'), I('bubie:bubie_station')],
+  deps=['inicio'], xp=500, size=1.3, items=[('minecraft:nether_star', 2)])
+q(c, 'mestre', 5, 0, ('&6Mestre do Bubie Pack', '&6Bubie Pack Master'),
+  ['Com os troféus do Cataclysm e os seis pilares completos, você zerou o &eBubie Pack&r!',
+   'Pegue seu Bubie comemorativo e aproveite a base com os amigos.'],
+  ['With the Cataclysm trophies and all six pillars complete, you beat &eBubie Pack&r!',
+   'Claim your celebratory Bubie and enjoy the base with your friends.'],
+  [I('cataclysm:ignitium_ingot'), I('cataclysm:witherite_ingot'), I('cataclysm:cursium_ingot'),
+   I('cataclysm:monstrous_horn'), I('minecraft:nether_star', 2), I('bubie:bubie')],
+  deps=['pilares', 'monstrosity', 'ignis', 'harbinger', 'maledictus'], shape='gear', size=2.0, xp=1000,
+  items=[('bubie:bubie', 1), ('minecraft:nether_star', 4)])
 
 # ================= write =================
 qd = os.path.join(OUT, 'quests'); os.makedirs(os.path.join(qd, 'chapters'), exist_ok=True)

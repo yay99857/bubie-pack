@@ -1,4 +1,0 @@
-#In-World Recipes Config for In-World Recipes
-["In-World Recipes Config"]
-	#If true, disables the teleportation of the dragon egg.
-	disable_dragon_egg_teleport = false
