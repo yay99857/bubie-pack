@@ -1,5 +1,32 @@
 # Changelog — Bubie Pack
 
+## 1.4.1 (2026-11-27)
+Dá para continuar no mundo da 1.4.0.
+### Adicionado
+- **Just Reactors** 1.2.0, feito para o pack: reatores de fissão multibloco (FE direto ou vapor), turbinas a vapor animadas,
+  trocador de calor com circuito fechado de refrigerante, bateria multibloco e reprocessador de cianita.
+  Funciona com Mekanism, AE2, Powah e qualquer cabo de FE ou cano de fluido; tem JEI/EMI, Jade e Carry On.
+  A 1.2.0 traz vidro conectado, acabamento automático das carcaças, pulso de fissão nas barras de combustível e brilho noturno da turbina.
+### Integração
+- O combustível é o **urânio do ATO** (`c:ingots/uranium`); o minério de urânio do Just Reactors não é gerado, porque o ATO já gera
+  (`kubejs/data/justreactors/neoforge/biome_modifier/`).
+- **Almost Unified:** `justreactors` entrou nas prioridades, depois do Mekanism. Grafite, cianita e blutônio do Extreme Reactors
+  passam a sair como itens do Just Reactors. Os que você já tem continuam funcionando nas receitas e nos reatores dos dois mods.
+- As receitas de fornalha carvão/carvão vegetal → grafite foram desligadas, como as do Extreme Reactors (o shift + clique
+  continua mandando o carvão para o slot de combustível); o grafite sai no **alto-forno**.
+### Atualizados
+- **Bubie 2.0.1** (correções internas de inventário e varredura de área).
+- **40 mods** para as versões mais novas de 1.21.1: AE2 19.2.20, Ars Nouveau 5.13.5, Curios 9.6.1, The Bumblezone 7.20.0,
+  Supplementaries 4.1.4 (+ Moonlight 3.8.5, Amendments 2.3.1), Integrated Dynamics 1.39.1 (+ Cyclops Core, Integrated Crafting e
+  Integrated Terminals), Sophisticated Core/Storage/Backpacks, Titanium 4.0.56, GeckoLib 4.9.5, Hostile Neural Networks 6.6.0,
+  FTB Library/Quests/Chunks/Filter System, Waystones, Cooking for Blockheads, RFTools (Base, Utility, Builder) e McJtyLib,
+  Entity Culling 1.12.2, Inventory Tweaks ReFoxed 1.4.0, Complementary Reimagined r5.10 (+ Euphoria Patches 1.11.2) e outros.
+### Aviso: Extreme Reactors vai sair
+- O **Extreme Reactors** continua no pack até a próxima grande versão (**2.0.0**) e depois será **removido**.
+  Os reatores e turbinas dele vão sumir do mundo junto com o que estiver dentro.
+- Já dá para trocar: construa seus geradores novos com o **Just Reactors**. Vamos avisar de novo nas versões antes da remoção,
+  com tempo para desmontar os geradores do Extreme Reactors.
+
 ## 1.4.0 (2026-11-27)
 **Comece um mundo novo**: a geração do mundo mudou com o Terralith e o Cataclysm, e mods de recursos e blocos antigos foram removidos para equilibrar a progressão.
 ### Adicionado

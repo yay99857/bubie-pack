@@ -24,7 +24,9 @@ Create, Mekanism, Applied Energistics 2, Ars Nouveau, Mystical Agriculture, Apot
 
 ### ⚙️ Tech and automation
 - **Create** with Copycats+, Design n' Decor, Dragons Plus, **Crafts & Additions** (Create power ↔ FE) and **Create: Enchantment Industry** (liquid experience and automatic enchanting)
-- **Mekanism** (Generators and Tools), **Powah!**, **Extreme Reactors**, **Energy Meter**
+- **Mekanism** (Generators and Tools), **Powah!**, **Energy Meter**
+- **Just Reactors**, made for this pack: multiblock fission reactors, animated steam turbines, heat exchanger and multiblock battery
+- **Extreme Reactors** (leaving in Bubie Pack 2.0.0: move your power to Just Reactors)
 - **Voltaic Dynamics**, made for this pack: compact FE generators, machines with upgrades, accumulators and lag-free cables
 - **Bubie**, made for this pack: a little robot that chops trees, digs, quarries, farms and mines for you, then stores everything in your chest
 - **Industrial Foregoing**, **Actually Additions**, **RFTools**, **Just Dire Things**
@@ -164,7 +166,9 @@ O **Bubie**, um robozinho de tela CRT e moletom, é o terceiro mod feito para o 
 
 ### ⚙️ Tecnologia e automação
 - **Create** com Copycats+, Design n' Decor, Dragons Plus, **Crafts & Additions** (energia do Create ↔ FE) e **Create: Enchantment Industry** (experiência líquida e encantamento automático)
-- **Mekanism** (Generators e Tools), **Powah!**, **Extreme Reactors**, **Energy Meter**
+- **Mekanism** (Generators e Tools), **Powah!**, **Energy Meter**
+- **Just Reactors**, feito para o pack: reatores de fissão multibloco, turbinas a vapor animadas, trocador de calor e bateria multibloco
+- **Extreme Reactors** (sai no Bubie Pack 2.0.0: passe sua geração para o Just Reactors)
 - **Voltaic Dynamics**, feito para o pack: geradores de FE compactos, máquinas com melhorias, acumuladores e cabos sem lag
 - **Bubie**, feito para o pack: um robozinho que corta árvores, escava, abre pedreiras, planta e minera para você, e guarda tudo no seu baú
 - **Industrial Foregoing**, **Actually Additions**, **RFTools**, **Just Dire Things**

@@ -68,7 +68,8 @@ echo "--- Notas da versão $VER ---"; cat dist/notes.md; echo "---"
 tools/build.sh --server
 if [ -z "${SKIP_PACK_TEST:-}" ] && [ -d ../bubie-mod ]; then
   echo "--- GameTests do Bubie com os mods do pack ---"
-  (cd ../bubie-mod && tools/prepare-pack-test.sh "../minecraft-modpack/dist/server-$VER" && ./gradlew -q runPackGameTest) \
+  PACK_DIR=$PWD
+  (cd ../bubie-mod && tools/prepare-pack-test.sh "$PACK_DIR/dist/server-$VER" && ./gradlew -q runPackGameTest) \
     || { echo "Os GameTests falharam: nada foi publicado. (SKIP_PACK_TEST=1 pula)"; exit 1; }
 fi
 

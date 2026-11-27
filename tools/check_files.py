@@ -1,7 +1,7 @@
 """Confere, antes de publicar, que todo arquivo do manifest já está aprovado no CurseForge.
 
 Um pack que cita um arquivo ainda em revisão é recusado (aconteceu na 0.6.3). Confere os mods feitos para o pack
-(Bubie, Voltaic, Base Blueprint) e todo arquivo que mudou desde a última tag. A api.cfwidget.com só lista arquivos
+(Bubie, Voltaic, Base Blueprint, Just Reactors) e todo arquivo que mudou desde a última tag. A api.cfwidget.com só lista arquivos
 públicos, ou seja, aprovados. Ela guarda cache por alguns minutos: um arquivo recém-aprovado pode demorar a aparecer.
 
 Uso: python tools/check_files.py   (sai com 1 se algum arquivo não estiver aprovado)
@@ -16,7 +16,8 @@ import urllib.request
 sys.stdout.reconfigure(encoding="utf-8")
 
 ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
-OWN = {1818331: 'Bubie', 1809423: 'Voltaic Dynamics', 1809447: 'Base Blueprint'}
+OWN = {1818331: 'Bubie', 1809423: 'Voltaic Dynamics', 1809447: 'Base Blueprint',
+       1833932: 'Just Reactors'}
 
 
 def get(url):
